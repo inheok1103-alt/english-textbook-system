@@ -45250,6 +45250,1806 @@
       "materialTitle": "HACKERS TOEFL VOCABULARY TAPE (TAPE 10개.200 )",
       "publisher": "해커스어학연구소",
       "bytes": 42498
+    },
+    "IH-ENG-4207": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4207.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202602/9788968066634C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968066634",
+      "materialTitle": "어휘끝 어원편",
+      "publisher": "쎄듀",
+      "bytes": 31223
+    },
+    "IH-ENG-4208": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4208.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788968066207C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968066207",
+      "materialTitle": "어휘끝 수능",
+      "publisher": "쎄듀",
+      "bytes": 32378
+    },
+    "IH-ENG-4209": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4209.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788968066191C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968066191",
+      "materialTitle": "어휘끝 고교기본",
+      "publisher": "쎄듀",
+      "bytes": 33961
+    },
+    "IH-ENG-4210": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4210.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9788968062803C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062803",
+      "materialTitle": "어휘끝 블랙(2023)(2024 수능대비)",
+      "publisher": "쎄듀",
+      "bytes": 47279
+    },
+    "IH-ENG-4211": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4211.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791190020084C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190020084",
+      "materialTitle": "공무원 어휘끝 세트(어원북+테마북+암기북)",
+      "publisher": "쎄듀공일",
+      "bytes": 31291
+    },
+    "IH-ENG-4212": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4212.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791190020091C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190020091",
+      "materialTitle": "공무원 어휘끝(어원북+테마북)",
+      "publisher": "쎄듀공일",
+      "bytes": 27085
+    },
+    "IH-ENG-4213": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4213.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791190020107C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190020107",
+      "materialTitle": "공무원 어휘끝 암기북",
+      "publisher": "쎄듀공일",
+      "bytes": 29804
+    },
+    "IH-ENG-4214": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4214.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788968061974C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061974",
+      "materialTitle": "고등 어법끝 Start",
+      "publisher": "쎄듀",
+      "bytes": 29501
+    },
+    "IH-ENG-4215": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4215.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788968060366C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060366",
+      "materialTitle": "수능 어법의 완성 어법 끝 ver 5.0",
+      "publisher": "쎄듀",
+      "bytes": 16089
+    },
+    "IH-ENG-4216": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4216.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788968060311C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060311",
+      "materialTitle": "어법 끝 Start ver 2.0",
+      "publisher": "쎄듀",
+      "bytes": 16306
+    },
+    "IH-ENG-4217": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4217.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788968065958C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968065958",
+      "materialTitle": "초등 천일문 GRAMMAR 1",
+      "publisher": "쎄듀(CEDU)",
+      "bytes": 50399
+    },
+    "IH-ENG-4218": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4218.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788968065965C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968065965",
+      "materialTitle": "초등 천일문 GRAMMAR 2",
+      "publisher": "쎄듀(CEDU)",
+      "bytes": 60200
+    },
+    "IH-ENG-4219": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4219.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788968065927C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968065927",
+      "materialTitle": "초등 천일문 SENTENCE 1",
+      "publisher": "쎄듀",
+      "bytes": 32599
+    },
+    "IH-ENG-4220": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4220.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788968065934C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968065934",
+      "materialTitle": "초등 천일문 SENTENCE 2",
+      "publisher": "쎄듀",
+      "bytes": 29623
+    },
+    "IH-ENG-4221": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4221.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788968065941C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968065941",
+      "materialTitle": "초등 천일문 SENTENCE 3",
+      "publisher": "쎄듀",
+      "bytes": 31545
+    },
+    "IH-ENG-4222": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4222.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788968065989C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968065989",
+      "materialTitle": "초등 천일문 VOCA & STORY",
+      "publisher": "쎄듀",
+      "bytes": 25996
+    },
+    "IH-ENG-4223": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4223.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9788968062766C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062766",
+      "materialTitle": "천일문 365 일력",
+      "publisher": "쎄듀",
+      "bytes": 29780
+    },
+    "IH-ENG-4224": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4224.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788968062353C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062353",
+      "materialTitle": "천일문 완성 문제집(Training Book)",
+      "publisher": "쎄듀",
+      "bytes": 48496
+    },
+    "IH-ENG-4225": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4225.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788968062322C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062322",
+      "materialTitle": "천일문 핵심 문제집(Training Book)",
+      "publisher": "쎄듀",
+      "bytes": 50423
+    },
+    "IH-ENG-4226": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4226.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788968062261C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062261",
+      "materialTitle": "천일문 입문 문제집(Training Book)",
+      "publisher": "쎄듀",
+      "bytes": 47622
+    },
+    "IH-ENG-4227": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4227.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788968060991C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062292",
+      "materialTitle": "천일문 기본 문제집(Training Book)",
+      "publisher": "쎄듀",
+      "bytes": 63039
+    },
+    "IH-ENG-4228": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4228.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788968062193C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062193",
+      "materialTitle": "열려라 천일문! 영어 구출 대작전 2: 워크북",
+      "publisher": "쎄듀",
+      "bytes": 62591
+    },
+    "IH-ENG-4229": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4229.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788968062186C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062186",
+      "materialTitle": "열려라 천일문! 영어 구출 대작전 1: 워크북",
+      "publisher": "쎄듀",
+      "bytes": 60108
+    },
+    "IH-ENG-4230": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4230.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791190020312C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190020312",
+      "materialTitle": "2022 공무원 천일문 551",
+      "publisher": "쎄듀공일",
+      "bytes": 26943
+    },
+    "IH-ENG-4231": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4231.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791190020282C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190020282",
+      "materialTitle": "공무원 천일문 최신 기출 구문 501",
+      "publisher": "쎄듀공일",
+      "bytes": 28314
+    },
+    "IH-ENG-4232": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4232.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791190020152C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190020152",
+      "materialTitle": "공무원 천일문 All in One(올인원) (2020)",
+      "publisher": "쎄듀공일",
+      "bytes": 28998
+    },
+    "IH-ENG-4233": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4233.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791196562311C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791196562311",
+      "materialTitle": "김기훈 공무원 천일문 영어",
+      "publisher": "쎄듀공일",
+      "bytes": 34970
+    },
+    "IH-ENG-4234": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4234.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968060915C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060915",
+      "materialTitle": "초등코치 천일문 Voca&Story 2(세이펜 적용)",
+      "publisher": "쎄듀",
+      "bytes": 65955
+    },
+    "IH-ENG-4235": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4235.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968060908C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060908",
+      "materialTitle": "초등코치 천일문 Voca&Story 1(세이펜 적용)",
+      "publisher": "쎄듀",
+      "bytes": 64697
+    },
+    "IH-ENG-4236": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4236.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788968060502C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060502",
+      "materialTitle": "천일문 입문(500 Sentences Intro)",
+      "publisher": "쎄듀",
+      "bytes": 14296
+    },
+    "IH-ENG-4237": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4237.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788968060298C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060298",
+      "materialTitle": "천일문 기본 Basic ver.3.0: 1001 Sentences Basic",
+      "publisher": "쎄듀",
+      "bytes": 19461
+    },
+    "IH-ENG-4238": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4238.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/030/860/03086011.jpg?udate=20100414",
+      "source": "KOBIC",
+      "isbn": "9788992476058",
+      "materialTitle": "천일문 기초편 2 (의사소통을 위한 영문패턴, 1001 SENTENCES)",
+      "publisher": "쎄듀",
+      "bytes": 133887
+    },
+    "IH-ENG-4239": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4239.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/030/860/03086008.jpg?udate=20100414",
+      "source": "KOBIC",
+      "isbn": "9788992476041",
+      "materialTitle": "천일문 기초편 1 (의사소통을 위한 영문패턴, 1001 SENTENCES)",
+      "publisher": "쎄듀",
+      "bytes": 135581
+    },
+    "IH-ENG-4240": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4240.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788968060755C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060755",
+      "materialTitle": "첫단추 Basic 독해편 1",
+      "publisher": "쎄듀",
+      "bytes": 131394
+    },
+    "IH-ENG-4241": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4241.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788968060700C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060700",
+      "materialTitle": "첫단추 Basic 문법 어법편 2",
+      "publisher": "쎄듀",
+      "bytes": 153970
+    },
+    "IH-ENG-4242": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4242.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788968060694C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060694",
+      "materialTitle": "첫단추 Basic 문법 어법편 1",
+      "publisher": "쎄듀",
+      "bytes": 135683
+    },
+    "IH-ENG-4243": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4243.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/067/701/06770156.jpg?udate=20210924",
+      "source": "KOBIC",
+      "isbn": "9788992476799",
+      "materialTitle": "쎄듀 첫단추 Voca (생각하고 진화하는 어휘,2012)",
+      "publisher": "쎄듀",
+      "bytes": 163201
+    },
+    "IH-ENG-4244": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4244.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788960004511C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788960004511",
+      "materialTitle": "우리가 놓쳐버린 영문법 첫단추",
+      "publisher": "넥서스",
+      "bytes": 68804
+    },
+    "IH-ENG-4245": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4245.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791125350965C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350965",
+      "materialTitle": "수능 1 Up 빈순삽함 유형편(2026)",
+      "publisher": "NE능률",
+      "bytes": 27315
+    },
+    "IH-ENG-4246": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4246.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061110C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061110",
+      "materialTitle": "리딩 릴레이(Reading Relay) Starter 2",
+      "publisher": "쎄듀",
+      "bytes": 42470
+    },
+    "IH-ENG-4247": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4247.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061158C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061158",
+      "materialTitle": "리딩 릴레이(Reading Relay) Master 2",
+      "publisher": "쎄듀",
+      "bytes": 56720
+    },
+    "IH-ENG-4248": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4248.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061103C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061103",
+      "materialTitle": "리딩 릴레이(Reading Relay) Starter 1",
+      "publisher": "쎄듀",
+      "bytes": 46637
+    },
+    "IH-ENG-4249": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4249.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788968061141C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061141",
+      "materialTitle": "리딩 릴레이(Reading Relay) Master 1",
+      "publisher": "쎄듀",
+      "bytes": 20800
+    },
+    "IH-ENG-4250": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4250.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061134C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061134",
+      "materialTitle": "리딩 릴레이(Reading Relay) Challenger 2",
+      "publisher": "쎄듀",
+      "bytes": 42381
+    },
+    "IH-ENG-4251": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4251.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061127C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061127",
+      "materialTitle": "리딩 릴레이(Reading Relay) Challenger 1",
+      "publisher": "쎄듀",
+      "bytes": 62754
+    },
+    "IH-ENG-4252": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4252.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788968062513C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062513",
+      "materialTitle": "쎈쓰업 듣기 모의고사 30회",
+      "publisher": "쎄듀",
+      "bytes": 33134
+    },
+    "IH-ENG-4253": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4253.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788968062520C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062520",
+      "materialTitle": "파워업 듣기 모의고사 40회",
+      "publisher": "쎄듀",
+      "bytes": 29031
+    },
+    "IH-ENG-4254": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4254.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788905050696C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788905050696",
+      "materialTitle": "Listening it 고등 유형기본편 12회",
+      "publisher": "지학사",
+      "bytes": 39033
+    },
+    "IH-ENG-4255": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4255.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788905050702C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788905050702",
+      "materialTitle": "Listening it 고등 유형종합편 25회",
+      "publisher": "지학사",
+      "bytes": 38670
+    },
+    "IH-ENG-4256": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4256.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788905050726C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788905050726",
+      "materialTitle": "Listening it 고등 모의고사 38회",
+      "publisher": "지학사",
+      "bytes": 41848
+    },
+    "IH-ENG-4257": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4257.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788927741114C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927741114",
+      "materialTitle": "절대평가 절대기본",
+      "publisher": "다락원",
+      "bytes": 47907
+    },
+    "IH-ENG-4258": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4258.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788927741084C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927741084",
+      "materialTitle": "절대평가 절대구문(실전편)",
+      "publisher": "다락원",
+      "bytes": 61281
+    },
+    "IH-ENG-4259": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4259.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788959268825C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959268825",
+      "materialTitle": "절대평가 유형 독해",
+      "publisher": "수경출판사",
+      "bytes": 23441
+    },
+    "IH-ENG-4260": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4260.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788959268818C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959268818",
+      "materialTitle": "절대평가 구문 독해",
+      "publisher": "수경출판사",
+      "bytes": 23181
+    },
+    "IH-ENG-4261": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4261.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788927740902C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927740902",
+      "materialTitle": "절대평가 절대문법(Master)",
+      "publisher": "다락원",
+      "bytes": 97575
+    },
+    "IH-ENG-4262": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4262.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788927740865C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927740865",
+      "materialTitle": "절대평가 절대문법 Start",
+      "publisher": "다락원",
+      "bytes": 18010
+    },
+    "IH-ENG-4263": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4263.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788968060588C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060588",
+      "materialTitle": "고교영어 절대평가 Plan A(플랜에이): 어휘",
+      "publisher": "쎄듀",
+      "bytes": 25430
+    },
+    "IH-ENG-4264": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4264.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788968060571C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968060571",
+      "materialTitle": "고교영어 절대평가 Plan A(플랜에이): 구문 어법",
+      "publisher": "쎄듀",
+      "bytes": 24956
+    },
+    "IH-ENG-4265": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4265.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/116/277/11627785.jpg?udate=20210813",
+      "source": "KOBIC",
+      "isbn": "9791125314301",
+      "materialTitle": "빠바 종합실전편 (빠른독해 바른독해)",
+      "publisher": "NE능률(능률교육)",
+      "bytes": 47795
+    },
+    "IH-ENG-4266": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4266.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966949076C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966949076",
+      "materialTitle": "빠바 빠른독해 바른독해 유형독해",
+      "publisher": "NE능률",
+      "bytes": 18487
+    },
+    "IH-ENG-4267": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4267.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966949069C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966949069",
+      "materialTitle": "빠바 빠른독해 바른독해 구문독해",
+      "publisher": "NE능률",
+      "bytes": 16858
+    },
+    "IH-ENG-4268": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4268.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966949052C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966949052",
+      "materialTitle": "빠바(빠른독해 바른독해) 기초세우기",
+      "publisher": "NE능률",
+      "bytes": 16110
+    },
+    "IH-ENG-4269": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4269.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788959974443C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959974443",
+      "materialTitle": "빠른독해 바른독해 빠바 단락독해(2010)",
+      "publisher": "NE능률",
+      "bytes": 21359
+    },
+    "IH-ENG-4270": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4270.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788959974436C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959974436",
+      "materialTitle": "빠른독해 바른독해 빠바 구문독해(2010)",
+      "publisher": "NE능률",
+      "bytes": 26143
+    },
+    "IH-ENG-4271": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4271.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788959974429C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959974429",
+      "materialTitle": "빠른독해 바른독해 빠바 기초세우기(2010)",
+      "publisher": "NE능률",
+      "bytes": 30579
+    },
+    "IH-ENG-4272": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4272.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791138934152C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138934152",
+      "materialTitle": "워드마스터 고등 숙어 1000",
+      "publisher": "이투스북",
+      "bytes": 37011
+    },
+    "IH-ENG-4273": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4273.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202505/9791138931953C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138931953",
+      "materialTitle": "워드마스터 고등 COMPLETE",
+      "publisher": "이투스북",
+      "bytes": 53551
+    },
+    "IH-ENG-4274": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4274.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202411/9791138927208C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138927208",
+      "materialTitle": "워드마스터 하이스트",
+      "publisher": "이투스북",
+      "bytes": 65207
+    },
+    "IH-ENG-4275": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4275.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791138920971C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138920971",
+      "materialTitle": "워드마스터 초등 일력 매일 영어",
+      "publisher": "이투스북",
+      "bytes": 56973
+    },
+    "IH-ENG-4276": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4276.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202309/9791138917889C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138917889",
+      "materialTitle": "워드마스터 고등 어원",
+      "publisher": "이투스북",
+      "bytes": 56957
+    },
+    "IH-ENG-4277": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4277.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202305/9791138912105C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138912105",
+      "materialTitle": "워드마스터(Word Master) 고등 Basic(2023)",
+      "publisher": "이투스북",
+      "bytes": 62372
+    },
+    "IH-ENG-4278": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4278.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791138910996C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138910996",
+      "materialTitle": "워드마스터 Word Master 초등 COMPLETE",
+      "publisher": "이투스북",
+      "bytes": 36385
+    },
+    "IH-ENG-4279": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4279.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791138910989C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138910989",
+      "materialTitle": "워드마스터 Word Master 초등 BASIC",
+      "publisher": "이투스북",
+      "bytes": 36913
+    },
+    "IH-ENG-4280": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4280.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791138910859C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138910859",
+      "materialTitle": "워드마스터 중등 실력",
+      "publisher": "이투스북",
+      "bytes": 35473
+    },
+    "IH-ENG-4281": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4281.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791138910842C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138910842",
+      "materialTitle": "워드마스터 중등 Basic",
+      "publisher": "이투스북",
+      "bytes": 34700
+    },
+    "IH-ENG-4282": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4282.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791138910835C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138910835",
+      "materialTitle": "워드마스터 중등 고난도",
+      "publisher": "이투스북",
+      "bytes": 34725
+    },
+    "IH-ENG-4283": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4283.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791138901673C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138901673",
+      "materialTitle": "Word Master 워드마스터 하이퍼 2000(2022)",
+      "publisher": "이투스북",
+      "bytes": 30680
+    },
+    "IH-ENG-4284": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4284.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791165981204C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165981204",
+      "materialTitle": "워드마스터(Word Master) EBS 파이널 1200",
+      "publisher": "이투스북",
+      "bytes": 39220
+    },
+    "IH-ENG-4285": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4285.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9791158317331C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791158317331",
+      "materialTitle": "Word Master(워드 마스터) 중등 기초",
+      "publisher": "이투스북",
+      "bytes": 24108
+    },
+    "IH-ENG-4286": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4286.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791158314248C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791158314248",
+      "materialTitle": "Word Master(워드마스터) 텝스 2000",
+      "publisher": "이투스북",
+      "bytes": 23265
+    },
+    "IH-ENG-4287": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4287.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791158311582C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791158311582",
+      "materialTitle": "EBS 파이널 Word Master(워드 마스터)(2016 수능대비)",
+      "publisher": "이투스북",
+      "bytes": 33112
+    },
+    "IH-ENG-4288": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4288.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788967432027C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788967432027",
+      "materialTitle": "워드마스터 수능 응용편(2013)",
+      "publisher": "이투스",
+      "bytes": 30522
+    },
+    "IH-ENG-4289": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4289.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788967430795C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788967430795",
+      "materialTitle": "WORD MASTER(워드 마스터): 중등(2016)",
+      "publisher": "이투스",
+      "bytes": 25296
+    },
+    "IH-ENG-4290": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4290.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788997599745C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788997599745",
+      "materialTitle": "워드마스터: 파이널(2013년용)",
+      "publisher": "이투스",
+      "bytes": 25702
+    },
+    "IH-ENG-4291": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4291.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791125350835C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350835",
+      "materialTitle": "능률 VOCA 수능 고난도",
+      "publisher": "NE능률",
+      "bytes": 33437
+    },
+    "IH-ENG-4292": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4292.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791125350828C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350828",
+      "materialTitle": "능률 VOCA 수능 필수",
+      "publisher": "NE능률",
+      "bytes": 31252
+    },
+    "IH-ENG-4293": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4293.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791125350859C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350859",
+      "materialTitle": "능률VOCA 어원편 중등",
+      "publisher": "NE능률",
+      "bytes": 28594
+    },
+    "IH-ENG-4294": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4294.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350842C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350842",
+      "materialTitle": "능률VOCA 어원편 고등",
+      "publisher": "NE능률",
+      "bytes": 35544
+    },
+    "IH-ENG-4295": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4295.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350811C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350811",
+      "materialTitle": "능률VOCA 고등 기본",
+      "publisher": "NE능률",
+      "bytes": 36428
+    },
+    "IH-ENG-4296": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4296.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350750C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350750",
+      "materialTitle": "능률VOCA 중등 고난도",
+      "publisher": "NE능률",
+      "bytes": 38690
+    },
+    "IH-ENG-4297": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4297.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350736C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350736",
+      "materialTitle": "능률VOCA 중등 기본",
+      "publisher": "NE능률",
+      "bytes": 35675
+    },
+    "IH-ENG-4298": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4298.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350477C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350477",
+      "materialTitle": "능률VOCA 초등 필수",
+      "publisher": "NE능률",
+      "bytes": 38186
+    },
+    "IH-ENG-4299": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4299.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350743C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350743",
+      "materialTitle": "능률VOCA 중등 필수",
+      "publisher": "NE능률",
+      "bytes": 35200
+    },
+    "IH-ENG-4300": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4300.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350767C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350767",
+      "materialTitle": "능률VOCA 중등 숙어",
+      "publisher": "NE능률",
+      "bytes": 35070
+    },
+    "IH-ENG-4301": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4301.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350460C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125350460",
+      "materialTitle": "능률VOCA 초등 기본",
+      "publisher": "NE능률",
+      "bytes": 39702
+    },
+    "IH-ENG-4302": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4302.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125341024C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125341024",
+      "materialTitle": "능률VOCA 고난도",
+      "publisher": "NE능률",
+      "bytes": 45094
+    },
+    "IH-ENG-4303": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4303.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125341017C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125341017",
+      "materialTitle": "능률VOCA 숙어",
+      "publisher": "NE능률",
+      "bytes": 48249
+    },
+    "IH-ENG-4304": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4304.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125341000C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125341000",
+      "materialTitle": "능률VOCA 수능완성 2200",
+      "publisher": "NE능률",
+      "bytes": 55302
+    },
+    "IH-ENG-4305": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4305.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125340560C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125340560",
+      "materialTitle": "능률 VOCA 어원편 Lite",
+      "publisher": "NE능률",
+      "bytes": 62513
+    },
+    "IH-ENG-4306": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4306.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125340508C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125340508",
+      "materialTitle": "주니어 능률 VOCA: 입문(2023)",
+      "publisher": "NE능률",
+      "bytes": 41608
+    },
+    "IH-ENG-4307": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4307.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125340515C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125340515",
+      "materialTitle": "주니어 능률 VOCA: 기본(2023)",
+      "publisher": "NE능률",
+      "bytes": 42014
+    },
+    "IH-ENG-4308": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4308.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125340522C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125340522",
+      "materialTitle": "주니어 능률 VOCA: 실력(2023)",
+      "publisher": "NE능률",
+      "bytes": 42161
+    },
+    "IH-ENG-4309": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4309.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125340539C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125340539",
+      "materialTitle": "주니어 능률 VOCA: 숙어(2023)",
+      "publisher": "NE능률",
+      "bytes": 45211
+    },
+    "IH-ENG-4310": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4310.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125340485C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125340485",
+      "materialTitle": "주니어 능률 VOCA Starter1(2023)",
+      "publisher": "NE능률",
+      "bytes": 45436
+    },
+    "IH-ENG-4311": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4311.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125340492C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125340492",
+      "materialTitle": "주니어 능률 VOCA Starter2(2023)",
+      "publisher": "NE능률",
+      "bytes": 44619
+    },
+    "IH-ENG-4312": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4312.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125334668C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125334668",
+      "materialTitle": "특급 수능ㆍEBS 기출 VOCA(2024)",
+      "publisher": "NE능률",
+      "bytes": 41928
+    },
+    "IH-ENG-4313": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4313.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125308348C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125308348",
+      "materialTitle": "최강 우선랭킹 공무원 Voca",
+      "publisher": "NE능률",
+      "bytes": 20665
+    },
+    "IH-ENG-4314": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4314.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966949717C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966949717",
+      "materialTitle": "주니어 능률VOCA: 숙어편",
+      "publisher": "NE능률",
+      "bytes": 27813
+    },
+    "IH-ENG-4315": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4315.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966949700C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966949700",
+      "materialTitle": "주니어 능률VOCA: 실력편",
+      "publisher": "NE능률",
+      "bytes": 31268
+    },
+    "IH-ENG-4316": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4316.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966949694C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966949694",
+      "materialTitle": "주니어 능률VOCA: 기본편",
+      "publisher": "NE능률",
+      "bytes": 28765
+    },
+    "IH-ENG-4317": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4317.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966949687C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966949687",
+      "materialTitle": "주니어 능률VOCA: 입문편",
+      "publisher": "NE능률",
+      "bytes": 32227
+    },
+    "IH-ENG-4318": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4318.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966946310C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966946310",
+      "materialTitle": "능률 Voca: 숙어편",
+      "publisher": "NE능률",
+      "bytes": 33542
+    },
+    "IH-ENG-4319": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4319.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788966946303C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966946303",
+      "materialTitle": "능률 Voca: 고교 필수편",
+      "publisher": "NE능률",
+      "bytes": 36455
+    },
+    "IH-ENG-4320": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4320.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788966946242C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966946242",
+      "materialTitle": "능률 Voca: 수능 실전편",
+      "publisher": "NE능률",
+      "bytes": 29222
+    },
+    "IH-ENG-4321": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4321.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788959977659C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959977659",
+      "materialTitle": "토마토 TOEIC FINISH 1000제 VOCA",
+      "publisher": "NE능률",
+      "bytes": 70313
+    },
+    "IH-ENG-4322": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4322.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788959975570C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959975570",
+      "materialTitle": "TEPS BY STEP LISTENING VOCABULARY BASIC(2010)",
+      "publisher": "NE능률",
+      "bytes": 17226
+    },
+    "IH-ENG-4323": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4323.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788959975631C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959975631",
+      "materialTitle": "TEPS VOCA CUBE(토마토)(단어장1권포함)",
+      "publisher": "NE능률",
+      "bytes": 52120
+    },
+    "IH-ENG-4324": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4324.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788959975259C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959975259",
+      "materialTitle": "TEPS BY STEP 3(LISTENING VOCABULARY)",
+      "publisher": "NE능률",
+      "bytes": 17347
+    },
+    "IH-ENG-4325": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4325.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788959975020C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959975020",
+      "materialTitle": "TEPS BY Step LISTENING+VOCABULARY 2",
+      "publisher": "NE능률",
+      "bytes": 35446
+    },
+    "IH-ENG-4326": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4326.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788959974863C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959974863",
+      "materialTitle": "TEPS BY Step 1(LISTENING VOCABULARY)",
+      "publisher": "NE능률",
+      "bytes": 52111
+    },
+    "IH-ENG-4327": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4327.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788959972807C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959972807",
+      "materialTitle": "토마토 TOEFL IBT VOCABULARY (2009)(MP3CD1장, 미니 단어장1권포함)(토마토 TOEFL iBT)",
+      "publisher": "NE능률",
+      "bytes": 120017
+    },
+    "IH-ENG-4328": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4328.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788959971589C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959971589",
+      "materialTitle": "토마토 VOCA CHIP(교재 별매)(전4권)",
+      "publisher": "NE능률",
+      "bytes": 28314
+    },
+    "IH-ENG-4330": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4330.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788960273481C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788960273481",
+      "materialTitle": "중학영문법 3800제: 중학교 1학년(2012)",
+      "publisher": "마더텅",
+      "bytes": 32147
+    },
+    "IH-ENG-4331": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4331.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791165261986C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165261986",
+      "materialTitle": "예비 매3영 매일 3단계로 훈련하는 영어 수능어법(2024)",
+      "publisher": "키출판사",
+      "bytes": 38228
+    },
+    "IH-ENG-4332": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4332.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202307/9791165261801C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165261801",
+      "materialTitle": "매3영 매일 3단계로 푸는 영어 어법 어휘(2023)",
+      "publisher": "키출판사",
+      "bytes": 33689
+    },
+    "IH-ENG-4333": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4333.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791165261238C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165261238",
+      "materialTitle": "예비 매3영 매3일 3단계로 훈련하는 영어 수능어법",
+      "publisher": "키출판사",
+      "bytes": 19595
+    },
+    "IH-ENG-4334": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4334.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791165260545C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165260545",
+      "materialTitle": "매3영 매일 3단계로 공부하는 영어 문장구조 훈련(2021)",
+      "publisher": "키출판사",
+      "bytes": 18971
+    },
+    "IH-ENG-4335": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4335.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788974574796C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974574796",
+      "materialTitle": "매3영 매일 빈출 3단계로 학습하는 영어 Voca 수능기출",
+      "publisher": "키출판사",
+      "bytes": 22886
+    },
+    "IH-ENG-4336": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4336.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788974577964C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974577964",
+      "materialTitle": "예비 매3영 수능어법 매일 3단계로 훈련하는 영어 수능어법(2017)",
+      "publisher": "키출판사",
+      "bytes": 24843
+    },
+    "IH-ENG-4337": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4337.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788974577735C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974577735",
+      "materialTitle": "New 매3영 VOCA 수능 기출 New 매일 빈출 3단계로 학습하는 영어 VOCA 수능 기출(2016)",
+      "publisher": "키출판사",
+      "bytes": 27966
+    },
+    "IH-ENG-4338": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4338.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788974577674C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974577674",
+      "materialTitle": "매3영 어법어휘 매일 3단계로 푸는 영어 어법 어휘(2016)",
+      "publisher": "키출판사",
+      "bytes": 26791
+    },
+    "IH-ENG-4339": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4339.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202601/9788954798754C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954798754",
+      "materialTitle": "EBS 수능특강 사용설명서 영어영역 영어(2026)(2027 수능대비)",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 38570
+    },
+    "IH-ENG-4340": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4340.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202601/9788954798174C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954798174",
+      "materialTitle": "2026 EBS 수능특강 영어영역 영어",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 47174
+    },
+    "IH-ENG-4341": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4341.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202501/9788954789585C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954789585",
+      "materialTitle": "EBS 수능특강 영어(2025)(2026 수능 연계교재)",
+      "publisher": "EBS한국교육방송공사",
+      "bytes": 41663
+    },
+    "IH-ENG-4342": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4342.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9788954786430C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954786430",
+      "materialTitle": "EBS 수능특강Q 미니모의고사 영어 Jump(2024)(2025 수능대비)",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 42665
+    },
+    "IH-ENG-4343": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4343.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9788954786447C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954786447",
+      "materialTitle": "EBS 수능특강Q 미니모의고사 영어 Hyper(2024)(2025 수능대비)",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 42723
+    },
+    "IH-ENG-4344": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4344.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9788954786423C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954786423",
+      "materialTitle": "EBS 수능특강Q 미니모의고사 영어 Start(2024)(2025 수능대비)",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 42639
+    },
+    "IH-ENG-4345": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4345.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9788954782326C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954782326",
+      "materialTitle": "수능특강 사용설명서 영어(하)(2024)(2025 수능대비)",
+      "publisher": "EBS한국교육방송공사",
+      "bytes": 33145
+    },
+    "IH-ENG-4346": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4346.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9788954781633C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954781633",
+      "materialTitle": "EBS 수능특강 영어영역 영어(2024)(2025 수능대비)",
+      "publisher": "EBS한국교육방송공사",
+      "bytes": 29765
+    },
+    "IH-ENG-4347": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4347.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125341635C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125341635",
+      "materialTitle": "능률 EBS 수능특강 변형 문제 770제 영어(하)(2023)(2024 수능대비)",
+      "publisher": "NE능률",
+      "bytes": 59217
+    },
+    "IH-ENG-4348": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4348.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202205/9791125339151C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125339151",
+      "materialTitle": "능률 EBS 수능특강 변형문제 836제 영어(하)(2022)",
+      "publisher": "NE능률",
+      "bytes": 23130
+    },
+    "IH-ENG-4349": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4349.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9791129708472C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129708472",
+      "materialTitle": "메가스터디 EBS수능특강 변형 영어 694제(2022)",
+      "publisher": "메가스터디북스",
+      "bytes": 11866
+    },
+    "IH-ENG-4350": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4350.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9788954763660C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954763660",
+      "materialTitle": "EBS 수능특강 연계 기출 영어지문 연계 기출1 영어(2022)",
+      "publisher": "EBS한국교육방송공사",
+      "bytes": 36647
+    },
+    "IH-ENG-4351": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4351.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/180/338/18033835.jpg?udate=20210304",
+      "source": "KOBIC",
+      "isbn": "9791129707147",
+      "materialTitle": "메가스터디 EBS 수능특강 변형 영어 260제 (2022 수능 대비)",
+      "publisher": "메가스터디북스",
+      "bytes": 21545
+    },
+    "IH-ENG-4352": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4352.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791129703699C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129703699",
+      "materialTitle": "메가스터디 EBS 분석노트 고등 수능특강 영어",
+      "publisher": "메가스터디",
+      "bytes": 22414
+    },
+    "IH-ENG-4353": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4353.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788968061080C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061080",
+      "materialTitle": "고등 EBS 수능특강 내신탐구 영어편(2018)",
+      "publisher": "쎄듀",
+      "bytes": 15161
+    },
+    "IH-ENG-4354": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4354.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788926139844C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788926139844",
+      "materialTitle": "EBS연계 절대문항 영어영역(수능특강편)(2015 수능대비)",
+      "publisher": "디딤돌",
+      "bytes": 24248
+    },
+    "IH-ENG-4355": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4355.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788926984130C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788926984130",
+      "materialTitle": "E연계 TOP CHOICE 80 E 수능특강 영어(2015)",
+      "publisher": "천재교육",
+      "bytes": 20863
+    },
+    "IH-ENG-4356": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4356.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791143600523C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143600523",
+      "materialTitle": "EBS 수능완성 영어영역 영어(2026)(2027 수능대비)",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 35626
+    },
+    "IH-ENG-4357": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4357.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202505/9788954793100C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954793100",
+      "materialTitle": "EBS 수능완성 사용설명서 영어영역 영어(하)(2025)(2026 수능대비)",
+      "publisher": "EBS한국교육방송공사",
+      "bytes": 35850
+    },
+    "IH-ENG-4358": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4358.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788954785075C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954785075",
+      "materialTitle": "EBS 수능완성 사용설명서 영어(하)(2024)(2025 수능대비)",
+      "publisher": "EBS한국교육방송공사",
+      "bytes": 74933
+    },
+    "IH-ENG-4359": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4359.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788954727587C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954727587",
+      "materialTitle": "수능완성 영어 B형(2013)",
+      "publisher": "EBS한국교육방송공사",
+      "bytes": 22264
+    },
+    "IH-ENG-4360": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4360.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788954727570C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954727570",
+      "materialTitle": "수능완성 영어 A형(2013)",
+      "publisher": "EBS한국교육방송공사",
+      "bytes": 22253
+    },
+    "IH-ENG-4361": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4361.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202505/9788917304367C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788917304367",
+      "materialTitle": "내신 1등급 기출전략 고등 공통영어1(중간고사)(2025)(박준언)",
+      "publisher": "YBM",
+      "bytes": 47624
+    },
+    "IH-ENG-4362": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4362.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202402/9791166837807C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166837807",
+      "materialTitle": "WORD PASS (워드 패스)",
+      "publisher": "넥서스",
+      "bytes": 380050
+    },
+    "IH-ENG-4363": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4363.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202308/9788960765146C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788960765146",
+      "materialTitle": "화이트라벨 서술형 문장완성북",
+      "publisher": "진학사",
+      "bytes": 31931
+    },
+    "IH-ENG-4364": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4364.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202308/9788960765122C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788960765122",
+      "materialTitle": "화이트라벨 서술형 핵심패턴북",
+      "publisher": "진학사",
+      "bytes": 33891
+    },
+    "IH-ENG-4365": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4365.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202303/9791161505787C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791161505787",
+      "materialTitle": "영어 1등급의 법칙",
+      "publisher": "시원스쿨닷컴",
+      "bytes": 30843
+    },
+    "IH-ENG-4366": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4366.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125335160C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125335160",
+      "materialTitle": "특급 듣기 실전 모의고사 24회(2024)",
+      "publisher": "NE능률",
+      "bytes": 41124
+    },
+    "IH-ENG-4367": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4367.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125335184C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125335184",
+      "materialTitle": "특급 어법(2024)",
+      "publisher": "NE능률",
+      "bytes": 42052
+    },
+    "IH-ENG-4368": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4368.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125335177C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125335177",
+      "materialTitle": "특급 빈칸추론(2024)",
+      "publisher": "NE능률",
+      "bytes": 47794
+    },
+    "IH-ENG-4369": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4369.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/114/914/11491485.jpg?udate=20200310",
+      "source": "KOBIC",
+      "isbn": "9788960763647",
+      "materialTitle": "화이트라벨 핵심 패턴 Book (1등급을 위한 서술형 명품 영어)",
+      "publisher": "진학사(블랙박스)",
+      "bytes": 92380
+    },
+    "IH-ENG-4370": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4370.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791161652665C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791161652665",
+      "materialTitle": "특단 독해유형",
+      "publisher": "넥서스에듀",
+      "bytes": 42676
+    },
+    "IH-ENG-4371": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4371.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788960762770C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788960762770",
+      "materialTitle": "리딩 Icon 독해유형",
+      "publisher": "진학사",
+      "bytes": 155324
+    },
+    "IH-ENG-4372": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4372.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788957976111C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788957976111",
+      "materialTitle": "리딩 바이블",
+      "publisher": "넥서스",
+      "bytes": 67344
+    },
+    "IH-ENG-4373": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4373.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788960003095C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788960003095",
+      "materialTitle": "바짝 독해유형편 : 외국어영역 단기완성(2008)",
+      "publisher": "넥서스",
+      "bytes": 24982
+    },
+    "IH-ENG-4374": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4374.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974574352C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974574352",
+      "materialTitle": "중학 영문법, 문법이 쓰기다: 2학년",
+      "publisher": "키출판사",
+      "bytes": 58903
+    },
+    "IH-ENG-4375": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4375.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974574345C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974574345",
+      "materialTitle": "중학 영문법, 문법이 쓰기다: 1학년",
+      "publisher": "키출판사",
+      "bytes": 60550
+    },
+    "IH-ENG-4376": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4376.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974574369C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974574369",
+      "materialTitle": "중학 영문법, 문법이 쓰기다: 3학년",
+      "publisher": "키출판사",
+      "bytes": 58289
+    },
+    "IH-ENG-4377": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4377.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974577575C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974577575",
+      "materialTitle": "초등 영문법, 문법이 쓰기다 기본 1",
+      "publisher": "키출판사",
+      "bytes": 77693
+    },
+    "IH-ENG-4378": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4378.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125308157C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125308157",
+      "materialTitle": "주니어 리스닝튜터: 입문",
+      "publisher": "NE능률",
+      "bytes": 23986
+    },
+    "IH-ENG-4379": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4379.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125308171C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125308171",
+      "materialTitle": "주니어 리스닝튜터: 완성",
+      "publisher": "NE능률",
+      "bytes": 26560
+    },
+    "IH-ENG-4380": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4380.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125308164C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125308164",
+      "materialTitle": "주니어 리스닝튜터: 기본",
+      "publisher": "NE능률",
+      "bytes": 26392
+    },
+    "IH-ENG-4381": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4381.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788959973149C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959973149",
+      "materialTitle": "주니어리스닝튜터(마무리)(TAPE6장)(2009)",
+      "publisher": "NE능률",
+      "bytes": 264392
+    },
+    "IH-ENG-4382": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4382.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788959973132C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959973132",
+      "materialTitle": "주니어 리스닝 튜터 마무리(2009)",
+      "publisher": "NE능률",
+      "bytes": 19617
+    },
+    "IH-ENG-4383": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4383.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788959973101C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959973101",
+      "materialTitle": "주니어 리스닝 튜터 도약(2009)",
+      "publisher": "NE능률",
+      "bytes": 19190
+    },
+    "IH-ENG-4384": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4384.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788959972104C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959972104",
+      "materialTitle": "리스닝튜터(모의고사)(2009)",
+      "publisher": "NE능률",
+      "bytes": 11905
+    },
+    "IH-ENG-4385": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4385.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788959972074C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959972074",
+      "materialTitle": "실전 리스닝튜터",
+      "publisher": "NE능률",
+      "bytes": 12600
+    },
+    "IH-ENG-4386": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4386.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788959971916C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959971916",
+      "materialTitle": "리스닝튜터입문(TAPE:6개)(2009)",
+      "publisher": "NE능률",
+      "bytes": 31093
+    },
+    "IH-ENG-4387": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-4387.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/161/218/16121822.jpg?udate=20211127",
+      "source": "KOBIC",
+      "isbn": "9788960764750",
+      "materialTitle": "블랙라벨 영어 내신 어법 (2020)",
+      "publisher": "진학사",
+      "bytes": 10351
     }
   }
 }

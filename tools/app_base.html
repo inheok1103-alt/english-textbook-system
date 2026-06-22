@@ -72,6 +72,9 @@
                 <button id="btn-rank" onclick="toggleView('rank')" class="px-3 py-2 sm:px-4 rounded-md text-xs sm:text-sm font-bold bg-slate-800 text-slate-400 hover:text-white transition-all flex items-center gap-2 border border-slate-700">
                     <i data-lucide="bar-chart-3" class="w-4 h-4"></i> <span class="hidden sm:inline">랭킹</span>
                 </button>
+                <button id="btn-naesin" onclick="toggleView('naesin')" class="px-3 py-2 sm:px-4 rounded-md text-xs sm:text-sm font-bold bg-slate-800 text-slate-400 hover:text-white transition-all flex items-center gap-2 border border-slate-700">
+                    <i data-lucide="calendar-check" class="w-4 h-4"></i> <span class="hidden sm:inline">내신대비</span>
+                </button>
             </div>
         </div>
     </header>
@@ -87,7 +90,8 @@
                     <button onclick="setTab('skill')" id="tab-skill" class="flex-1 py-3 px-2 text-sm font-bold text-brand border-b-2 border-brand whitespace-nowrap">4대영역</button>
                     <button onclick="setTab('level')" id="tab-level" class="flex-1 py-3 px-2 text-sm font-bold text-slate-400 hover:text-white whitespace-nowrap">난이도</button>
                     <button onclick="setTab('target')" id="tab-target" class="flex-1 py-3 px-2 text-sm font-bold text-slate-400 hover:text-white whitespace-nowrap">상황/약점</button>
-                    <button onclick="setTab('grade')" id="tab-grade" class="flex-1 py-3 px-2 text-sm font-bold text-slate-400 hover:text-white whitespace-nowrap">학년/나이</button>
+                    <button onclick="setTab('grade')" id="tab-grade" class="flex-1 py-3 px-2 text-sm font-bold text-slate-400 hover:text-white whitespace-nowrap">학년</button>
+                    <button onclick="setTab('age')" id="tab-age" class="flex-1 py-3 px-2 text-sm font-bold text-slate-400 hover:text-white whitespace-nowrap">나이대</button>
                 </div>
 
                 <div class="p-4 flex-shrink-0 z-10 border-b border-slate-700">
@@ -123,12 +127,15 @@
                 <div class="flex justify-between items-end border-b border-slate-700 pb-3 mb-4 flex-shrink-0">
                     <div>
                         <h2 class="font-bold text-lg sm:text-xl mb-1 flex items-center gap-2 text-white">
-                            <i data-lucide="network" class="text-brand w-5 h-5"></i> 분기별 인지 커리큘럼
+                            <i data-lucide="network" class="text-brand w-5 h-5"></i> 인지 커리큘럼 (영역×시간)
                         </h2>
-                        <p class="text-[11px] sm:text-xs text-slate-400">1~4분기 슬롯에 교재를 배치하세요. AI가 흐름을 진단합니다.</p>
+                        <p class="text-[11px] sm:text-xs text-slate-400">가로=시간 진행 / 세로=4대영역. 빈 칸을 누르면 그 자리에 맞는 교재를 추천합니다.</p>
                     </div>
-                    <div id="diag-msg" class="text-[10px] sm:text-xs font-bold px-2 py-1.5 rounded-lg bg-slate-800 text-slate-400 border border-slate-700 text-center max-w-[120px] sm:max-w-none">
-                        진단 대기 중
+                    <div class="flex items-center gap-2">
+                        <select id="timeUnitSel" onchange="setTimeUnit(this.value)" class="bg-slate-900 border border-slate-600 text-white text-[11px] rounded-lg px-2 py-1.5 font-bold"><option value="year">년차</option><option value="quarter" selected>분기</option><option value="month">월</option></select>
+                        <div id="diag-msg" class="text-[10px] sm:text-xs font-bold px-2 py-1.5 rounded-lg bg-slate-800 text-slate-400 border border-slate-700 text-center max-w-[120px] sm:max-w-none">
+                            진단 대기 중
+                        </div>
                     </div>
                 </div>
 
@@ -136,8 +143,14 @@
                     <!-- JS Render Pipeline -->
                 </div>
 
+                <!-- 학교/반/학생 메타 -->
+                <div class="flex gap-2 pt-3 border-t border-slate-700 flex-shrink-0">
+                    <input id="metaSchool" placeholder="학교명" class="flex-1 min-w-0 bg-slate-900 border border-slate-600 rounded-lg px-2 py-1.5 text-xs text-white">
+                    <input id="metaClass" placeholder="반" class="w-16 bg-slate-900 border border-slate-600 rounded-lg px-2 py-1.5 text-xs text-white">
+                    <input id="metaStudent" placeholder="학생명" class="flex-1 min-w-0 bg-slate-900 border border-slate-600 rounded-lg px-2 py-1.5 text-xs text-white">
+                </div>
                 <!-- 공유/저장 툴바 -->
-                <div class="flex gap-2 flex-wrap pt-3 border-t border-slate-700 flex-shrink-0">
+                <div class="flex gap-2 flex-wrap pt-2 flex-shrink-0">
                     <select id="goalSel" class="bg-slate-900 border border-slate-600 text-white text-xs rounded-lg px-2 py-2.5 font-bold"><option value="">목표 선택…</option><option>내신</option><option>수능</option><option>회화</option><option>시험(토익/토플)</option><option>기초/입문</option></select>
                     <button onclick="startByGoal()" class="flex-1 min-w-[90px] bg-purple-500 text-white font-bold text-xs py-2.5 rounded-lg flex items-center justify-center gap-1"><i data-lucide="flag" class="w-4 h-4"></i> 목표 시작</button>
                     <button onclick="autoFillBalance()" class="flex-1 min-w-[100px] bg-accent text-slate-900 font-bold text-xs py-2.5 rounded-lg flex items-center justify-center gap-1"><i data-lucide="layout-grid" class="w-4 h-4"></i> 균형 채우기</button>
@@ -198,6 +211,29 @@
                     <div id="rankExternal" class="bg-slate-800/40 rounded-xl border border-slate-700 p-3 min-h-[120px]"><div class="text-slate-500 text-sm">불러오는 중…</div></div>
                 </div>
                 <div id="rankInsights" class="mt-4 bg-slate-800/40 rounded-xl border border-slate-700 p-3 hidden"></div>
+            </div>
+        </div>
+
+        <!-- 내신 대비 스케줄러 뷰 -->
+        <div id="view-naesin" class="hidden absolute inset-0 overflow-y-auto bg-dark z-30 fade-in hide-scrollbar">
+            <div class="max-w-[1000px] mx-auto p-3 sm:p-5">
+                <h2 class="text-lg font-black text-white flex items-center gap-2 mb-1"><i data-lucide="calendar-check" class="w-5 h-5 text-brand"></i> 내신 대비 스케줄러</h2>
+                <p class="text-[11px] text-slate-500 mb-3">시험 범위·기간을 입력하면 본문을 단계별(해석→어휘→어법→빈칸→배열→영작→실전)로 쪼개 날짜에 역산 배치합니다. 결과는 달력으로 출력됩니다.</p>
+                <div class="bg-slate-800/40 rounded-xl border border-slate-700 p-3 grid grid-cols-2 sm:grid-cols-3 gap-2 mb-3">
+                    <label class="text-[11px] text-slate-400">학교명<input id="nsSchool" class="w-full mt-0.5 bg-slate-900 border border-slate-600 rounded px-2 py-1.5 text-sm text-white" placeholder="○○중/고"></label>
+                    <label class="text-[11px] text-slate-400">학생명<input id="nsStudent" class="w-full mt-0.5 bg-slate-900 border border-slate-600 rounded px-2 py-1.5 text-sm text-white" placeholder="이름"></label>
+                    <label class="text-[11px] text-slate-400">학년/구분<select id="nsLevel" class="w-full mt-0.5 bg-slate-900 border border-slate-600 rounded px-2 py-1.5 text-sm text-white"><option value="middle">중등(7단계)</option><option value="high">고등(10단계)</option></select></label>
+                    <label class="text-[11px] text-slate-400">시작일<input id="nsStart" type="date" class="w-full mt-0.5 bg-slate-900 border border-slate-600 rounded px-2 py-1.5 text-sm text-white"></label>
+                    <label class="text-[11px] text-slate-400">시험일(D-day)<input id="nsExam" type="date" class="w-full mt-0.5 bg-slate-900 border border-slate-600 rounded px-2 py-1.5 text-sm text-white"></label>
+                    <label class="text-[11px] text-slate-400">하루 학습(분)<input id="nsDaily" type="number" value="60" class="w-full mt-0.5 bg-slate-900 border border-slate-600 rounded px-2 py-1.5 text-sm text-white"></label>
+                    <label class="text-[11px] text-slate-400 col-span-2">본문 과/단원 수<input id="nsLessons" type="number" value="4" class="w-full mt-0.5 bg-slate-900 border border-slate-600 rounded px-2 py-1.5 text-sm text-white"></label>
+                    <label class="text-[11px] text-slate-400">외부지문 수<input id="nsExternal" type="number" value="0" class="w-full mt-0.5 bg-slate-900 border border-slate-600 rounded px-2 py-1.5 text-sm text-white"></label>
+                </div>
+                <div class="flex gap-2 mb-4">
+                    <button onclick="genNaesin()" class="flex-1 bg-brand text-slate-900 font-bold text-sm py-2.5 rounded-lg flex items-center justify-center gap-1"><i data-lucide="wand-2" class="w-4 h-4"></i> 일정 생성</button>
+                    <button onclick="printNaesin()" class="bg-slate-800 border border-slate-600 text-white font-bold text-sm py-2.5 px-4 rounded-lg flex items-center justify-center gap-1"><i data-lucide="printer" class="w-4 h-4"></i> 달력 출력</button>
+                </div>
+                <div id="nsResult"></div>
             </div>
         </div>
     </main>
@@ -265,10 +301,31 @@
         // ===== 그리드 모델: Y=영역(행), X=분기(열, 3단계×4분기=12) =====
         const GRID_ROWS = ['독해','듣기','말하기','쓰기','문법','구문','어휘','파닉스','모의/기출'];
         const GRID_CORE = ['독해','듣기','말하기','쓰기'];   // 4대영역
-        const GRID_COLS = 12;
+        let GRID_COLS = 12;
+        let TIME_UNIT = 'quarter';   // year | quarter | month
+        const TIME_UNITS = { year:{cols:3, ko:'년차'}, quarter:{cols:12, ko:'분기'}, month:{cols:36, ko:'월'} };
         const PHASE_NAME = { 1:'기반', 2:'체화', 3:'실전' };
         const PHASE_LV   = { 1:[1,2,2], 2:[2,3,3], 3:[3,4,5] };
-        function colMeta(c){ const p=Math.floor(c/4)+1, q=(c%4)+1; return { phase:p, quarter:q, label:p+'-'+q }; }
+        // 컬럼 메타: 단계는 위치비율로 추정(PHASE_LV 매핑), 라벨은 단위별
+        function colMeta(c){
+            const phase = Math.min(3, Math.floor((GRID_COLS>1 ? c/GRID_COLS : 0)*3)+1);
+            let label, quarter=(c%4)+1;
+            if(TIME_UNIT==='year') label=(c+1)+'년차';
+            else if(TIME_UNIT==='month') label=(Math.floor(c/12)+1)+'-'+((c%12)+1)+'월';
+            else label=(Math.floor(c/4)+1)+'-'+((c%4)+1);
+            return { phase, quarter, label };
+        }
+        function setTimeUnit(unit){
+            if(!TIME_UNITS[unit]) return;
+            const oldCols=GRID_COLS, newCols=TIME_UNITS[unit].cols;
+            if(unit!==TIME_UNIT){
+                const ng={}; GRID_ROWS.forEach(s=>ng[s]=new Array(newCols).fill(null));
+                GRID_ROWS.forEach(s=>{ (state.grid[s]||[]).forEach((uid,c)=>{ if(!uid) return; let nc=oldCols>1?Math.round(c/(oldCols-1)*(newCols-1)):0; nc=Math.max(0,Math.min(newCols-1,nc)); while(nc<newCols && ng[s][nc]) nc++; if(nc<newCols) ng[s][nc]=uid; }); });
+                state.grid=ng; GRID_COLS=newCols; TIME_UNIT=unit;
+            }
+            const sel=document.getElementById('timeUnitSel'); if(sel) sel.value=unit;
+            renderPipeline(); renderDB();
+        }
         function rowOf(skill){ return GRID_ROWS.indexOf(skill)>=0 ? skill : '독해'; }
         function gridInit(){ const g={}; GRID_ROWS.forEach(s=>g[s]=new Array(GRID_COLS).fill(null)); return g; }
         function gridPlaced(){ const out=[]; GRID_ROWS.forEach(s=>state.grid[s].forEach((uid,c)=>{ if(uid){const b=byId(uid); if(b) out.push({skill:s,col:c,book:b});}})); return out; }
@@ -394,7 +451,7 @@
         function setTab(tab) {
             state.currentTab = tab;
             state.filterVal = '전체';
-            ['skill', 'level', 'target', 'grade'].forEach(t => {
+            ['skill', 'level', 'target', 'grade', 'age'].forEach(t => {
                 const btn = document.getElementById(`tab-${t}`);
                 if(!btn) return;
                 btn.className = (t === tab)
@@ -478,6 +535,7 @@
                     else if(state.currentTab === 'level') matchFilter = b.level === parseInt(state.filterVal.charAt(0));
                     else if(state.currentTab === 'target') matchFilter = (b.tags||[]).includes(state.filterVal);
                     else if(state.currentTab === 'grade') matchFilter = (b.gradeBand === state.filterVal);
+                    else if(state.currentTab === 'age') matchFilter = (b.ageBand === state.filterVal);
                 }
                 return matchSearch && matchFilter;
             });
@@ -697,8 +755,8 @@
                 th{background:#f1f5f9} td.sk{background:#f8fafc;font-weight:bold;text-align:left} td.sk.core{background:#e0f2fe;color:#075985} .lv{color:#64748b;font-size:10px}
                 .legend{margin-top:14px;font-size:11px;color:#475569} @media print{.noprint{display:none}}
             </style></head><body>
-                <h1>📘 나의 영어 학습 커리큘럼</h1>
-                <div class="sub">${state.goal?('목표: <b>'+state.goal+'</b> · '):''}총 ${placed.length}권 · 가로=분기(시간 진행) / 세로=4대영역+요소 · ${new Date().toLocaleDateString('ko-KR')}</div>
+                <h1>📘 ${(()=>{const m=planMeta();return [m.school,m.cls,m.student].filter(Boolean).join(' ');})()||'나의'} 영어 학습 커리큘럼</h1>
+                <div class="sub">${state.goal?('목표: <b>'+state.goal+'</b> · '):''}총 ${placed.length}권 · 가로=시간 진행 / 세로=4대영역+요소 · ${new Date().toLocaleDateString('ko-KR')}</div>
                 <table><thead>${thead}</thead><tbody>${body}</tbody></table>
                 <div class="legend">4대영역 분포 — 독해 ${dist.독해}·듣기 ${dist.듣기}·말하기 ${dist.말하기}·쓰기 ${dist.쓰기}</div>
                 <button class="noprint" onclick="window.print()" style="margin-top:16px;padding:9px 18px;background:#0ea5e9;color:#fff;border:none;border-radius:8px;font-weight:bold;cursor:pointer">🖨 인쇄 / PDF 저장</button>
@@ -706,11 +764,70 @@
             const w=window.open('','_blank'); if(!w){ showToast('팝업 차단을 해제해주세요', true); return; } w.document.write(html); w.document.close();
         }
 
+        // ===== 내신 대비 스케줄러 (이그잼포유·백발백중·내신콘서트·아잉카 단계 종합) =====
+        const NS_TPL_MID = [{key:'read',name:'본문 해석·끊어읽기',w:3},{key:'vocab',name:'어휘 암기·테스트',w:2},{key:'grammar',name:'어법·문법 정리',w:2},{key:'blank',name:'빈칸 완성',w:2},{key:'order',name:'순서배열',w:1},{key:'write',name:'영작·서술형',w:3},{key:'test',name:'본문 실전·변형',w:2}];
+        const NS_TPL_HIGH = [{key:'read',name:'본문 해석지',w:3},{key:'blankKr',name:'빈칸(우리말→영문)',w:2},{key:'blankEn',name:'빈칸(영문 완성)',w:2},{key:'transcribe',name:'해석 쓰기',w:1},{key:'vocab',name:'어휘 리스트·테스트',w:2},{key:'grammar',name:'어법 선택형',w:2},{key:'findErr',name:'어색한 곳 찾기',w:2},{key:'order',name:'순서배열',w:1},{key:'write',name:'영작·통암기',w:3},{key:'test',name:'서술형·실전/변형',w:3}];
+        const NS_TPL_EXT = [{key:'read',name:'지문 해석·분석',w:2},{key:'vocab',name:'어휘 정리',w:1},{key:'grammar',name:'어법 포인트',w:1},{key:'test',name:'변형문제',w:2}];
+        function nsFmt(d){ return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+        function nsListDays(start, exam){ const days=[]; const s=new Date(start); s.setHours(0,0,0,0); const e=new Date(exam); e.setHours(0,0,0,0); let d=new Date(s); while(d<e){ days.push(new Date(d)); d.setDate(d.getDate()+1); } return days; }
+        function nsBuildSchedule(inp){
+            const TPL = inp.level==='high'?NS_TPL_HIGH:NS_TPL_MID; const perW=12, studyRatio=0.65;
+            const days=nsListDays(inp.start, inp.exam);
+            if(days.length===0) return {error:'시험까지 남은 날이 없습니다. 시작일/시험일을 확인하세요.'};
+            const study=[], final=[];
+            for(let p=1;p<=inp.lessons;p++){ TPL.forEach((st,idx)=>{ const t={passage:'본문 '+p+'과', step:st.name, est:st.w*perW}; (idx===TPL.length-1?final:study).push(t); }); }
+            for(let x=1;x<=inp.external;x++){ NS_TPL_EXT.forEach((st,idx)=>{ const t={passage:'외부지문 '+x, step:st.name, est:st.w*perW}; (idx===NS_TPL_EXT.length-1?final:study).push(t); }); }
+            const splitIdx=Math.max(1, Math.floor(days.length*studyRatio));
+            let studyDays=days.slice(0,splitIdx), reviewDays=days.slice(splitIdx); let lastDay=null;
+            if(reviewDays.length>1){ lastDay=reviewDays[reviewDays.length-1]; reviewDays=reviewDays.slice(0,-1); }
+            if(reviewDays.length===0) reviewDays=studyDays.slice(-1);
+            const sched=[];
+            function pack(tasks, dys){ if(!dys.length) return; let di=0, used=0; tasks.forEach(t=>{ if(used+t.est>inp.daily && di<dys.length-1){ di++; used=0; } sched.push({date:nsFmt(dys[di]), passage:t.passage, step:t.step, est:t.est}); used+=t.est; }); }
+            pack(study, studyDays); pack(final, reviewDays);
+            if(lastDay) sched.push({date:nsFmt(lastDay), passage:'전체', step:'최종 복습(신규학습 금지)', est:inp.daily});
+            return {tasks:sched, days};
+        }
+        function genNaesin(){
+            const start=document.getElementById('nsStart').value, exam=document.getElementById('nsExam').value;
+            if(!start||!exam){ showToast('시작일과 시험일을 입력하세요', true); return; }
+            const inp={ school:document.getElementById('nsSchool').value, student:document.getElementById('nsStudent').value, level:document.getElementById('nsLevel').value, start, exam, daily:Math.max(20,Number(document.getElementById('nsDaily').value)||60), lessons:Math.max(1,Number(document.getElementById('nsLessons').value)||1), external:Math.max(0,Number(document.getElementById('nsExternal').value)||0) };
+            const res=nsBuildSchedule(inp);
+            if(res.error){ document.getElementById('nsResult').innerHTML=`<div class="text-danger text-sm p-2">${res.error}</div>`; return; }
+            window.__naesin={inp,res};
+            document.getElementById('nsResult').innerHTML=nsCalendar(inp,res,false);
+            if(typeof lucide!=='undefined') lucide.createIcons();
+        }
+        function nsCalendar(inp, res, light){
+            const byDate={}; res.tasks.forEach(t=>{(byDate[t.date]=byDate[t.date]||[]).push(t);});
+            const allDays=res.days.concat([new Date(inp.exam)]); const months={}; allDays.forEach(d=>months[d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')]=true);
+            const examStr=nsFmt(new Date(inp.exam)); let cal='';
+            Object.keys(months).sort().forEach(mk=>{ const a=mk.split('-'),y=+a[0],mo=+a[1]; const startDow=new Date(y,mo-1,1).getDay(); const dim=new Date(y,mo,0).getDate();
+                let cells=[]; for(let i=0;i<startDow;i++) cells.push(light?'<td></td>':'<td class="border border-slate-700 h-16 bg-slate-900/30"></td>');
+                for(let dd=1;dd<=dim;dd++){ const ds=y+'-'+String(mo).padStart(2,'0')+'-'+String(dd).padStart(2,'0'); const isExam=ds===examStr; const ts=byDate[ds]||[];
+                    const items=ts.slice(0,light?20:4).map(t=>light?`<div class="task">·${t.passage.replace('본문 ','').replace('외부지문 ','외')} ${t.step}</div>`:`<div class="text-[8px] truncate ${/복습/.test(t.step)?'text-accent':'text-slate-300'}">·${t.passage.replace('본문 ','').replace('외부지문 ','외')} ${t.step}</div>`).join('')+(!light&&ts.length>4?`<div class="text-[8px] text-slate-500">+${ts.length-4}</div>`:'');
+                    cells.push(light?`<td class="${isExam?'exam':''}"><div class="day">${dd}${isExam?' 🎯':''}</div>${items}</td>`:`<td class="border border-slate-700 h-16 align-top p-0.5 ${isExam?'bg-danger/20':''}"><div class="text-[9px] font-bold ${isExam?'text-danger':'text-slate-400'}">${dd}${isExam?' 🎯':''}</div>${items}</td>`); }
+                let rows=''; for(let i=0;i<cells.length;i+=7) rows+='<tr>'+cells.slice(i,i+7).join('')+'</tr>';
+                const head=['일','월','화','수','목','금','토'].map(d=>light?`<th>${d}</th>`:`<th class="text-[10px] text-slate-500 pb-1">${d}</th>`).join('');
+                cal+=`<div class="mb-4"><div class="font-bold ${light?'':'text-white'} text-sm mb-1">${y}년 ${mo}월</div><table class="w-full border-collapse text-center"><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
+            });
+            const totEst=res.tasks.reduce((n,t)=>n+t.est,0);
+            const hdr=`${inp.school||''} ${inp.student||''} · ${inp.level==='high'?'고등 10단계':'중등 7단계'} · 총 ${res.tasks.length}개(~${Math.round(totEst/60)}h) · ${nsFmt(new Date(inp.start))}~${examStr}`;
+            return light?cal:`<div class="bg-slate-800/40 rounded-xl border border-slate-700 p-3"><div class="text-xs text-slate-400 mb-2">${hdr}</div>${cal}</div>`;
+        }
+        function printNaesin(){
+            if(!window.__naesin){ showToast('먼저 일정을 생성하세요', true); return; }
+            const {inp,res}=window.__naesin;
+            const html=`<!doctype html><html><head><meta charset="utf-8"><title>내신 대비 일정</title><style>body{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif;padding:20px;color:#0f172a}h1{font-size:18px;margin:0 0 6px}.sub{color:#64748b;font-size:12px;margin-bottom:12px}table{border-collapse:collapse;width:100%;margin-bottom:12px}th,td{border:1px solid #cbd5e1;text-align:center;vertical-align:top;font-size:10px}td{height:64px;padding:2px}th{background:#f1f5f9;padding:3px}.day{font-weight:bold;font-size:11px}.exam{background:#fee2e2}.task{font-size:8px;color:#334155;text-align:left;line-height:1.3}@media print{.noprint{display:none}}</style></head><body><h1>📅 ${inp.school||''} 내신 대비 일정 — ${inp.student||''}</h1><div class="sub">${inp.level==='high'?'고등 10단계':'중등 7단계'} · ${nsFmt(new Date(inp.start))} ~ ${nsFmt(new Date(inp.exam))}(시험) · 본문 ${inp.lessons}과${inp.external?(' + 외부 '+inp.external):''}</div>${nsCalendar(inp,res,true)}<button class="noprint" onclick="window.print()" style="margin-top:10px;padding:8px 16px;background:#0ea5e9;color:#fff;border:none;border-radius:8px;font-weight:bold;cursor:pointer">🖨 인쇄 / PDF 저장</button></body></html>`;
+            const w=window.open('','_blank'); if(!w){ showToast('팝업 차단 해제 필요', true); return; } w.document.write(html); w.document.close();
+        }
+
+        function planMeta(){ const g=(id)=>{const el=document.getElementById(id); return el?el.value.trim():'';}; return { school:g('metaSchool'), cls:g('metaClass'), student:g('metaStudent') }; }
         function collectPlan(){
             const placed=gridPlaced(); const picks=[], partCounts={};
             placed.forEach(({book})=>{ picks.push(book.id); partCounts[book.skill]=(partCounts[book.skill]||0)+1; });
             const seq=gridColSeq().map(b=>b.id);   // 시간순(열 우선) 시퀀스 → 조합 집계용
-            return { picks:Array.from(new Set(picks)), curriculum:seq, gridSnap:state.grid, goal:state.goal||'', partCounts, submittedAt:new Date().toISOString() };
+            const meta=planMeta();
+            return { picks:Array.from(new Set(picks)), curriculum:seq, gridSnap:state.grid, goal:state.goal||'', meta, region:meta.school, partCounts, submittedAt:new Date().toISOString() };
         }
         function exportCurriculum(){
             const data={ kind:'ih-curriculum', savedAt:new Date().toISOString(), goal:state.goal||'', grid:state.grid };
@@ -881,14 +998,15 @@
         let scene, camera, renderer, nodes=[], links=[];
         function toggleView(v) {
             state.view = v;
-            const views = { '2d':'view-2d', 'rec':'view-rec', '3d':'view-3d', 'rank':'view-rank' };
+            const views = { '2d':'view-2d', 'rec':'view-rec', '3d':'view-3d', 'rank':'view-rank', 'naesin':'view-naesin' };
             Object.keys(views).forEach(k => { const el=document.getElementById(views[k]); if(el) el.classList.toggle('hidden', k!==v); });
             const base = "px-3 py-2 sm:px-4 rounded-md text-xs sm:text-sm font-bold transition-all flex items-center gap-2";
-            ['2d','rec','3d','rank'].forEach(k => { const b=document.getElementById('btn-'+k); if(!b) return;
+            ['2d','rec','3d','rank','naesin'].forEach(k => { const b=document.getElementById('btn-'+k); if(!b) return;
                 b.className = (k===v) ? base+" bg-brand text-slate-900" : base+" bg-slate-800 text-slate-400 hover:text-white border border-slate-700"; });
             if(v==='3d') setTimeout(() => { if(!renderer) init3D(); else resize3D(); update3DGraph(); }, 100);
             if(v==='rec') renderRecView();
             if(v==='rank') renderRankView();
+            if(v==='naesin'){ const s=document.getElementById('nsStart'); if(s&&!s.value) s.value=nsFmt(new Date()); }
             if(typeof lucide!=='undefined') lucide.createIcons();
         }
         // ===== 랭킹 대시보드 =====

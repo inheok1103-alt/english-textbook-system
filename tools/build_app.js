@@ -37,6 +37,25 @@ function gradeBand(m) {
   if (a <= 18) return "고등";
   return "성인";
 }
+// 책별 세분 나이대 (gradeBand + level 추정)
+function ageBandOf(m) {
+  const a = m.ageMin, lv = toLevel(m.tftNums);
+  if (a != null) {
+    if (a <= 7) return "유아(5-7)";
+    if (a <= 10) return "초등저(8-10)";
+    if (a <= 13) return "초등고(11-13)";
+    if (a <= 16) return "중등(13-16)";
+    if (a <= 19) return "고등(16-19)";
+    return "성인(19+)";
+  }
+  const gb = gradeBand(m);
+  if (gb === "유아/예비초") return "유아(5-7)";
+  if (gb === "초등") return lv <= 2 ? "초등저(8-10)" : "초등고(11-13)";
+  if (gb === "중등") return "중등(13-16)";
+  if (gb === "고등") return "고등(16-19)";
+  if (gb === "성인") return "성인(19+)";
+  return "전체";
+}
 function shortComment(pc) {
   if (!pc) return "";
   const i = pc.indexOf("교재. ");
@@ -82,6 +101,7 @@ const MASTER_DATA = englishOnly.map((m) => {
     gradeBand: gradeBand(m),
     cefr: extractCefr(m.pickComment || ""),
     lexile: extractLexile(m.pickComment || ""),
+    ageBand: ageBandOf(m),                          // 세분 나이대
     status: m.status || "정상",                    // 정상 / 절판
     isbn: m.isbn || "",
     toc: m.toc || "",                               // 목차(심층 DB)
@@ -102,6 +122,7 @@ const TABS = {
   level: ["전체", "1단계(입문)", "2단계(기초)", "3단계(기본)", "4단계(실력)", "5단계(실전)"],
   target: ["전체"].concat(topSit),
   grade: ["전체", "유아/예비초", "초등", "중등", "고등", "성인"],
+  age: ["전체", "유아(5-7)", "초등저(8-10)", "초등고(11-13)", "중등(13-16)", "고등(16-19)", "성인(19+)"],
 };
 
 // 정렬: 한글 가나다 → 영어 ABC → 기타

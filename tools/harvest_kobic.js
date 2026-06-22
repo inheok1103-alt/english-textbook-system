@@ -16,8 +16,9 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const dec = (b) => new TextDecoder("utf-8").decode(b);
 const strip = (s) => (s || "").replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, " ").trim();
 
-// 영어학습 검색어 (메타데이터 커버리지 극대화)
-const TERMS = ["영문법", "영어독해", "영어듣기", "영어회화", "영단어", "영어어휘", "파닉스", "영어리딩", "영어구문",
+// 영어학습 검색어 (메타데이터 커버리지 극대화). KOBIC_TERMS 환경변수(| 구분)로 커스텀 가능.
+const TERMS = process.env.KOBIC_TERMS ? process.env.KOBIC_TERMS.split("|").map((s) => s.trim()).filter(Boolean) :
+  ["영문법", "영어독해", "영어듣기", "영어회화", "영단어", "영어어휘", "파닉스", "영어리딩", "영어구문",
   "영작", "영어쓰기", "중학영어", "초등영어", "고등영어", "수능영어", "영어 문제집", "영어 독해", "영어 단어",
   "english grammar", "english reading", "phonics", "리딩튜터", "그래머", "보카"];
 
@@ -27,7 +28,8 @@ const PUBS = ["키출판사", "좋은책신사고", "신사고", "쎄듀", "ybm"
   "다락원", "이투스", "마더텅", "동아출판", "길벗", "메가스터디", "사람in", "사람인", "미래엔", "디딤돌", "해커스",
   "진학사", "웅진", "컴퍼스", "compass", "윤선생", "브릭스", "bricks", "투판즈", "월드컴", "정상제이엘에스", "청담",
   "시원스쿨", "넥서스", "다산", "위즈덤하우스", "smart", "스마트", "롱테일", "두산동아", "지학사", "good books"];
-const pubMatch = (p) => { const n = String(p || "").toLowerCase().replace(/[^a-z0-9가-힣]/g, ""); return PUBS.some((k) => n.includes(k.toLowerCase().replace(/[^a-z0-9가-힣]/g, ""))); };
+const NOPUB = process.env.KOBIC_NOPUBFILTER === "1";   // 모든 출판사 포함(전수)
+const pubMatch = (p) => { if (NOPUB) return true; const n = String(p || "").toLowerCase().replace(/[^a-z0-9가-힣]/g, ""); return PUBS.some((k) => n.includes(k.toLowerCase().replace(/[^a-z0-9가-힣]/g, ""))); };
 
 async function getPage(term, page) {
   const u = `https://www.kobic.net/book/searchBook/list.do?q=${encodeURIComponent(term)}&rowsCountPerPage=50&page=${page}`;
