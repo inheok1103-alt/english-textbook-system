@@ -41,13 +41,10 @@ jobs:
       - name: 전공 교재 병합
         run: node tools/harvest_kobic_merge.js
 
-      - name: 책↔표지 상시 정합검수+자동교정 (ISBN 앵커, 회당 로테이션)
+      - name: 책↔표지 상시 정합검수+자동교정 (ISBN 앵커, 회당 로테이션 · 결손 포함)
         run: node tools/verify_covers.js --fix || true
         env:
-          VERIFY_LIMIT: '600'   # 회당 상한 — 매 회차 다른 슬라이스로 전수 순환
-
-      - name: 표지 보강 (남은 결손만)
-        run: node tools/collect_covers.js || true
+          VERIFY_LIMIT: '600'   # 회당 상한 — 매 회차 다른 슬라이스로 전수 순환(결손/불일치/중복 모두 처리)
 
       - name: 랭킹 매칭 색인 갱신 (master_index.csv)
         run: node tools/export_master_index.js
