@@ -1,50 +1,49 @@
-# 교재 시스템 — 진행 상태 핸드오프 (2026-06-20)
+# 영어교재 시스템 — 진행 핸드오프 (2026-06-23)
 
-> 위치: `C:\Users\이인혁\Downloads\교재\`  ·  메인 앱: `index.html` (더블클릭 실행)
-> 빌드: `cd tools && node build_app.js`
+> ★북극성: **교재 잘 모르는 학부모도 편하게 커리 짜기.** 모든 UI/UX·추천·설명은 이 기준. 쉬워야 함 + PC/모바일.
 
-## 현재 완료 상태
-- **교재 879종(영어 전용)** · 실표지 **865종** · 스킬 10종(듣기·말하기·독해·쓰기·문법·구문·어휘·파닉스·모의/기출·통합)
-- 비영어(북트리거 인문/과학 115종) 제거 완료
-- ELT 110종(옥스포드·케임브리지·피어슨·내셔널지오·e-future·A*List·컴퍼스·사람in 등) 병합
-- 특목고 부교재 36종(민사고 원서·AP English·Norton·Vocabulary Workshop·Critical Reader 등) 병합
-- 시리즈 폭파: 62시리즈 → +204권(권별 CEFR/단어수 코멘트, 실출판사) — Reading Future, Smart Reading, What's Reading, e-future Classic Readers, Vivid Reading 등
-- 코멘트 enrich: **40종 적용 완료**(고유 "설명+이럴경우" 형식)
-- 정렬(한글 가나다·영어 ABC), 케미(궁합) 2D+3D, 나이 라벨 제거
+> 로컬: `C:\Users\이인혁\Downloads\교재\` · 빌드 `cd tools && node build_app.js`
+> repo: https://github.com/inheok1103-alt/english-textbook-system (공개)
+> 라이브: https://inheok1103-alt.github.io/english-textbook-system/ (push 시 자동배포 / 매일 cron 자동갱신)
+> 계정: gh CLI 인증됨(inheok1103-alt). gh 경로: `C:\Program Files\GitHub CLI\gh.exe`
 
-## 앱 기능 (index.html)
-- **설계 모드**: 644+ DB(4대영역/난이도/상황/학년 탭+검색) → 3단계×4분기 파이프라인 배치
-- **교재 추천**(독립 섹션): 현재 교재 선택 → 정답률 구간별(80%+심화/60%체화/40%↓보강) 추천. CEFR·케미·시리즈연계·4대영역밸런스·교육학이론(i+1/ZPD) 종합. "담기"→설계모드 전환 후 원하는 슬롯 탭
-- **3D 인지 매핑**: y=난이도, 케미 색상 연결선, 병목 진동
-- 어휘 자동 처방, 커리 공유/저장/불러오기, 실시간 대시보드(Apps Script 연동 시)
+## 완료
+- 교재 **4,262종**(KOBIC 병합·절판·목차·표지) + master_index(랭킹매칭)
+- 설계 **그리드**(X=시간 Y=영역, 셀추천·목표시작·균형채우기·예쁜출력·메타 학교/반/학생)
+- **시간단위** year=12(가장 상세)·quarter=12·month=6 (TIME_UNITS) — 큰 단위가 더 상세하게 수정함
+- **나이대 탭/필터**(유아~성인) · 케미 v2 · A/B/C 평가 · 랭킹 대시보드 · 3D(라벨/영역축)
+- **내신 스케줄러**(헤더 "내신대비"): 중등7/고등10단계, 역산일정, 달력 출력/PDF, 학교/학생명
+- GAS 백엔드(backend_unified.gs, 미배포) · GitHub Actions(deploy-pages + refresh-catalog cron)
 
-## ⏳ 남은 작업 (세션 한도 8:40pm KST 리셋 후 재개 — AI 워크플로 필요)
+## 세션2 추가완료(코드, 재빌드시 반영)
+- 목표 재설계(내신제외·학년독립 10종)+학년선택기 / 상황·약점 탭 분리 / 성인 재분류(토익토플 등, build_app isAdultTitle) / 나이대 탭 / 시간단위(년차=12 최다)
+- 내신 스케줄러: 단계 직접편집(nsSteps) + 간격복습·인출연습 자동배치(교육학 근거)
+- 학부모 온보딩/도움말(showHelp, ? 버튼) / 크레딧 "이인혁 (Ray T)" 헤더+출력물
+- **PDF출력·저장·내신출력 시 자동 누적**(accumulateUsage/accumulateNaesin)
+- ★**불특정다수 대비 deviceId 중복제거**: 클라 deviceId()(localStorage) → 제출 포함. GAS popular_/popularPairs_/popularCurricula_/buildRatings_ 가 (deviceId,uid) 기준 1회만 카운트(교재당 기기당 1번). HEADERS/RATING_HEADERS에 deviceId 추가.
+- 교육학 리서치 완료(SLA i+1·ZPD·DeKeyser / CEFR-Lexile concordance / 간격반복·인출연습·인지부하 — 종합 agent는 세션한도로 일부 실패, 핵심 raw는 task 출력파일에).
 
-### 1. 교재별 심층 DB (최우선 — 사용자 핵심 요청)
-교재마다: 난이도(근거)·요구수준(선행)·교재특징·목차·구성방식·교재의도·강점·같이하면좋을교재.
-- 방식: deep-analysis 워크플로(영어 879종 pipeline, per-book 웹리서치 → book_profiles.json)
-- 페어링("같이하면 좋을 교재")은 앱에서 레벨/CEFR/케미/4대영역으로 산출
-- 앱에 **교재 상세 패널** 추가(클릭 시 전체 프로필)
+## ⏳ 남은 백로그 (병합 후) — PC 종료 안 함(취소됨)
+0. **광역 병합 진행중**(background, 12,929후보 → 현재 5,062종, ~6천 신규 예상, 1~2시간). 완료까지 KOBIC 재수집/재빌드 보류(충돌·레이스).
+0b. **성능**: 카탈로그 1만종 되면 index.html 과대 → build_app가 MASTER_DATA를 외부 `books.js`(window.__BOOKS__)로 분리(`<script src>`는 file://도 작동) 권장. app_base의 `const MASTER_DATA=__MASTER_DATA__`/`__TABS__`를 window 글로벌로 바꾸고 build_app가 books.js 출력.
 
-### 2. 나머지 코멘트 enrich (~290종)
-- enrich-remaining 워크플로 366개 중 ~40개만 성공(한도 초과). 나머지 재실행.
-- 형식: "간단 설명 + 이럴 경우 이 교재" / 시리즈는 권별로 다르게.
+## ⏳ 기존 백로그 (사용자 최근 요청 — 우선순위)
+1. **표지 정확도(최우선, 3회 강조)**: 책↔이미지 불일치 多 → KOBIC ISBN 정품표지로 교체.
+   - 스크립트 준비됨: `node tools/recollect_kobic_covers.js` (비KOBIC표지 책을 KOBIC 제목매칭→ISBN→상세표지로 교체, 게이트로 오매칭 방지). **실행 필요.**
+2. **광역 KOBIC harvest 진행중**(background b7emfl1u4, 전 출판사 NOPUBFILTER, ~9,300+ 후보) → 완료시 `node tools/harvest_kobic_merge.js` 병합.
+3. **"영어 관련 다 넣기"** + **전공 섹션**(영문학·영어학·언어학·영어교육·통번역·영어회화 전공) → KOBIC 전공 키워드 harvest + category="전공" 부여, 앱 track 표시.
+4. **목표 재설계**: 내신은 빼고(내신스케줄러로 분리됨), 더 상세하게(수능은 고3아닌 초등도 가능 → 학년독립). GOALS 재구성 + **초/중/고/성인 학년 선택기**(목표×학년 → 추천). 현 GOALS=app_base의 const GOALS.
+5. **상황 / 약점 분리**: 현재 "상황/약점" 단일탭(target=situations) → situation/weakness 2탭. build_app TABS + renderDB 필터, 책 situations/weaknesses 둘다 보유(555/724).
+6. **성인 보강**: 토익/토플/텝스/공무원/오픽/비즈니스 → gradeBand 성인 재분류(현재 일부 고등 오분류). 성인 204종.
+7. **내신 단계 편집 가능**: 단계 템플릿을 선택/직접입력 수정.
+8. **UI/UX 정교화 + 친절한 설명/온보딩** + **PC/모바일 반응형** 재점검 + **콘텐츠 검수**(목표 일치).
+9. 슬래시 묶음항목 79개 분리/정리.
+10. 모든 데이터작업 후 **재빌드 + git push**(라이브 갱신).
 
-### 3. 표지 중복 수정 — 부분완료 (2026-06-21)
-- **완료**: 서로 무관한 책이 같은 회색 플레이스홀더를 공유하던 오류군 **59종 → 고유 SVG 타이틀카드** 전환(`tools/cards_for_placeholders.js`). 앱에 `makeCoverCard()` 추가(네트워크 불필요, 책마다 id시드 그라데이션+제목+출판사).
-- **현재**: 실표지 806/879, SVG카드 73종. 남은 **단일시리즈 중복 73그룹(167종)** = 같은 시리즈 권별로 한 표지 공유(올바른 시리즈, 권만 부정확).
-- **차단 이슈**: YES24가 대량요청으로 이 IP를 일시 throttle(검색어 무시·일반추천 반환, ORD_GOODS_OPT 0). 알라딘은 한글 ELT 교재 스코어링 신뢰불가(오매칭)로 폐기.
-- **남은 처리(차단 해제 후)**: `tools/recollect_series_v2.js`(YES24, EUC-KR, 권번호 점수, 그룹내 goods중복 배제, 차단감지 백오프) 실행 → 167종 권별 실표지. 차단 전 라이브테스트에서 권별 정확매칭 확인(vol1→8727611, vol3→8637468).
-- 대안: 167종도 SVG카드화하면 즉시 distinct+정확(단 실표지 손실).
-- 점검: covers/ md5 해시 그룹핑(영어교재 한정).
+## 파이프라인(tools/)
+- build_app.js(★빌드, ageBandOf·TABS) / harvest_kobic.js(KOBIC_NOPUBFILTER=1·KOBIC_TERMS="a|b"·KOBIC_MAXPAGES) + harvest_kobic_merge.js(상세·절판·목차·정식제목 setItem)
+- recollect_kobic_covers.js(표지 정합 재수집) / recollect_kyobo.js / cards_for_placeholders.js / export_master_index.js
+- backend_unified.gs(GAS) / .github/workflows/{pages.yml, refresh-catalog.yml}
 
-## 파이프라인/하네스 (tools/)
-- `build_app.js` ★ 빌드(DB→index.html, CEFR/Lexile 추출, 가나다/ABC 정렬)
-- `expand_master.js` 누락보강+특목고+고난도어휘 / `add_elt.js` `add_special.js` 리서치 병합
-- `explode_enrich.js` 시리즈 폭파 / `apply_comments.js` 코멘트 적용
-- `clean_titles.js` 이상제목 정규화 / `collect_covers.js` 표지 수집(재개형, 교재/covers·data)
-- `curriculum_backend.gs` 공유/집계 백엔드(삼육중 패턴)
-- 리서치 산출: `data/_elt_research.json` `_special_research.json` `_enrich_research.json` `_enrich_remaining.json`
-
-## 재개 우선순위
-1) 표지 중복 수정(로컬, 지금도 가능) → 2) 나머지 코멘트 enrich(리셋 후) → 3) 교재별 심층 DB + 상세 패널(리셋 후)
+## 미배포 잔여(사용자 작업)
+- GAS: 구글시트+Apps Script에 backend_unified.gs → setupAll() → 웹앱배포 → /exec URL을 app_base의 window.GUIDE_ENDPOINT에 넣고 재빌드·푸시. master_index.csv를 master_index 시트에 붙여넣기. (선택) 정보나루 DATA4LIB_KEY.

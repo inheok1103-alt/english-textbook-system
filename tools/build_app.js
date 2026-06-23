@@ -75,7 +75,12 @@ function extractLexile(t) {
 }
 
 const sitCount = {};
+const weakCount = {};
 const skillSet = new Set();
+// 성인(시험/실용) 재분류 — 토익/토플/텝스/공무원/편입/비즈니스 등
+function isAdultTitle(m) { return /토익|toeic|토플|toefl|텝스|teps|오픽|opic|아이엘츠|ielts|공무원|편입|비즈니스|business|gre|gmat|\bsat\b|성인/i.test((m.title || "") + " " + (m.kobicCategory || "")); }
+function gradeBandAdj(m) { return isAdultTitle(m) ? "성인" : gradeBand(m); }
+function ageBandAdj(m) { return isAdultTitle(m) ? "성인(19+)" : ageBandOf(m); }
 // 영어 교재만 — 비영어(북트리거 인문/과학/문학 등) domain 제외
 const englishOnly = master.materials.filter((m) => m.domain === "영어");
 const MASTER_DATA = englishOnly.map((m) => {
@@ -85,6 +90,7 @@ const MASTER_DATA = englishOnly.map((m) => {
   const skill = normSkill(m.skill);
   skillSet.add(skill);
   (m.situations || []).forEach((s) => { sitCount[s] = (sitCount[s] || 0) + 1; });
+  (m.weaknesses || []).forEach((s) => { weakCount[s] = (weakCount[s] || 0) + 1; });
   return {
     id: uid,
     pub: m.publisher || "",
@@ -92,16 +98,18 @@ const MASTER_DATA = englishOnly.map((m) => {
     skill,
     level: toLevel(m.tftNums),
     tags: (m.situations || []).slice(0, 3).map((s) => "#" + s),
+    situations: m.situations || [],
+    weaknesses: m.weaknesses || [],
     cover: hasCover ? `covers/${uid}.jpg` : "",
     age: m.ageLabel || "",
     comment: shortComment(m.pickComment),
     fullComment: m.pickComment || "",
     part: m.part || "",
     track: m.category || m.kobicCategory || "",   // 특목고 해외 부교재 / 고난도·시험 어휘 / KOBIC 분류
-    gradeBand: gradeBand(m),
+    gradeBand: gradeBandAdj(m),
     cefr: extractCefr(m.pickComment || ""),
     lexile: extractLexile(m.pickComment || ""),
-    ageBand: ageBandOf(m),                          // 세분 나이대
+    ageBand: ageBandAdj(m),                          // 세분 나이대
     status: m.status || "정상",                    // 정상 / 절판
     isbn: m.isbn || "",
     toc: m.toc || "",                               // 목차(심층 DB)
@@ -115,12 +123,14 @@ const MASTER_DATA = englishOnly.map((m) => {
 const SKILL_ORDER = ["듣기", "말하기", "독해", "쓰기", "문법", "구문", "어휘", "파닉스", "모의/기출"];
 const skills = Array.from(skillSet);
 const orderedSkills = SKILL_ORDER.filter((s) => skillSet.has(s)).concat(skills.filter((s) => !SKILL_ORDER.includes(s)).sort());
-const topSit = Object.entries(sitCount).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([s]) => "#" + s);
+const topSit = Object.entries(sitCount).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([s]) => "#" + s);
+const topWeak = Object.entries(weakCount).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([s]) => "#" + s);
 
 const TABS = {
   skill: ["전체"].concat(orderedSkills),
   level: ["전체", "1단계(입문)", "2단계(기초)", "3단계(기본)", "4단계(실력)", "5단계(실전)"],
-  target: ["전체"].concat(topSit),
+  situation: ["전체"].concat(topSit),
+  weakness: ["전체"].concat(topWeak),
   grade: ["전체", "유아/예비초", "초등", "중등", "고등", "성인"],
   age: ["전체", "유아(5-7)", "초등저(8-10)", "초등고(11-13)", "중등(13-16)", "고등(16-19)", "성인(19+)"],
 };
@@ -133,9 +143,9 @@ MASTER_DATA.sort((a, b) => {
   return String(a.title || "").localeCompare(String(b.title || ""), ga === 0 ? "ko" : "en");
 });
 
-let out = fs.readFileSync(BASE, "utf8");
-out = out.replace("__MASTER_DATA__", JSON.stringify(MASTER_DATA));
-out = out.replace("__TABS__", JSON.stringify(TABS));
+// 데이터는 외부 books.js로 분리 → index.html 경량화·모바일 캐시
+const out = fs.readFileSync(BASE, "utf8");
+fs.writeFileSync(path.join(ROOT, "books.js"), `window.__BOOKS__=${JSON.stringify(MASTER_DATA)};\nwindow.__TABS__=${JSON.stringify(TABS)};\n`, "utf8");
 fs.writeFileSync(OUT, out, "utf8");
 
 // 참고용 데이터 산출
