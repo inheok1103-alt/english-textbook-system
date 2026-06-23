@@ -23,16 +23,34 @@ jobs:
         with:
           node-version: '20'
 
-      - name: KOBIC 신간 발굴 (영어교재 후보)
+      - name: KOBIC 신간 발굴 (학습 교재)
         run: node tools/harvest_kobic.js
         env:
           KOBIC_MAXPAGES: '8'   # 신간 갱신은 얕게(최근분 위주)
 
-      - name: 신규 교재 병합 (기존 ISBN 건너뜀)
+      - name: 신규 학습교재 병합 (기존 ISBN 건너뜀)
         run: node tools/harvest_kobic_merge.js
 
-      - name: 표지 보강 (없는 것만)
+      - name: 전공 교재 발굴 (대학·영어학/영문학/언어학/통번역/영어교육)
+        run: node tools/harvest_kobic.js
+        env:
+          KOBIC_NOPUBFILTER: '1'   # 학술/대학 출판사 포함
+          KOBIC_MAXPAGES: '5'
+          KOBIC_TERMS: '영어학개론|영어학|영문학개론|영문학사|영미문학|영미소설|영미시|언어학개론|일반언어학|응용언어학|영어음성학|영어음운론|영어통사론|영어의미론|영어화용론|사회언어학|심리언어학|영어교육론|영어교수법|제2언어습득|통번역|번역학|영어사|코퍼스언어학|담화분석|TESOL|English Linguistics|English Literature'
+
+      - name: 전공 교재 병합
+        run: node tools/harvest_kobic_merge.js
+
+      - name: 책↔표지 상시 정합검수+자동교정 (ISBN 앵커, 회당 로테이션)
+        run: node tools/verify_covers.js --fix || true
+        env:
+          VERIFY_LIMIT: '600'   # 회당 상한 — 매 회차 다른 슬라이스로 전수 순환
+
+      - name: 표지 보강 (남은 결손만)
         run: node tools/collect_covers.js || true
+
+      - name: 랭킹 매칭 색인 갱신 (master_index.csv)
+        run: node tools/export_master_index.js
 
       - name: 앱 재빌드
         run: cd tools && node build_app.js

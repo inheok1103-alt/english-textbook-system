@@ -36,8 +36,11 @@ for (const m of master.materials) {
 for (const [uid, v] of Object.entries(imgMap)) { if (v && v.isbn) existISBN.add(String(v.isbn)); }
 
 function cleanTitle(t) { return String(t || "").split("|")[0].replace(/\s+/g, " ").trim(); }
+const MAJOR_RE = /영어학|영문학|언어학|음성학|음운론|통사론|의미론|화용론|영어사|통번역|번역학|영어교육론|영어교과교육|응용언어학|영미문학|영미시|영미희곡|영미소설론|제2언어|이중언어|어휘론|형태론|담화분석|영어발달사|sociolinguistic|linguistic|phonetic|phonolog|syntax|semantic|pragmatic|morpholog|second language acquisition|\bsla\b/i;
+function isMajorText(title, cat, kdc) { return MAJOR_RE.test((title + " " + cat + " " + (kdc || "")).toLowerCase()); }
 function classifySkill(title, cat) {
   const s = (title + " " + cat).toLowerCase();
+  if (isMajorText(title, cat)) return "전공";
   if (/파닉스|phonics/.test(s)) return "파닉스";
   if (/문법|grammar|그래머/.test(s)) return "문법";
   if (/구문|syntax|구조독해/.test(s)) return "구문";
@@ -51,6 +54,7 @@ function classifySkill(title, cat) {
 }
 function gradeInfo(title, cat) {
   const s = (title + " " + cat).toLowerCase();
+  if (isMajorText(title, cat)) return { grade: "대학", ageMin: 20, lv: 5 };
   if (/유아|예비초|preschool|kinder/.test(s)) return { grade: "유아", ageMin: 6, lv: 1 };
   if (/초등|초[1-6]|elementary|초\b/.test(s)) return { grade: "초등", ageMin: 9, lv: 2 };
   if (/중학|중[1-3]|middle|중등/.test(s)) return { grade: "중등", ageMin: 13, lv: 3 };
@@ -79,9 +83,10 @@ async function getDetail(isbn) {
 }
 function isEnglish(d, title) {
   const s = (d.cat + " " + d.kdc + " " + title).toLowerCase();
-  if (/\b740\b|영어|english|외국어/.test(s)) return true;                 // 분류/KDC 우선
+  if (/\b740\b|\b840\b|영어|english|외국어/.test(s)) return true;          // 분류/KDC 우선(740 영어, 840 영미문학)
   // 제목 영어학습 키워드(분류 추출 실패 대비). 단 비영어 학습서 오인 방지 위해 영역 키워드 한정
   if (/영문법|영단어|영작|영어회화|영어듣기|영어독해|영어쓰기|리딩|reading|grammar|그래머|phonics|파닉스|보카|voca|토익|toeic|토플|toefl|텝스|teps|리스닝|listening|스피킹|speaking|라이팅|writing/.test(s)) return true;
+  if (isMajorText(title, d.cat, d.kdc)) return true;                      // 영어 전공(영어학/영문학/언어학/통번역/영어교육)
   return false;
 }
 async function downloadCover(url, uid) {

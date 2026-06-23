@@ -38,11 +38,14 @@ function passesGate(mTitle, candTitle) {
 }
 async function getText(u) { const r = await fetch(u, { headers: UA }); if (!r.ok) throw new Error("HTTP " + r.status); return dec(Buffer.from(await r.arrayBuffer())); }
 function parseKobic(htmlStr) {
+  // 2026 KOBIC 마크업: <li class="list-item" isbn=".." bookIdx="..">…<div class="book-name"><a>제목</a>…<img src="/bookImage/..">
   const out = [], seen = new Set();
-  const re = /<input\b[^>]*\bdata-bid="(\d{10,13})"[^>]*>/g; let m;
-  while ((m = re.exec(htmlStr))) { const tag = m[0], bid = m[1]; if (seen.has(bid)) continue; seen.add(bid);
-    const nm = tag.match(/data-name="([^"]*)"/), cd = tag.match(/data-code="([^"]*)"/);
-    out.push({ isbn: bid, title: ent(nm ? nm[1] : ""), code: cd ? cd[1] : "" }); }
+  const re = /<li class="list-item"\s+isbn="(\d{10,13})"\s+bookIdx="(\d+)">([\s\S]*?)<\/li>/gi; let m;
+  while ((m = re.exec(htmlStr))) { const isbn = m[1], inner = m[3]; if (seen.has(isbn)) continue; seen.add(isbn);
+    let title = strip((inner.match(/class="book-name">[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>/) || [])[1]);
+    if (!title) title = strip((inner.match(/<a[^>]*>([\s\S]*?)<\/a>/) || [])[1]);
+    const cv = (inner.match(/<img[^>]+src="(\/bookImage\/book\/coverImg\/[^"]+)"/) || [])[1];
+    out.push({ isbn, title: ent(title), code: "", cover: cv ? ("https://www.kobic.net" + cv) : "" }); }
   return out.filter((x) => x.title);
 }
 function score(m, c, wantVol) {
@@ -95,7 +98,9 @@ async function download(url, uid) {
     let done = false;
     for (const cand of sorted) {
       try {
-        const cov = await detailCover(cand.isbn); if (!cov) { await sleep(SLEEP); continue; }
+        let cov = cand.cover;                                  // 리스트에 표지URL 직접 포함(상세페이지 불필요)
+        if (!cov) { cov = await detailCover(cand.isbn); await sleep(SLEEP); }
+        if (!cov) continue;
         const dl = await download(cov, uid); if (!dl) continue;
         if (claimedHash.has(dl.md5)) continue;   // 다른 책이 이미 쓴 표지 → 다음 후보(중복 방지)
         claimedHash.add(dl.md5);
