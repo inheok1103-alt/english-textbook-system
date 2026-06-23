@@ -592,10 +592,12 @@
             const sel = state.selectedBookId ? byId(state.selectedBookId) : null;
             const selRow = sel ? rowOf(sel.skill) : null;
             const phaseColors = {1:'text-brand', 2:'text-accent', 3:'text-purple-400'};
-            const gcols = `grid-template-columns: 58px repeat(${GRID_COLS}, minmax(54px,1fr)); gap:3px;`;
+            const gcols = `grid-template-columns: 42px repeat(${GRID_COLS}, minmax(0,1fr)); gap:2px;`;   // 화면폭에 꽉 차게(한눈에)
 
-            let header = `<div class="grid" style="${gcols}"><div class="text-[9px] text-slate-500 flex items-end pb-1">영역＼분기</div>`;
-            for(let c=0;c<GRID_COLS;c++){ const m=colMeta(c); header += `<div class="text-center ${m.quarter===1?'border-l border-slate-700':''}">${m.quarter===1?`<div class="text-[8px] ${phaseColors[m.phase]} font-bold">${m.phase}단계</div>`:'<div class="h-3"></div>'}<div class="text-[8px] text-slate-500">${m.quarter}Q</div></div>`; }
+            const isPhaseStart=(c)=> c===0 || colMeta(c-1).phase!==colMeta(c).phase;
+            const tLabel=(c)=> TIME_UNIT==='year'?(c+1)+'년':TIME_UNIT==='month'?(c+1)+'월':((c%4)+1)+'Q';
+            let header = `<div class="grid" style="${gcols}"><div class="text-[9px] text-slate-500 flex items-end pb-1">영역</div>`;
+            for(let c=0;c<GRID_COLS;c++){ const m=colMeta(c), ps=isPhaseStart(c); header += `<div class="text-center ${ps?'border-l border-slate-700':''}">${ps?`<div class="text-[8px] ${phaseColors[m.phase]} font-bold truncate">${m.phase}단계</div>`:'<div class="h-3"></div>'}<div class="text-[8px] text-slate-500">${tLabel(c)}</div></div>`; }
             header += `</div>`;
 
             let rowsHtml = '';
@@ -604,7 +606,7 @@
                 const empty = gridRowSeq(skill).length===0;
                 let cells = `<div class="grid items-stretch" style="${gcols}"><div class="flex flex-col justify-center"><span class="text-[11px] font-bold ${core?'text-white':'text-slate-400'}">${skill}</span>${core?'<span class="text-[7px] text-brand">4대영역</span>':''}${empty?'<span class="text-[7px] text-warn">미배치</span>':''}</div>`;
                 for(let c=0;c<GRID_COLS;c++){
-                    const uid = state.grid[skill][c]; const m=colMeta(c); const bl = m.quarter===1?'border-l border-slate-700':'';
+                    const uid = state.grid[skill][c]; const m=colMeta(c); const bl = isPhaseStart(c)?'border-l border-slate-700':'';
                     if(uid){
                         const b=byId(uid); const chem=chemMap[skill+':'+c];
                         cells += `<div class="relative group rounded border border-slate-600 bg-card overflow-hidden ${bl}" style="min-height:60px">
@@ -622,7 +624,7 @@
                 rowsHtml += `<div class="${skill==='문법'?'mt-1.5 pt-1.5 border-t border-slate-700':''}">${cells}</div>`;
             });
 
-            container.innerHTML = `<div class="overflow-x-auto hide-scrollbar"><div style="min-width:720px">${header}<div class="space-y-1 mt-1">${rowsHtml}</div></div></div>`;
+            container.innerHTML = `<div class="overflow-x-auto hide-scrollbar"><div style="min-width:${GRID_COLS>8?(GRID_COLS*52+42)+'px':'0'}">${header}<div class="space-y-1 mt-1">${rowsHtml}</div></div></div>`;
 
             let diag='흐름 양호', dc='bg-slate-800 text-brand border-brand/50';
             const missing=GRID_CORE.filter(s=>gridRowSeq(s).length===0);
