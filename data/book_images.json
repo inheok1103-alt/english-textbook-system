@@ -77960,6 +77960,756 @@
       "materialTitle": "영작문 123급 SPEED완성(무역영어)",
       "publisher": "서림문화사",
       "bytes": 30144
+    },
+    "IH-ENG-7670": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7670.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788974960414C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974960414",
+      "materialTitle": "영문 생의학 논문작성을 위한 영작문 사전",
+      "publisher": "중앙문화사",
+      "bytes": 30743
+    },
+    "IH-ENG-7671": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7671.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788955182835C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788955182835",
+      "materialTitle": "가장 쉬운 영작문",
+      "publisher": "랭기지플러스",
+      "bytes": 41564
+    },
+    "IH-ENG-7679": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7679.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788930038959C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788930038959",
+      "materialTitle": "이영작 리포트:1997 김대중 선거전략 보고서",
+      "publisher": "나남",
+      "bytes": 32056
+    },
+    "IH-ENG-7680": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7680.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788981791360C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788981791360",
+      "materialTitle": "영어회화를 위한 영작문",
+      "publisher": "학문사",
+      "bytes": 18995
+    },
+    "IH-ENG-7691": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7691.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788970418346C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788970418346",
+      "materialTitle": "깃털처럼 가벼운 e-메일 영작",
+      "publisher": "디자인하우스",
+      "bytes": 36126
+    },
+    "IH-ENG-7698": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7698.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788932310626C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788932310626",
+      "materialTitle": "TOEFL 영작문 별거 아니다 2",
+      "publisher": "현암사",
+      "bytes": 29201
+    },
+    "IH-ENG-7699": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7699.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788986167641C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788986167641",
+      "materialTitle": "CHARM TOEFL(영작문편)",
+      "publisher": "사회평론",
+      "bytes": 33937
+    },
+    "IH-ENG-7700": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7700.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788936305222C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788936305222",
+      "materialTitle": "인터넷으로 배우는 비즈니스 영작",
+      "publisher": "교문사",
+      "bytes": 43904
+    },
+    "IH-ENG-7701": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7701.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983991287C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788983991287",
+      "materialTitle": "유학 TWE 영작문",
+      "publisher": "영풍문고",
+      "bytes": 42857
+    },
+    "IH-ENG-7702": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7702.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788932310305C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788932310305",
+      "materialTitle": "TOEFL 영작문 별거 아니다 1(T:3포함)",
+      "publisher": "현암사",
+      "bytes": 30506
+    },
+    "IH-ENG-7709": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7709.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788988040119C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788988040119",
+      "materialTitle": "TOEIC.TOEFL로 풀어보는 영작문",
+      "publisher": "브레인하우스",
+      "bytes": 32956
+    },
+    "IH-ENG-7710": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7710.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788917246230C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788917246230",
+      "materialTitle": "슈퍼파워 비즈니스 영작문",
+      "publisher": "시사영어사",
+      "bytes": 31180
+    },
+    "IH-ENG-7725": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7725.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788932309071C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788932309071",
+      "materialTitle": "영어 길들이기(영작편)",
+      "publisher": "현암사",
+      "bytes": 41102
+    },
+    "IH-ENG-7745": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7745.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9788965916062C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965916062",
+      "materialTitle": "초등영어 쓰기독립 글쓰기 스타터 3단계",
+      "publisher": "휴먼어린이",
+      "bytes": 61036
+    },
+    "IH-ENG-7746": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7746.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9788965916055C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965916055",
+      "materialTitle": "초등영어 쓰기독립 문장 쓰기 2: 2단계",
+      "publisher": "휴먼어린이",
+      "bytes": 66433
+    },
+    "IH-ENG-7747": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7747.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9788965916048C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965916048",
+      "materialTitle": "초등영어 쓰기독립 문장 쓰기 1: 2단계",
+      "publisher": "휴먼어린이",
+      "bytes": 66433
+    },
+    "IH-ENG-7748": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7748.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791138380560C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138378727",
+      "materialTitle": "나의 하루 1줄 여행 영어 쓰기 수첩",
+      "publisher": "시대인",
+      "bytes": 63714
+    },
+    "IH-ENG-7749": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7749.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791198758750C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791198758750",
+      "materialTitle": "ABC 초등 영어쓰기",
+      "publisher": "국제어학연구소출판부",
+      "bytes": 92637
+    },
+    "IH-ENG-7750": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7750.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202304/9791138350778C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138350778",
+      "materialTitle": "나의 하루 1줄 영어 쓰기 수첩 [기초문장+중급문장] 세트",
+      "publisher": "시대인",
+      "bytes": 46656
+    },
+    "IH-ENG-7751": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7751.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791169191043C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791169191043",
+      "materialTitle": "영어 쓰기 교육론",
+      "publisher": "한국문화사",
+      "bytes": 48739
+    },
+    "IH-ENG-7752": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7752.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791161506951C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791161506951",
+      "materialTitle": "시원스쿨 초등 영어 쓰기",
+      "publisher": "시원초등스쿨",
+      "bytes": 51410
+    },
+    "IH-ENG-7753": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7753.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791141010591C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791141010591",
+      "materialTitle": "탁바위! 탁월함에 이르는 바른 연필잡기의 위대한 힘! TBW! 영어 쓰기편 영어 쓰기의 정석",
+      "publisher": "부크크(Bookk)",
+      "bytes": 43035
+    },
+    "IH-ENG-7754": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7754.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791165383251C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165383251",
+      "materialTitle": "반짝반짝 캐치! 티니핑 영어 쓰기 1",
+      "publisher": "아이휴먼",
+      "bytes": 64820
+    },
+    "IH-ENG-7755": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7755.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791165383268C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165383268",
+      "materialTitle": "반짝반짝 캐치! 티니핑 영어 쓰기 2",
+      "publisher": "아이휴먼",
+      "bytes": 65057
+    },
+    "IH-ENG-7757": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7757.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/8809644081701C001.jpg",
+      "source": "KOBIC",
+      "isbn": "8809644081701",
+      "materialTitle": "뽀로로 영어 쓰기100",
+      "publisher": "키즈아이콘",
+      "bytes": 31956
+    },
+    "IH-ENG-7758": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7758.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788988143810C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788988143810",
+      "materialTitle": "영어펜글씨교본",
+      "publisher": "은광사",
+      "bytes": 56913
+    },
+    "IH-ENG-7759": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7759.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788974534592C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974534592",
+      "materialTitle": "3단계 왕초보 영어 쓰기교본",
+      "publisher": "창",
+      "bytes": 56955
+    },
+    "IH-ENG-7760": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7760.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791164460038C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791164460038",
+      "materialTitle": "성경전서: 한글&영어쓰기 영성교재(아동,청소년용)",
+      "publisher": "가나북스",
+      "bytes": 66081
+    },
+    "IH-ENG-7761": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7761.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791164460021C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791164460021",
+      "materialTitle": "생활 속 종류 이름 한글&영어 쓰기 학습",
+      "publisher": "가나북스",
+      "bytes": 78065
+    },
+    "IH-ENG-7762": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7762.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125445869C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125445869",
+      "materialTitle": "나의 하루 1줄 영어 쓰기 수첩: 고급문장 100",
+      "publisher": "시대인",
+      "bytes": 40540
+    },
+    "IH-ENG-7763": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7763.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125445876C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125445876",
+      "materialTitle": "나의 하루 1줄 영어 쓰기 수첩: 중급문장 100",
+      "publisher": "시대인",
+      "bytes": 42382
+    },
+    "IH-ENG-7764": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7764.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125445883C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125445883",
+      "materialTitle": "나의 하루 1줄 영어 쓰기 수첩: 기초문장 100",
+      "publisher": "시대인",
+      "bytes": 44763
+    },
+    "IH-ENG-7765": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7765.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788949305257C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788949305257",
+      "materialTitle": "영어쓰기",
+      "publisher": "태을출판사",
+      "bytes": 69133
+    },
+    "IH-ENG-7766": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7766.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791127219659C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791127219659",
+      "materialTitle": "영어쓰기 & 말하기 기초",
+      "publisher": "부크크(Bookk)",
+      "bytes": 51060
+    },
+    "IH-ENG-7767": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7767.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791186217436C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791186217436",
+      "materialTitle": "진짜 공신들을 위한 영어 독후감 쓰기",
+      "publisher": "더디퍼런스",
+      "bytes": 81650
+    },
+    "IH-ENG-7768": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7768.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788965792376C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965792376",
+      "materialTitle": "우리 아이 첫 워크북 영어 쓰기노트",
+      "publisher": "은하수",
+      "bytes": 55122
+    },
+    "IH-ENG-7769": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7769.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788968171659C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968171659",
+      "materialTitle": "영어쓰기지도",
+      "publisher": "한국문화사",
+      "bytes": 23482
+    },
+    "IH-ENG-7770": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7770.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788949304489C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788949304489",
+      "materialTitle": "영어쓰기: 알파벳쓰기편",
+      "publisher": "태을출판사",
+      "bytes": 74727
+    },
+    "IH-ENG-7773": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7773.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788983968456C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788983968456",
+      "materialTitle": "영어 쓰기 지도법 연구",
+      "publisher": "신아사",
+      "bytes": 22950
+    },
+    "IH-ENG-7774": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7774.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791185044170C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791185044170",
+      "materialTitle": "어린이 영어 쓰기 수업(Writing with Children)",
+      "publisher": "천재인터내셔날",
+      "bytes": 25353
+    },
+    "IH-ENG-7777": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7777.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788925544717C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788925544717",
+      "materialTitle": "나 영어 쓰기 책이야",
+      "publisher": "두앤비컨텐츠",
+      "bytes": 84505
+    },
+    "IH-ENG-7778": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7778.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788963241111C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788963241111",
+      "materialTitle": "한국의 이공계는 영어쓰기가 두렵다",
+      "publisher": "북코리아",
+      "bytes": 93969
+    },
+    "IH-ENG-7779": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7779.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788985322263C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788985322263",
+      "materialTitle": "초보자를 위한 영어 쓰기",
+      "publisher": "한국데이타",
+      "bytes": 21221
+    },
+    "IH-ENG-7780": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7780.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788957267479C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788957267479",
+      "materialTitle": "ENGLISH WRITING RECIPE(영어쓰기 길라잡이)",
+      "publisher": "한국문화사",
+      "bytes": 19435
+    },
+    "IH-ENG-7781": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7781.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788920002144C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788920002144",
+      "materialTitle": "다채롭고 유연한 영어 쓰기",
+      "publisher": "지식의날개",
+      "bytes": 37462
+    },
+    "IH-ENG-7782": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7782.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788992836838C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788992836838",
+      "materialTitle": "나의 첫번째 영어쓰기 노트: 고급편(English Writing)",
+      "publisher": "로고스북스",
+      "bytes": 32147
+    },
+    "IH-ENG-7783": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7783.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788957267158C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788957267158",
+      "materialTitle": "영어 쓰기 교육론 원리와 적용",
+      "publisher": "한국문화사",
+      "bytes": 20719
+    },
+    "IH-ENG-7784": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7784.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788920929762C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788920929762",
+      "materialTitle": "탄탄하고 명확한 영어 쓰기",
+      "publisher": "지식의날개",
+      "bytes": 34085
+    },
+    "IH-ENG-7785": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7785.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788992836708C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788992836708",
+      "materialTitle": "ENGLISH WRITING INTRO: 나의 첫번째 영어쓰기노트",
+      "publisher": "로고스북스",
+      "bytes": 24524
+    },
+    "IH-ENG-7786": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7786.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788920928314C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788920928314",
+      "materialTitle": "간결하고 힘찬 영어 쓰기",
+      "publisher": "지식의날개",
+      "bytes": 67848
+    },
+    "IH-ENG-7787": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7787.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788936616847C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788936616847",
+      "materialTitle": "기초영어 쉬운영어쓰기",
+      "publisher": "일신서적출판사",
+      "bytes": 212466
+    },
+    "IH-ENG-7788": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7788.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788971422137C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788971422137",
+      "materialTitle": "예쁜 영어쓰기",
+      "publisher": "시간과공간사",
+      "bytes": 27033
+    },
+    "IH-ENG-7789": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7789.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/024/966/02496630.jpg?udate=20141122",
+      "source": "KOBIC",
+      "isbn": "9788957263853",
+      "materialTitle": "영어 쓰기 교육의 이해",
+      "publisher": "한국문화사",
+      "bytes": 17361
+    },
+    "IH-ENG-7790": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7790.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788959110223C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959110223",
+      "materialTitle": "비즈니스 영어 쓰기(실전 자신감)",
+      "publisher": "국제어학연구소",
+      "bytes": 51231
+    },
+    "IH-ENG-7791": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7791.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983758590C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788983758590",
+      "materialTitle": "비즈니스 영어쓰기 딱 3주만 연습해보세요(CASSETTE TAPE 1개포함)",
+      "publisher": "중앙M&B",
+      "bytes": 40864
+    },
+    "IH-ENG-7792": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7792.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788979234336C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788979234336",
+      "materialTitle": "ABC 알파벳에서 문장까지 영어쓰기",
+      "publisher": "글동산",
+      "bytes": 51821
+    },
+    "IH-ENG-7793": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7793.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788939509436C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788939509436",
+      "materialTitle": "영어쓰기카드",
+      "publisher": "대교출판",
+      "bytes": 22896
+    },
+    "IH-ENG-7795": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7795.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791176040181C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176040181",
+      "materialTitle": "중학 영어 1학년 2학기 내신 대비 Grammar(중간/기말)(YBM 박준언)(2027)",
+      "publisher": "",
+      "bytes": 28569
+    },
+    "IH-ENG-7796": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7796.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791176040150C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176040150",
+      "materialTitle": "중학 영어 1-2 내신 대비 Grammar(중간/기말)(NE능률 김기택)(2026)",
+      "publisher": "",
+      "bytes": 30142
+    },
+    "IH-ENG-7797": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7797.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791176090452C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176090452",
+      "materialTitle": "100발 100중 최종점검 중학 영어 2-2 전과정 기출문제집(동아 윤정미)(2026)",
+      "publisher": "",
+      "bytes": 37787
+    },
+    "IH-ENG-7798": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7798.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103109C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103109",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 천재 이상기 (2026년)",
+      "publisher": "",
+      "bytes": 108112
+    },
+    "IH-ENG-7799": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7799.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103093C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103093",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 천재 소영순 (2026년)",
+      "publisher": "",
+      "bytes": 108248
+    },
+    "IH-ENG-7800": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7800.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103048C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103048",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 동아 이병민 (2026년)",
+      "publisher": "",
+      "bytes": 108156
+    },
+    "IH-ENG-7801": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7801.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103079C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103079",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 지학 송미정 (2026년)",
+      "publisher": "",
+      "bytes": 108204
+    },
+    "IH-ENG-7802": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7802.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103062C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103062",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 비상 황종배 (2026년)",
+      "publisher": "",
+      "bytes": 108378
+    },
+    "IH-ENG-7803": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7803.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103055C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103055",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 미래엔 문영인 (2026년)",
+      "publisher": "",
+      "bytes": 108690
+    },
+    "IH-ENG-7804": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7804.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103031C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103031",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 동아 윤정미 (2026년)",
+      "publisher": "",
+      "bytes": 108157
+    },
+    "IH-ENG-7805": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7805.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103086C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103086",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 능률 김기택 (2026년)",
+      "publisher": "",
+      "bytes": 99435
+    },
+    "IH-ENG-7806": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7806.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103123C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103123",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 YBM 김은형 (2026년)",
+      "publisher": "",
+      "bytes": 99784
+    },
+    "IH-ENG-7807": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7807.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174103116C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174103116",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중1 YBM 박준언 (2026년)",
+      "publisher": "",
+      "bytes": 99749
+    },
+    "IH-ENG-7808": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7808.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791176040266C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176040266",
+      "materialTitle": "중학 영어 2-2 내신 대비 Grammar(중간/기말)(미래엔 문영인)(2026)",
+      "publisher": "SLA영어북스토어",
+      "bytes": 26999
+    },
+    "IH-ENG-7809": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7809.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791176040556C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176040556",
+      "materialTitle": "중학 영어 2-2 실전모의고사 Grammar(중간/기말)(동아 윤정미)(2026)",
+      "publisher": "SLA영어북스토어",
+      "bytes": 53788
+    },
+    "IH-ENG-7810": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7810.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102577C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102577",
+      "materialTitle": "내신콘서트 중학 영어 기출문제집 3-2 전과정 통합본(중간 기말)(YBM 박준언)(2026)",
+      "publisher": "에듀플라자",
+      "bytes": 43885
+    },
+    "IH-ENG-7811": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7811.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102805C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102805",
+      "materialTitle": "내신콘서트 중학 영어 기출문제집 1-2 전과정 통합본(중간 기말)(YBM 김은형)(2026)",
+      "publisher": "에듀플라자",
+      "bytes": 56867
+    },
+    "IH-ENG-7812": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-7812.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102599C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102599",
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중3 지학 민찬규 (2026년)",
+      "publisher": "에듀플라자",
+      "bytes": 73907
     }
   }
 }
