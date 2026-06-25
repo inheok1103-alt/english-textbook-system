@@ -114,6 +114,7 @@ const MASTER_DATA = englishOnly.map((m) => {
     lexile: extractLexile(m.pickComment || ""),
     ageBand: ageBandAdj(m),                          // 세분 나이대
     status: m.status || "정상",                    // 정상 / 절판
+    foreign: !!m.foreign,                           // 원서(수입 ELT) 여부
     isbn: m.isbn || "",
     toc: m.toc || "",                               // 목차(심층 DB)
     kdc: m.kdc || "",

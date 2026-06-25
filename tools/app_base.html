@@ -109,6 +109,8 @@
                         <button data-sort="abc"     onclick="setSort('abc')"     class="sort-btn flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-bold border">가나다·ABC</button>
                         <button data-sort="popular" onclick="setSort('popular')" class="sort-btn flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-bold border">🔥 인기순</button>
                         <button data-sort="recent"  onclick="setSort('recent')"  class="sort-btn flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-bold border">🆕 최신순</button>
+                        <span class="w-px h-4 bg-slate-700 mx-0.5 flex-shrink-0"></span>
+                        <button id="foreignToggle" onclick="toggleForeign()" class="flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-bold border bg-slate-800 text-slate-300 border-slate-700">📖 원서만</button>
                     </div>
                 </div>
 
@@ -176,15 +178,18 @@
         <!-- 3D View (인지 매핑) -->
         <div id="view-3d" class="hidden absolute inset-0 bg-dark z-40 fade-in flex flex-col">
             <div class="absolute top-4 left-4 z-50 bg-slate-900/80 backdrop-blur border border-slate-700 p-4 rounded-xl max-w-sm pointer-events-none">
-                <h3 class="text-brand font-bold text-lg mb-1 flex items-center gap-2"><i data-lucide="brain"></i> 3D 인지 매핑 진단</h3>
-                <p class="text-xs text-slate-300 mb-3">y축(높이)은 난이도를 나타냅니다. 마우스/터치로 360도 회전해보세요.</p>
-                <div class="space-y-2 text-xs">
+                <h3 class="text-brand font-bold text-lg mb-1 flex items-center gap-2"><i data-lucide="brain"></i> 3D 커리큘럼 건강진단</h3>
+                <p class="text-xs text-slate-300 mb-3">X=시간 · <b>Y(높이)=난이도</b> · Z=영역. 회전하며 난이도 흐름을 보고, <b>구(球)를 클릭</b>하면 교재 상세가 열려요.</p>
+                <div class="space-y-1.5 text-xs">
                     <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-white"></span> 정상 흐름</div>
                     <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-red-500 shadow-[0_0_8px_red]"></span> 난이도 급상승 (과부하 위험)</div>
                     <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-warn shadow-[0_0_8px_orange]"></span> 난이도 역행</div>
                     <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full bg-accent animate-pulse"></span> 스킬 병목 (한 분기 내 중복)</div>
+                    <div class="flex items-center gap-2"><span class="w-3 h-3 rounded-full border-2 border-red-500"></span> 빈 4대영역</div>
                 </div>
             </div>
+            <!-- 진단 패널(텍스트) -->
+            <div id="diag3d" class="absolute bottom-3 left-3 right-3 sm:right-auto sm:max-w-md z-50 bg-slate-900/85 backdrop-blur border border-slate-700 rounded-xl p-3 max-h-[34vh] overflow-y-auto hide-scrollbar text-xs"></div>
             <div id="canvas-container" class="w-full h-full cursor-move"></div>
         </div>
 
@@ -192,11 +197,21 @@
         <div id="view-rec" class="hidden absolute inset-0 overflow-y-auto bg-dark z-30 fade-in hide-scrollbar">
           <div class="max-w-[1100px] mx-auto p-4">
             <div class="mb-4">
-              <h2 class="text-xl font-bold flex items-center gap-2"><i data-lucide="sparkles" class="text-brand"></i> 교재 추천 — 정답률 기반 다음 단계</h2>
-              <p class="text-xs text-slate-400 mt-1">방금 끝낸 교재와 정답률 구간을 기준으로, 4대영역(듣기·말하기·읽기·쓰기) 밸런스 · CEFR · 인지 흐름을 종합해 다음 교재를 단계별로 추천합니다.</p>
+              <h2 class="text-xl font-bold flex items-center gap-2"><i data-lucide="sparkles" class="text-brand"></i> 맞춤 교재 추천 — 학년·상황·약점 기반</h2>
+              <p class="text-xs text-slate-400 mt-1"><b class="text-brand">학년·상황·약점</b>만 고르면 <b>어디서 시작할지</b> 추천하고, <b class="text-accent">현재 교재</b>까지 고르면 <b>정답률 구간별 다음 단계</b>를 상황·학년 맞춤으로 추천합니다.</p>
             </div>
+            <!-- ① 맞춤 컨텍스트: 학년·상황·약점 -->
+            <div class="bg-panel border border-slate-700 rounded-xl p-3 mb-3">
+              <div class="text-xs font-bold text-slate-300 mb-2 flex items-center gap-1"><span class="bg-brand text-slate-900 rounded-full w-4 h-4 inline-flex items-center justify-center text-[10px] font-black">1</span> 누구에게 추천할까요? (학년·상황·약점)</div>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <select id="recGrade" onchange="onRecCtx()" class="bg-slate-900 border border-slate-600 rounded-lg py-2 px-2 text-sm focus:outline-none focus:border-brand"></select>
+                <select id="recSituation" onchange="onRecCtx()" class="bg-slate-900 border border-slate-600 rounded-lg py-2 px-2 text-sm focus:outline-none focus:border-brand"></select>
+                <select id="recWeakness" onchange="onRecCtx()" class="bg-slate-900 border border-slate-600 rounded-lg py-2 px-2 text-sm focus:outline-none focus:border-brand"></select>
+              </div>
+            </div>
+            <!-- ② 현재 교재(선택): 다음 단계 추천용 -->
             <div class="bg-panel border border-slate-700 rounded-xl p-3 mb-4">
-              <div class="text-xs font-bold text-slate-300 mb-2">현재(방금 푼) 교재 선택</div>
+              <div class="text-xs font-bold text-slate-300 mb-2 flex items-center gap-1"><span class="bg-accent text-slate-900 rounded-full w-4 h-4 inline-flex items-center justify-center text-[10px] font-black">2</span> 현재(방금 푼) 교재 — <span class="text-slate-400 font-normal">선택 안 하면 시작 교재를 추천해요</span></div>
               <input id="recSearch" onkeyup="renderRecPicker()" placeholder="교재명 또는 출판사 검색…" class="w-full bg-slate-900 border border-slate-600 rounded-lg py-2 px-3 text-sm mb-2 focus:outline-none focus:border-brand">
               <div id="recPicker" class="max-h-40 overflow-y-auto space-y-1 hide-scrollbar"></div>
               <div id="recCurrentCard" class="mt-2"></div>
@@ -358,6 +373,8 @@
             view: '2d',
             goal: '',
             sort: 'abc',          // 정렬 축: abc(가나다·ABC) / popular(인기순) / recent(최신순)
+            foreignOnly: false,   // 원서만 보기
+            recGrade: '', recSituation: '', recWeakness: '',   // 추천 컨텍스트(학년·상황·약점)
             grid: gridInit()
         };
 
@@ -498,6 +515,8 @@
 
         // ===== 정렬 축: 가나다·ABC(기본) / 인기순 / 최신순 =====
         function setSort(s){ state.sort = s; renderSortBar(); if(s==='popular') loadPopularity(); renderDB(); }
+        function toggleForeign(){ state.foreignOnly=!state.foreignOnly; const b=document.getElementById('foreignToggle');
+            if(b) b.className='flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-bold border '+(state.foreignOnly?'bg-indigo-500 text-white border-indigo-500 shadow':'bg-slate-800 text-slate-300 border-slate-700'); renderDB(); }
         function renderSortBar(){ document.querySelectorAll('#sortBar .sort-btn').forEach(b=>{ const on=b.dataset.sort===state.sort;
             b.className='sort-btn flex-shrink-0 px-2.5 py-1 rounded-full text-[11px] font-bold border '+(on?'bg-brand text-slate-900 border-brand shadow':'bg-slate-800 text-slate-300 border-slate-700 hover:border-slate-500'); }); }
         // 발행일 "2026년 01월 20일"/"2026-01" → 정렬키(YYYYMMDD)
@@ -582,6 +601,7 @@
                     else if(state.currentTab === 'grade') matchFilter = (b.gradeBand === state.filterVal);
                     else if(state.currentTab === 'age') matchFilter = (b.ageBand === state.filterVal);
                 }
+                if(state.foreignOnly && !b.foreign) return false;
                 return matchSearch && matchFilter;
             });
 
@@ -610,6 +630,7 @@
                                 <span class="text-[10px] bg-slate-800 text-slate-300 px-1.5 py-0.5 rounded">Lv.${b.level}</span>
                                 ${state.sort==='recent'&&b.pubDate?`<span class="text-[10px] bg-sky-500/20 text-sky-300 border border-sky-500/40 px-1.5 py-0.5 rounded">🆕 ${(String(b.pubDate).match(/\d{4}/)||[''])[0]}</span>`:''}
                                 ${state.sort==='popular'&&popKey(b)>0?`<span class="text-[10px] bg-orange-500/20 text-orange-300 border border-orange-500/40 px-1.5 py-0.5 rounded font-bold">🔥 ${popKey(b)}</span>`:''}
+                                ${b.foreign?`<span class="text-[10px] bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 px-1.5 py-0.5 rounded font-bold">📖 원서</span>`:''}
                                 ${b.status==='절판'?`<span class="text-[10px] bg-red-500/20 text-red-300 border border-red-500/40 px-1.5 py-0.5 rounded font-bold">절판</span>`:''}
                                 ${rg&&rg.count?`<span class="text-[10px] font-black px-1.5 py-0.5 rounded" style="background:${gradeColor(rg.grade)};color:#0b1220" title="커뮤니티 평균 ${rg.avg} · ${rg.count}명">${rg.grade}</span>`:''}
                                 ${trackHtml}${tagHtml}
@@ -1052,7 +1073,34 @@
             gridPlaced().forEach(({book})=>{ if(core[book.skill]!=null) core[book.skill]++; });
             return core;
         }
-        function recForBook(cur, band){
+        // ── 추천 컨텍스트(학년·상황·약점) ──
+        function recCtx(){ return { grade: state.recGrade||'', situation: state.recSituation||'', weakness: state.recWeakness||'' }; }
+        const _GRADE_ORD = ['유아/예비초','초등','중등','고등','성인','대학/전공'];
+        function gradeAdj(a,b){ const i=_GRADE_ORD.indexOf(a), j=_GRADE_ORD.indexOf(b); return (i<0||j<0)?9:Math.abs(i-j); }
+        // 상황·학년·약점 적합도(추천 공통 가중치)
+        function ctxScore(b, ctx){
+            let s=0; const why=[];
+            if(ctx.grade){ if(b.gradeBand===ctx.grade){ s+=42; why.push('학년 적합'); } else { const d=gradeAdj(b.gradeBand,ctx.grade); if(d===1) s+=8; else if(d>=2) s-=30; } }
+            if(ctx.situation){ if((b.situations||[]).includes(ctx.situation)){ s+=36; why.push('상황: '+ctx.situation); } }
+            if(ctx.weakness){ if((b.weaknesses||[]).includes(ctx.weakness)){ s+=30; why.push('약점: '+ctx.weakness); } }
+            return { s, why };
+        }
+        function recCard(b, why){ return `
+            <div class="bg-slate-800/60 border border-slate-700 rounded-lg p-2 mb-2">
+              <div class="flex gap-2">
+                <img src="${b.cover||'https://placehold.co/60x80/1e293b/64748b?text=BOOK'}" class="w-9 h-12 object-cover rounded flex-shrink-0" onerror="this.src='https://placehold.co/60x80/1e293b/64748b?text=BOOK'">
+                <div class="min-w-0 flex-1">
+                  <div class="text-[11px] font-bold text-white truncate" title="${b.title}">${b.title}</div>
+                  <div class="text-[10px] text-slate-400 truncate">${b.pub} · ${b.skill} · Lv${b.level}${b.gradeBand?(' · '+b.gradeBand):''}${b.cefr?(' · '+b.cefr):''}${b.foreign?' · 📖원서':''}</div>
+                  <div class="text-[10px] text-brand mt-0.5 truncate">${(why||[]).slice(0,3).join(' · ')||'적합'}</div>
+                </div>
+              </div>
+              ${b.comment?`<div class="text-[10px] text-slate-400 mt-1 leading-snug line-clamp-2">${b.comment}</div>`:''}
+              <button onclick="addToActive('${b.id}')" class="w-full mt-1.5 bg-slate-700 hover:bg-slate-600 text-[10px] font-bold py-1.5 rounded">파이프라인에 담기</button>
+            </div>`; }
+        // 다음 단계(정답률 구간별) — 현재 교재 기준 + 상황·학년 가중치
+        function recForBook(cur, band, ctx){
+            ctx=ctx||recCtx();
             const lvDelta={high:1, mid:0, low:-1}[band];
             const desired=Math.max(1,Math.min(5,(cur.level||3)+lvDelta));
             const cr=cefrRank(cur.cefr);
@@ -1068,39 +1116,60 @@
                 if(band==='low' && b.skill===cur.skill){ s+=18; why.push('약점영역 보강'); }
                 if(band==='high'){ const flow={'문법':'구문','구문':'독해','독해':'쓰기','어휘':'독해'}; if(flow[cur.skill]===b.skill){s+=14;why.push('다음 인지단계');} }
                 if(b.pub===cur.pub) s+=5;
+                const cs=ctxScore(b,ctx); s+=cs.s; cs.why.forEach(w=>why.push(w));   // 상황·학년·약점 가중치
                 return {b,s,why};
             }).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,3);
         }
-        function recCol(title, theory, css, cur, band){
-            const recs=recForBook(cur,band);
-            const cards=recs.map(x=>{const b=x.b; return `
-                <div class="bg-slate-800/60 border border-slate-700 rounded-lg p-2 mb-2">
-                  <div class="flex gap-2">
-                    <img src="${b.cover||'https://placehold.co/60x80/1e293b/64748b?text=BOOK'}" class="w-9 h-12 object-cover rounded flex-shrink-0" onerror="this.src='https://placehold.co/60x80/1e293b/64748b?text=BOOK'">
-                    <div class="min-w-0 flex-1">
-                      <div class="text-[11px] font-bold text-white truncate" title="${b.title}">${b.title}</div>
-                      <div class="text-[10px] text-slate-400 truncate">${b.pub} · ${b.skill} · Lv${b.level}${b.cefr?(' · '+b.cefr):''}</div>
-                      <div class="text-[10px] text-brand mt-0.5 truncate">${x.why.slice(0,2).join(' · ')||'궁합 양호'}</div>
-                    </div>
-                  </div>
-                  ${b.comment?`<div class="text-[10px] text-slate-400 mt-1 leading-snug line-clamp-2">${b.comment}</div>`:''}
-                  <button onclick="addToActive('${b.id}')" class="w-full mt-1.5 bg-slate-700 hover:bg-slate-600 text-[10px] font-bold py-1.5 rounded">파이프라인에 담기</button>
-                </div>`;}).join('') || '<div class="text-xs text-slate-500">추천 후보 없음</div>';
+        function recCol(title, theory, css, cur, band, ctx){
+            const cards=recForBook(cur,band,ctx).map(x=>recCard(x.b,x.why)).join('') || '<div class="text-xs text-slate-500">추천 후보 없음</div>';
             return `<div class="bg-panel border rounded-xl p-3" style="border-color:${css}55">
                 <div class="font-bold text-sm mb-1" style="color:${css}">${title}</div>
                 <div class="text-[10px] text-slate-400 mb-2 leading-snug">${theory}</div>${cards}</div>`;
         }
+        // 스타터 모드 — 현재 교재 없이 학년·상황·약점만으로 '시작 교재' 추천
+        function starterRec(ctx){
+            const startLv = {'유아/예비초':1,'초등':2,'중등':2,'고등':3,'성인':3,'대학/전공':4}[ctx.grade]||2;
+            return MASTER_DATA.map(b=>{
+                if(ctx.grade && b.gradeBand!==ctx.grade && gradeAdj(b.gradeBand,ctx.grade)>=2) return null;  // 학년 크게 벗어나면 제외
+                const cs=ctxScore(b,ctx); let s=cs.s; const why=cs.why.slice();
+                const ld=Math.abs((b.level||3)-startLv); s+=(ld===0?20:ld===1?10:ld===2?2:-8);
+                if(b.cover) s+=4; const rg=window.__ratingMap&&window.__ratingMap[b.id]; if(rg&&rg.count&&(rg.grade==='A'||rg.grade==='B')) s+=6;
+                if(b.status==='절판') s-=12;
+                return {b,s,why};
+            }).filter(x=>x&&x.s>0).sort((a,b)=>b.s-a.s).slice(0,9);
+        }
+        function _recOpts(arr, allLabel, strip){ return (arr||['전체']).map((v,i)=>{ const val=(i===0?'':(strip?String(v).replace(/^#/,''):v)); const lab=(i===0?allLabel:(strip?String(v).replace(/^#/,''):v)); return `<option value="${val}">${lab}</option>`; }).join(''); }
+        function renderRecSelectors(){
+            const g=document.getElementById('recGrade'), s=document.getElementById('recSituation'), w=document.getElementById('recWeakness'); if(!g) return;
+            if(!g.dataset.init){ g.innerHTML=_recOpts(TABS.grade,'🎓 학년 무관',false); g.dataset.init='1'; }
+            if(!s.dataset.init){ s.innerHTML=_recOpts(TABS.situation,'🧭 상황 무관',true); s.dataset.init='1'; }
+            if(!w.dataset.init){ w.innerHTML=_recOpts(TABS.weakness,'🩹 약점 무관',true); w.dataset.init='1'; }
+            g.value=state.recGrade; s.value=state.recSituation; w.value=state.recWeakness;
+        }
+        function onRecCtx(){ state.recGrade=document.getElementById('recGrade').value; state.recSituation=document.getElementById('recSituation').value; state.recWeakness=document.getElementById('recWeakness').value; renderRecView(); }
         function renderRecView(){
             const wrap=document.getElementById('recResults'); if(!wrap) return;
+            renderRecSelectors();
             const cur=state.recCurrent?byId(state.recCurrent):null;
+            const ctx=recCtx();
             const curCard=document.getElementById('recCurrentCard');
-            if(!cur){ if(curCard)curCard.innerHTML=''; wrap.innerHTML='<div class="text-center text-slate-500 py-10 text-sm">현재 교재를 검색·선택하면 정답률 구간별 추천이 표시됩니다.</div>'; return; }
-            if(curCard) curCard.innerHTML=`<div class="flex gap-2 items-center bg-slate-900 border border-brand/40 rounded-lg p-2"><img src="${cur.cover||''}" class="w-8 h-11 object-cover rounded" onerror="this.style.display='none'"><div class="min-w-0"><div class="text-sm font-bold text-white truncate">${cur.title}</div><div class="text-[11px] text-slate-400">${cur.pub} · ${cur.skill} · Lv${cur.level}${cur.cefr?(' · '+cur.cefr):''}</div></div></div>`;
-            wrap.innerHTML=`<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-                ${recCol('📈 80%+ · 심화','충분히 숙달 → i+1(크라센 i+1). 다음 CEFR/레벨로 도약','#10b981',cur,'high')}
-                ${recCol('➡️ 60~79% · 체화','이해는 됐으나 정착 필요 → 같은 단계 다지기·시리즈 다음 권(자동화)','#0ea5e9',cur,'mid')}
-                ${recCol('🔁 40%↓ · 보강','미흡 → 한 단계 낮춰 약점영역 재학습(ZPD 하향)','#f59e0b',cur,'low')}
-            </div>`;
+            if(cur){
+                if(curCard) curCard.innerHTML=`<div class="flex gap-2 items-center bg-slate-900 border border-brand/40 rounded-lg p-2"><img src="${cur.cover||''}" class="w-8 h-11 object-cover rounded" onerror="this.style.display='none'"><div class="min-w-0 flex-1"><div class="text-sm font-bold text-white truncate">${cur.title}</div><div class="text-[11px] text-slate-400">${cur.pub} · ${cur.skill} · Lv${cur.level}${cur.cefr?(' · '+cur.cefr):''}</div></div><button onclick="state.recCurrent=null;renderRecView()" class="text-[10px] text-slate-400 hover:text-white flex-shrink-0">✕ 해제</button></div>`;
+                const ctxLabel=[ctx.grade,ctx.situation&&('#'+ctx.situation),ctx.weakness&&('약점:'+ctx.weakness)].filter(Boolean).join(' · ');
+                wrap.innerHTML=(ctxLabel?`<div class="text-[11px] text-slate-400 mb-2">맞춤 조건 반영: <b class="text-brand">${ctxLabel}</b></div>`:'')+`<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                    ${recCol('📈 80%+ · 심화','충분히 숙달 → i+1(크라센 i+1). 다음 CEFR/레벨로 도약','#10b981',cur,'high',ctx)}
+                    ${recCol('➡️ 60~79% · 체화','이해는 됐으나 정착 필요 → 같은 단계 다지기·시리즈 다음 권(자동화)','#0ea5e9',cur,'mid',ctx)}
+                    ${recCol('🔁 40%↓ · 보강','미흡 → 한 단계 낮춰 약점영역 재학습(ZPD 하향)','#f59e0b',cur,'low',ctx)}
+                </div>`;
+            } else {
+                if(curCard) curCard.innerHTML='';
+                const hasCtx = ctx.grade||ctx.situation||ctx.weakness;
+                if(!hasCtx){ wrap.innerHTML='<div class="text-center text-slate-500 py-10 text-sm">위에서 <b class="text-brand">학년·상황·약점</b>을 고르면 <b>시작 교재</b>를, <b class="text-accent">현재 교재</b>까지 고르면 <b>정답률 구간별 다음 단계</b>를 추천합니다.</div>'; if(typeof lucide!=='undefined') lucide.createIcons(); return; }
+                const recs=starterRec(ctx);
+                const ctxLabel=[ctx.grade,ctx.situation&&('#'+ctx.situation),ctx.weakness&&('약점:'+ctx.weakness)].filter(Boolean).join(' · ');
+                wrap.innerHTML=`<div class="mb-2 text-sm font-bold text-white">🚀 시작 추천 <span class="text-[11px] text-brand font-normal">— ${ctxLabel}</span></div>`+
+                    `<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">${recs.map(x=>recCard(x.b,x.why)).join('')||'<div class="text-xs text-slate-500 col-span-full">조건에 맞는 시작 교재가 없습니다. 조건을 완화해보세요.</div>'}</div>`;
+            }
             if(typeof lucide!=='undefined') lucide.createIcons();
         }
 
@@ -1210,6 +1279,17 @@
             container.addEventListener('touchmove', e => { if(!isDragging) return; const dx = e.touches[0].clientX - prevX; camera.position.x -= dx*0.05; camera.lookAt(0,2,0); prevX = e.touches[0].clientX; }, {passive:true});
             container.addEventListener('touchend', () => isDragging=false);
             window.addEventListener('resize', resize3D);
+            // 노드(구) 클릭 → 교재 상세 (드래그-회전과 구분: 이동 거리 작을 때만)
+            const _ray=new THREE.Raycaster(), _m=new THREE.Vector2(); let _dx=0,_dy=0;
+            renderer.domElement.addEventListener('pointerdown', e=>{ _dx=e.clientX; _dy=e.clientY; });
+            renderer.domElement.addEventListener('pointerup', e=>{
+                if(Math.abs(e.clientX-_dx)+Math.abs(e.clientY-_dy) > 6) return;
+                const r=renderer.domElement.getBoundingClientRect();
+                _m.x=((e.clientX-r.left)/r.width)*2-1; _m.y=-((e.clientY-r.top)/r.height)*2+1;
+                _ray.setFromCamera(_m,camera);
+                const hit=_ray.intersectObjects(nodes.filter(n=>n.userData&&n.userData.bookId));
+                if(hit.length){ const id=hit[0].object.userData.bookId; if(id&&typeof showBookDetail==='function') showBookDetail(id); }
+            });
             animate3D();
         }
         function resize3D() { if(!renderer) return; const container = document.getElementById('canvas-container'); if (container.clientWidth === 0) return; camera.aspect = container.clientWidth/container.clientHeight; camera.updateProjectionMatrix(); renderer.setSize(container.clientWidth, container.clientHeight); }
@@ -1233,14 +1313,27 @@
             GRID_ROWS.forEach(s=>{ const lab=makeLabel(s, SKILL_COLOR[s]||0x94a3b8); if(lab){ lab.position.set(-(GRID_COLS-1)/2*1.1-2.4, 1.0, rowZ[s]); lab.scale.set(1.8,0.45,1); scene.add(lab); nodes.push(lab); } });
             // 단계 라벨
             [1,2,3].forEach(p=>{ const lab=makeLabel(p+'단계('+PHASE_NAME[p]+')', 0x94a3b8); if(lab){ lab.position.set(((p-1)*4+1.5-(GRID_COLS-1)/2)*1.1, 0.2, (GRID_ROWS.length/2)*1.7+1); scene.add(lab); nodes.push(lab); } });
+            // 진단 상태 사전계산: 난이도 급상승/역행(영역 내 연속), 병목(분기 내 동일스킬 중복)
+            const status={}, colSkill={};
+            GRID_ROWS.forEach(skill=>{ const seq=gridRowSeq(skill); for(let i=1;i<seq.length;i++){ const d=(seq[i].book.level||3)-(seq[i-1].book.level||3); if(d>=2) status[skill+':'+seq[i].col]='overload'; else if(d<=-1) status[skill+':'+seq[i].col]='regress'; } });
+            placed.forEach(({col,book})=>{ const k=col+'|'+book.skill; colSkill[k]=(colSkill[k]||0)+1; });
             placed.forEach(({skill,col,book})=>{
                 const color=SKILL_COLOR[book.skill]||0x94a3b8;
-                const mesh=new THREE.Mesh(geo, new THREE.MeshPhongMaterial({color, emissive:color, emissiveIntensity:0.3}));
+                const st=status[skill+':'+col]; const bottleneck=colSkill[col+'|'+book.skill]>=2;
+                let ecolor=color, emi=0.3;
+                if(st==='overload'){ ecolor=0xef4444; emi=0.9; } else if(st==='regress'){ ecolor=0xf59e0b; emi=0.75; }
+                const mesh=new THREE.Mesh(geo, new THREE.MeshPhongMaterial({color, emissive:ecolor, emissiveIntensity:emi}));
                 const x=(col-(GRID_COLS-1)/2)*1.1, y=(book.level||3)*1.3, z=rowZ[skill];
-                mesh.position.set(x,y,z); mesh.userData={time: col*0.3}; scene.add(mesh); nodes.push(mesh);
+                mesh.position.set(x,y,z); mesh.userData={time: col*0.3, isBottleneck:bottleneck, bookId:book.id}; scene.add(mesh); nodes.push(mesh);
                 posOf[skill+':'+col]=mesh.position.clone();
                 const spr=makeLabel((book.title||'').slice(0,11)+' L'+book.level, color); if(spr){ spr.position.set(x, y+0.62, z); scene.add(spr); nodes.push(spr); }
             });
+            // 빈 4대영역 표시(붉은 와이어 구 + 라벨)
+            GRID_CORE.forEach(s=>{ if(!gridRowSeq(s).length){
+                const gm=new THREE.Mesh(new THREE.SphereGeometry(0.5,16,16), new THREE.MeshBasicMaterial({color:0xef4444, transparent:true, opacity:0.2, wireframe:true}));
+                gm.position.set(0,1.3,rowZ[s]); scene.add(gm); nodes.push(gm);
+                const lab=makeLabel('⚠ '+s+' 비어있음',0xef4444); if(lab){ lab.position.set(0,2.0,rowZ[s]); scene.add(lab); nodes.push(lab); }
+            }});
             // 영역별 시간 진행 케미 링크
             GRID_ROWS.forEach(skill=>{
                 let prev=null;
@@ -1255,6 +1348,30 @@
                     prev={col,book};
                 });
             });
+            renderDiag3D();
+        }
+        // 커리큘럼 건강진단(텍스트) — 빈 4대영역·난이도 점프/역행·궁합·병목
+        function curriculumDiagnostics(){
+            const issues=[]; const placed=gridPlaced();
+            if(!placed.length) return [{sev:'info',msg:'아직 배치된 교재가 없어요. ‘커리큘럼 제작’ 탭에서 교재를 넣어보세요.'}];
+            GRID_CORE.forEach(s=>{ if(!gridRowSeq(s).length) issues.push({sev:'bad',msg:`${s} 영역 0권 — 4대영역(듣기·말하기·읽기·쓰기) 균형이 비었어요`}); });
+            GRID_ROWS.forEach(skill=>{ const seq=gridRowSeq(skill); for(let i=1;i<seq.length;i++){ const a=seq[i-1].book,b=seq[i].book; const d=(b.level||3)-(a.level||3);
+                if(d>=2) issues.push({sev:'bad',msg:`${skill}: 난이도 +${d} 급상승 (“${(a.title||'').slice(0,10)}”→“${(b.title||'').slice(0,10)}”) — 중간단계 추가 권장`});
+                else if(d<=-1) issues.push({sev:'warn',msg:`${skill}: 난이도 역행 (“${(a.title||'').slice(0,10)}”→“${(b.title||'').slice(0,10)}”)`});
+                const chem=chemistry(a,b); if(chem.grade==='bad') issues.push({sev:'warn',msg:`${skill}: “${(a.title||'').slice(0,9)}”→“${(b.title||'').slice(0,9)}” 궁합 주의${chem.reason?(' — '+chem.reason):''}`});
+            }});
+            const byCol={}; placed.forEach(({col,book})=>{ const k=col+'|'+book.skill; byCol[k]=(byCol[k]||0)+1; });
+            Object.keys(byCol).forEach(k=>{ if(byCol[k]>=2){ const [c,sk]=k.split('|'); issues.push({sev:'warn',msg:`${Number(c)+1}번째 칸: ${sk} ${byCol[k]}권 몰림 — 다른 시기로 분산 권장`}); } });
+            if(!issues.length) issues.push({sev:'good',msg:'균형 잡힌 커리큘럼이에요! 난이도 흐름·4대영역 밸런스·교재 궁합 모두 양호합니다.'});
+            return issues;
+        }
+        function renderDiag3D(){
+            const el=document.getElementById('diag3d'); if(!el) return;
+            const list=curriculumDiagnostics();
+            const ico={bad:'🔴',warn:'🟠',good:'✅',info:'ℹ️'};
+            const bad=list.filter(x=>x.sev==='bad').length, warn=list.filter(x=>x.sev==='warn').length;
+            const head=`<div class="font-bold text-white mb-1.5 flex items-center justify-between"><span>🩺 커리큘럼 진단</span><span class="text-[10px] font-normal text-slate-400">${bad?('🔴 '+bad+'  '):''}${warn?('🟠 '+warn):''}${!bad&&!warn?'양호':''}</span></div>`;
+            el.innerHTML=head+'<div class="space-y-1">'+list.slice(0,12).map(x=>`<div class="flex gap-1.5 leading-snug ${x.sev==='bad'?'text-red-300':x.sev==='warn'?'text-amber-300':x.sev==='good'?'text-emerald-300':'text-slate-300'}"><span class="flex-shrink-0">${ico[x.sev]}</span><span>${x.msg}</span></div>`).join('')+(list.length>12?`<div class="text-[10px] text-slate-500">…외 ${list.length-12}건</div>`:'')+'</div>';
         }
         function animate3D() {
             requestAnimationFrame(animate3D);

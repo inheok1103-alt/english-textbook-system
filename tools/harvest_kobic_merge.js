@@ -38,6 +38,15 @@ for (const [uid, v] of Object.entries(imgMap)) { if (v && v.isbn) existISBN.add(
 function cleanTitle(t) { return String(t || "").split("|")[0].replace(/\s+/g, " ").trim(); }
 const MAJOR_RE = /영어학|영문학|언어학|음성학|음운론|통사론|의미론|화용론|영어사|통번역|번역학|영어교육론|영어교과교육|응용언어학|영미문학|영미시|영미희곡|영미소설론|제2언어|이중언어|어휘론|형태론|담화분석|영어발달사|sociolinguistic|linguistic|phonetic|phonolog|syntax|semantic|pragmatic|morpholog|second language acquisition|\bsla\b/i;
 function isMajorText(title, cat, kdc) { return MAJOR_RE.test((title + " " + cat + " " + (kdc || "")).toLowerCase()); }
+// 원서(수입·영어원서 ELT) 감지: 해외/원서 ELT 출판사 또는 영어 위주 제목 + ELT 키워드
+const FOREIGN_PUB = /e-?future|이퓨처|compass|컴퍼스|build\s*&?\s*grow|빌드\s*앤?\s*그로우|seed learning|시드러닝|a\*?list|에이리스트|oxford|옥스(?:포드|퍼드)|cambridge|케임브리지|pearson|피어슨|longman|롱맨|macmillan|맥밀란|cengage|센게이지|national geographic|내셔널지오|scholastic|스콜라스틱|mcgraw|맥그로|richmond|helbling/i;
+function isForeignBook(title, pub) {
+  const t = String(title || ""), p = String(pub || "");
+  if (FOREIGN_PUB.test(p) || FOREIGN_PUB.test(t)) return true;
+  const latin = (t.match(/[A-Za-z]/g) || []).length, kor = (t.match(/[가-힣]/g) || []).length;
+  const englishHeavy = latin >= 6 && latin > kor * 2;                  // 제목이 영어 위주(한글 거의 없음)
+  return englishHeavy && /reading|phonics|grammar|listening|writing|reader|story|level|workbook|student'?s book|coursebook|vocabulary|spelling|comprehension/i.test(t);
+}
 function classifySkill(title, cat) {
   const s = (title + " " + cat).toLowerCase();
   if (isMajorText(title, cat)) return "전공";
@@ -119,6 +128,7 @@ async function downloadCover(url, uid) {
       situations: [], weaknesses: [], features: [], aliases: [],
       status: d.outOfPrint ? "절판" : "정상", isbn, kdc: d.kdc, kobicCategory: d.cat,
       toc: d.toc, pubDate: d.pubDate, pages: d.pages, price: d.price, source: "KOBIC",
+      foreign: isForeignBook(title, c.pub),                          // 원서(수입 ELT) 여부
     };
     master.materials.push(mat);
     existISBN.add(isbn); existTitle.add(normTitle(title));

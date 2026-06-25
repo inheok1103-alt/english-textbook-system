@@ -41,6 +41,16 @@ jobs:
       - name: 전공 교재 병합
         run: node tools/harvest_kobic_merge.js
 
+      - name: 원서 발굴 (수입 ELT·브릭스/Subject Link/Smart Phonics 등)
+        run: node tools/harvest_kobic.js
+        env:
+          KOBIC_NOPUBFILTER: '1'
+          KOBIC_MAXPAGES: '6'
+          KOBIC_TERMS: 'Bricks Reading|Bricks Listening|Bricks Phonics|Subject Link|Smart Phonics|Sounds Great|Build and Grow|Reading Town|Reading Star|Insight Link|Reading Sketch|My First Reading|My Next Reading|Phonics Monster|Reading Champion|Reading Future|Oxford Reading Tree|Reading Explorer|Time Zones|Our World|Wonderful World|Spotlight on English'
+
+      - name: 원서 병합 (foreign 태깅)
+        run: node tools/harvest_kobic_merge.js
+
       - name: 책↔표지 상시 정합검수+자동교정 (ISBN 앵커, 회당 로테이션 · 결손 포함)
         run: node tools/verify_covers.js --fix || true
         env:
