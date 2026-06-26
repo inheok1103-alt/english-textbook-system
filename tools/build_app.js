@@ -133,8 +133,8 @@ function deriveTiming(m, skill, level) {
   if (!ti.size || has(/코스북|시리즈|series|course|레벨|level\s*\d|book\s*\d|단계|grade\s*\d|주교재|정규/i)) ti.add("학기중 꾸준히");
   return Array.from(ti);
 }
-// 학부모 대상이 아닌 교사용·교육학 이론서(추천에서 제외) — 학생 학습교재가 아님
-const TEACHER_RE = /교수법|교육학|영어교육론|교육론|교재론|교사를\s*위한|교사용|\(교사\)|지도서|학습지도안|수업의\s*모든\s*것|심층분석|평가의\s*이해|원리와\s*실제|교실기반|과제기반|페다고지|교직과정|교생실습|teacher.?s?\s*(guide|book|edition|manual)/i;
+// 학생 학습교재가 아닌 책(추천에서 제외) — ① 교사용·교육학 이론서 ② 임용고시(교원임용) 준비서
+const TEACHER_RE = /교수법|교육학|영어교육론|교육론|교재론|교사를\s*위한|교사용|\(교사\)|지도서|학습지도안|수업의\s*모든\s*것|심층분석|평가의\s*이해|원리와\s*실제|교실기반|과제기반|페다고지|교직과정|교생실습|teacher.?s?\s*(guide|book|edition|manual)|임용고시|임용\s*시험|임용\s*기출|교원\s*임용|중등\s*임용|초등\s*임용|영어\s*임용|임용\s*영어|임고\s*영어|\b임용\b/i;
 // 내재 품질점수 q(0~100 근방) — 최신성 + 상품성. popMap이 비어도 추천이 가나다순으로 무너지지 않게 하는 결정적 타이브레이커
 function qualityScore(m, hasCover, teacherRef) {
   let q = 50;

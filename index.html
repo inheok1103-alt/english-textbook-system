@@ -150,6 +150,14 @@
                     </div>
                 </div>
 
+                <!-- 학생 설정 — 칸 추천이 이 학생(학년·수준)에 맞춰짐 -->
+                <div class="flex items-center gap-2 flex-wrap mb-4 bg-brand/10 border border-brand/30 rounded-xl px-3 py-2 flex-shrink-0">
+                    <span class="text-[11px] font-bold text-brand flex items-center gap-1"><i data-lucide="user-round" class="w-3.5 h-3.5"></i> 학생</span>
+                    <select id="curGradeSel" onchange="setCurStudent()" class="bg-slate-900 border border-slate-600 text-white text-[11px] rounded-lg px-2 py-1.5 font-bold"><option value="">학년 선택…</option><option value="유아/예비초">유아/예비초</option><option value="초등">초등</option><option value="중등">중등</option><option value="고등">고등</option><option value="성인">성인</option></select>
+                    <select id="curLevelSel" onchange="setCurStudent()" class="bg-slate-900 border border-slate-600 text-white text-[11px] rounded-lg px-2 py-1.5 font-bold"><option value="">현재 수준…</option><option value="1">1단계(입문)</option><option value="2">2단계(기초)</option><option value="3">3단계(기본)</option><option value="4">4단계(실력)</option><option value="5">5단계(실전)</option></select>
+                    <span id="curStudentHint" class="text-[10px] text-slate-400">← 고르면 칸 추천이 이 학생에 맞게 나옵니다</span>
+                </div>
+
                 <div class="space-y-5 pb-4 flex-1" id="pipelineContainer">
                     <!-- JS Render Pipeline -->
                 </div>
@@ -377,6 +385,7 @@
             sort: 'abc',          // 정렬 축: abc(가나다·ABC) / popular(인기순) / recent(최신순)
             foreignOnly: false,   // 원서만 보기
             recGrade: '', recGoal: '', recTiming: '',   // 추천 컨텍스트(학년·목표·시기)
+            curGrade: '', curLevel: '',   // 커리 그리드 학생 설정(학년·현재 수준) — 칸 추천이 이걸 따름
             grid: gridInit()
         };
 
@@ -567,7 +576,7 @@
                 const m = MASTER_DATA.find(b => b.skill==='모의/기출' && !addedIds.includes(b.id));
                 if(m) return { book:m, msg:'후반부 실전 대비 — 모의고사/기출 풀이 권장', alts:[] };
             }
-            const cands = MASTER_DATA.filter(b => !addedIds.includes(b.id) && b.id!==last.id)
+            const cands = MASTER_DATA.filter(b => !addedIds.includes(b.id) && b.id!==last.id && !b.teacherRef)
                 .map(b => ({ b, r: recScore(last, b) }))
                 .filter(x => x.r.score > 0)
                 .sort((a,b) => b.r.score - a.r.score);
@@ -756,7 +765,7 @@
         function curriculumLevels(){ return gridPlaced().map(x=>x.book.level); }
         function prescribeVocab(){
             const lv = curriculumLevels(); const target = lv.length ? Math.round(lv.reduce((a,c)=>a+c,0)/lv.length) : 3;
-            const cands = MASTER_DATA.filter(b => b.skill==='어휘' && Math.abs(b.level-target)<=1).slice(0,6);
+            const cands = MASTER_DATA.filter(b => b.skill==='어휘' && !b.teacherRef && Math.abs(b.level-target)<=1).slice(0,6);
             const rows = cands.length ? cands.map((b,i)=>`
                 <div class="flex items-center gap-3 p-2 border border-slate-700 rounded-lg mb-2 bg-slate-800/40">
                     <div class="text-brand font-black w-6 text-center">${i+1}</div>
@@ -779,8 +788,11 @@
                     if(targetCol<0) continue;
                     const lv=PHASE_LV[phase], midLv=lv[1];
                     const rs=gridRowSeq(skill).filter(x=>x.col<targetCol); const prev=rs.length?rs[rs.length-1].book:null;
-                    const cands=MASTER_DATA.filter(b=>b.skill===skill && !gridIsPlaced(b.id) && b.status!=='절판').map(b=>{
+                    const cands=MASTER_DATA.filter(b=>b.skill===skill && !b.teacherRef && !gridIsPlaced(b.id) && b.status!=='절판'
+                            && (!state.curGrade || b.gradeBand===state.curGrade || gradeAdj(b.gradeBand,state.curGrade)<=1)).map(b=>{
                         let s=(lv.indexOf(b.level)>=0?22:0) - Math.abs((b.level||3)-midLv)*7;
+                        if(state.curGrade && b.gradeBand===state.curGrade) s+=18;     // 학생 학년 우대
+                        s+=((b.q!=null?b.q:50)-50)*0.35;                              // 최신성 타이브레이커
                         if(prev){ s+=chemistry(prev,b).score*0.5; if(_cnorm(b.pub||'')===_cnorm(prev.pub||'')) s+=5; }
                         return {b,s};
                     }).sort((a,b)=>b.s-a.s);
@@ -791,23 +803,49 @@
             showToast(filled? `${filled}칸을 4대영역 균형으로 채웠습니다.` : '추가할 빈 4대영역이 없습니다.', !filled);
         }
 
-        // 빈 셀(영역×시점) 클릭 → 그 자리에 맞는 교재 추천 (추천 외 교재도 DB에서 자유 배치 가능)
+        // 학생 설정 반영
+        function setCurStudent(){
+            const g=document.getElementById('curGradeSel'), l=document.getElementById('curLevelSel');
+            state.curGrade=g?g.value:''; state.curLevel=l?l.value:'';
+            // 하단 목표시작용 gradeSel과 동기화
+            const gs=document.getElementById('gradeSel'); if(gs&&state.curGrade){ gs.value=(state.curGrade==='유아/예비초'?'유아':state.curGrade); }
+            const hint=document.getElementById('curStudentHint');
+            if(hint) hint.textContent = state.curGrade ? `✅ ${state.curGrade}${state.curLevel?(' · '+state.curLevel+'단계'):''} 기준으로 추천` : '← 고르면 칸 추천이 이 학생에 맞게 나옵니다';
+        }
+        // 학년 미설정 시 — 먼저 고르게(애초에 고르고 누르게)
+        function studentPickerHtml(skill, col){
+            const grades=['유아/예비초','초등','중등','고등','성인'];
+            return `<div class="text-sm text-slate-300 mb-3">이 학생의 <b class="text-brand">학년</b>을 먼저 알려주시면, 칸 추천이 <b>나이·수준에 맞게</b> 나옵니다.</div>
+              <div class="grid grid-cols-3 gap-2">${grades.map(g=>`<button onclick="pickCurGrade('${g}','${skill}',${col})" class="bg-slate-800 hover:bg-brand hover:text-slate-900 border border-slate-600 rounded-lg py-3 text-sm font-bold transition-colors">${g}</button>`).join('')}</div>
+              <div class="text-[11px] text-slate-500 mt-3">상단 <b>학생</b> 칸에서 언제든 바꿀 수 있어요.</div>`;
+        }
+        function pickCurGrade(g, skill, col){ state.curGrade=g; const sel=document.getElementById('curGradeSel'); if(sel) sel.value=g; setCurStudent(); closeModal(); recommendForCell(skill, col); }
+        // 빈 셀(영역×시점) 클릭 → 학생(학년·수준)에 맞는 교재 추천. 교사용·이론서 제외 + 최신성 + 시리즈 중복 제거
         function recommendForCell(skill, col){
+            if(!state.curGrade){ openModal('학년을 먼저 골라주세요', studentPickerHtml(skill, col)); if(typeof lucide!=='undefined') lucide.createIcons(); return; }
             const m=colMeta(col), lv=PHASE_LV[m.phase], midLv=lv[1];
+            const wantLv = state.curLevel ? Math.round((+state.curLevel + midLv)/2) : midLv;   // 학생 수준 ⊕ 칸 단계
             const rs=gridRowSeq(skill).filter(x=>x.col<col); const prev=rs.length?rs[rs.length-1].book:null;
-            const cands=MASTER_DATA.filter(b=>b.skill===skill && !gridIsPlaced(b.id) && b.status!=='절판').map(b=>{
-                let s=(lv.indexOf(b.level)>=0?25:0) - Math.abs((b.level||3)-midLv)*7; let chem=null;
-                if(prev){ chem=chemistry(prev,b); s+=chem.score*0.6; }
+            const cands=MASTER_DATA.filter(b=>b.skill===skill && !b.teacherRef && !gridIsPlaced(b.id) && b.status!=='절판'
+                    && (b.gradeBand===state.curGrade || gradeAdj(b.gradeBand,state.curGrade)<=1)).map(b=>{
+                let s = 25 - Math.abs((b.level||3)-wantLv)*9;
+                if(b.gradeBand===state.curGrade) s+=22; else s-=14;                 // 학년 정확 매칭 우대
+                s += ((b.q!=null?b.q:50)-50)*0.4;                                   // 최신성·상품성 타이브레이커
+                s += Math.min(14, popOf(b)*0.4);
+                let chem=null; if(prev){ chem=chemistry(prev,b); s+=chem.score*0.5; }
                 return {b,s,chem};
-            }).sort((a,b)=>b.s-a.s).slice(0,8);
-            const rows = cands.length ? cands.map((c,i)=>`
+            }).filter(x=>x.s>-40).sort((a,b)=>b.s-a.s);
+            const top = dedupBySeries(cands, 8);
+            const rows = top.length ? top.map((c,i)=>{
+                const yr=(String(c.b.pubDate||'').match(/(20|19)\d\d/)||[])[0];
+                return `
                 <div class="flex items-center gap-3 p-2 border border-slate-700 rounded-lg mb-2 bg-slate-800/40">
                     <div class="text-brand font-black w-5 text-center">${i+1}</div>
                     <img src="${c.b.cover}" class="w-9 h-12 object-cover rounded" onerror="this.style.display='none'">
-                    <div class="flex-1 min-w-0"><div class="text-sm font-bold text-white truncate">${c.b.title}</div><div class="text-[11px] text-slate-400 truncate">${c.b.pub} · Lv.${c.b.level}${c.b.cefr?(' · '+c.b.cefr):''}${c.chem?` · <span style="color:${c.chem.css}">${c.chem.icon}</span>`:''}</div></div>
+                    <div class="flex-1 min-w-0"><div class="text-sm font-bold text-white truncate">${c.b.title}</div><div class="text-[11px] text-slate-400 truncate">${c.b.pub} · ${c.b.gradeBand} · Lv.${c.b.level}${c.b.cefr?(' · '+c.b.cefr):''}${yr?(' · '+yr):''}${c.chem?` · <span style="color:${c.chem.css}">${c.chem.icon}</span>`:''}</div></div>
                     <button onclick="placeFromRec('${skill}',${col},'${c.b.id}')" class="bg-brand text-slate-900 text-xs font-bold px-3 py-2 rounded-lg">배치</button>
-                </div>`).join('') : '<div class="text-slate-400 text-sm">추천 후보가 없습니다. 좌측 DB에서 직접 골라 배치하세요.</div>';
-            openModal(`${skill} · ${m.phase}단계 ${m.quarter}분기 추천`, `<div class="text-xs text-slate-400 mb-3">이 칸(영역×시점)에 맞는 ${skill} 교재입니다. 추천에 없어도 좌측 DB에서 아무 교재나 골라 배치할 수 있어요.</div>${rows}`);
+                </div>`;}).join('') : '<div class="text-slate-400 text-sm">이 학년·영역에 맞는 후보가 없습니다. 좌측 DB에서 직접 골라 배치하세요.</div>';
+            openModal(`${skill} · ${state.curGrade} · ${m.phase}단계 ${m.quarter}분기 추천`, `<div class="text-xs text-slate-400 mb-3"><b class="text-brand">${state.curGrade}${state.curLevel?(' · '+state.curLevel+'단계 수준'):''}</b>에 맞춘 ${skill} 교재입니다. 추천에 없어도 좌측 DB에서 아무 교재나 골라 배치할 수 있어요.</div>${rows}`);
         }
         function placeFromRec(skill, col, id){ closeModal(); if(state.grid[skill][col]){ showToast('칸이 찼습니다', true); return; } if(gridIsPlaced(id)){ showToast('이미 배치됨', true); return; } state.grid[skill][col]=id; renderPipeline(); renderDB(); showToast(`${skill} · ${colMeta(col).label}에 배치`); }
 
@@ -832,9 +870,9 @@
             state.goal=g; state.gradeFilter=grade;
             const lv=GRADE_LV[grade]||2; const conf=GOALS[g]; let n=0;
             conf.skills.forEach(skill=>{ const row=rowOf(skill), col=0; if(state.grid[row][col]) return;
-                let cands=MASTER_DATA.filter(b=>b.skill===skill && !gridIsPlaced(b.id) && b.status!=='절판' && Math.abs((b.level||3)-lv)<=1);
+                let cands=MASTER_DATA.filter(b=>b.skill===skill && !b.teacherRef && !gridIsPlaced(b.id) && b.status!=='절판' && Math.abs((b.level||3)-lv)<=1);
                 if(grade){ const gf=cands.filter(b=>b.gradeBand===grade||b.gradeBand==='전체'); if(gf.length) cands=gf; }
-                cands.sort((a,b)=>Math.abs((a.level||3)-lv)-Math.abs((b.level||3)-lv));
+                cands.sort((a,b)=>(Math.abs((a.level||3)-lv)-Math.abs((b.level||3)-lv)) || ((b.q!=null?b.q:50)-(a.q!=null?a.q:50)));
                 if(cands.length){ state.grid[row][col]=cands[0].id; n++; } });
             renderPipeline(); renderDB();
             showToast(n? `${grade?grade+' ':''}'${g}' 시작 교재 ${n}권 배치 — 빈 칸을 누르면 다음 추천` : '시작 교재를 못 찾았습니다', !n);
