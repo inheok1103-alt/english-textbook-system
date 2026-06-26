@@ -133,17 +133,19 @@ function deriveTiming(m, skill, level) {
   if (!ti.size || has(/코스북|시리즈|series|course|레벨|level\s*\d|book\s*\d|단계|grade\s*\d|주교재|정규/i)) ti.add("학기중 꾸준히");
   return Array.from(ti);
 }
-// 학생 학습교재가 아닌 책(추천에서 제외) — ① 교사용·교육학 이론서 ② 임용고시(교원임용) 준비서
-const TEACHER_RE = /교수법|교육학|영어교육론|교육론|교재론|교사를\s*위한|교사용|\(교사\)|지도서|학습지도안|수업의\s*모든\s*것|심층분석|평가의\s*이해|원리와\s*실제|교실기반|과제기반|페다고지|교직과정|교생실습|teacher.?s?\s*(guide|book|edition|manual)|임용고시|임용\s*시험|임용\s*기출|교원\s*임용|중등\s*임용|초등\s*임용|영어\s*임용|임용\s*영어|임고\s*영어|\b임용\b/i;
+// 오디언스 분류(학생용 추천에서 제외, 각자 트랙으로 분리)
+// ① 교사용·교육학 이론서  ② 임용고시(교원임용) 준비서  ③ 학부모 공부용(부모가 읽는 책)
+const TEACHER_RE = /교수법|교육학|교육론|교재론|교사를\s*위한|교사용|\(교사\)|지도서|학습지도안|수업의\s*모든\s*것|심층분석|평가의\s*이해|원리와\s*실제|교실기반|과제기반|페다고지|교직과정|교생실습|teacher.?s?\s*(guide|book|edition|manual)/i;
+const EXAM_PREP_RE = /임용고시|임용\s*시험|임용\s*기출|교원\s*임용|[중초]등\s*임용|영어\s*임용|임용\s*영어|\b임용\b|임고|영어교육론|영어과\s*교육과정|교과교육론|전공영어|일반영어\s*영미문학/i;
+const PARENT_RE = /공부법|학습법|교육법|영어\s*육아|입시\s*설명회?|학습\s*코칭|영어\s*코칭|영어\s*멘토링|학습\s*노하우|암기\s*노하우|가르치는\s*법|미래형\s*엄마표|엄마표\s*영어|엄마가\s*(가르치는|알려주는|먼저|알아야)|아빠표\s*영어로|강남\s*엄마|따라잡는\s*초등영어|부모를?\s*위한|학부모|자녀\s*영어\s*교육/i;
 // 내재 품질점수 q(0~100 근방) — 최신성 + 상품성. popMap이 비어도 추천이 가나다순으로 무너지지 않게 하는 결정적 타이브레이커
-function qualityScore(m, hasCover, teacherRef) {
+function qualityScore(m, hasCover) {
   let q = 50;
   const t = (m.title || "") + " " + (m.kobicCategory || "");
   const y = +(String(m.pubDate || "").match(/(19|20)\d\d/) || [])[0] || 0;
   if (y >= 2024) q += 24; else if (y >= 2021) q += 18; else if (y >= 2018) q += 11; else if (y >= 2014) q += 4;
   else if (y && y < 2008) q -= 26; else if (y && y < 2012) q -= 14;       // 2007 PELT 등 구버전 침몰
   if (hasCover) q += 6;                                                    // 실제 유통 상품성
-  if (teacherRef) q -= 60;                                                 // 교사·이론서 강한 감점
   if (/\bPELT\b|초등.*\bJET\b|중등.*\bJET\b|구\s*수능|구버전/i.test(t)) q -= 22;  // 폐지·구 시험
   if (/level\s*\d|book\s*\d|step\s*\d|\b\d\s*급|stage\s*\d/i.test(t)) q += 5;     // 정규 코스북 신뢰
   return Math.max(0, Math.min(100, q));
@@ -164,8 +166,11 @@ const MASTER_DATA = englishOnly.map((m) => {
   const timing = deriveTiming(m, skill, level);
   goals.forEach((x) => goalSet.add(x));
   timing.forEach((x) => timingSet.add(x));
-  const teacherRef = TEACHER_RE.test((m.title || "") + " " + (m.kobicCategory || ""));
-  const q = qualityScore(m, hasCover, teacherRef);
+  const _atxt = (m.title || "") + " " + (m.kobicCategory || "");
+  const examPrep = EXAM_PREP_RE.test(_atxt);
+  const parentBook = !examPrep && PARENT_RE.test(_atxt);
+  const teacherRef = !examPrep && !parentBook && TEACHER_RE.test(_atxt);
+  const q = qualityScore(m, hasCover);
   return {
     id: uid,
     pub: m.publisher || "",
@@ -175,7 +180,9 @@ const MASTER_DATA = englishOnly.map((m) => {
     goals,                                          // 학부모 언어 목표(상황) 태그 — 전 카탈로그
     timing,                                         // 학습 시기 태그 — 전 카탈로그
     q,                                              // 내재 품질점수(최신성+상품성) — 추천 타이브레이커
-    teacherRef,                                     // 교사용/이론서 → 학부모 추천 제외
+    teacherRef,                                     // 교사용/이론서 → 학생 추천 제외
+    examPrep,                                       // 임용고시(교원임용) 준비서 → 🎓임용준비 트랙
+    parentBook,                                     // 학부모 공부용(엄마표/공부법) → 👩‍🏫학부모용 트랙
     tags: (m.situations || []).slice(0, 3).map((s) => "#" + s),
     situations: m.situations || [],
     weaknesses: m.weaknesses || [],
@@ -245,3 +252,5 @@ console.log(`스킬: ${orderedSkills.join(", ")}`);
 console.log(`목표 태그: ${withGoal}종(${(100 * withGoal / MASTER_DATA.length).toFixed(1)}%) / 시기 태그: ${withTiming}종(${(100 * withTiming / MASTER_DATA.length).toFixed(1)}%)`);
 console.log(`목표축: ${TABS.goal.slice(1).join(", ")}`);
 console.log(`시기축: ${TABS.timing.slice(1).join(", ")}`);
+const nExam = MASTER_DATA.filter((b) => b.examPrep).length, nParent = MASTER_DATA.filter((b) => b.parentBook).length, nTeacher = MASTER_DATA.filter((b) => b.teacherRef).length;
+console.log(`오디언스: 🧒학생용 ${MASTER_DATA.length - nExam - nParent - nTeacher} / 👩‍🏫학부모용 ${nParent} / 🎓임용준비 ${nExam} / 교사이론서(제외) ${nTeacher}`);

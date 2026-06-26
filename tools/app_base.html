@@ -205,12 +205,14 @@
         <!-- 추천 View (파이프라인과 별개의 독립 추천 섹션) -->
         <div id="view-rec" class="hidden absolute inset-0 overflow-y-auto bg-dark z-30 fade-in hide-scrollbar">
           <div class="max-w-[1100px] mx-auto p-4">
-            <div class="mb-4">
-              <h2 class="text-xl font-bold flex items-center gap-2"><i data-lucide="sparkles" class="text-brand"></i> 맞춤 교재 추천 — 학년·목표·시기 기반</h2>
+            <div class="mb-3">
+              <h2 class="text-xl font-bold flex items-center gap-2"><i data-lucide="sparkles" class="text-brand"></i> 맞춤 교재 추천</h2>
               <p class="text-xs text-slate-400 mt-1">교재를 몰라도 됩니다. <b class="text-brand">학년·목표·시기</b>만 고르면 <b>어디서 시작할지</b> 추천하고, <b class="text-accent">현재 교재</b>까지 고르면 <b>정답률 구간별 다음 단계</b>를 맞춤으로 추천합니다.</p>
             </div>
+            <!-- 오디언스 트랙: 누가 볼 책인가 -->
+            <div id="trackToggle" class="flex items-center gap-1.5 mb-3 flex-wrap"></div>
             <!-- ① 맞춤 컨텍스트: 학년·목표·시기 -->
-            <div class="bg-panel border border-slate-700 rounded-xl p-3 mb-3">
+            <div id="recCtxPanel" class="bg-panel border border-slate-700 rounded-xl p-3 mb-3">
               <div class="text-xs font-bold text-slate-300 mb-2 flex items-center gap-1"><span class="bg-brand text-slate-900 rounded-full w-4 h-4 inline-flex items-center justify-center text-[10px] font-black">1</span> 누구에게, 무엇을, 언제? (학년·목표·시기)</div>
               <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
                 <select id="recGrade" onchange="onRecCtx()" class="bg-slate-900 border border-slate-600 rounded-lg py-2 px-2 text-sm focus:outline-none focus:border-brand"></select>
@@ -219,7 +221,7 @@
               </div>
             </div>
             <!-- ② 현재 교재(선택): 다음 단계 추천용 -->
-            <div class="bg-panel border border-slate-700 rounded-xl p-3 mb-4">
+            <div id="recCurPanel" class="bg-panel border border-slate-700 rounded-xl p-3 mb-4">
               <div class="text-xs font-bold text-slate-300 mb-2 flex items-center gap-1"><span class="bg-accent text-slate-900 rounded-full w-4 h-4 inline-flex items-center justify-center text-[10px] font-black">2</span> 현재(방금 푼) 교재 — <span class="text-slate-400 font-normal">선택 안 하면 시작 교재를 추천해요</span></div>
               <input id="recSearch" onkeyup="renderRecPicker()" placeholder="교재명 또는 출판사 검색…" class="w-full bg-slate-900 border border-slate-600 rounded-lg py-2 px-3 text-sm mb-2 focus:outline-none focus:border-brand">
               <div id="recPicker" class="max-h-40 overflow-y-auto space-y-1 hide-scrollbar"></div>
@@ -390,6 +392,7 @@
             foreignOnly: false,   // 원서만 보기
             recGrade: '', recGoal: '', recTiming: '',   // 추천 컨텍스트(학년·목표·시기)
             curGrade: '', curLevel: '',   // 커리 그리드 학생 설정(학년·현재 수준) — 칸 추천이 이걸 따름
+            track: 'student',   // 오디언스 트랙: student(학생용) / parent(학부모 공부용) / exam(임용준비)
             grid: gridInit()
         };
 
@@ -408,7 +411,21 @@
                 '파닉스>문법':-70,'파닉스>구문':-70,'파닉스>모의/기출':-75,'모의/기출>파닉스':-50,'모의/기출>어휘':-30,'말하기>모의/기출':-20 }
         };
         function _cnorm(s){ return String(s||'').toLowerCase().replace(/[\s\-_]/g,''); }
-        function _seriesKey(b){ return String(b.title||'').toLowerCase().replace(/\b\d+\s*(st|nd|rd|th)\s+edition\b/g,' ').replace(/\b(level|lv|book|band|stage|grade|단계|권)\b/gi,' ').replace(/[0-9]+/g,' ').replace(/[^a-z0-9가-힣]+/g,'').trim(); }
+        function _seriesKey(b){ return String(b.title||'').toLowerCase()
+            .replace(/\([^)]*\)/g,' ')                                               // 괄호 속(교과서명·연도·저자) 제거 → 내신콘서트(비상)/(동아) 합침
+            .replace(/\b\d+\s*(st|nd|rd|th)\s+edition\b/g,' ')
+            .replace(/\b(basic|advanced|starter|intro|master|essential|practice|workbook|complete)\b/gi,' ')   // 에디션·난이도 표기
+            .replace(/(기본|심화|입문|완성|끝내기|실력|종합|기초|기적)\b/g,' ')          // 한글 난이도/시리즈 변형어 → 100일의 기적 Basic/Advanced 합침
+            .replace(/\b(level|lv|book|band|stage|grade|step|단계|권|편|차)\b/gi,' ')
+            .replace(/[0-9]+/g,' ').replace(/[^a-z0-9가-힣]+/g,'').trim(); }
+        // 오디언스 트랙 필터 — 학생용(기본)은 임용·학부모·교사책 제외 / 학부모용·임용준비는 각 풀만
+        function audienceOk(b){
+            if(state.track==='parent') return !!b.parentBook;
+            if(state.track==='exam')   return !!b.examPrep;
+            return !b.examPrep && !b.parentBook && !b.teacherRef;   // student
+        }
+        // 목표 → 핵심 영역(skill) 매핑 — '독해 늘리기' 골랐는데 문법책이 1등 나오는 문제 차단
+        const GOAL_SKILL = { '영어 첫걸음':['파닉스'], '독해 늘리기':['독해'], '문법 잡기':['문법','구문'], '말하기·회화':['말하기'], '듣기':['듣기'], '어휘 늘리기':['어휘'], '쓰기·서술형':['쓰기'], '원서 읽기':['독해'], '수능·모의고사':['모의/기출','구문','독해'] };
         function _gidx(g){ return _CHEM.GRADE_IDX[g] != null ? _CHEM.GRADE_IDX[g] : 1; }
         function _isComp(a,b){ const R=_CHEM.RECEPTIVE,P=_CHEM.PRODUCTIVE,E=_CHEM.ELEMENT;
             if((R.includes(a)&&P.includes(b))||(P.includes(a)&&R.includes(b))||(R.includes(a)&&R.includes(b))) return true;
@@ -580,7 +597,7 @@
                 const m = MASTER_DATA.find(b => b.skill==='모의/기출' && !addedIds.includes(b.id));
                 if(m) return { book:m, msg:'후반부 실전 대비 — 모의고사/기출 풀이 권장', alts:[] };
             }
-            const cands = MASTER_DATA.filter(b => !addedIds.includes(b.id) && b.id!==last.id && !b.teacherRef)
+            const cands = MASTER_DATA.filter(b => !addedIds.includes(b.id) && b.id!==last.id && audienceOk(b))
                 .map(b => ({ b, r: recScore(last, b) }))
                 .filter(x => x.r.score > 0)
                 .sort((a,b) => b.r.score - a.r.score);
@@ -769,7 +786,7 @@
         function curriculumLevels(){ return gridPlaced().map(x=>x.book.level); }
         function prescribeVocab(){
             const lv = curriculumLevels(); const target = lv.length ? Math.round(lv.reduce((a,c)=>a+c,0)/lv.length) : 3;
-            const cands = MASTER_DATA.filter(b => b.skill==='어휘' && !b.teacherRef && Math.abs(b.level-target)<=1).slice(0,6);
+            const cands = MASTER_DATA.filter(b => b.skill==='어휘' && audienceOk(b) && Math.abs(b.level-target)<=1).slice(0,6);
             const rows = cands.length ? cands.map((b,i)=>`
                 <div class="flex items-center gap-3 p-2 border border-slate-700 rounded-lg mb-2 bg-slate-800/40">
                     <div class="text-brand font-black w-6 text-center">${i+1}</div>
@@ -792,7 +809,7 @@
                     if(targetCol<0) continue;
                     const lv=PHASE_LV[phase], midLv=lv[1];
                     const rs=gridRowSeq(skill).filter(x=>x.col<targetCol); const prev=rs.length?rs[rs.length-1].book:null;
-                    const cands=MASTER_DATA.filter(b=>b.skill===skill && !b.teacherRef && !gridIsPlaced(b.id) && b.status!=='절판'
+                    const cands=MASTER_DATA.filter(b=>b.skill===skill && audienceOk(b) && !gridIsPlaced(b.id) && b.status!=='절판'
                             && (!state.curGrade || b.gradeBand===state.curGrade || gradeAdj(b.gradeBand,state.curGrade)<=1)).map(b=>{
                         let s=(lv.indexOf(b.level)>=0?22:0) - Math.abs((b.level||3)-midLv)*7;
                         if(state.curGrade && b.gradeBand===state.curGrade) s+=18;     // 학생 학년 우대
@@ -830,7 +847,7 @@
             const m=colMeta(col), lv=PHASE_LV[m.phase], midLv=lv[1];
             const wantLv = state.curLevel ? Math.round((+state.curLevel + midLv)/2) : midLv;   // 학생 수준 ⊕ 칸 단계
             const rs=gridRowSeq(skill).filter(x=>x.col<col); const prev=rs.length?rs[rs.length-1].book:null;
-            const cands=MASTER_DATA.filter(b=>b.skill===skill && !b.teacherRef && !gridIsPlaced(b.id) && b.status!=='절판'
+            const cands=MASTER_DATA.filter(b=>b.skill===skill && audienceOk(b) && !gridIsPlaced(b.id) && b.status!=='절판'
                     && (b.gradeBand===state.curGrade || gradeAdj(b.gradeBand,state.curGrade)<=1)).map(b=>{
                 let s = 25 - Math.abs((b.level||3)-wantLv)*9;
                 if(b.gradeBand===state.curGrade) s+=22; else s-=14;                 // 학년 정확 매칭 우대
@@ -874,7 +891,7 @@
             state.goal=g; state.gradeFilter=grade;
             const lv=GRADE_LV[grade]||2; const conf=GOALS[g]; let n=0;
             conf.skills.forEach(skill=>{ const row=rowOf(skill), col=0; if(state.grid[row][col]) return;
-                let cands=MASTER_DATA.filter(b=>b.skill===skill && !b.teacherRef && !gridIsPlaced(b.id) && b.status!=='절판' && Math.abs((b.level||3)-lv)<=1);
+                let cands=MASTER_DATA.filter(b=>b.skill===skill && audienceOk(b) && !gridIsPlaced(b.id) && b.status!=='절판' && Math.abs((b.level||3)-lv)<=1);
                 if(grade){ const gf=cands.filter(b=>b.gradeBand===grade||b.gradeBand==='전체'); if(gf.length) cands=gf; }
                 cands.sort((a,b)=>(Math.abs((a.level||3)-lv)-Math.abs((b.level||3)-lv)) || ((b.q!=null?b.q:50)-(a.q!=null?a.q:50)));
                 if(cands.length){ state.grid[row][col]=cands[0].id; n++; } });
@@ -1127,6 +1144,7 @@
             let s=0; const why=[];
             if(ctx.grade){ if(b.gradeBand===ctx.grade){ s+=34; } else { const d=gradeAdj(b.gradeBand,ctx.grade); if(d===1) s+=6; else if(d>=2) s-=40; } }
             if(ctx.goal){ if((b.goals||[]).includes(ctx.goal)){ s+=44; why.push('🎯 '+ctx.goal); } else { s-=6; } }
+            if(ctx.goal && GOAL_SKILL[ctx.goal]){ if(GOAL_SKILL[ctx.goal].includes(b.skill)){ s+=20; } else { s-=22; } }   // 목표=영역 정렬
             if(ctx.timing){ if((b.timing||[]).includes(ctx.timing)){ s+=22; why.push('🗓 '+ctx.timing); } }
             return { s, why };
         }
@@ -1180,7 +1198,7 @@
             const cr=cefrRank(cur.cefr);
             const cefrWant = cr!=null ? cr + (band==='high'?1:band==='low'?-1:0.5) : null;
             const gap=coreSkillGap();
-            return MASTER_DATA.filter(b=>b.id!==cur.id && !b.teacherRef).map(b=>{
+            return MASTER_DATA.filter(b=>b.id!==cur.id && audienceOk(b)).map(b=>{
                 let s=0; const why=[];
                 s+=((b.q!=null?b.q:50)-50)*0.3;                                    // 내재 품질(최신성) 타이브레이커
                 const ld=Math.abs((b.level||3)-desired); s+=(ld===0?30:ld===1?13:ld===2?2:-12);
@@ -1206,7 +1224,7 @@
         function starterRec(ctx){
             const wantLv = startLvFor(ctx.grade, ctx.goal);
             const scored = MASTER_DATA.map(b=>{
-                if(b.teacherRef) return null;                                     // 교사용·이론서 제외(학부모 대상 아님)
+                if(!audienceOk(b)) return null;                                   // 트랙(학생/학부모/임용) 오디언스 필터
                 if(ctx.grade && b.gradeBand!==ctx.grade && gradeAdj(b.gradeBand,ctx.grade)>=2) return null;  // 학년 크게 벗어나면 제외
                 const cs=ctxScore(b,ctx); let s=cs.s;
                 const ld=Math.abs((b.level||3)-wantLv); s+=(ld===0?16:ld===1?8:ld===2?0:-10);
@@ -1228,8 +1246,41 @@
             g.value=state.recGrade; s.value=state.recGoal; w.value=state.recTiming;
         }
         function onRecCtx(){ state.recGrade=document.getElementById('recGrade').value; state.recGoal=document.getElementById('recGoal').value; state.recTiming=document.getElementById('recTiming').value; renderRecView(); }
+        // ── 오디언스 트랙(학생용/학부모용/임용준비) ──
+        function renderTrackToggle(){
+            const box=document.getElementById('trackToggle'); if(!box) return;
+            const TR=[['student','🧒 학생용','학생이 풀 교재'],['parent','👩‍🏫 학부모용','부모가 보는 책(엄마표·공부법)'],['exam','🎓 임용준비','교원임용 영어 전공·교육론']];
+            box.innerHTML=TR.map(([t,lab,desc])=>`<button onclick="setTrack('${t}')" title="${desc}" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${state.track===t?'bg-brand text-slate-900':'bg-slate-800 text-slate-400 border border-slate-700 hover:text-white'}">${lab}</button>`).join('')
+               +`<span class="text-[10px] text-slate-500 ml-1 self-center">${state.track==='student'?'← 우리 아이가 풀 교재':state.track==='parent'?'← 학부모가 공부할 책':'← 임용고시 영어 준비서'}</span>`;
+        }
+        function setTrack(t){ state.track=t; state.recCurrent=null; renderRecView(); }
+        // 학부모/임용 트랙 — 풀 전체를 최신순으로 시리즈 중복 제거해 노출
+        function trackPoolRec(){
+            const scored=MASTER_DATA.filter(b=>audienceOk(b) && b.status!=='절판').map(b=>{
+                let s=(b.q!=null?b.q:50) + Math.min(20,popOf(b)*0.5);
+                const yr=(String(b.pubDate||'').match(/(20|19)\d\d/)||[])[0]; const w=[]; if(b.pub) w.push(b.pub); if(yr) w.push(yr);
+                return {b,s,why:w};
+            }).sort((a,b)=>b.s-a.s);
+            return dedupBySeries(scored, 24);
+        }
         function renderRecView(){
             const wrap=document.getElementById('recResults'); if(!wrap) return;
+            renderTrackToggle();
+            const ctxPanel=document.getElementById('recCtxPanel'), curPanel=document.getElementById('recCurPanel');
+            const isStudent=state.track==='student';
+            if(ctxPanel) ctxPanel.style.display=isStudent?'':'none';
+            if(curPanel) curPanel.style.display=isStudent?'':'none';
+            if(!isStudent){
+                const curCard=document.getElementById('recCurrentCard'); if(curCard) curCard.innerHTML='';
+                const recs=trackPoolRec();
+                const head = state.track==='parent'
+                    ? {t:'👩‍🏫 학부모 공부용', d:'아이를 가르치려 부모가 읽는 책 — 엄마표 영어·학습법·코칭'}
+                    : {t:'🎓 임용준비(영어)', d:'교원임용 영어 — 전공영어·영어교육론·영미문학·기출 (최신순)'};
+                wrap.innerHTML=`<div class="mb-2"><div class="text-sm font-bold text-white">${head.t} <span class="text-[11px] text-brand font-normal">${recs.length}종</span></div><div class="text-[11px] text-slate-400">${head.d}</div></div>`+
+                    `<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">${recs.map(x=>recCard(x.b,x.why)).join('')||'<div class="text-xs text-slate-500 col-span-full">해당 트랙 교재가 아직 없습니다.</div>'}</div>`;
+                if(typeof lucide!=='undefined') lucide.createIcons();
+                return;
+            }
             renderRecSelectors();
             const cur=state.recCurrent?byId(state.recCurrent):null;
             const ctx=recCtx();
