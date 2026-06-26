@@ -128,7 +128,7 @@
 
                 <!-- 모바일 선택 취소 오버레이 -->
                 <div id="cancel-banner" class="hidden absolute bottom-0 left-0 w-full bg-brand text-slate-900 px-4 py-3 text-sm font-bold flex justify-between items-center z-20 shadow-[0_-10px_20px_rgba(16,185,129,0.2)]">
-                    <span class="flex items-center gap-2"><i data-lucide="hand" class="w-4 h-4"></i> 우측 빈 분기 슬롯을 선택하세요</span>
+                    <span class="flex items-center gap-2"><i data-lucide="hand" class="w-4 h-4"></i> 우측 빈 칸(시간 슬롯)을 선택하세요</span>
                     <button onclick="cancelSelection()" class="bg-slate-900 text-white px-3 py-1.5 rounded text-xs">취소</button>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                         <p class="text-[11px] sm:text-xs text-slate-400">가로=시간 진행 / 세로=4대영역. 빈 칸을 누르면 그 자리에 맞는 교재를 추천합니다.</p>
                     </div>
                     <div class="flex items-center gap-2">
-                        <select id="timeUnitSel" onchange="setTimeUnit(this.value)" title="시간 단위" class="bg-slate-900 border border-slate-600 text-white text-[11px] rounded-lg px-2 py-1.5 font-bold"><option value="year">년별(장기 12년)</option><option value="quarter" selected>분기별(2년)</option><option value="month">월별(6개월)</option></select>
+                        <select id="timeUnitSel" onchange="setTimeUnit(this.value)" title="계획 기간" class="bg-slate-900 border border-slate-600 text-white text-[11px] rounded-lg px-2 py-1.5 font-bold"><option value="month">📅 1달 계획(4주)</option><option value="quarter">📅 1분기 계획(3개월)</option><option value="year" selected>📅 1년 계획(4분기)</option></select>
                         <div id="diag-msg" class="text-[10px] sm:text-xs font-bold px-2 py-1.5 rounded-lg bg-slate-800 text-slate-400 border border-slate-700 text-center max-w-[120px] sm:max-w-none">
                             진단 대기 중
                         </div>
@@ -341,19 +341,23 @@
         // ===== 그리드 모델: Y=영역(행), X=분기(열, 3단계×4분기=12) =====
         const GRID_ROWS = ['독해','듣기','말하기','쓰기','문법','구문','어휘','파닉스','모의/기출'];
         const GRID_CORE = ['독해','듣기','말하기','쓰기'];   // 4대영역
-        // 큰 단위일수록 더 긴 로드맵(=더 많은 칸). 년별(장기 12년) > 분기별(3년) > 월별(1년 줌인)
-        let TIME_UNIT = 'quarter';
-        const TIME_UNITS = { year:{cols:12, ko:'년별', desc:'장기 로드맵 12년(1칸=1년)'}, quarter:{cols:8, ko:'분기별', desc:'2년 × 4분기(1칸=1분기)'}, month:{cols:6, ko:'월별', desc:'6개월 단기집중(1칸=1달)'} };
-        let GRID_COLS = TIME_UNITS.quarter.cols;   // 기본 = 분기별(8칸)
+        // 계획 기간 = 1달 / 1분기 / 1년. 기간을 그 단위의 자연스러운 칸으로 쪼갬.
+        let TIME_UNIT = 'year';
+        const TIME_UNITS = {
+            month:   { cols:4, ko:'1달',  desc:'한 달 계획 — 4주(1칸=1주)' },
+            quarter: { cols:3, ko:'1분기', desc:'한 분기 계획 — 3개월(1칸=1달)' },
+            year:    { cols:4, ko:'1년',  desc:'1년 계획 — 4분기(1칸=1분기)' },
+        };
+        let GRID_COLS = TIME_UNITS.year.cols;   // 기본 = 1년(4분기)
         const PHASE_NAME = { 1:'기반', 2:'체화', 3:'실전' };
         const PHASE_LV   = { 1:[1,2,2], 2:[2,3,3], 3:[3,4,5] };
         // 컬럼 메타: 단계는 위치비율(전체의 1/3씩)로 추정 → PHASE_LV 매핑. 라벨은 단위별.
         function colMeta(c){
             const phase = Math.min(3, Math.floor((GRID_COLS>1 ? c/GRID_COLS : 0)*3)+1);
             let label;
-            if(TIME_UNIT==='year') label=(c+1)+'년차';                          // 1년차~12년차 (장기)
-            else if(TIME_UNIT==='month') label=(c+1)+'월';                       // 1월~6월 (단기 줌인)
-            else label=(Math.floor(c/4)+1)+'년 '+((c%4)+1)+'분기';               // 1년1분기~3년4분기
+            if(TIME_UNIT==='month') label=(c+1)+'주차';                         // 1주차~4주차 (1달)
+            else if(TIME_UNIT==='quarter') label=(c+1)+'개월차';                 // 1~3개월차 (1분기)
+            else label=(c+1)+'분기';                                            // 1~4분기 (1년)
             return { phase, quarter:(c%4)+1, label };
         }
         function setTimeUnit(unit){
@@ -593,7 +597,7 @@
                 const b = rec.book;
                 recBanner.innerHTML = `
                     <div class="flex-1">
-                        <div class="text-[11px] text-brand font-bold mb-1 flex items-center gap-1"><i data-lucide="bot" class="w-3.5 h-3.5"></i> AI 다음 분기 추천</div>
+                        <div class="text-[11px] text-brand font-bold mb-1 flex items-center gap-1"><i data-lucide="bot" class="w-3.5 h-3.5"></i> AI 다음 칸 추천</div>
                         <div class="text-sm font-bold text-white mb-0.5">[${b.pub}] ${b.title}</div>
                         <div class="text-[11px] text-slate-300 leading-snug break-keep">${rec.msg}</div>
                     </div>
@@ -663,7 +667,7 @@
             const gcols = `grid-template-columns: 42px repeat(${GRID_COLS}, minmax(0,1fr)); gap:2px;`;   // 화면폭에 꽉 차게(한눈에)
 
             const isPhaseStart=(c)=> c===0 || colMeta(c-1).phase!==colMeta(c).phase;
-            const tLabel=(c)=> TIME_UNIT==='year'?(c+1)+'년':TIME_UNIT==='month'?(c+1)+'월':((c%4)+1)+'Q';
+            const tLabel=(c)=> TIME_UNIT==='year'?(c+1)+'분기':TIME_UNIT==='month'?(c+1)+'주':(c+1)+'개월';
             let header = `<div class="grid" style="${gcols}"><div class="text-[9px] text-slate-500 flex items-end pb-1">영역</div>`;
             for(let c=0;c<GRID_COLS;c++){ const m=colMeta(c), ps=isPhaseStart(c); header += `<div class="text-center ${ps?'border-l border-slate-700':''}">${ps?`<div class="text-[8px] ${phaseColors[m.phase]} font-bold truncate">${m.phase}단계</div>`:'<div class="h-3"></div>'}<div class="text-[8px] text-slate-500">${tLabel(c)}</div></div>`; }
             header += `</div>`;
@@ -773,9 +777,9 @@
                     <div class="flex-1 min-w-0"><div class="text-sm font-bold text-white truncate">${b.title}</div><div class="text-[11px] text-slate-400 truncate">${b.pub} · Lv.${b.level}${b.cefr?(' · '+b.cefr):''}</div></div>
                     <button onclick="addToActive('${b.id}')" class="bg-brand text-slate-900 text-xs font-bold px-3 py-2 rounded-lg">담기</button>
                 </div>`).join('') : '<div class="text-slate-400 text-sm">조건에 맞는 어휘 교재가 없습니다.</div>';
-            openModal(`어휘 자동 처방 (커리 평균 Lv.${target})`, `<div class="text-xs text-slate-400 mb-3">나머지 영역을 배치한 뒤 레벨에 맞춰 어휘 교재를 추천합니다. "담기"로 빈 분기에 자동 배치됩니다.</div>${rows}`);
+            openModal(`어휘 자동 처방 (커리 평균 Lv.${target})`, `<div class="text-xs text-slate-400 mb-3">나머지 영역을 배치한 뒤 레벨에 맞춰 어휘 교재를 추천합니다. "담기"로 빈 칸에 자동 배치됩니다.</div>${rows}`);
         }
-        function addToActive(id){ closeModal(); selectBook(id); toggleView('2d'); showToast('배치할 분기 슬롯을 누르세요 (취소: 하단 취소 버튼)'); }
+        function addToActive(id){ closeModal(); selectBook(id); toggleView('2d'); showToast('배치할 칸(시간 슬롯)을 누르세요 (취소: 하단 취소 버튼)'); }
 
         // 4대영역(독해·듣기·말하기·쓰기) 행마다 단계별 1권씩 균형 자동 채움 — 단계 레벨 + 케미
         function autoFillBalance(){
