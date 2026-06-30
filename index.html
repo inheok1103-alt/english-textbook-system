@@ -647,6 +647,8 @@
                     else if(state.currentTab === 'age') matchFilter = (b.ageBand === state.filterVal);
                 }
                 if(state.foreignOnly && !b.foreign) return false;
+                if(!audienceOk(b)) return false;                                  // 트랙(학생/학부모/임용) 오디언스
+                if(state.track==='student' && !GRID_ROWS.includes(b.skill)) return false;   // 전공·통합은 학생 그리드 대상 아님
                 return matchSearch && matchFilter;
             });
 
@@ -756,6 +758,7 @@
         function placeInGrid(bookId, col){
             const b=byId(bookId); if(!b) return;
             if(gridIsPlaced(bookId)){ showToast('이미 배치된 교재입니다.', true); return; }
+            if(!GRID_ROWS.includes(b.skill)){ showToast(`'${b.skill}' 교재는 계획표에 넣을 수 없어요(전공/통합).`, true); return; }
             const skill=rowOf(b.skill);
             if(state.grid[skill][col]){ showToast(`${skill} ${colMeta(col).label} 칸이 찼습니다.`, true); return; }
             state.grid[skill][col]=bookId; state.lastAddedSkill=b.skill;
