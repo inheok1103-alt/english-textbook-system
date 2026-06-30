@@ -32,6 +32,10 @@
         ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #64748b; }
         body { background-color: #0f172a; color: #f8fafc; overflow-x: hidden; touch-action: manipulation; }
+        /* 접근성: 키보드 포커스 링(마우스엔 안 보이고 키보드 탐색 시만) */
+        :focus-visible { outline: 2px solid #2dd4bf; outline-offset: 2px; border-radius: 4px; }
+        [role="button"], [tabindex="0"] { cursor: pointer; }
+        .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 
         @keyframes pulse-border {
             0% { border-color: rgba(16, 185, 129, 0.4); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
@@ -282,7 +286,7 @@
     </main>
 
     <!-- 모달(처방/대시보드) -->
-    <div id="modalWrap" class="hidden fixed inset-0 z-[90] bg-black/70 flex items-start justify-center p-4 overflow-auto">
+    <div id="modalWrap" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="hidden fixed inset-0 z-[90] bg-black/70 flex items-start justify-center p-4 overflow-auto">
         <div class="bg-panel border border-slate-700 rounded-2xl w-full max-w-2xl mt-8 shadow-2xl">
             <div class="flex justify-between items-center p-4 border-b border-slate-700">
                 <h3 id="modalTitle" class="font-bold text-white text-lg"></h3>
@@ -293,7 +297,7 @@
     </div>
 
     <!-- Toast -->
-    <div id="toast" class="fixed bottom-10 left-1/2 transform -translate-x-1/2 bg-brand text-slate-900 font-bold px-6 py-3 rounded-full shadow-2xl opacity-0 pointer-events-none transition-all duration-300 z-[100] flex items-center gap-2 translate-y-4">
+    <div id="toast" role="status" aria-live="polite" class="fixed bottom-10 left-1/2 transform -translate-x-1/2 bg-brand text-slate-900 font-bold px-6 py-3 rounded-full shadow-2xl opacity-0 pointer-events-none transition-all duration-300 z-[100] flex items-center gap-2 translate-y-4">
         <i data-lucide="check-circle" class="w-5 h-5"></i>
         <span id="toastMsg">메시지</span>
     </div>
@@ -531,6 +535,15 @@
             if (typeof loadRatings === 'function') loadRatings();
             if (typeof startRealtimeSync === 'function') startRealtimeSync();
             try{ logEvent('app_open',{books:MASTER_DATA.length}); }catch(e){}
+            // 접근성 — 전역 키보드: 버튼역할 요소 Enter/Space 클릭, Esc로 모달 닫기
+            document.addEventListener('keydown', (e)=>{
+                if(e.key==='Escape'){ const mw=document.getElementById('modalWrap'); if(mw && !mw.classList.contains('hidden')) closeModal(); return; }
+                const t=e.target; if(!t||!t.getAttribute) return;
+                if((e.key==='Enter'||e.key===' ') && t.getAttribute('onclick') && t.getAttribute('role')==='button'){ e.preventDefault(); t.click(); }
+            });
+            a11yAugment(document);
+            // 렌더로 새로 생긴 onclick 요소도 자동 보강(디바운스)
+            try{ const obs=new MutationObserver(()=>{ clearTimeout(window.__a11yT); window.__a11yT=setTimeout(()=>a11yAugment(document),250); }); obs.observe(document.body,{childList:true,subtree:true}); }catch(e){}
         }
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initApp);
         else setTimeout(initApp, 50);
@@ -795,8 +808,12 @@
         // ==========================================
         // 4b. 어휘 처방 · 공유 · 저장/불러오기 · 대시보드
         // ==========================================
-        function openModal(title, html){ document.getElementById('modalTitle').innerText=title; document.getElementById('modalBody').innerHTML=html; document.getElementById('modalWrap').classList.remove('hidden'); if(typeof lucide!=='undefined') lucide.createIcons(); }
-        function closeModal(){ document.getElementById('modalWrap').classList.add('hidden'); if(window.__dashTimer){ clearInterval(window.__dashTimer); window.__dashTimer=null; } }
+        function openModal(title, html){ window.__lastFocus=document.activeElement; const mb=document.getElementById('modalBody'); document.getElementById('modalTitle').innerText=title; mb.innerHTML=html; const mw=document.getElementById('modalWrap'); mw.classList.remove('hidden'); a11yAugment(mb); if(typeof lucide!=='undefined') lucide.createIcons(); const f=mw.querySelector('button,[tabindex="0"],a[href],input'); if(f) try{f.focus();}catch(e){} }
+        function closeModal(){ document.getElementById('modalWrap').classList.add('hidden'); if(window.__dashTimer){ clearInterval(window.__dashTimer); window.__dashTimer=null; } try{ if(window.__lastFocus&&window.__lastFocus.focus) window.__lastFocus.focus(); }catch(e){} }
+        // 접근성 보강 — onclick div를 키보드 포커스+버튼역할로, 표지 img에 alt(장식용 빈값, 옆 제목텍스트가 SR에 읽힘)
+        function a11yAugment(root){ const r=root||document;
+            r.querySelectorAll('[onclick]:not(button):not(a):not(input):not(select):not(textarea):not([tabindex])').forEach(el=>{ el.setAttribute('tabindex','0'); if(!el.hasAttribute('role')) el.setAttribute('role','button'); });
+            r.querySelectorAll('img:not([alt])').forEach(img=>img.setAttribute('alt','')); }
         function showHelp(){
             openModal('🎓 처음이세요? 3분 가이드', `
               <div class="space-y-3 text-sm text-slate-300">
