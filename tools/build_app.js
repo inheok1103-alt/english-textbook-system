@@ -196,7 +196,7 @@ const MASTER_DATA = englishOnly.map((m) => {
     cefr: extractCefr(m.pickComment || ""),
     lexile: extractLexile(m.pickComment || ""),
     ageBand: ageBandAdj(m),                          // 세분 나이대
-    status: m.status || "정상",                    // 정상 / 절판
+    status: (/[\[\(]\s*절판\s*[\]\)]/.test(m.title || "") ? "절판" : (m.status || "정상")),   // 제목에 [절판] 표기 보정
     foreign: !!m.foreign,                           // 원서(수입 ELT) 여부
     isbn: m.isbn || "",
     kdc: m.kdc || "",

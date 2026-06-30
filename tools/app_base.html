@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>커리큘럼 제작기 · by 이인혁 (Ray T)</title>
 
     <!-- Tailwind CSS -->
@@ -424,8 +424,10 @@
             if(state.track==='exam')   return !!b.examPrep;
             return !b.examPrep && !b.parentBook && !b.teacherRef;   // student
         }
+        // HTML 이스케이프 — 인쇄/공유 출력물의 학교명·학생명·제목 주입(저장형 XSS·마크업깨짐) 차단
+        function escHtml(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
         // 목표 → 핵심 영역(skill) 매핑 — '독해 늘리기' 골랐는데 문법책이 1등 나오는 문제 차단
-        const GOAL_SKILL = { '영어 첫걸음':['파닉스'], '독해 늘리기':['독해'], '문법 잡기':['문법','구문'], '말하기·회화':['말하기'], '듣기':['듣기'], '어휘 늘리기':['어휘'], '쓰기·서술형':['쓰기'], '원서 읽기':['독해'], '수능·모의고사':['모의/기출','구문','독해'] };
+        const GOAL_SKILL = { '영어 첫걸음':['파닉스','듣기'], '학교영어 따라가기':['독해','문법','어휘','듣기'], '독해 늘리기':['독해'], '문법 잡기':['문법','구문'], '말하기·회화':['말하기'], '듣기':['듣기'], '어휘 늘리기':['어휘'], '쓰기·서술형':['쓰기'], '원서 읽기':['독해'], '내신 대비':['독해','문법','어휘','쓰기'], '수능·모의고사':['모의/기출','구문','독해'], '시험영어(토익·토플)':['독해','듣기','어휘','문법'] };
         function _gidx(g){ return _CHEM.GRADE_IDX[g] != null ? _CHEM.GRADE_IDX[g] : 1; }
         function _isComp(a,b){ const R=_CHEM.RECEPTIVE,P=_CHEM.PRODUCTIVE,E=_CHEM.ELEMENT;
             if((R.includes(a)&&P.includes(b))||(P.includes(a)&&R.includes(b))||(R.includes(a)&&R.includes(b))) return true;
@@ -593,8 +595,8 @@
             const addedIds = []; let last = null;
             gridColSeq().forEach(b=>{ addedIds.push(b.id); last=b; });
             if(!last) return null;
-            if(addedIds.length >= 8){
-                const m = MASTER_DATA.find(b => b.skill==='모의/기출' && !addedIds.includes(b.id));
+            if(addedIds.length >= 8 && !['유아/예비초','초등'].includes(state.curGrade)){   // 유아·초등엔 모의/기출 강제 금지
+                const m = MASTER_DATA.find(b => b.skill==='모의/기출' && !addedIds.includes(b.id) && audienceOk(b) && b.status!=='절판' && gradeAdj(b.gradeBand,last.gradeBand)<=1);
                 if(m) return { book:m, msg:'후반부 실전 대비 — 모의고사/기출 풀이 권장', alts:[] };
             }
             const cands = MASTER_DATA.filter(b => !addedIds.includes(b.id) && b.id!==last.id && audienceOk(b))
@@ -646,7 +648,8 @@
                     const isSelected = state.selectedBookId === b.id;
                     const coverHtml = `<img src="${b.cover}" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://placehold.co/150x200/1e293b/64748b?text=BOOK'">`;
                     const tagHtml = (b.tags||[]).slice(0,3).map(t => `<span class="text-[10px] text-slate-400 border border-slate-600 px-1 rounded bg-slate-800">${t}</span>`).join('');
-                    const trackHtml = b.track ? `<span class="text-[10px] bg-purple-500/20 text-purple-300 border border-purple-500/40 px-1.5 py-0.5 rounded">${b.track}</span>` : '';
+                    const _trk = b.track ? String(b.track).split(/[>\/]/).pop().trim() : '';   // 경로형 내부분류 → 잎 1개만
+                    const trackHtml = (_trk && _trk.length<=12 && !/조기영어|자녀교육|가정|살림/.test(_trk)) ? `<span class="text-[10px] bg-purple-500/20 text-purple-300 border border-purple-500/40 px-1.5 py-0.5 rounded">${escHtml(_trk)}</span>` : '';
                     const rg = window.__ratingMap && window.__ratingMap[b.id];
                     return `
                     <div draggable="true" ondragstart="dragStart(event, '${b.id}')" onclick="selectBook('${b.id}')"
@@ -906,7 +909,7 @@
             let thead='<tr><th>영역＼분기</th>'; for(let c=0;c<GRID_COLS;c++){const m=colMeta(c); thead+=`<th>${m.phase}-${m.quarter}</th>`;} thead+='</tr>';
             let body=''; GRID_ROWS.forEach(skill=>{ if(gridRowSeq(skill).length===0) return; const core=GRID_CORE.includes(skill);
                 let row=`<tr><td class="sk${core?' core':''}">${skill}</td>`;
-                for(let c=0;c<GRID_COLS;c++){ const uid=state.grid[skill][c], b=uid?byId(uid):null; row+=`<td>${b?`<b>${(b.title||'').replace(/</g,'&lt;')}</b><br><span class="lv">${b.pub} · Lv.${b.level}${b.cefr?(' · '+b.cefr):''}</span>`:''}</td>`; }
+                for(let c=0;c<GRID_COLS;c++){ const uid=state.grid[skill][c], b=uid?byId(uid):null; row+=`<td>${b?`<b>${escHtml(b.title)}</b><br><span class="lv">${escHtml(b.pub)} · Lv.${b.level}${b.cefr?(' · '+escHtml(b.cefr)):''}</span>`:''}</td>`; }
                 row+='</tr>'; body+=row; });
             const dist=coreSkillGap();
             const html=`<!doctype html><html><head><meta charset="utf-8"><title>나의 영어 커리큘럼</title><style>
@@ -916,8 +919,8 @@
                 th{background:#f1f5f9} td.sk{background:#f8fafc;font-weight:bold;text-align:left} td.sk.core{background:#e0f2fe;color:#075985} .lv{color:#64748b;font-size:10px}
                 .legend{margin-top:14px;font-size:11px;color:#475569} @media print{.noprint{display:none}}
             </style></head><body>
-                <h1>📘 ${(()=>{const m=planMeta();return [m.school,m.cls,m.student].filter(Boolean).join(' ');})()||'나의'} 영어 학습 커리큘럼</h1>
-                <div class="sub">${state.goal?('목표: <b>'+state.goal+'</b> · '):''}총 ${placed.length}권 · 가로=시간 진행 / 세로=4대영역+요소 · ${new Date().toLocaleDateString('ko-KR')}</div>
+                <h1>📘 ${(()=>{const m=planMeta();return escHtml([m.school,m.cls,m.student].filter(Boolean).join(' '));})()||'나의'} 영어 학습 커리큘럼</h1>
+                <div class="sub">${state.goal?('목표: <b>'+escHtml(state.goal)+'</b> · '):''}총 ${placed.length}권 · 가로=시간 진행 / 세로=4대영역+요소 · ${new Date().toLocaleDateString('ko-KR')}</div>
                 <table><thead>${thead}</thead><tbody>${body}</tbody></table>
                 <div class="legend">4대영역 분포 — 독해 ${dist.독해}·듣기 ${dist.듣기}·말하기 ${dist.말하기}·쓰기 ${dist.쓰기}</div>
                 <div style="margin-top:10px;font-size:10px;color:#94a3b8">커리큘럼 제작기 · 만든이 이인혁 (Ray T)</div>
@@ -981,7 +984,7 @@
                 cal+=`<div class="mb-4"><div class="font-bold ${light?'':'text-white'} text-sm mb-1">${y}년 ${mo}월</div><table class="w-full border-collapse text-center"><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
             });
             const totEst=res.tasks.reduce((n,t)=>n+t.est,0);
-            const hdr=`${inp.school||''} ${inp.student||''} · ${inp.level==='high'?'고등 10단계':'중등 7단계'} · 총 ${res.tasks.length}개(~${Math.round(totEst/60)}h) · ${nsFmt(new Date(inp.start))}~${examStr}`;
+            const hdr=`${escHtml(inp.school)} ${escHtml(inp.student)} · ${inp.level==='high'?'고등 10단계':'중등 7단계'} · 총 ${res.tasks.length}개(~${Math.round(totEst/60)}h) · ${nsFmt(new Date(inp.start))}~${examStr}`;
             return light?cal:`<div class="bg-slate-800/40 rounded-xl border border-slate-700 p-3"><div class="text-xs text-slate-400 mb-2">${hdr}</div>${cal}</div>`;
         }
         function accumulateNaesin(inp, res){
@@ -994,7 +997,7 @@
             if(!window.__naesin){ showToast('먼저 일정을 생성하세요', true); return; }
             const {inp,res}=window.__naesin;
             accumulateNaesin(inp, res);
-            const html=`<!doctype html><html><head><meta charset="utf-8"><title>내신 대비 일정</title><style>body{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif;padding:20px;color:#0f172a}h1{font-size:18px;margin:0 0 6px}.sub{color:#64748b;font-size:12px;margin-bottom:12px}table{border-collapse:collapse;width:100%;margin-bottom:12px}th,td{border:1px solid #cbd5e1;text-align:center;vertical-align:top;font-size:10px}td{height:64px;padding:2px}th{background:#f1f5f9;padding:3px}.day{font-weight:bold;font-size:11px}.exam{background:#fee2e2}.task{font-size:8px;color:#334155;text-align:left;line-height:1.3}@media print{.noprint{display:none}}</style></head><body><h1>📅 ${inp.school||''} 내신 대비 일정 — ${inp.student||''}</h1><div class="sub">${inp.level==='high'?'고등 10단계':'중등 7단계'} · ${nsFmt(new Date(inp.start))} ~ ${nsFmt(new Date(inp.exam))}(시험) · 본문 ${inp.lessons}과${inp.external?(' + 외부 '+inp.external):''}</div>${nsCalendar(inp,res,true)}<div style="margin-top:8px;font-size:10px;color:#94a3b8">커리큘럼 제작기 · 만든이 이인혁 (Ray T) · 간격복습·인출연습 원리 반영</div><button class="noprint" onclick="window.print()" style="margin-top:10px;padding:8px 16px;background:#0ea5e9;color:#fff;border:none;border-radius:8px;font-weight:bold;cursor:pointer">🖨 인쇄 / PDF 저장</button></body></html>`;
+            const html=`<!doctype html><html><head><meta charset="utf-8"><title>내신 대비 일정</title><style>body{font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif;padding:20px;color:#0f172a}h1{font-size:18px;margin:0 0 6px}.sub{color:#64748b;font-size:12px;margin-bottom:12px}table{border-collapse:collapse;width:100%;margin-bottom:12px}th,td{border:1px solid #cbd5e1;text-align:center;vertical-align:top;font-size:10px}td{height:64px;padding:2px}th{background:#f1f5f9;padding:3px}.day{font-weight:bold;font-size:11px}.exam{background:#fee2e2}.task{font-size:8px;color:#334155;text-align:left;line-height:1.3}@media print{.noprint{display:none}}</style></head><body><h1>📅 ${escHtml(inp.school)} 내신 대비 일정 — ${escHtml(inp.student)}</h1><div class="sub">${inp.level==='high'?'고등 10단계':'중등 7단계'} · ${nsFmt(new Date(inp.start))} ~ ${nsFmt(new Date(inp.exam))}(시험) · 본문 ${inp.lessons}과${inp.external?(' + 외부 '+inp.external):''}</div>${nsCalendar(inp,res,true)}<div style="margin-top:8px;font-size:10px;color:#94a3b8">커리큘럼 제작기 · 만든이 이인혁 (Ray T) · 간격복습·인출연습 원리 반영</div><button class="noprint" onclick="window.print()" style="margin-top:10px;padding:8px 16px;background:#0ea5e9;color:#fff;border:none;border-radius:8px;font-weight:bold;cursor:pointer">🖨 인쇄 / PDF 저장</button></body></html>`;
             const w=window.open('','_blank'); if(!w){ showToast('팝업 차단 해제 필요', true); return; } w.document.write(html); w.document.close();
         }
 
@@ -1126,7 +1129,7 @@
         function cefrRank(c){ const m={'PRE-A1':0,'A1':1,'A1+':1.5,'A2':2,'A2+':2.5,'B1':3,'B1+':3.5,'B2':4,'B2+':4.5,'C1':5,'C2':6}; return (c&&m[c]!=null)?m[c]:null; }
         function renderRecPicker(){
             const q=(document.getElementById('recSearch').value||'').toLowerCase();
-            const list = q ? MASTER_DATA.filter(b=>b.title.toLowerCase().includes(q)||(b.pub||'').toLowerCase().includes(q)).slice(0,12) : [];
+            const list = q ? MASTER_DATA.filter(b=>audienceOk(b) && (b.title.toLowerCase().includes(q)||(b.pub||'').toLowerCase().includes(q))).slice(0,12) : [];
             document.getElementById('recPicker').innerHTML = list.map(b=>`<div onclick="selectRecCurrent('${b.id}')" class="cursor-pointer text-xs p-2 rounded bg-slate-800 hover:bg-slate-700 flex justify-between gap-2"><span class="truncate">${b.title}</span><span class="text-slate-500 flex-shrink-0">${b.skill}·Lv${b.level}</span></div>`).join('') || (q?'<div class="text-xs text-slate-500 p-2">검색 결과 없음</div>':'');
         }
         function selectRecCurrent(id){ state.recCurrent=id; document.getElementById('recPicker').innerHTML=''; document.getElementById('recSearch').value=''; renderRecView(); }
@@ -1138,7 +1141,7 @@
         // ── 추천 컨텍스트(학년·목표·시기) — 학부모 언어 축 ──
         function recCtx(){ return { grade: state.recGrade||'', goal: state.recGoal||'', timing: state.recTiming||'' }; }
         const _GRADE_ORD = ['유아/예비초','초등','중등','고등','성인','대학/전공'];
-        function gradeAdj(a,b){ const i=_GRADE_ORD.indexOf(a), j=_GRADE_ORD.indexOf(b); return (i<0||j<0)?9:Math.abs(i-j); }
+        function gradeAdj(a,b){ if(a==='전체'||b==='전체'||!a||!b) return 0; const i=_GRADE_ORD.indexOf(a), j=_GRADE_ORD.indexOf(b); return (i<0||j<0)?9:Math.abs(i-j); }
         // 학년·목표·시기 적합도(추천 공통 가중치). 목표가 가장 강함 → 가나다 동점 제거의 핵심
         function ctxScore(b, ctx){
             let s=0; const why=[];
@@ -1198,7 +1201,7 @@
             const cr=cefrRank(cur.cefr);
             const cefrWant = cr!=null ? cr + (band==='high'?1:band==='low'?-1:0.5) : null;
             const gap=coreSkillGap();
-            return MASTER_DATA.filter(b=>b.id!==cur.id && audienceOk(b)).map(b=>{
+            return MASTER_DATA.filter(b=>b.id!==cur.id && audienceOk(b) && b.status!=='절판').map(b=>{
                 let s=0; const why=[];
                 s+=((b.q!=null?b.q:50)-50)*0.3;                                    // 내재 품질(최신성) 타이브레이커
                 const ld=Math.abs((b.level||3)-desired); s+=(ld===0?30:ld===1?13:ld===2?2:-12);
@@ -1232,7 +1235,7 @@
                 s+=Math.min(18, popOf(b)*0.45);                                   // 인기(외부+자체) 가산
                 const rg=ratingOf(b); if(rg&&rg.count){ s+=(rg.grade==='A'?10:rg.grade==='B'?6:rg.grade==='C'?2:0); }
                 if(ctx.goal==='원서 읽기' && b.foreign) s+=8;
-                if(b.status==='절판') s-=15;
+                if(b.status==='절판') return null;   // 절판은 추천에서 제외(못 사는 책)
                 return {b,s,why:recWhy(b,ctx)};
             }).filter(x=>x&&x.s>0).sort((a,b)=>b.s-a.s);
             return dedupBySeries(scored, 9);                                      // 같은 시리즈 1권만 → 9개 서로 다른 선택지
