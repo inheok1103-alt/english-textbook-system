@@ -125,7 +125,10 @@ function deriveGoals(m, skill, level, band) {
   if (has(/내신|중간고사|기말고사|학교\s*시험|서술형\s*대비|학교별/i)) g.add("내신 대비");
   if (has(/수능|모의고사|모평|수능특강|수능완성|\bebs\b|평가원|빈칸\s*추론|고난도\s*독해/i)) g.add("수능·모의고사");
   if (/토익|toeic|토플|toefl|텝스|teps|오픽|opic|아이엘츠|ielts|공무원|편입|비즈니스|business|\bgre\b|\bgmat\b|\bsat\b/i.test(t)) g.add("시험영어(토익·토플)");
-  // ③ 폴백 — 그래도 비면 레벨로 기본값(절대 빈 채로 두지 않음)
+  // ③ 오분류 보정 — 교과서 부교재는 '내신', 유아 사운드/동요/세이펜은 '영어 첫걸음'(잘못된 '독해' 분류 교정)
+  if (/자습서|평가\s*문제집|자습서\s*&?\s*평가|교과서\s*(평가|자습|채점)|시험\s*족보/.test(t)) { g.clear(); g.add("내신 대비"); }
+  else if (/사운드\s*북|sound\s*book|동요|노래로\s*배우|챈트|chant|세이펜|놀이북|율동|플랩북|팝업북/.test(t) && (band === "유아/예비초" || level <= 1)) { g.clear(); g.add("영어 첫걸음"); }
+  // ④ 폴백 — 그래도 비면 레벨로 기본값(절대 빈 채로 두지 않음)
   if (!g.size) g.add(level <= 2 ? "영어 첫걸음" : "독해 늘리기");
   return Array.from(g);
 }
@@ -140,6 +143,8 @@ function deriveTiming(m, skill, level) {
   if (!ti.size || has(/코스북|시리즈|series|course|레벨|level\s*\d|book\s*\d|단계|grade\s*\d|주교재|정규/i)) ti.add("학기중 꾸준히");
   return Array.from(ti);
 }
+// 원서(수입 영어책) 제목 시그널 — KOBIC foreign 플래그가 누락한 유명 원서 시리즈를 제목으로 재산정
+const FOREIGN_TITLE_RE = /bookworms|penguin\s*readers|oxford\s*reading\s*tree|뉴베리|newbery|usborne|scholastic|step\s*into\s*reading|i\s*can\s*read|ready[-\s]*to[-\s]*read|magic\s*tree\s*house|graded\s*reader|chapter\s*book|caldecott|dr\.?\s*seuss|cambridge\s*english\s*readers|macmillan\s*readers|compass\s*classic|little\s*fox|raz[-\s]*kids|reading\s*a-?z/i;
 // 오디언스 분류(학생용 추천에서 제외, 각자 트랙으로 분리)
 // ① 교사용·교육학 이론서  ② 임용고시(교원임용) 준비서  ③ 학부모 공부용(부모가 읽는 책)
 const TEACHER_RE = /교수법|교육학|교육론|교재론|교사를\s*위한|교사용|\(교사\)|지도서|학습지도안|수업의\s*모든\s*것|심층분석|평가의\s*이해|원리와\s*실제|교실기반|과제기반|페다고지|교직과정|교생실습|teacher.?s?\s*(guide|book|edition|manual)/i;
@@ -219,7 +224,7 @@ const MASTER_DATA = englishOnly.map((m) => {
     lexile: extractLexile(m.pickComment || ""),
     ageBand: ageBandAdj(m),                          // 세분 나이대
     status: enStatus,                               // [절판]표기·알라딘/카카오 유통상태 반영
-    foreign: !!m.foreign,                           // 원서(수입 ELT) 여부
+    foreign: !!m.foreign || FOREIGN_TITLE_RE.test(m.title || ""),   // 원서 — KOBIC 누락분 제목으로 재산정
     isbn: m.isbn || "",
     kdc: m.kdc || "",
     pubDate: m.pubDate || "",
