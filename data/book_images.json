@@ -7822,36 +7822,6 @@
       "publisher": "Bricks",
       "searchQuery": "Bricks Bricks Intensive Reading 1~4"
     },
-    "IH-ENG-0756": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0756.jpg",
-      "imageUrl": "https://image.yes24.com/goods/24563775/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/24563775",
-      "source": "YES24",
-      "sourceTitle": "능률 고급영문독해",
-      "sourceAuthor": ",,, 공저",
-      "score": 67,
-      "bytes": 17071,
-      "contentType": "image/jpeg",
-      "materialTitle": "능률 고급영문독해 (고급영문독해71 등)",
-      "publisher": "NE능률",
-      "searchQuery": "NE능률 고급영문독해 독해"
-    },
-    "IH-ENG-0757": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0757.jpg",
-      "imageUrl": "https://image.yes24.com/goods/124019086/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/124019086",
-      "source": "YES24",
-      "sourceTitle": "천일문 고등 GRAMMAR",
-      "sourceAuthor": ", 저",
-      "score": 53,
-      "bytes": 17165,
-      "contentType": "image/jpeg",
-      "materialTitle": "천일문 고등 GRAMMAR / 어법끝",
-      "publisher": "쎄듀",
-      "searchQuery": "쎄듀 천일문 고등 GRAMMAR / 어법끝"
-    },
     "IH-ENG-0760": {
       "status": "found",
       "localPath": "covers/IH-ENG-0760.jpg",
@@ -7866,51 +7836,6 @@
       "materialTitle": "Write Right (Beginner~Intermediate/Master)",
       "publisher": "A*List / 이퍼블릭",
       "searchQuery": "Write Right (Beginner~Intermediate/Master) 교재"
-    },
-    "IH-ENG-0761": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0761.jpg",
-      "imageUrl": "https://image.yes24.com/goods/3363884/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/3363884",
-      "source": "YES24",
-      "sourceTitle": "Pride and Prejudice",
-      "sourceAuthor": "/  (EDT)/  (INT)",
-      "score": 53,
-      "bytes": 15200,
-      "contentType": "image/jpeg",
-      "materialTitle": "AP English Literature 필독 원서 (The Great Gatsby, Pride and Prejudice, Frankenstein 등)",
-      "publisher": "Penguin / Norton / Oxford 등",
-      "searchQuery": "AP English Literature 필독 원서 (The Great Gatsby, Pride and Prejudice, Frankenstein 등) 교재"
-    },
-    "IH-ENG-0763": {
-      "status": "not_found",
-      "materialTitle": "영어 토론(디베이트) 교재 (Pro-Con-Rebuttal 형식)",
-      "publisher": "윤선생 / 스피킹플러스 / 디베이트포올 등",
-      "searchQuery": "윤선생 / 스피킹플러스 / 디베이트포올 등 영어 토론(디베이트) 교재 (Pro-Con-Rebuttal 형식)"
-    },
-    "IH-ENG-0765": {
-      "status": "not_found",
-      "materialTitle": "대학 일반물리/일반화학/일반생명과학/미적분학 영어 원서 교재 (AP 및 2학년 정규 대학과정 교과)",
-      "publisher": "해외 대학교재 출판사",
-      "searchQuery": "해외 대학교재 출판사 대학 일반물리/일반화학/일반생명과학/미적분학 영어 원서 교재 (AP 및 2학년 정규 대학과정 교과)"
-    },
-    "IH-ENG-0766": {
-      "status": "not_found",
-      "materialTitle": "원어민 영어(전문교과 영어) 에세이/아카데믹 라이팅 수행평가 자료",
-      "publisher": "교사 자체제작",
-      "searchQuery": "교사 자체제작 원어민 영어(전문교과 영어) 에세이/아카데믹 라이팅 수행평가 자료"
-    },
-    "IH-ENG-0767": {
-      "status": "not_found",
-      "materialTitle": "독서마일리지/추천도서 기반 영어 원서 다독 (학교 도서관 운영)",
-      "publisher": "다양",
-      "searchQuery": "다양 독서마일리지/추천도서 기반 영어 원서 다독 (학교 도서관 운영)"
-    },
-    "IH-ENG-0768": {
-      "status": "not_found",
-      "materialTitle": "민사고 영어원서 독서 리스트 (40종 고전 원서: 1984, The Great Gatsby, To Kill a Mockingbird, Beowulf, The Epic of Gilgamesh 등)",
-      "publisher": "Penguin / Vintage / Scribner 등",
-      "searchQuery": "Penguin / Vintage / Scribner 등 민사고 영어원서 독서 리스트 (40종 고전 원서: 1984, The Great Gatsby, To Kill a Mockingbird, Beowulf, The Epic of Gilgamesh 등)"
     },
     "IH-ENG-0769": {
       "status": "found",
@@ -7927,51 +7852,6 @@
       "publisher": "W. W. Norton",
       "searchQuery": "W. W. Norton The Norton Anthology of English Literature"
     },
-    "IH-ENG-0770": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0770.jpg",
-      "imageUrl": "https://image.yes24.com/goods/117186137/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/117186137",
-      "source": "YES24",
-      "sourceTitle": "Princeton Review AP English Literature &amp; Composition Prep, 2023",
-      "sourceAuthor": "저",
-      "score": 48,
-      "bytes": 32447,
-      "contentType": "image/jpeg",
-      "materialTitle": "AP English Literature & Composition 대비 교재 (Barron's / The Princeton Review / Kaplan)",
-      "publisher": "Barron's / The Princeton Review / Kaplan",
-      "searchQuery": "AP English Literature & Composition 대비 교재 (Barron's / The Princeton Review / Kaplan) 교재"
-    },
-    "IH-ENG-0773": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0773.jpg",
-      "imageUrl": "https://image.yes24.com/goods/22706213/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/22706213",
-      "source": "YES24",
-      "sourceTitle": "어법끝 Start 스타트 ver.2.0 + 어법끝 VER. 5.0 (2015년)",
-      "sourceAuthor": "편집부 저",
-      "score": 32,
-      "bytes": 24680,
-      "contentType": "image/jpeg",
-      "materialTitle": "어법끝 (Start / 5.0)",
-      "publisher": "쎄듀",
-      "searchQuery": "쎄듀 어법끝 (Start / 5.0)"
-    },
-    "IH-ENG-0774": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0774.jpg",
-      "imageUrl": "https://image.yes24.com/goods/176999276/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/176999276",
-      "source": "YES24",
-      "sourceTitle": "EBS 수능특강 영어영역 영어 + 영어듣기 + 영어독해연습 세트 (2026년) (2027 수능대비)",
-      "sourceAuthor": "저",
-      "score": 71,
-      "bytes": 28343,
-      "contentType": "image/jpeg",
-      "materialTitle": "EBS 수능특강 영어 / 영어독해연습 / 수능특강 영어듣기",
-      "publisher": "EBS",
-      "searchQuery": "EBS 수능특강 영어 / 영어독해연습 / 수능특강 영어듣기 교재"
-    },
     "IH-ENG-0776": {
       "status": "found",
       "localPath": "covers/IH-ENG-0776.jpg",
@@ -7986,21 +7866,6 @@
       "materialTitle": "Bricks Writing School (1~3)",
       "publisher": "사회평론",
       "searchQuery": "사회평론 Bricks Writing School 쓰기"
-    },
-    "IH-ENG-0777": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0777.jpg",
-      "imageUrl": "https://image.yes24.com/goods/115117325/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/115117325",
-      "source": "YES24",
-      "sourceTitle": "English Grammar in Use Book with Answers Oebv Edition: A Self-Study Reference and Practice Book for Intermediate Learners of English",
-      "sourceAuthor": "Murphy, Raymond",
-      "score": 52,
-      "bytes": 19965,
-      "contentType": "image/jpeg",
-      "materialTitle": "Grammar in Use (Basic / Intermediate)",
-      "publisher": "Cambridge University Press",
-      "searchQuery": "Cambridge University Press English Grammar in Use 문법"
     },
     "IH-ENG-0778": {
       "status": "found",
@@ -8032,21 +7897,6 @@
       "publisher": "The Critical Reader",
       "searchQuery": "The Critical Reader The Critical Reader: The Complete Guide to SAT Reading"
     },
-    "IH-ENG-0780": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0780.jpg",
-      "imageUrl": "https://image.yes24.com/goods/133931128/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/133931128",
-      "source": "YES24",
-      "sourceTitle": "Princeton Review Digital SAT Premium Prep, 2026: 6 Full-Length Practice Tests (3 in Book + 3 Adaptive Tests Online) + Online Flashcards + Review &amp; Tools (2026)",
-      "sourceAuthor": "",
-      "score": 38,
-      "bytes": 21295,
-      "contentType": "image/jpeg",
-      "materialTitle": "The Official SAT Study Guide / Digital SAT Premium Prep",
-      "publisher": "College Board / Princeton Review",
-      "searchQuery": "College Board / Princeton Review Official SAT Study Guide (College Board) / Princeton Review 모의/기출"
-    },
     "IH-ENG-0782": {
       "status": "found",
       "localPath": "covers/IH-ENG-0782.jpg",
@@ -8061,21 +7911,6 @@
       "materialTitle": "능률 VOCA 어원편 (고등)",
       "publisher": "NE능률",
       "searchQuery": "NE능률 능률 VOCA 어원편 (고등)"
-    },
-    "IH-ENG-0784": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0784.jpg",
-      "imageUrl": "https://image.yes24.com/goods/22706069/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/22706069",
-      "source": "YES24",
-      "sourceTitle": "구문현답 + 천일문 기본 베이직 1001 SENTENCES Basic ver.3.0",
-      "sourceAuthor": "편집부 저",
-      "score": 15,
-      "bytes": 25676,
-      "contentType": "image/jpeg",
-      "materialTitle": "천일문 (구문/기본/GRAMMAR)",
-      "publisher": "쎄듀",
-      "searchQuery": "쎄듀 천일문 (쎄듀) 구문"
     },
     "IH-ENG-0786": {
       "status": "found",
@@ -12846,21 +12681,6 @@
       "searchQuery": "Unlock (Cambridge)",
       "isbn": "9781009797580"
     },
-    "IH-ENG-0632": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0632.jpg",
-      "imageUrl": "https://image.yes24.com/goods/151978171/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/151978171",
-      "source": "YES24",
-      "sourceTitle": "Cambridge IELTS 20 Academic : Authentic Practice Tests",
-      "sourceAuthor": "",
-      "score": 17,
-      "bytes": 14715,
-      "contentType": "image/jpeg",
-      "materialTitle": "Cambridge IELTS / ETS TOEFL",
-      "publisher": "해외원서(특목고)",
-      "searchQuery": "Cambridge IELTS / ETS TOEFL 교재"
-    },
     "IH-ENG-0650": {
       "status": "found",
       "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9780194387552.jpg",
@@ -13079,21 +12899,6 @@
       "searchQuery": "Top Phonics",
       "isbn": "9798886680003"
     },
-    "IH-ENG-0758": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0758.jpg",
-      "imageUrl": "https://image.yes24.com/goods/104122269/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/104122269",
-      "source": "YES24",
-      "sourceTitle": "천일문 완성 Master 500 Sentences",
-      "sourceAuthor": ", 저",
-      "score": 10,
-      "bytes": 12037,
-      "contentType": "image/jpeg",
-      "materialTitle": "천일문 (구문) / 영어 구문 독해",
-      "publisher": "쎄듀",
-      "searchQuery": "쎄듀 천일문 STARTER·기본·핵심·완성 구문"
-    },
     "IH-ENG-0759": {
       "status": "found",
       "localPath": "covers/IH-ENG-0759.jpg",
@@ -13110,65 +12915,6 @@
       "searchQuery": "grammar for great writing",
       "isbn": "9781337118606"
     },
-    "IH-ENG-0762": {
-      "status": "no_cover_real",
-      "imageUrl": "https://image.yes24.com/goods/2576343/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/2576343",
-      "source": "YES24",
-      "sourceTitle": "AP English Language and Composition Power Pack (Revised) (Sparknotes Test Prep)",
-      "sourceAuthor": "Not Available (NA)",
-      "score": 38,
-      "bytes": 2858,
-      "contentType": "image/jpeg",
-      "materialTitle": "AP English Language and Composition 대비 교재",
-      "publisher": "McGraw-Hill / The Princeton Review / Barron's",
-      "searchQuery": "AP English Language and Composition 대비 교재 교재"
-    },
-    "IH-ENG-0764": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0764.jpg",
-      "imageUrl": "https://image.yes24.com/goods/160655410/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/160655410",
-      "source": "YES24",
-      "sourceTitle": "Xistory 자이스토리 전국연합 모의고사 고1 영어 (2026년)",
-      "sourceAuthor": "등저",
-      "score": 17,
-      "bytes": 15425,
-      "contentType": "image/jpeg",
-      "materialTitle": "기출 모의고사 문제집 (마더텅 / 자이스토리)",
-      "publisher": "마더텅 / 수경출판사",
-      "searchQuery": "마더텅 / 수경출판사 기출 모의고사 문제집 (마더텅 / 자이스토리)"
-    },
-    "IH-ENG-0771": {
-      "status": "no_cover_real",
-      "imageUrl": "https://image.yes24.com/goods/13846172/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/13846172",
-      "source": "YES24",
-      "sourceTitle": "Native Americans of the Great Plains / Nativo-americanos de las Grandes Llanuras",
-      "sourceAuthor": "National Geographic Learning (COR)",
-      "score": 17,
-      "bytes": 2858,
-      "contentType": "image/jpeg",
-      "materialTitle": "Grammar for Great Writing / Great Writing 시리즈",
-      "publisher": "National Geographic Learning / Cengage",
-      "searchQuery": "National Geographic Learning / Cengage Great Writing 쓰기"
-    },
-    "IH-ENG-0772": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0772.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791138911009.jpg",
-      "sourcePage": "https://product.kyobobook.co.kr/detail/9791138911009",
-      "source": "Kyobo",
-      "sourceTitle": "워드마스터 수능 2000",
-      "sourceAuthor": "저",
-      "score": 96,
-      "bytes": 46390,
-      "contentType": "image/jpeg",
-      "materialTitle": "워드마스터 (수능 2000 / 고등 어원)",
-      "publisher": "이투스 /EDU",
-      "searchQuery": "워드마스터 (수능 2000 / 고등 어원)",
-      "isbn": "9791138911009"
-    },
     "IH-ENG-0775": {
       "status": "found",
       "localPath": "covers/IH-ENG-0775.jpg",
@@ -13184,20 +12930,6 @@
       "publisher": "George Orwell",
       "searchQuery": "Animal Farm",
       "isbn": "9780451526342"
-    },
-    "IH-ENG-0781": {
-      "status": "no_cover_real",
-      "imageUrl": "https://image.yes24.com/goods/85493267/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/85493267",
-      "source": "YES24",
-      "sourceTitle": "As A Matter of Fact The World Does Revolve Around: cute journal, diary, notebook. 120 story paper pages. 6 in x 9 in cover.",
-      "sourceAuthor": "Haque, MD Atikul",
-      "score": 50,
-      "bytes": 2858,
-      "contentType": "image/jpeg",
-      "materialTitle": "The Story of the World / My Big Fat Notebook (World·American History)",
-      "publisher": "Well-Trained Mind Press / Workman Publishing",
-      "searchQuery": "The Story of the World / My Big Fat Notebook (World·American History) 교재"
     },
     "IH-ENG-0783": {
       "status": "found",
