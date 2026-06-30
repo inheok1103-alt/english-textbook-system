@@ -40,6 +40,7 @@ const STAGES = [
 
   { key: "clean-noneng",   group: "clean",   label: "비영어 교재 제거", cmd: "node tools/remove_noneng.js", optional: true },
   { key: "clean-junk",     group: "clean",   label: "불필요 컨텐츠 제거(구식오디오·2000이전·굿즈)", cmd: "node tools/remove_junk.js", optional: true },
+  { key: "clean-dedup",    group: "clean",   label: "중복·구버전 정리(최신판만 보존)", cmd: "node tools/dedup_latest.js --apply", optional: true },
 
   { key: "enrich-foreign", group: "enrich",  label: "원서 표지·메타 보강(OpenLibrary/GoogleBooks·키 불필요)", cmd: "node tools/enrich_foreign.js", env: { ENRICH_LIMIT: val("enrich-limit", "150") }, optional: true },
   { key: "enrich-aladin",  group: "enrich",  label: "알라딘 보강(인기·가격·표지·절판)", cmd: "node tools/enrich_aladin.js", env: { ENRICH_LIMIT: val("aladin-limit", "1500") }, optional: true },

@@ -2,9 +2,9 @@ name: refresh-catalog
 # KOBIC 신간·표지 자동 갱신 → 재빌드 → 커밋 (당신 PC 없이 클라우드에서)
 on:
   schedule:
-    - cron: '0 18 * * *'   # 매일 03:00 KST (18:00 UTC) — 얕은 신간 갱신
-    - cron: '0 19 * * 1'   # 매주 월 04:00 KST — 깊은 신간 전수 스윕
-  workflow_dispatch:        # 수동 실행 버튼
+    - cron: '0 7,19 * * *'   # 매일 2회(16:00·04:00 KST) — 지속 업데이트(신간·표지·가격·인기)
+    - cron: '0 20 * * 1'     # 매주 월 05:00 KST — 깊은 신간 전수 스윕
+  workflow_dispatch:          # 수동 실행 버튼
 
 permissions:
   contents: write
@@ -24,8 +24,9 @@ jobs:
         with:
           node-version: '20'
 
-      - name: 전체 파이프라인 (수확→정제→보강→검수→색인→빌드)
-        run: node tools/pipeline.js --pages=${{ github.event.schedule == '0 19 * * 1' && '30' || '8' }} --aladin-limit=${{ github.event.schedule == '0 19 * * 1' && '4500' || '1500' }}
+      - name: 전체 파이프라인 (수확→정제→중복정리→보강→검수→색인→빌드)
+        run: node tools/pipeline.js --pages=${{ github.event.schedule == '0 20 * * 1' && '30' || '8' }} --aladin-limit=1500
+        # 알라딘 일 5,000 한도 → 회당 1,500(하루 2회=3,000, 월요일 +주간 1회=4,500 < 5,000)
         env:
           ALADIN_TTBKEY: ${{ secrets.ALADIN_TTBKEY }}
           KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}

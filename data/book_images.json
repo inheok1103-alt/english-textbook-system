@@ -78,18 +78,6 @@
       "publisher": "Compass Publishing (컴퍼스 퍼블리싱)",
       "searchQuery": "Vivid Reading"
     },
-    "IH-ENG-0007": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0007.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9788968062568C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968062568",
-      "sourceTitle": "초등 영어 독해 왓츠 리딩(What’s Reading) 90A",
-      "score": 65,
-      "bytes": 22914,
-      "materialTitle": "왓츠 리딩(What's Reading) 30/40",
-      "publisher": "쎄듀(CEDU)"
-    },
     "IH-ENG-0008": {
       "status": "found",
       "localPath": "covers/IH-ENG-0008.jpg",
@@ -157,18 +145,6 @@
       "publisher": "디딤돌",
       "searchQuery": "디딤돌 초등 첫 시리즈 교재"
     },
-    "IH-ENG-0017": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0017.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791162402481C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791162402481",
-      "sourceTitle": "자이스토리 초등 영문법 6학년",
-      "score": 60,
-      "bytes": 52220,
-      "materialTitle": "자이스토리 초등 영문법",
-      "publisher": "수경출판사"
-    },
     "IH-ENG-0018": {
       "status": "found",
       "localPath": "covers/IH-ENG-0018.jpg",
@@ -179,18 +155,6 @@
       "score": 75,
       "bytes": 50370,
       "materialTitle": "LET'S GO to the English World",
-      "publisher": "천재교육"
-    },
-    "IH-ENG-0019": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0019.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791125965763C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125965763",
-      "sourceTitle": "똑똑한 하루 Phonics 3B: 이중모음",
-      "score": 60,
-      "bytes": 33848,
-      "materialTitle": "똑똑한 하루 Phonics",
       "publisher": "천재교육"
     },
     "IH-ENG-0021": {
@@ -258,18 +222,6 @@
       "materialTitle": "Collins Easy Learning First Phonics Ages 3-4",
       "publisher": "Collins (HarperCollins Publishers, 영국)",
       "searchQuery": "Collins Easy Learning"
-    },
-    "IH-ENG-0029": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0029.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788962228939C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788962228939",
-      "sourceTitle": "기적의 맨처음 영단어 2",
-      "score": 60,
-      "bytes": 25350,
-      "materialTitle": "기적의 맨처음 영단어",
-      "publisher": "길벗스쿨"
     },
     "IH-ENG-0030": {
       "status": "found",
@@ -409,18 +361,6 @@
       "materialTitle": "별 VOCA 중학 영단어 입문",
       "publisher": "좋은책신사고"
     },
-    "IH-ENG-0051": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0051.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125966166C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125966166",
-      "sourceTitle": "똑똑한 하루 Reading 2A 초등 4학년 영어(2024)",
-      "score": 60,
-      "bytes": 41786,
-      "materialTitle": "똑똑한 하루 Reading",
-      "publisher": "천재교육"
-    },
     "IH-ENG-0052": {
       "status": "found",
       "localPath": "covers/IH-ENG-0052.jpg",
@@ -475,18 +415,6 @@
       "publisher": "천재교육",
       "searchQuery": "헬로우 그래머캣 교재"
     },
-    "IH-ENG-0057": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0057.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125958949C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125958949",
-      "sourceTitle": "똑똑한 하루 Voca 2A 파닉스+단어(초등 4학년 영어)",
-      "score": 60,
-      "bytes": 36416,
-      "materialTitle": "똑똑한 하루 VOCA",
-      "publisher": "천재교육"
-    },
     "IH-ENG-0059": {
       "status": "found",
       "localPath": "covers/IH-ENG-0059.jpg",
@@ -501,30 +429,6 @@
       "materialTitle": "미국교과서 읽는 리딩 Reading Key Starter",
       "publisher": "키출판사",
       "searchQuery": "키출판사 미국교과서 읽는 리딩 Reading Key Starter"
-    },
-    "IH-ENG-0064": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0064.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791189719432C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791189719432",
-      "sourceTitle": "초등 영단어, 단어가 읽기다 Starter 1",
-      "score": 94,
-      "bytes": 57734,
-      "materialTitle": "단어가 읽기다 Starter 1",
-      "publisher": "키출판사"
-    },
-    "IH-ENG-0065": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0065.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791189719517C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791189719517",
-      "sourceTitle": "초등 영단어, 단어가 읽기다 Starter 2",
-      "score": 94,
-      "bytes": 57005,
-      "materialTitle": "단어가 읽기다 Starter 2",
-      "publisher": "키출판사"
     },
     "IH-ENG-0066": {
       "status": "found",
@@ -4341,21 +4245,6 @@
       "materialTitle": "EBS 정승익의 수능 개념 잡는 대박구문",
       "publisher": "한국교육방송공사(EBS)",
       "searchQuery": "정승익의 수능 개념 잡는 대박구문"
-    },
-    "IH-ENG-0474": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0474.jpg",
-      "imageUrl": "https://image.yes24.com/goods/22791986/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/22791986",
-      "source": "YES24",
-      "sourceTitle": "천일문 입문",
-      "sourceAuthor": ",,, 공저",
-      "score": 64,
-      "bytes": 23059,
-      "contentType": "image/jpeg",
-      "materialTitle": "천일문 입문 Intro 500 Sentences",
-      "publisher": "쎄듀(CEDU)",
-      "searchQuery": "천일문 구문"
     },
     "IH-ENG-0476": {
       "status": "found",
@@ -9567,36 +9456,6 @@
       "publisher": "비상교육",
       "searchQuery": "비상교육 리더스뱅크 Reader's Bank Level 10"
     },
-    "IH-ENG-0908": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0908.jpg",
-      "imageUrl": "https://image.yes24.com/goods/124808532/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/124808532",
-      "source": "YES24",
-      "sourceTitle": "ReadingGraphy (리딩그라피) Level 2",
-      "sourceAuthor": ", 공저",
-      "score": 147,
-      "bytes": 16486,
-      "contentType": "image/jpeg",
-      "materialTitle": "ReadingGraphy (리딩그라피) Level 2",
-      "publisher": "쎄듀(CEDU)",
-      "searchQuery": "쎄듀(CEDU) ReadingGraphy (리딩그라피) Level 2"
-    },
-    "IH-ENG-0909": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0909.jpg",
-      "imageUrl": "https://image.yes24.com/goods/124808548/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/124808548",
-      "source": "YES24",
-      "sourceTitle": "ReadingGraphy (리딩그라피) Level 3",
-      "sourceAuthor": ", 공저",
-      "score": 147,
-      "bytes": 16401,
-      "contentType": "image/jpeg",
-      "materialTitle": "ReadingGraphy (리딩그라피) Level 3",
-      "publisher": "쎄듀(CEDU)",
-      "searchQuery": "쎄듀(CEDU) ReadingGraphy (리딩그라피) Level 3"
-    },
     "IH-ENG-0912": {
       "status": "found",
       "localPath": "covers/IH-ENG-0912.jpg",
@@ -10527,18 +10386,6 @@
       "publisher": "이퓨쳐(e-future)",
       "searchQuery": "이퓨쳐(e-future) e-future Classic Readers Starter"
     },
-    "IH-ENG-0009": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0009.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791191150339C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791191150339",
-      "sourceTitle": "Smart Phonics Readers 3-1: Jake and the Cake (with QR)",
-      "score": 89,
-      "bytes": 66485,
-      "materialTitle": "Smart Phonics 3rd Edition 1",
-      "publisher": "e-future (이퓨처)"
-    },
     "IH-ENG-0011": {
       "status": "found",
       "localPath": "covers/IH-ENG-0011.jpg",
@@ -10746,18 +10593,6 @@
       "materialTitle": "라이팅 와이즈 Lv.1-2",
       "publisher": "좋은책신사고"
     },
-    "IH-ENG-0050": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0050.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788928328741C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788928328741",
-      "sourceTitle": "빈출도순으로 빠르게 마스터하는 초빈출 영단어 중학 기본",
-      "score": 65,
-      "bytes": 55984,
-      "materialTitle": "초빈출 영단어 중학 기본",
-      "publisher": "좋은책신사고"
-    },
     "IH-ENG-0056": {
       "status": "found",
       "localPath": "covers/IH-ENG-0056.jpg",
@@ -10865,19 +10700,6 @@
       "bytes": 54558,
       "materialTitle": "미국교과서 읽는 리딩 Sight Word",
       "publisher": "키출판사"
-    },
-    "IH-ENG-0069": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0069.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974574543C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788974574543",
-      "sourceTitle": "초등 영어, 파닉스가 스타트다 1",
-      "score": 65,
-      "bytes": 53610,
-      "materialTitle": "초등 영어 파닉스가 스타트다",
-      "publisher": "키출판사",
-      "verifiedAt": "2026-06-29T20:36:24.564Z"
     },
     "IH-ENG-0070": {
       "status": "found",
@@ -11386,21 +11208,6 @@
       "materialTitle": "Shinoy and the Chaos Crew - Band 08 / Purple",
       "publisher": "Collins (Collins Big Cat / HarperCollins Publishers)",
       "searchQuery": "Shinoy and the Chaos Crew - Band 08 / Purple 교재"
-    },
-    "IH-ENG-0209": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0209.jpg",
-      "imageUrl": "https://image.yes24.com/goods/124808503/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/124808503",
-      "source": "YES24",
-      "sourceTitle": "ReadingGraphy (리딩그라피) Level 1",
-      "sourceAuthor": ", 공저",
-      "score": 147,
-      "bytes": 15530,
-      "contentType": "image/jpeg",
-      "materialTitle": "ReadingGraphy (리딩그라피) Level 1",
-      "publisher": "쎄듀(CEDU)",
-      "searchQuery": "쎄듀(CEDU) ReadingGraphy (리딩그라피) Level 1"
     },
     "IH-ENG-0210": {
       "status": "found",
@@ -13852,21 +13659,6 @@
       "materialTitle": "Shinoy and the Chaos Crew - Band 11 / Lime",
       "publisher": "Collins (Collins Big Cat / HarperCollins Publishers)",
       "searchQuery": "Shinoy and the Chaos Crew - Band 11 / Lime 교재"
-    },
-    "IH-ENG-0910": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0910.jpg",
-      "imageUrl": "https://image.yes24.com/goods/124808567/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/124808567",
-      "source": "YES24",
-      "sourceTitle": "ReadingGraphy (리딩그라피) Level 4",
-      "sourceAuthor": ", 공저",
-      "score": 147,
-      "bytes": 15887,
-      "contentType": "image/jpeg",
-      "materialTitle": "ReadingGraphy (리딩그라피) Level 4",
-      "publisher": "쎄듀(CEDU)",
-      "searchQuery": "쎄듀(CEDU) ReadingGraphy (리딩그라피) Level 4"
     },
     "IH-ENG-0911": {
       "status": "found",
