@@ -443,6 +443,7 @@
         function audienceOk(b){
             if(state.track==='parent') return !!b.parentBook;
             if(state.track==='exam')   return !!b.examPrep;
+            if(state.track==='adult')  return !b.examPrep && !b.parentBook && !b.teacherRef && (b.gradeBand==='성인'||b.gradeBand==='대학/전공'||b.gradeBand==='전체');   // 성인 본인 학습
             return !b.examPrep && !b.parentBook && !b.teacherRef;   // student
         }
         // HTML 이스케이프 — 인쇄/공유 출력물의 학교명·학생명·제목 주입(저장형 XSS·마크업깨짐) 차단
@@ -1350,13 +1351,13 @@
         // ── 오디언스 트랙(학생용/학부모용/임용준비) ──
         function renderTrackToggle(){
             const box=document.getElementById('trackToggle'); if(!box) return;
-            const TR=[['student','🧒 학생용','학생이 풀 교재'],['parent','👩‍🏫 학부모용','부모가 보는 책(엄마표·공부법)'],['exam','🎓 임용·공무원','임용·공무원·전공 시험 영어']];
+            const TR=[['student','🧒 학생용','학생이 풀 교재'],['adult','🧑‍💼 성인(본인)','성인 본인 학습 — 토익·회화·독해'],['parent','👩‍🏫 학부모용','부모가 보는 책(엄마표·공부법)'],['exam','🎓 임용·공무원','임용·공무원·전공 시험 영어']];
             const sortBtn=(v,lab)=>`<button onclick="setRecSort('${v}')" title="${v==='pop'?'알라딘 판매량 많은 순':'우리 아이 맞춤 적합도 순'}" class="px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all ${state.recSort===v?'bg-accent text-slate-900':'bg-slate-800 text-slate-400 border border-slate-700 hover:text-white'}">${lab}</button>`;
             box.innerHTML=TR.map(([t,lab,desc])=>`<button onclick="setTrack('${t}')" title="${desc}" class="px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${state.track===t?'bg-brand text-slate-900':'bg-slate-800 text-slate-400 border border-slate-700 hover:text-white'}">${lab}</button>`).join('')
                +`<span class="w-px h-5 bg-slate-700 mx-1 self-center inline-block"></span>`+sortBtn('fit','🎯 맞춤순')+sortBtn('pop','🔥 인기순')
                +`<span class="text-[10px] text-slate-500 ml-1 self-center">${state.recSort==='pop'?'← 판매량·인기 순':'← 난이도·맞춤'}</span>`;
         }
-        function setTrack(t){ state.track=t; state.recCurrent=null; renderRecView(); }
+        function setTrack(t){ state.track=t; state.recCurrent=null; if(t==='adult' && (!state.recGrade||['유아/예비초','초등','중등','고등'].includes(state.recGrade))) state.recGrade='성인'; renderRecView(); }
         function setRecSort(v){ state.recSort=v; renderRecView(); showToast(v==='pop'?'🔥 인기(판매량) 우선으로':'🎯 맞춤(적합도) 우선으로'); }
         // 학부모/임용 트랙 — 풀 전체를 최신순으로 시리즈 중복 제거해 노출
         function trackPoolRec(){
@@ -1372,7 +1373,7 @@
             const wrap=document.getElementById('recResults'); if(!wrap) return;
             renderTrackToggle();
             const ctxPanel=document.getElementById('recCtxPanel'), curPanel=document.getElementById('recCurPanel');
-            const isStudent=state.track==='student';
+            const isStudent=(state.track==='student'||state.track==='adult');   // 성인 본인도 맞춤 선택 경로 사용
             const bb=basketBarHtml();
             if(ctxPanel) ctxPanel.style.display=isStudent?'':'none';
             if(curPanel) curPanel.style.display=isStudent?'':'none';
