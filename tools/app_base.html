@@ -58,6 +58,7 @@
                     <h1 class="font-bold text-sm sm:text-lg leading-tight tracking-tight truncate">커리큘럼 제작기 <span class="hidden sm:inline"><span class="text-[10px] text-slate-400 font-medium">by 이인혁 (Ray T)</span></span></h1>
                     <p class="text-[10px] sm:text-xs text-brand font-medium truncate"><span class="hidden sm:inline">교재 몰라도 쉽게 짜는 영어 커리큘럼 · </span><span id="bookCountLabel">0</span>종</p>
                 </div>
+                <button id="curMini" onclick="toggleView('2d')" class="hidden flex-shrink-0 items-center gap-1 bg-slate-800 border border-slate-600 rounded-full px-2 py-1 text-[10px] font-bold text-slate-200 hover:border-brand" title="내 커리·담은 책 보기"></button>
             </div>
             <div class="flex gap-1 sm:gap-2 overflow-x-auto hide-scrollbar">
                 <button id="btn-2d" onclick="toggleView('2d')" class="px-2.5 py-2 sm:px-4 rounded-md text-xs sm:text-sm font-bold bg-brand text-slate-900 transition-all flex items-center gap-2 flex-shrink-0">
@@ -162,12 +163,14 @@
                     <!-- JS Render Pipeline -->
                 </div>
 
-                <!-- 학교/반/학생 메타 -->
+                <!-- 학교/반/학생 메타 (이 기기에만 저장 · 인쇄용. 외부 전송 안 함) -->
                 <div class="flex gap-2 pt-3 border-t border-slate-700 flex-shrink-0">
                     <input id="metaSchool" placeholder="학교명" class="flex-1 min-w-0 bg-slate-900 border border-slate-600 rounded-lg px-2 py-1.5 text-xs text-white">
                     <input id="metaClass" placeholder="반" class="w-16 bg-slate-900 border border-slate-600 rounded-lg px-2 py-1.5 text-xs text-white">
                     <input id="metaStudent" placeholder="학생명" class="flex-1 min-w-0 bg-slate-900 border border-slate-600 rounded-lg px-2 py-1.5 text-xs text-white">
+                    <button onclick="clearMyData()" title="이 기기에 저장된 내 정보·기록 모두 삭제" class="flex-shrink-0 bg-slate-800 border border-slate-600 text-slate-300 hover:text-white rounded-lg px-2 py-1.5 text-xs">🗑</button>
                 </div>
+                <div class="text-[9px] text-slate-500 mt-1 px-1">학교명·학생명은 <b>이 기기에만</b> 저장돼 인쇄에 쓰여요. 외부로는 학년대 등 비식별 정보만 전송됩니다.</div>
                 <!-- 공유/저장 툴바 -->
                 <div class="flex gap-2 flex-wrap pt-2 flex-shrink-0">
                     <select id="gradeSel" class="bg-slate-900 border border-slate-600 text-white text-xs rounded-lg px-2 py-2.5 font-bold"><option value="">학년…</option><option>유아</option><option>초등</option><option>중등</option><option>고등</option><option>성인</option></select>
@@ -525,6 +528,7 @@
             if (typeof lucide !== 'undefined') lucide.createIcons();
             if (typeof loadRatings === 'function') loadRatings();
             if (typeof startRealtimeSync === 'function') startRealtimeSync();
+            try{ logEvent('app_open',{books:MASTER_DATA.length}); }catch(e){}
         }
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initApp);
         else setTimeout(initApp, 50);
@@ -691,7 +695,17 @@
         }
 
         // 파이프라인 = 행렬: Y=영역(행), X=분기(열). 각 영역 행에서 시간(열) 진행 케미 표시.
+        // 헤더 미니 진행지표 — 추천탭↔그리드 단절감 완화(어디서든 내 커리 규모가 보임)
+        function renderCurMini(){ const el=document.getElementById('curMini'); if(!el) return;
+            const placed=gridPlaced().length, basket=(state.basket||[]).length;
+            if(placed+basket===0){ el.className='hidden'; return; }
+            const core={'독해':0,'듣기':0,'말하기':0,'쓰기':0}; gridPlaced().forEach(({book})=>{ if(core[book.skill]!=null) core[book.skill]++; });
+            const filled=Object.values(core).filter(n=>n>0).length;
+            el.className='inline-flex flex-shrink-0 items-center gap-1 bg-slate-800 border border-slate-600 rounded-full px-2 py-1 text-[10px] font-bold text-slate-200 hover:border-brand cursor-pointer';
+            el.innerHTML=`📋 ${placed}권${basket?` · 🛒${basket}`:''} <span class="text-slate-500 hidden sm:inline">·</span><span class="hidden sm:inline"> 4대영역 ${'●'.repeat(filled)}${'○'.repeat(4-filled)}</span>`;
+        }
         function renderPipeline() {
+            renderCurMini();
             const container = document.getElementById('pipelineContainer');
             const chemMap = buildChemMap();
             const sel = state.selectedBookId ? byId(state.selectedBookId) : null;
@@ -761,7 +775,9 @@
             if(!GRID_ROWS.includes(b.skill)){ showToast(`'${b.skill}' 교재는 계획표에 넣을 수 없어요(전공/통합).`, true); return; }
             const skill=rowOf(b.skill);
             if(state.grid[skill][col]){ showToast(`${skill} ${colMeta(col).label} 칸이 찼습니다.`, true); return; }
+            const wasEmpty=gridPlaced().length===0;
             state.grid[skill][col]=bookId; state.lastAddedSkill=b.skill;
+            logEvent('place',{id:bookId,skill:b.skill,first:wasEmpty});
             showToast(`${skill} · ${colMeta(col).label}에 배치`);
             renderDB(); renderPipeline();
         }
@@ -796,7 +812,7 @@
                   <div>• <b>읽지 말고 맞혀보기</b>: 복습은 다시 읽기보다 '미니 퀴즈'가 2배 효과.</div>
                 </div>
                 <div class="text-xs text-slate-400">상단 탭: <b>커리큘럼 제작</b>(커리 짜기)·<b>추천</b>·<b>3D</b>(인지 흐름)·<b>랭킹</b>·<b>내신대비</b>(시험 일정표). 우상단 <b>?</b>로 언제든 다시 봐요.</div>
-                <div class="text-[11px] text-slate-500 border-t border-slate-700 pt-2">만든 사람: <b class="text-slate-300">이인혁 (Ray T)</b> · 모든 사용 데이터는 익명으로 누적되어 인기 교재·조합 랭킹에 반영됩니다.</div>
+                <div class="text-[11px] text-slate-500 border-t border-slate-700 pt-2">만든 사람: <b class="text-slate-300">이인혁 (Ray T)</b> · 인기 교재·조합 랭킹을 위해 <b>비식별 사용기록</b>(고른 교재·학년대)만 익명 누적됩니다. 학교명·학생명은 전송하지 않으며 이 기기에만 저장돼요. 하단 🗑로 언제든 삭제할 수 있습니다.</div>
               </div>`);
         }
 
@@ -816,7 +832,7 @@
         function addToActive(id){ closeModal(); selectBook(id); toggleView('2d'); showToast('배치할 칸(시간 슬롯)을 누르세요 (취소: 하단 취소 버튼)'); }
         // ── 장바구니(담은 책) — 뷰 전환 없이 '살 책'만 모음 ──
         function inBasket(id){ return state.basket.indexOf(id)>=0; }
-        function addToBasket(id){ const i=state.basket.indexOf(id); if(i>=0){ state.basket.splice(i,1); showToast('담기 취소'); } else { state.basket.push(id); const b=byId(id); showToast(`🛒 담음 — 담은 책 ${state.basket.length}권`); } if(state.view==='rec') renderRecView(); }
+        function addToBasket(id){ const i=state.basket.indexOf(id); if(i>=0){ state.basket.splice(i,1); showToast('담기 취소'); } else { state.basket.push(id); showToast(`🛒 담음 — 담은 책 ${state.basket.length}권`); logEvent('rec_accepted',{id:id}); } if(state.view==='rec') renderRecView(); renderCurMini(); }
         function basketBarHtml(){ if(!state.basket.length) return ''; return `<div class="flex items-center gap-2 flex-wrap bg-brand/10 border border-brand/30 rounded-xl px-3 py-2 mb-3"><span class="text-sm font-bold text-brand">🛒 담은 책 ${state.basket.length}권</span><button onclick="showBasket()" class="text-xs bg-brand text-slate-900 font-bold px-2.5 py-1 rounded-lg">목록·인쇄</button><button onclick="basketToGrid()" class="text-xs bg-slate-800 border border-slate-600 text-white px-2.5 py-1 rounded-lg">📅 그리드에 펼치기</button><button onclick="if(confirm('담은 책을 비울까요?')){state.basket=[];renderRecView();}" class="text-[10px] text-slate-400 ml-auto hover:text-white">비우기</button></div>`; }
         function showBasket(){ if(!state.basket.length){ showToast('담은 책이 없어요', true); return; }
             const rows=state.basket.map((id,i)=>{ const b=byId(id); if(!b) return ''; return `<div class="flex items-center gap-2 p-2 border border-slate-700 rounded-lg mb-1.5 bg-slate-800/40"><span class="text-brand font-black w-5 text-center">${i+1}</span><img src="${b.cover||''}" class="w-8 h-11 object-cover rounded" onerror="this.style.display='none'"><div class="flex-1 min-w-0"><div class="text-sm font-bold text-white truncate">${escHtml(b.title)}</div><div class="text-[11px] text-slate-400 truncate">${escHtml(b.pub)} · ${b.skill} · Lv${b.level}</div></div><button onclick="addToBasket('${id}');closeModal();showBasket()" class="text-xs text-slate-400 hover:text-white flex-shrink-0">✕</button></div>`; }).join('');
@@ -918,7 +934,7 @@
             const g=(document.getElementById('goalSel')||{}).value||state.goal;
             const grade=(document.getElementById('gradeSel')||{}).value||'';
             if(!g||!GOALS[g]){ showToast('목표를 선택하세요', true); return; }
-            state.goal=g; state.gradeFilter=grade;
+            state.goal=g; state.gradeFilter=grade; logEvent('goal_start',{goal:g,grade:grade});
             const lv=GRADE_LV[grade]||2; const conf=GOALS[g]; let n=0;
             conf.skills.forEach(skill=>{ const row=rowOf(skill), col=0; if(state.grid[row][col]) return;
                 let cands=MASTER_DATA.filter(b=>b.skill===skill && audienceOk(b) && !gridIsPlaced(b.id) && b.status!=='절판' && Math.abs((b.level||3)-lv)<=1);
@@ -1025,7 +1041,7 @@
             return light?cal:`<div class="bg-slate-800/40 rounded-xl border border-slate-700 p-3"><div class="text-xs text-slate-400 mb-2">${hdr}</div>${cal}</div>`;
         }
         function accumulateNaesin(inp, res){
-            try{ const rec={ event:'naesin', type:'curriculum', meta:{school:inp.school,cls:'',student:inp.student}, region:inp.school||'', goal:'내신', deviceId:deviceId(), naesin:{level:inp.level,start:inp.start,exam:inp.exam,lessons:inp.lessons,external:inp.external,tasks:(res.tasks||[]).length}, picks:[], curriculum:[], partCounts:{}, attemptId:'ns-'+Date.now(), submittedAt:new Date().toISOString() };
+            try{ const rec={ event:'naesin', type:'curriculum', meta:{grade:inp.level||''}, region:(inp.level||''), goal:'내신', deviceId:deviceId(), naesin:{level:inp.level,start:inp.start,exam:inp.exam,lessons:inp.lessons,external:inp.external,tasks:(res.tasks||[]).length}, picks:[], curriculum:[], partCounts:{}, attemptId:'ns-'+Date.now(), submittedAt:new Date().toISOString() };
                 try{ const a=JSON.parse(localStorage.getItem('ih_naesin_local')||'[]'); a.push(rec); localStorage.setItem('ih_naesin_local',JSON.stringify(a)); }catch(e){}
                 const ep=(window.GUIDE_ENDPOINT||'').trim(); if(ep) fetch(ep,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(rec)}).catch(()=>{});
             }catch(e){}
@@ -1055,12 +1071,24 @@
                 fetch(ep,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(plan)}).catch(()=>{});
             }catch(e){}
         }
+        // 경량 이벤트 계측 — 첫5분 이탈·추천→배치 전환·활성화율 측정용(로컬 링버퍼 + 서버 연동 시 전송)
+        function logEvent(name, data){ try{
+            const ev=Object.assign({ e:name, t:Date.now(), dev:deviceId(), grade:state.curGrade||'', track:state.track }, data||{});
+            const a=JSON.parse(localStorage.getItem('ih_events')||'[]'); a.push(ev); while(a.length>300) a.shift(); localStorage.setItem('ih_events',JSON.stringify(a));
+            const ep=(window.GUIDE_ENDPOINT||'').trim(); if(ep) fetch(ep,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({event:'evt',evt:ev})}).catch(()=>{});
+        }catch(e){} }
+        function recFeedback(id,vote){ logEvent('rec_feedback',{id:id,vote:vote}); showToast(vote>0?'👍 도움됐어요로 기록':'👎 안 맞아요로 기록'); }
+        // 내 데이터 삭제권 — 이 기기의 ih_* 일괄 제거(공용PC 안전)
+        function clearMyData(){ if(!confirm('이 기기에 저장된 내 정보(학교·학생명·커리·기록·평가)를 모두 지울까요?')) return;
+            try{ Object.keys(localStorage).filter(k=>k.indexOf('ih_')===0).forEach(k=>localStorage.removeItem(k)); }catch(e){}
+            ['metaSchool','metaClass','metaStudent','nsSchool','nsStudent'].forEach(id=>{ const el=document.getElementById(id); if(el) el.value=''; });
+            state.basket=[]; showToast('내 데이터를 모두 삭제했어요'); if(state.view==='rec') renderRecView(); }
         function collectPlan(){
             const placed=gridPlaced(); const picks=[], partCounts={};
             placed.forEach(({book})=>{ picks.push(book.id); partCounts[book.skill]=(partCounts[book.skill]||0)+1; });
             const seq=gridColSeq().map(b=>b.id);   // 시간순(열 우선) 시퀀스 → 조합 집계용
-            const meta=planMeta();
-            return { picks:Array.from(new Set(picks)), curriculum:seq, gridSnap:state.grid, goal:state.goal||'', meta, region:meta.school, deviceId:deviceId(), partCounts, submittedAt:new Date().toISOString() };
+            // 전송용 — 학교명·학생명 등 식별정보는 빼고 비식별(학년대)만. 이름은 로컬 인쇄에만 쓰임.
+            return { picks:Array.from(new Set(picks)), curriculum:seq, gridSnap:state.grid, goal:state.goal||'', meta:{ grade:state.curGrade||'' }, region:(state.curGrade||''), deviceId:deviceId(), partCounts, submittedAt:new Date().toISOString() };
         }
         function exportCurriculum(){
             accumulateUsage('save');
@@ -1146,7 +1174,7 @@
                   <div class="text-xs font-bold text-slate-400 mb-1">커뮤니티 등급</div>
                   <div class="mb-3">${community}${distHtml}</div>
                   <div class="text-xs font-bold text-slate-400 mb-1">써봤다면 등급을 남겨주세요 (누적·일/주/월/년 집계)</div>
-                  <div class="flex gap-2">${['A','B','C','D','F'].map(g=>`<button onclick="postRating('${id}','${g}')" class="flex-1 py-2.5 rounded-lg font-black text-white" style="background:${gradeColor(g)}">${g}</button>`).join('')}</div>
+                  <div class="flex gap-2">${['A','B','C','D','F'].map(g=>`<button onclick="postRating('${id}','${g}')" class="flex-1 py-2.5 rounded-lg font-black" style="background:${gradeColor(g)};color:#0b1220">${g}</button>`).join('')}</div>
                 </div>`);
         }
         function postRating(uid, grade){
@@ -1228,7 +1256,11 @@
                 </div>
               </div>
               ${b.comment?`<div class="text-[10px] text-slate-400 mt-1 leading-snug line-clamp-2">${b.comment}</div>`:''}
-              <button onclick="addToBasket('${b.id}')" class="w-full mt-1.5 ${inBasket(b.id)?'bg-brand text-slate-900':'bg-slate-700 hover:bg-slate-600 text-white'} text-[10px] font-bold py-1.5 rounded">${inBasket(b.id)?'✓ 담음':'＋ 내 목록에 담기'}</button>
+              <div class="flex gap-1 mt-1.5">
+                <button onclick="addToBasket('${b.id}')" class="flex-1 ${inBasket(b.id)?'bg-brand text-slate-900':'bg-slate-700 hover:bg-slate-600 text-white'} text-[10px] font-bold py-1.5 rounded">${inBasket(b.id)?'✓ 담음':'＋ 내 목록에 담기'}</button>
+                <button onclick="recFeedback('${b.id}',1)" title="도움됐어요" class="px-2 bg-slate-800 hover:bg-slate-700 text-[11px] rounded">👍</button>
+                <button onclick="recFeedback('${b.id}',-1)" title="안 맞아요" class="px-2 bg-slate-800 hover:bg-slate-700 text-[11px] rounded">👎</button>
+              </div>
             </div>`; }
         // 다음 단계(정답률 구간별) — 현재 교재 기준 + 상황·학년 가중치
         function recForBook(cur, band, ctx){
@@ -1358,7 +1390,7 @@
             ['2d','rec','3d','rank','naesin'].forEach(k => { const b=document.getElementById('btn-'+k); if(!b) return;
                 b.className = (k===v) ? base+" bg-brand text-slate-900" : base+" bg-slate-800 text-slate-400 hover:text-white border border-slate-700"; });
             if(v==='3d') setTimeout(() => { if(!renderer) init3D(); else resize3D(); update3DGraph(); }, 100);
-            if(v==='rec') renderRecView();
+            if(v==='rec'){ renderRecView(); logEvent('rec_view_open'); }
             if(v==='rank') renderRankView();
             if(v==='naesin'){ const s=document.getElementById('nsStart'); if(s&&!s.value) s.value=nsFmt(new Date()); }
             if(typeof lucide!=='undefined') lucide.createIcons();
