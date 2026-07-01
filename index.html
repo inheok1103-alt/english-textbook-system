@@ -240,8 +240,6 @@
                 </div>
                 <div class="text-[11px] text-slate-500 mb-2">모든 사용자의 커리·평가·조합이 중앙에 공유되어 실시간(준실시간 폴링) 반영됩니다.</div>
                 <div id="rankFilters" class="mb-3 space-y-2"></div>
-                <!-- 장기 광고 슬롯(현재 비활성·공간 미점유) -->
-                <div id="adSlot" class="hidden mb-3 rounded-xl border border-dashed border-slate-700 text-center text-[11px] text-slate-600 py-3">광고 영역</div>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div id="rankMine" class="bg-slate-800/40 rounded-xl border border-slate-700 p-3 min-h-[120px]"><div class="text-slate-500 text-sm">불러오는 중…</div></div>
                     <div id="rankExternal" class="bg-slate-800/40 rounded-xl border border-slate-700 p-3 min-h-[120px]"><div class="text-slate-500 text-sm">불러오는 중…</div></div>
@@ -642,11 +640,20 @@
                 const b = rec.book;
                 recBanner.innerHTML = `
                     <div class="flex-1">
-                        <div class="text-[11px] text-brand font-bold mb-1 flex items-center gap-1"><i data-lucide="bot" class="w-3.5 h-3.5"></i> AI 다음 칸 추천</div>
+                        <div class="text-[11px] text-brand font-bold mb-1 flex items-center gap-1"><i data-lucide="bot" class="w-3.5 h-3.5"></i> 다음 칸 빠른 추천</div>
                         <div class="text-sm font-bold text-white mb-0.5">[${b.pub}] ${b.title}</div>
                         <div class="text-[11px] text-slate-300 leading-snug break-keep">${rec.msg}</div>
                     </div>
                     <div onclick="selectBook('${b.id}')" class="bg-brand text-slate-900 px-3 py-2 rounded-lg text-xs font-bold hover:bg-emerald-400 transition flex-shrink-0 text-center">선택<br>하기</div>`;
+                recBanner.classList.remove('hidden');
+            } else if(!state.selectedBookId && !state.search && gridPlaced().length===0) {
+                // 첫 진입(빈 그리드) 넛지 — 교재 모르는 학부모를 맞춤 추천으로 유도
+                recBanner.innerHTML = `
+                    <div class="flex-1">
+                        <div class="text-[11px] text-brand font-bold mb-1 flex items-center gap-1"><i data-lucide="sparkles" class="w-3.5 h-3.5"></i> 교재를 잘 모르시겠나요?</div>
+                        <div class="text-[12px] text-slate-200 leading-snug break-keep">학년·목표·시기만 고르면 <b>어디서 시작할지</b> 딱 추천해드려요. 담은 책은 계획표에 바로 펼칠 수 있어요.</div>
+                    </div>
+                    <div onclick="toggleView('rec')" class="bg-brand text-slate-900 px-3 py-2 rounded-lg text-xs font-bold hover:bg-emerald-400 transition flex-shrink-0 text-center">맞춤<br>추천 →</div>`;
                 recBanner.classList.remove('hidden');
             } else recBanner.classList.add('hidden');
 
@@ -933,6 +940,14 @@
             openModal(`${skill} · ${state.curGrade} · ${m.phase}단계 ${m.quarter}분기 추천`, `<div class="text-xs text-slate-400 mb-3"><b class="text-brand">${state.curGrade}${state.curLevel?(' · '+state.curLevel+'단계 수준'):''}</b>에 맞춘 ${skill} 교재입니다. 추천에 없어도 좌측 DB에서 아무 교재나 골라 배치할 수 있어요.</div>${rows}`);
         }
         function placeFromRec(skill, col, id){ closeModal(); if(state.grid[skill][col]){ showToast('칸이 찼습니다', true); return; } if(gridIsPlaced(id)){ showToast('이미 배치됨', true); return; } state.grid[skill][col]=id; renderPipeline(); renderDB(); showToast(`${skill} · ${colMeta(col).label}에 배치`); }
+        // 추천 카드 → 계획표에 바로 펼치기(해당 영역 행의 다음 빈 칸)
+        function placeRecToGrid(id){ const b=byId(id); if(!b) return;
+            if(!GRID_ROWS.includes(b.skill)){ showToast(`'${b.skill}' 교재는 계획표에 못 넣어요(전공/통합).`, true); return; }
+            if(gridIsPlaced(id)){ showToast('이미 계획표에 있어요', true); return; }
+            const row=rowOf(b.skill);
+            for(let c=0;c<GRID_COLS;c++){ if(!state.grid[row][c]){ state.grid[row][c]=id; renderPipeline(); renderDB(); if(state.view==='rec') renderRecView(); showToast(`📋 ${b.skill} · ${colMeta(c).label}에 배치 — ‘커리큘럼 제작’ 탭에서 확인`); return; } }
+            showToast('계획표가 가득 찼어요 — 계획기간을 늘려보세요', true);
+        }
 
         // 목표(학년독립·상세) + 학년 → 시작 교재 추천. 내신은 별도 "내신대비" 스케줄러로 분리됨.
         const GOALS = {
@@ -1281,6 +1296,7 @@
               ${b.comment?`<div class="text-[10px] text-slate-400 mt-1 leading-snug line-clamp-2">${b.comment}</div>`:''}
               <div class="flex gap-1 mt-1.5">
                 <button onclick="addToBasket('${b.id}')" class="flex-1 ${inBasket(b.id)?'bg-brand text-slate-900':'bg-slate-700 hover:bg-slate-600 text-white'} text-[10px] font-bold py-1.5 rounded">${inBasket(b.id)?'✓ 담음':'＋ 내 목록에 담기'}</button>
+                ${(GRID_ROWS.includes(b.skill)&&(state.track==='student'||state.track==='adult'))?`<button onclick="placeRecToGrid('${b.id}')" title="계획표(그리드)에 바로 배치" class="px-2 ${gridIsPlaced(b.id)?'bg-brand/30 text-brand':'bg-slate-800 hover:bg-slate-700 text-slate-200'} text-[10px] font-bold rounded">${gridIsPlaced(b.id)?'✓ 계획표':'📋 펼치기'}</button>`:''}
                 <button onclick="recFeedback('${b.id}',1)" title="도움됐어요" class="px-2 bg-slate-800 hover:bg-slate-700 text-[11px] rounded">👍</button>
                 <button onclick="recFeedback('${b.id}',-1)" title="안 맞아요" class="px-2 bg-slate-800 hover:bg-slate-700 text-[11px] rounded">👎</button>
               </div>
@@ -1444,6 +1460,7 @@
         function loadRankData(){
             const ep=(window.GUIDE_ENDPOINT||'').trim();
             const mine=document.getElementById('rankMine'), ext=document.getElementById('rankExternal');
+            if(ext) ext.style.display='';   // 매 렌더 재평가 — 빈 데이터 숨김이 영구화되지 않게 선(先)복구
             const st=window.__rankState;
             if(!ep){
                 // 로컬 미리보기 (서버 미설정)
@@ -1457,10 +1474,15 @@
             // ① 내 가이드 (summary: 인기교재·조합·커리템플릿) + 평가 Top
             const qs=`summary=1&bucket=${encodeURIComponent(st.bucket)}${st.grade?('&grade='+encodeURIComponent(st.grade)):''}`;
             jsonp(ep+(ep.indexOf('?')>=0?'&':'?')+qs).then(d=>{
-                let h=_rankCard('① 내 가이드 — 인기 교재', barRows((d.popularMaterials||[]).slice(0,12)));
-                if(d.popularPairs&&d.popularPairs.length) h+=`<div class="font-bold text-white mt-3 mb-1 text-sm">인기 조합(연속 교재)</div>`+d.popularPairs.slice(0,8).map((p,i)=>`<div class="text-xs mb-1 truncate">${i+1}. ${titleOf(p.from)} <span class="text-brand">→</span> ${titleOf(p.to)} <span class="text-slate-500">(${p.count})</span></div>`).join('');
-                if(d.popularCurricula&&d.popularCurricula.length) h+=`<div class="font-bold text-white mt-3 mb-1 text-sm">인기 커리 템플릿</div>`+d.popularCurricula.slice(0,5).map((c,i)=>`<div class="text-xs mb-1 truncate" title="${(c.seq||[]).map(titleOf).join(' → ')}">${i+1}. ${(c.seq||[]).slice(0,4).map(titleOf).join(' → ')}${c.seq.length>4?'…':''} <span class="text-slate-500">(${c.count})</span></div>`).join('');
-                mine.innerHTML=h;
+                const _pm=(d.popularMaterials||[]), _pp=(d.popularPairs||[]), _pc=(d.popularCurricula||[]);
+                if(!_pm.length && !_pp.length && !_pc.length){   // 빈 섹션 대신 안내(수집 유도)
+                    mine.innerHTML=_rankCard('① 내 가이드 — 인기 교재', `<div class="text-slate-400 text-xs leading-relaxed">아직 커뮤니티 데이터가 모이는 중이에요${d.total?` (참여 ${d.total}건)`:''}.<br>‘커리큘럼 제작’에서 <b class="text-brand">커리 공유</b>를 누르면 인기 교재·조합이 여기 채워집니다.</div>`);
+                } else {
+                    let h=_rankCard('① 내 가이드 — 인기 교재', barRows(_pm.slice(0,12)));
+                    if(_pp.length) h+=`<div class="font-bold text-white mt-3 mb-1 text-sm">인기 조합(연속 교재)</div>`+_pp.slice(0,8).map((p,i)=>`<div class="text-xs mb-1 truncate">${i+1}. ${titleOf(p.from)} <span class="text-brand">→</span> ${titleOf(p.to)} <span class="text-slate-500">(${p.count})</span></div>`).join('');
+                    if(_pc.length) h+=`<div class="font-bold text-white mt-3 mb-1 text-sm">인기 커리 템플릿</div>`+_pc.slice(0,5).map((c,i)=>`<div class="text-xs mb-1 truncate" title="${(c.seq||[]).map(titleOf).join(' → ')}">${i+1}. ${(c.seq||[]).slice(0,4).map(titleOf).join(' → ')}${c.seq.length>4?'…':''} <span class="text-slate-500">(${c.count})</span></div>`).join('');
+                    mine.innerHTML=h;
+                }
                 // 📈 영어교육 경향 (강조 영역 + 상승 영역)
                 const ins=document.getElementById('rankInsights');
                 if(ins && d.areaEmphasis && d.areaEmphasis.length){
@@ -1474,7 +1496,7 @@
                     }
                     ih+='<div class="text-[10px] text-slate-500 mt-1">모든 사용자의 커리큘럼 영역 분포(기기당 1회) 집계 — 어디에 무게를 두는지 보여줍니다.</div>';
                     ins.innerHTML=ih;
-                }
+                } else if(ins){ ins.classList.add('hidden'); ins.innerHTML=''; }   // 빈 데이터 시 이전 경향 그래프 잔존 방지
             }).catch(()=>{ mine.innerHTML='<div class="text-danger text-xs">불러오기 실패(네트워크/CORS). GitHub Pages(https)에서 열어야 외부 연동이 됩니다.</div>'; });
             // 평가 Top (커뮤니티 등급)
             jsonp(ep+(ep.indexOf('?')>=0?'&':'?')+`ratings=1&bucket=${encodeURIComponent(st.bucket)}`).then(d=>{
@@ -1486,12 +1508,14 @@
             const rqs=`rankings=1&source=${encodeURIComponent(st.source||'all')}${st.grade?('&gradeBand='+encodeURIComponent(st.grade)):''}${st.area?('&englishArea='+encodeURIComponent(st.area)):''}`;
             const srcTabs=['app','yes24','data4library'].map(s=>`<button onclick="setRank('source','${s}')" class="px-2 py-0.5 rounded text-[11px] font-bold ${st.source===s?'bg-brand text-slate-900':'bg-slate-700 text-slate-300'}">${({app:'앱',yes24:'YES24 판매',data4library:'도서관 대출'})[s]}</button>`).join(' ');
             jsonp(ep+(ep.indexOf('?')>=0?'&':'?')+rqs).then(d=>{
-                let h=_rankCard('② 외부 시장 랭킹', `<div class="flex gap-1 mb-2">${srcTabs}</div>`);
-                if(d&&d.items&&d.items.length){ h+=d.items.slice(0,15).map((it,i)=>`<div class="text-xs mb-1 flex items-center gap-2"><span class="w-5 text-slate-500">${it.rank||i+1}</span><span class="truncate flex-1">${it.title||titleOf(it.matchedUid)}</span>${it.matchedUid?'<span class="text-[10px] text-brand">✓수록</span>':''}</div>`).join('');
+                if(d&&d.items&&d.items.length){
+                    ext.style.display='';
+                    let h=_rankCard('② 외부 시장 랭킹', `<div class="flex gap-1 mb-2">${srcTabs}</div>`);
+                    h+=d.items.slice(0,15).map((it,i)=>`<div class="text-xs mb-1 flex items-center gap-2"><span class="w-5 text-slate-500">${it.rank||i+1}</span><span class="truncate flex-1">${it.title||titleOf(it.matchedUid)}</span>${it.matchedUid?'<span class="text-[10px] text-brand">✓수록</span>':''}</div>`).join('');
                     h+=`<div class="text-[10px] text-slate-600 mt-1">출처 ${st.source} · ${d.generatedAt?d.generatedAt.slice(0,10):''}</div>`;
-                } else h+='<div class="text-slate-500 text-xs">해당 조건 랭킹 캐시 없음(트리거 미실행/조건 미일치).</div>';
-                ext.innerHTML=h;
-            }).catch(()=>{ ext.innerHTML=_rankCard('② 외부 시장 랭킹',`<div class="flex gap-1 mb-2">${srcTabs}</div><div class="text-slate-500 text-xs">불러오기 실패.</div>`); });
+                    ext.innerHTML=h;
+                } else { ext.innerHTML=''; ext.style.display='none'; }   // 빈 외부 시장 랭킹 섹션 자동 숨김
+            }).catch(()=>{ ext.innerHTML=''; ext.style.display='none'; });
         }
         function init3D() {
             const container = document.getElementById('canvas-container');
