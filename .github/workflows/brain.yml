@@ -1,0 +1,69 @@
+name: brain
+# 🧠 자율 신경계 — 24시간 클라우드에서 주기적으로 "한 사이클"을 사고한다.
+# (당신 PC가 꺼져 있어도 GitHub 클라우드가 실행) 커밋 → pages.yml이 자동 배포.
+on:
+  schedule:
+    - cron: '0 */2 * * *'    # 2시간마다(하루 12사이클) — 상시 자율 갱신
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '실행 모드'
+        type: choice
+        default: 'auto'
+        options: [auto, deep, routine-only, map]
+      target:
+        description: '단일 부위/스텝 (예: cerebellum, neurons.aladin) — 선택'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: brain          # refresh-catalog와 별도. 자기 자신과는 겹치지 않게 직렬화
+  cancel-in-progress: false
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 🧠 한 사이클 사고 (신경계 통합 실행)
+        run: |
+          FLAGS=""
+          case "${{ github.event.inputs.mode }}" in
+            deep) FLAGS="--deep" ;;
+            routine-only) FLAGS="--routine-only" ;;
+            map) FLAGS="--map" ;;
+          esac
+          if [ -n "${{ github.event.inputs.target }}" ]; then
+            case "${{ github.event.inputs.target }}" in
+              *.*) FLAGS="$FLAGS --step=${{ github.event.inputs.target }}" ;;
+              *)   FLAGS="$FLAGS --region=${{ github.event.inputs.target }}" ;;
+            esac
+          fi
+          echo "brain $FLAGS"
+          node tools/brain/brain.js $FLAGS
+        env:
+          ALADIN_TTBKEY: ${{ secrets.ALADIN_TTBKEY }}
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          GOOGLE_BOOKS_KEY: ${{ secrets.GOOGLE_BOOKS_KEY }}
+          DATA4LIB_KEY: ${{ secrets.DATA4LIB_KEY }}
+
+      - name: 변경분 커밋 (→ pages.yml이 자동 배포)
+        if: ${{ github.event.inputs.mode != 'map' }}
+        run: |
+          git config user.name  "brain[bot]"
+          git config user.email "brain@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "🧠 brain cycle ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi
