@@ -51,11 +51,13 @@ const STAGES = [
   { key: "index",          group: "index",   label: "랭킹 매칭 색인 갱신(master_index.csv)", cmd: "node tools/export_master_index.js", optional: true },
 
   { key: "build",          group: "build",   label: "앱 빌드(books.js·index.html 생성)", cmd: "node tools/build_app.js" },
+
+  { key: "rankings",       group: "rankings", label: "판매 인기 랭킹 생성(rankings.json·알라딘 판매지수)", cmd: "node tools/harvest_rankings.js", optional: true },
 ];
 
 function wanted(s) {
   if (BUILD_ONLY) return s.group === "build";
-  if (QUICK) return s.group === "clean" || s.group === "build";
+  if (QUICK) return s.group === "clean" || s.group === "build" || s.group === "rankings";
   if (ONLY.length) return ONLY.includes(s.group) || ONLY.includes(s.key);
   if (SKIP.length && (SKIP.includes(s.group) || SKIP.includes(s.key))) return false;
   return true;

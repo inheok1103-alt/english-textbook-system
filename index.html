@@ -1505,16 +1505,18 @@
                 }
             }).catch(()=>{});
             // ② 외부 랭킹
-            const rqs=`rankings=1&source=${encodeURIComponent(st.source||'all')}${st.grade?('&gradeBand='+encodeURIComponent(st.grade)):''}${st.area?('&englishArea='+encodeURIComponent(st.area)):''}`;
-            const srcTabs=['app','yes24','data4library'].map(s=>`<button onclick="setRank('source','${s}')" class="px-2 py-0.5 rounded text-[11px] font-bold ${st.source===s?'bg-brand text-slate-900':'bg-slate-700 text-slate-300'}">${({app:'앱',yes24:'YES24 판매',data4library:'도서관 대출'})[s]}</button>`).join(' ');
-            jsonp(ep+(ep.indexOf('?')>=0?'&':'?')+rqs).then(d=>{
-                if(d&&d.items&&d.items.length){
+            // ② 판매 인기 랭킹 — 정적 rankings.json(GitHub 크론이 매일 자동 갱신, PC·GAS 불필요). 상단 학년칩(st.grade)으로 필터.
+            const gbSel = st.grade||'전체';
+            fetch('rankings.json?v='+Math.floor(Date.now()/3600000)).then(r=>r.ok?r.json():null).then(rk=>{
+                let its=((rk&&rk.items)||[]).filter(it=>String(it.gradeBand)===gbSel);
+                if(st.area) its=its.filter(it=>it.englishArea===st.area);
+                if(its.length){
                     ext.style.display='';
-                    let h=_rankCard('② 외부 시장 랭킹', `<div class="flex gap-1 mb-2">${srcTabs}</div>`);
-                    h+=d.items.slice(0,15).map((it,i)=>`<div class="text-xs mb-1 flex items-center gap-2"><span class="w-5 text-slate-500">${it.rank||i+1}</span><span class="truncate flex-1">${it.title||titleOf(it.matchedUid)}</span>${it.matchedUid?'<span class="text-[10px] text-brand">✓수록</span>':''}</div>`).join('');
-                    h+=`<div class="text-[10px] text-slate-600 mt-1">출처 ${st.source} · ${d.generatedAt?d.generatedAt.slice(0,10):''}</div>`;
+                    let h=_rankCard(`② 판매 인기 랭킹 <span class="text-[10px] text-slate-500 font-normal">알라딘 판매지수 · ${(rk.generatedAt||'').slice(0,10)} 자동갱신</span>`, '');
+                    h+=its.slice(0,20).map(it=>`<div class="text-xs mb-1 flex items-center gap-2"><span class="w-5 text-right text-slate-500">${it.rank}</span><span class="truncate flex-1" title="${escHtml(it.title)}">${escHtml(it.title)}</span><span class="text-[10px] text-slate-500 flex-shrink-0">${escHtml((it.publisher||'').slice(0,10))}</span>${it.matchedUid?`<button onclick="showBookDetail('${it.matchedUid}')" class="text-[10px] text-brand flex-shrink-0 hover:underline">보기</button>`:''}</div>`).join('');
+                    h+=`<div class="text-[10px] text-slate-600 mt-1">${gbSel} 기준 · 위 학년 필터로 전환 · 매일 클라우드 자동 갱신</div>`;
                     ext.innerHTML=h;
-                } else { ext.innerHTML=''; ext.style.display='none'; }   // 빈 외부 시장 랭킹 섹션 자동 숨김
+                } else { ext.innerHTML=''; ext.style.display='none'; }
             }).catch(()=>{ ext.innerHTML=''; ext.style.display='none'; });
         }
         function init3D() {
