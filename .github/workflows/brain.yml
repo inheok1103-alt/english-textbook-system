@@ -65,7 +65,15 @@ jobs:
             echo "변경 없음 — 커밋 생략"
           else
             git commit -m "🧠 brain cycle ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
+            # 경쟁내성: 원격이 앞서 있으면 rebase 후 재시도(최대 4회)
+            pushed=0
+            for i in 1 2 3 4; do
+              if git push; then pushed=1; break; fi
+              echo "push 거절 — rebase 후 재시도 $i"
+              git pull --rebase -X ours origin main || true
+              sleep 4
+            done
+            [ "$pushed" = 1 ] || { echo "push 최종 실패"; exit 1; }
           fi
 
       # 📱 PC→모바일 데이터 동기 — 모바일 고유 레이아웃(index.html/app_base)은 건드리지 않고
