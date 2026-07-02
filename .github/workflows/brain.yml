@@ -90,10 +90,10 @@ jobs:
           chmod 600 ~/.ssh/mobile_sync
           ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
           export GIT_SSH_COMMAND="ssh -i ~/.ssh/mobile_sync -o IdentitiesOnly=yes"
+          # --sparse: 루트 파일만 체크아웃(covers/ 대용량 제외). books/toc/rankings는 전부 루트라 충분.
           git clone --depth=1 --filter=blob:none --sparse \
             git@github.com:inheok1103-alt/english-textbook-system-mobile.git mob
           cd mob
-          git sparse-checkout set books.js toc.js rankings.json
           for f in books.js toc.js rankings.json; do [ -f "../$f" ] && cp "../$f" "$f"; done
           git config user.name  "brain[bot]"
           git config user.email "brain@users.noreply.github.com"
