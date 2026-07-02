@@ -40,8 +40,9 @@ const REGIONS = {
   cerebellum: require("./regions/cerebellum"),
   cerebrum: require("./regions/cerebrum"),
   cortex: require("./regions/cortex"),
+  prefrontal: require("./regions/prefrontal"),
 };
-const SIGNAL_ORDER = ["nerve_bundles", "neurons", "synapses", "cerebellum", "cerebrum", "cortex"];
+const SIGNAL_ORDER = ["nerve_bundles", "neurons", "synapses", "cerebellum", "cerebrum", "cortex", "prefrontal"];
 
 const log = (m) => console.log(m);
 const now = () => new Date();

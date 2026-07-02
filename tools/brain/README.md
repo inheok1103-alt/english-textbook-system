@@ -9,7 +9,7 @@
 ```
 간뇌(감지·조절) → 중뇌(계획·라우팅)
   → 신경다발(수확) → 뉴런(실시간 API) → 시냅스(연결·GitHub)
-  → 소뇌(정제·검수) → 대뇌(빌드·랭킹) → 대뇌피질(출력 검증)
+  → 소뇌(정제·검수) → 대뇌(빌드·랭킹) → 대뇌피질(출력 검증) → 전전두엽(자기분석)
   → 간뇌(상태 저장·뇌파 로그)
 ```
 
@@ -25,6 +25,7 @@
 | 소뇌 cerebellum | `regions/cerebellum.js` | 정제·검수·균형 — 비영어·정크·중복·표지·감사 |
 | 대뇌 cerebrum | `regions/cerebrum.js` | 고차사고 — 앱 빌드·판매인기 랭킹 |
 | 대뇌피질 cortex | `regions/cortex.js` | 의식 산출·출력 검증 — 렌더 무결성(`</style>`·JS구문·데이터) |
+| 전전두엽 prefrontal | `regions/prefrontal.js` | 자기분석(메타인지) — 주 1회 상담로그를 Groq로 분석 → `brain_insights.md` 통찰 리포트 |
 
 각 부위는 여러 **세부 하네스(step)** 로 구성됩니다. `lib.js`의 `runSteps`가 모든 step을
 동일 규격(로깅·타이밍·에러격리·tier게이팅)으로 실행합니다. 총 38개 세부 하네스.
@@ -69,3 +70,4 @@ main repo 시크릿 **`MOBILE_SYNC_KEY`** 로 등록되어 있음. 이 키는 �
 - `brain_state.json` — 사이클 번호·보강 커서·마지막 deep/harvest 시점
 - `brain_output.json` — 최근 건강 스냅샷(사이트/리포트가 읽는 산출)
 - `brain_log.jsonl` — 사이클별 뇌파 로그(최근 800줄만 보존)
+- `brain_insights.md` — 전전두엽 통찰 리포트(주 1회, 최근 10회분). GROQ_KEY 시크릿 필요(없으면 스킵)

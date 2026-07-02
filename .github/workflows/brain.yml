@@ -54,6 +54,7 @@ jobs:
           KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
           GOOGLE_BOOKS_KEY: ${{ secrets.GOOGLE_BOOKS_KEY }}
           DATA4LIB_KEY: ${{ secrets.DATA4LIB_KEY }}
+          GROQ_KEY: ${{ secrets.GROQ_KEY }}   # 전전두엽(주1회 자기분석) — 시크릿이라 공개 노출 없음
 
       - name: 변경분 커밋 (→ pages.yml이 자동 배포)
         if: ${{ github.event.inputs.mode != 'map' }}
