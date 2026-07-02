@@ -61,7 +61,7 @@ function printMap() {
   });
   const all = SIGNAL_ORDER.reduce((n, id) => n + (REGIONS[id].steps || []).length, 0);
   log("\n" + "─".repeat(66));
-  log("총 부위 8 · 신호경로 6 · 세부 하네스 " + all + "개");
+  log("총 부위 " + (2 + SIGNAL_ORDER.length) + " · 신호경로 " + SIGNAL_ORDER.length + " · 세부 하네스 " + all + "개");
   log("tier: routine=매 사이클 · deep=하루 1회(수확·심층정제) · manual=수동/디스패치 전용");
 }
 
