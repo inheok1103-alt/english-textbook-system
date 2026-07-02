@@ -54,6 +54,15 @@ node tools/brain/brain.js --map        # 전체 신경계 지도 출력
 
 수동 실행: GitHub → Actions → **brain** → Run workflow (mode: auto/deep/routine-only/map, target: 부위/스텝).
 
+## 모바일 사이트 동기 (PC→모바일)
+
+brain은 main(PC repo)에서 돌지만, 사이클 끝에 **공유 데이터만**(`books.js`·`toc.js`·`rankings.json`)
+모바일 repo로 자동 푸시합니다. 모바일 고유 레이아웃(`index.html`/mobile CSS/챗봇)은 건드리지 않습니다.
+covers(대용량)는 경량 유지를 위해 제외 — 신간 표지는 별도 동기.
+
+**필요 설정(1회):** 모바일 repo에 `contents:write` 권한을 가진 fine-grained PAT를 만들어
+main repo 시크릿 **`MOBILE_PUSH_TOKEN`** 에 등록. (없으면 이 스텝은 조용히 스킵되고 PC만 갱신)
+
 ## 상태 파일 (뇌의 기억 — 커밋되어 사이클 간 유지)
 - `brain_state.json` — 사이클 번호·보강 커서·마지막 deep/harvest 시점
 - `brain_output.json` — 최근 건강 스냅샷(사이트/리포트가 읽는 산출)

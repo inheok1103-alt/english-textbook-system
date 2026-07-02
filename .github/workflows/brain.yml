@@ -67,3 +67,27 @@ jobs:
             git commit -m "🧠 brain cycle ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
           fi
+
+      # 📱 PC→모바일 데이터 동기 — 모바일 고유 레이아웃(index.html/app_base)은 건드리지 않고
+      #    공유 데이터(books.js·toc.js·rankings.json)만 갱신. covers(대용량)는 제외해 경량 유지.
+      #    MOBILE_PUSH_TOKEN(모바일 repo contents:write 권한 PAT) 시크릿이 있어야 동작.
+      - name: 📱 모바일 사이트 데이터 동기
+        if: ${{ github.event.inputs.mode != 'map' }}
+        env:
+          MOBILE_TOKEN: ${{ secrets.MOBILE_PUSH_TOKEN }}
+        run: |
+          if [ -z "$MOBILE_TOKEN" ]; then echo "MOBILE_PUSH_TOKEN 미설정 — 모바일 동기 스킵"; exit 0; fi
+          git clone --depth=1 --filter=blob:none --sparse \
+            "https://x-access-token:$MOBILE_TOKEN@github.com/inheok1103-alt/english-textbook-system-mobile.git" mob
+          cd mob
+          git sparse-checkout set books.js toc.js rankings.json
+          for f in books.js toc.js rankings.json; do [ -f "../$f" ] && cp "../$f" "$f"; done
+          git config user.name  "brain[bot]"
+          git config user.email "brain@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "모바일 데이터 변경 없음"
+          else
+            git commit -m "🧠 brain 데이터 동기(PC→모바일)"
+            git push
+          fi
