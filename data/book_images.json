@@ -90,19 +90,6 @@
       "materialTitle": "초등코치 천일문 SENTENCE 1",
       "publisher": "쎄듀(CEDU)"
     },
-    "IH-ENG-0010": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0010.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791164062140C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791164062140",
-      "sourceTitle": "기적의 파닉스 리딩 3",
-      "score": 55,
-      "bytes": 53829,
-      "materialTitle": "기적의 파닉스",
-      "publisher": "길벗스쿨",
-      "verifiedAt": "2026-07-01T21:42:56.027Z"
-    },
     "IH-ENG-0013": {
       "status": "found",
       "localPath": "covers/IH-ENG-0013.jpg",
@@ -234,21 +221,6 @@
       "bytes": 46551,
       "materialTitle": "기적의 사이트 워드",
       "publisher": "길벗스쿨"
-    },
-    "IH-ENG-0031": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0031.jpg",
-      "imageUrl": "https://image.yes24.com/goods/123130699/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/123130699",
-      "source": "YES24",
-      "sourceTitle": "기적의 파닉스 리딩 1",
-      "sourceAuthor": ", 글",
-      "score": 103,
-      "bytes": 28119,
-      "contentType": "image/jpeg",
-      "materialTitle": "기적의 파닉스 리딩",
-      "publisher": "길벗스쿨",
-      "searchQuery": "길벗스쿨 기적의 파닉스 리딩"
     },
     "IH-ENG-0034": {
       "status": "found",
@@ -523,36 +495,6 @@
       "materialTitle": "초등코치 천일문 GRAMMAR 1",
       "publisher": "쎄듀(CEDU)"
     },
-    "IH-ENG-0079": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0079.jpg",
-      "imageUrl": "https://image.yes24.com/goods/163297182/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/163297182",
-      "source": "YES24",
-      "sourceTitle": "기적의 영어리딩 1A with 파닉스",
-      "sourceAuthor": "저",
-      "score": 102,
-      "bytes": 24589,
-      "contentType": "image/jpeg",
-      "materialTitle": "기적의 영어리딩",
-      "publisher": "길벗스쿨",
-      "searchQuery": "길벗스쿨 기적의 영어리딩"
-    },
-    "IH-ENG-0080": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0080.jpg",
-      "imageUrl": "https://image.yes24.com/goods/92825104/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/92825104",
-      "source": "YES24",
-      "sourceTitle": "가장 쉬운 초등 영어일기 따라쓰기 30일 완성",
-      "sourceAuthor": "글",
-      "score": 48,
-      "bytes": 27108,
-      "contentType": "image/jpeg",
-      "materialTitle": "가장 쉬운 초등 영어일기 따라 쓰기",
-      "publisher": "길벗스쿨",
-      "searchQuery": "길벗스쿨 가장 쉬운 초등 영어일기 따라 쓰기"
-    },
     "IH-ENG-0081": {
       "status": "found",
       "localPath": "covers/IH-ENG-0081.jpg",
@@ -565,36 +507,6 @@
       "materialTitle": "기적의 영어문장 만들기",
       "publisher": "길벗스쿨"
     },
-    "IH-ENG-0082": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0082.jpg",
-      "imageUrl": "https://image.yes24.com/goods/126790162/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/126790162",
-      "source": "YES24",
-      "sourceTitle": "기적의 영어문장 쓰기 1",
-      "sourceAuthor": "저",
-      "score": 106,
-      "bytes": 20803,
-      "contentType": "image/jpeg",
-      "materialTitle": "기적의 영어문장 쓰기",
-      "publisher": "길벗스쿨",
-      "searchQuery": "길벗스쿨 기적의 영어문장 쓰기"
-    },
-    "IH-ENG-0083": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0083.jpg",
-      "imageUrl": "https://image.yes24.com/goods/149625551/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/149625551",
-      "source": "YES24",
-      "sourceTitle": "기적의 영단어 Quick &amp; Easy 기초 1",
-      "sourceAuthor": "저",
-      "score": 99,
-      "bytes": 20655,
-      "contentType": "image/jpeg",
-      "materialTitle": "기적의 영단어",
-      "publisher": "길벗스쿨",
-      "searchQuery": "길벗스쿨 기적의 영단어"
-    },
     "IH-ENG-0084": {
       "status": "found",
       "localPath": "covers/IH-ENG-0084.jpg",
@@ -606,21 +518,6 @@
       "bytes": 97565,
       "materialTitle": "Reading Voyage",
       "publisher": "다락원"
-    },
-    "IH-ENG-0085": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0085.jpg",
-      "imageUrl": "https://image.yes24.com/goods/98349574/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/98349574",
-      "source": "YES24",
-      "sourceTitle": "내공 중학영어독해 예비중 1",
-      "sourceAuthor": "저",
-      "score": 71,
-      "bytes": 16469,
-      "contentType": "image/jpeg",
-      "materialTitle": "내공 중학영어독해",
-      "publisher": "다락원",
-      "searchQuery": "다락원 내공 독해"
     },
     "IH-ENG-0087": {
       "status": "found",
@@ -640,18 +537,6 @@
       "materialTitle": "디딤돌 초등 문법으로 Writing",
       "publisher": "디딤돌"
     },
-    "IH-ENG-0089": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0089.jpg",
-      "materialTitle": "자이스토리 예비 중등 영어 독해",
-      "publisher": "수경출판사/자이스토리"
-    },
-    "IH-ENG-0090": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0090.jpg",
-      "materialTitle": "자이스토리 중등 영어 독해 기본",
-      "publisher": "수경출판사/자이스토리"
-    },
     "IH-ENG-0091": {
       "status": "found",
       "localPath": "covers/IH-ENG-0091.jpg",
@@ -663,18 +548,6 @@
       "localPath": "covers/IH-ENG-0092.jpg",
       "materialTitle": "자이스토리 중등 영문법 총정리 시리즈 중1~중3",
       "publisher": "수경출판사/자이스토리"
-    },
-    "IH-ENG-0093": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0093.jpg",
-      "materialTitle": "리딩 와이즈 Lv.2",
-      "publisher": "좋은책신사고"
-    },
-    "IH-ENG-0095": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0095.jpg",
-      "materialTitle": "그래머 와이즈 Lv.2",
-      "publisher": "좋은책신사고"
     },
     "IH-ENG-0103": {
       "status": "found",
@@ -718,12 +591,6 @@
       "materialTitle": "해법 신입생 영어",
       "publisher": "천재교육"
     },
-    "IH-ENG-0110": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0110.jpg",
-      "materialTitle": "구문이 독해다 Starter (초등)",
-      "publisher": "키출판사"
-    },
     "IH-ENG-0112": {
       "status": "found",
       "localPath": "covers/IH-ENG-0112.jpg",
@@ -734,18 +601,6 @@
       "status": "found",
       "localPath": "covers/IH-ENG-0113.jpg",
       "materialTitle": "미국교과서 읽는 리딩 Reading Key Plus 1",
-      "publisher": "키출판사"
-    },
-    "IH-ENG-0117": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0117.jpg",
-      "materialTitle": "문법이 쓰기다 Starter 1",
-      "publisher": "키출판사"
-    },
-    "IH-ENG-0118": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0118.jpg",
-      "materialTitle": "문법이 쓰기다 Starter 2",
       "publisher": "키출판사"
     },
     "IH-ENG-0119": {
@@ -771,12 +626,6 @@
       "bytes": 53275,
       "materialTitle": "단어가 읽기다 (초4)",
       "publisher": "키출판사"
-    },
-    "IH-ENG-0121": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0121.jpg",
-      "materialTitle": "연타 중학영어 구문+독해 Lv.1",
-      "publisher": "YBM"
     },
     "IH-ENG-0122": {
       "status": "found",
@@ -904,12 +753,6 @@
       "materialTitle": "알리GO올리GO 서술형쓰기 1",
       "publisher": "YBM"
     },
-    "IH-ENG-0135": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0135.jpg",
-      "materialTitle": "연타 중학영어 문법+쓰기 Lv.1",
-      "publisher": "YBM"
-    },
     "IH-ENG-0136": {
       "status": "found",
       "localPath": "covers/IH-ENG-0136.jpg",
@@ -958,12 +801,6 @@
       "materialTitle": "Reading Juice Plus 1",
       "publisher": "A*List (에이리스트)"
     },
-    "IH-ENG-0140": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0140.jpg",
-      "materialTitle": "Step by Step 초등 영문법, 독해의 힘! LEVEL 1",
-      "publisher": "EBS (한국교육방송공사)"
-    },
     "IH-ENG-0141": {
       "status": "found",
       "localPath": "covers/IH-ENG-0141.jpg",
@@ -1004,18 +841,6 @@
       "status": "found",
       "localPath": "covers/IH-ENG-0144.jpg",
       "materialTitle": "Reading for Subject 2nd Ed 1",
-      "publisher": "다락원"
-    },
-    "IH-ENG-0146": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0146.jpg",
-      "materialTitle": "내신공략 중학영문법",
-      "publisher": "다락원"
-    },
-    "IH-ENG-0147": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0147.jpg",
-      "materialTitle": "시험에 강한 중학영문법",
       "publisher": "다락원"
     },
     "IH-ENG-0148": {
@@ -1152,21 +977,6 @@
       "bytes": 38505,
       "materialTitle": "메가스터디 중학영어 독해 Level 1",
       "publisher": "메가스터디북스"
-    },
-    "IH-ENG-0158": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0158.jpg",
-      "imageUrl": "https://image.yes24.com/goods/155499832/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/155499832",
-      "source": "YES24",
-      "sourceTitle": "메가스터디 중학 영어 듣기 모의고사 22회 Level 2",
-      "sourceAuthor": ",,,,, 공저",
-      "score": 35,
-      "bytes": 18543,
-      "contentType": "image/jpeg",
-      "materialTitle": "메가스터디 중학영어듣기 모의고사",
-      "publisher": "메가스터디북스",
-      "searchQuery": "메가스터디북스 메가스터디 중학영어듣기 모의고사"
     },
     "IH-ENG-0159": {
       "status": "found",
@@ -1306,21 +1116,6 @@
       "publisher": "좋은책신사고",
       "searchQuery": "컨셉 영어듣기 BASIC 교재"
     },
-    "IH-ENG-0172": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0172.jpg",
-      "imageUrl": "https://image.yes24.com/goods/141704861/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/141704861",
-      "source": "YES24",
-      "sourceTitle": "Grammar Wise 그래머 와이즈 Level 3",
-      "sourceAuthor": "저",
-      "score": 29,
-      "bytes": 11483,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래머 와이즈 Lv.3",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래머 와이즈 Lv.3"
-    },
     "IH-ENG-0178": {
       "status": "found",
       "localPath": "covers/IH-ENG-0178.jpg",
@@ -1365,21 +1160,6 @@
       "materialTitle": "바로 읽는 배경지식 독해",
       "publisher": "천재교육",
       "searchQuery": "천재교육 바로 읽는 배경지식 독해"
-    },
-    "IH-ENG-0182": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0182.jpg",
-      "imageUrl": "https://image.yes24.com/goods/87607003/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/87607003",
-      "source": "YES24",
-      "sourceTitle": "바로 Listening 중학영어듣기 모의고사 24회 1학년",
-      "sourceAuthor": "편집부 저",
-      "score": 116,
-      "bytes": 20046,
-      "contentType": "image/jpeg",
-      "materialTitle": "바로 Listening 중학영어듣기 모의고사",
-      "publisher": "천재교육",
-      "searchQuery": "천재교육 바로 Listening 중학영어듣기 모의고사"
     },
     "IH-ENG-0183": {
       "status": "found",
@@ -1515,21 +1295,6 @@
       "materialTitle": "미국교과서 읽는 리딩 Reading Key (초4)",
       "publisher": "키출판사",
       "searchQuery": "키출판사 미국교과서 읽는 리딩 Reading Key (초4)"
-    },
-    "IH-ENG-0197": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0197.jpg",
-      "imageUrl": "https://image.yes24.com/goods/11323341/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/11323341",
-      "source": "YES24",
-      "sourceTitle": "미국교과서 읽는 리스닝 &amp; 스피킹 Listening &amp; Speaking Key Prek 준비편 3",
-      "sourceAuthor": ", 공저",
-      "score": 54,
-      "bytes": 29356,
-      "contentType": "image/jpeg",
-      "materialTitle": "미국교과서 읽는 리스닝 LISTENING SPEAKING Key K3",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 미국교과서 읽는 리스닝 LISTENING SPEAKING Key K3"
     },
     "IH-ENG-0199": {
       "status": "found",
@@ -2190,21 +1955,6 @@
       "materialTitle": "문법이 쓰기다 3",
       "publisher": "키출판사",
       "searchQuery": "키출판사 문법이 쓰기다 3"
-    },
-    "IH-ENG-0289": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0289.jpg",
-      "imageUrl": "https://image.yes24.com/goods/139878101/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/139878101",
-      "source": "YES24",
-      "sourceTitle": "중학 실전 영어 서술형이 전략이다 1",
-      "sourceAuthor": "저",
-      "score": 32,
-      "bytes": 17445,
-      "contentType": "image/jpeg",
-      "materialTitle": "서술형 전략이다 1",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 서술형 전략이다 1"
     },
     "IH-ENG-0293": {
       "status": "found",
@@ -7262,21 +7012,6 @@
       "publisher": "A*List",
       "searchQuery": "A*List A*List VOCA"
     },
-    "IH-ENG-0717": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0717.jpg",
-      "imageUrl": "https://image.yes24.com/goods/188906701/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/188906701",
-      "source": "YES24",
-      "sourceTitle": "Alist 메타보카 고등편",
-      "sourceAuthor": "저",
-      "score": 24,
-      "bytes": 15226,
-      "contentType": "image/jpeg",
-      "materialTitle": "A*List 메타보카 (수능/고등)",
-      "publisher": "A*List",
-      "searchQuery": "A*List A*List 메타보카 어휘"
-    },
     "IH-ENG-0718": {
       "status": "found",
       "localPath": "covers/IH-ENG-0718.jpg",
@@ -10328,19 +10063,6 @@
       "searchQuery": "그래머 클리어 스타터2",
       "isbn": "9788900444247"
     },
-    "IH-ENG-0039": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0039.jpg",
-      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/096/746/09674615.jpg?udate=20170225",
-      "source": "KOBIC",
-      "isbn": "9788928320486",
-      "sourceTitle": "Reading Wise Level 1 (리딩 와이즈)",
-      "score": 89,
-      "bytes": 11908,
-      "materialTitle": "리딩 와이즈 Lv.1",
-      "publisher": "좋은책신사고",
-      "verifiedAt": "2026-07-01T21:43:01.196Z"
-    },
     "IH-ENG-0040": {
       "status": "found",
       "localPath": "covers/IH-ENG-0040.jpg",
@@ -10355,51 +10077,6 @@
       "materialTitle": "리딩 와이즈 Starter",
       "publisher": "좋은책신사고",
       "searchQuery": "리딩 와이즈 Starter 교재"
-    },
-    "IH-ENG-0043": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0043.jpg",
-      "imageUrl": "https://image.yes24.com/goods/126969270/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/126969270",
-      "source": "YES24",
-      "sourceTitle": "Grammar Wise Starter 그래머 와이즈 스타터",
-      "sourceAuthor": "저",
-      "score": 36,
-      "bytes": 10651,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래머 와이즈 Starter",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래머 와이즈 Starter"
-    },
-    "IH-ENG-0044": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0044.jpg",
-      "imageUrl": "https://image.yes24.com/goods/163670387/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/163670387",
-      "source": "YES24",
-      "sourceTitle": "그래it 중학 영문법 개념+문제 마스터 Level 1",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 8854,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래써 중학 영문법 개념마스터 Lv.1",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래써 중학 영문법 개념마스터 Lv.1"
-    },
-    "IH-ENG-0045": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0045.jpg",
-      "imageUrl": "https://image.yes24.com/goods/168206696/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/168206696",
-      "source": "YES24",
-      "sourceTitle": "이그잼 Exam 중학 영문법 1500제 Level 2",
-      "sourceAuthor": "저",
-      "score": 36,
-      "bytes": 13713,
-      "contentType": "image/jpeg",
-      "materialTitle": "이그잼 영문법 1500제 Lv.1",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 이그잼 영문법 1500제 Lv.1"
     },
     "IH-ENG-0048": {
       "status": "found",
@@ -10441,21 +10118,6 @@
       "materialTitle": "기적같은 키즈 리딩 Reading Key",
       "publisher": "키출판사",
       "searchQuery": "키출판사 기적같은 키즈 리딩 Reading Key"
-    },
-    "IH-ENG-0060": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0060.jpg",
-      "imageUrl": "https://image.yes24.com/goods/59884340/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/59884340",
-      "source": "YES24",
-      "sourceTitle": "미국교과서 읽는 리딩 Reading Key Preschool Starter 1",
-      "sourceAuthor": "저",
-      "score": 54,
-      "bytes": 45535,
-      "contentType": "image/jpeg",
-      "materialTitle": "미국교과서 읽는 리딩 Reading Key Starter 1",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 미국교과서 읽는 리딩 Reading Key Starter 1"
     },
     "IH-ENG-0061": {
       "status": "no_cover_real",
@@ -10521,53 +10183,6 @@
       "materialTitle": "미국교과서 읽는 리딩 Sight Word",
       "publisher": "키출판사"
     },
-    "IH-ENG-0070": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0070.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974574543C001.jpg",
-      "sourcePage": "https://product.kyobobook.co.kr/detail/9788974574543",
-      "source": "KOBIC",
-      "sourceTitle": "초등 영어, 파닉스가 스타트다 1",
-      "sourceAuthor": "저",
-      "score": 104,
-      "bytes": 53610,
-      "contentType": "image/jpeg",
-      "materialTitle": "초등 영어 파닉스가 스타트다 1",
-      "publisher": "키출판사",
-      "searchQuery": "초등 영어 파닉스가 스타트다 1",
-      "isbn": "9788974574543",
-      "verifiedAt": "2026-07-01T21:43:05.220Z"
-    },
-    "IH-ENG-0072": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0072.jpg",
-      "imageUrl": "https://image.yes24.com/goods/57602849/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/57602849",
-      "source": "YES24",
-      "sourceTitle": "초등 영어, 파닉스가 스타트다 1",
-      "sourceAuthor": "저",
-      "score": 105,
-      "bytes": 21036,
-      "contentType": "image/jpeg",
-      "materialTitle": "파닉스가 스타트다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 파닉스가 스타트다"
-    },
-    "IH-ENG-0074": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0074.jpg",
-      "imageUrl": "https://image.yes24.com/goods/123254109/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/123254109",
-      "source": "YES24",
-      "sourceTitle": "초등 영어듣기평가 완벽대비 3-1",
-      "sourceAuthor": "저",
-      "score": 144,
-      "bytes": 17871,
-      "contentType": "image/jpeg",
-      "materialTitle": "초등 영어듣기평가 완벽대비 3-1",
-      "publisher": "EBS (한국교육방송공사)",
-      "searchQuery": "EBS (한국교육방송공사) 초등 영어듣기평가 완벽대비 3-1"
-    },
     "IH-ENG-0086": {
       "status": "found",
       "localPath": "covers/IH-ENG-0086.jpg",
@@ -10579,81 +10194,6 @@
       "bytes": 48867,
       "materialTitle": "Grammar Mate 1",
       "publisher": "다락원"
-    },
-    "IH-ENG-0094": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0094.jpg",
-      "imageUrl": "https://image.yes24.com/goods/168206696/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/168206696",
-      "source": "YES24",
-      "sourceTitle": "이그잼 Exam 중학 영문법 1500제 Level 2",
-      "sourceAuthor": "저",
-      "score": 25,
-      "bytes": 13713,
-      "contentType": "image/jpeg",
-      "materialTitle": "이그잼 듣기모의고사 25회 Lv.2",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 이그잼 듣기모의고사 25회 Lv.2"
-    },
-    "IH-ENG-0096": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0096.jpg",
-      "imageUrl": "https://image.yes24.com/goods/163670934/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/163670934",
-      "source": "YES24",
-      "sourceTitle": "그래it 중학 영문법 개념+문제 마스터 Level 2",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 8717,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래써 중학 영문법 개념마스터 Lv.2",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래써 중학 영문법 개념마스터 Lv.2"
-    },
-    "IH-ENG-0097": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0097.jpg",
-      "imageUrl": "https://image.yes24.com/goods/163670387/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/163670387",
-      "source": "YES24",
-      "sourceTitle": "그래it 중학 영문법 개념+문제 마스터 Level 1",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 8854,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래써 중학 영문법 문제마스터 Lv.1",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래써 중학 영문법 문제마스터 Lv.1"
-    },
-    "IH-ENG-0098": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0098.jpg",
-      "imageUrl": "https://image.yes24.com/goods/163670934/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/163670934",
-      "source": "YES24",
-      "sourceTitle": "그래it 중학 영문법 개념+문제 마스터 Level 2",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 8717,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래써 중학 영문법 문제마스터 Lv.2",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래써 중학 영문법 문제마스터 Lv.2"
-    },
-    "IH-ENG-0099": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0099.jpg",
-      "imageUrl": "https://image.yes24.com/goods/168206696/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/168206696",
-      "source": "YES24",
-      "sourceTitle": "이그잼 Exam 중학 영문법 1500제 Level 2",
-      "sourceAuthor": "저",
-      "score": 36,
-      "bytes": 13713,
-      "contentType": "image/jpeg",
-      "materialTitle": "이그잼 영문법 1500제 Lv.2",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 이그잼 영문법 1500제 Lv.2"
     },
     "IH-ENG-0100": {
       "status": "found",
@@ -10681,33 +10221,6 @@
       "bytes": 8416,
       "materialTitle": "라이팅 와이즈 Lv.2-1",
       "publisher": "좋은책신사고"
-    },
-    "IH-ENG-0102": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0102.jpg",
-      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/096/746/09674619.jpg?udate=20210330",
-      "source": "KOBIC",
-      "isbn": "9788928320516",
-      "sourceTitle": "Writing Wise 라이팅 와이즈 Level 1-1 (2018,중학 내신 서술형 평가 대비 문제집,라이팅 와이즈 중등 레벨)",
-      "score": 29,
-      "bytes": 8555,
-      "materialTitle": "라이팅 와이즈 Lv.2-2",
-      "publisher": "좋은책신사고",
-      "verifiedAt": "2026-07-01T21:43:40.668Z"
-    },
-    "IH-ENG-0105": {
-      "status": "no_cover_real",
-      "imageUrl": "https://image.yes24.com/goods/125708282/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/125708282",
-      "source": "YES24",
-      "sourceTitle": "초초빈출 손바닥 영단어",
-      "sourceAuthor": "저",
-      "score": 29,
-      "bytes": 10760,
-      "contentType": "image/jpeg",
-      "materialTitle": "초빈출 영단어 중학 발전",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 초빈출 어휘"
     },
     "IH-ENG-0111": {
       "status": "found",
@@ -10781,117 +10294,6 @@
       "materialTitle": "Grammar ViSTA 1",
       "publisher": "다락원"
     },
-    "IH-ENG-0169": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0169.jpg",
-      "imageUrl": "https://image.yes24.com/goods/17322287/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/17322287",
-      "source": "YES24",
-      "sourceTitle": "세계 역사 이야기 영어 리딩 훈련 고대 1",
-      "sourceAuthor": "등저",
-      "score": 25,
-      "bytes": 19861,
-      "contentType": "image/jpeg",
-      "materialTitle": "리딩 와이즈 Lv.3",
-      "publisher": "좋은책신사고",
-      "searchQuery": "리딩 와이즈 Lv.3 교재"
-    },
-    "IH-ENG-0170": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0170.jpg",
-      "imageUrl": "https://image.yes24.com/goods/168377203/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/168377203",
-      "source": "YES24",
-      "sourceTitle": "이그잼 Exam 영문법 1500제 Level 3",
-      "sourceAuthor": "저",
-      "score": 25,
-      "bytes": 13651,
-      "contentType": "image/jpeg",
-      "materialTitle": "이그잼 듣기모의고사 25회 Lv.3",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 이그잼 듣기모의고사 25회 Lv.3"
-    },
-    "IH-ENG-0173": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0173.jpg",
-      "imageUrl": "https://image.yes24.com/goods/163671448/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/163671448",
-      "source": "YES24",
-      "sourceTitle": "그래it 중학 영문법 개념+문제 마스터 Level 3",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 8528,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래써 중학 영문법 개념마스터 Lv.3",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래써 중학 영문법 개념마스터 Lv.3"
-    },
-    "IH-ENG-0174": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0174.jpg",
-      "imageUrl": "https://image.yes24.com/goods/163671448/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/163671448",
-      "source": "YES24",
-      "sourceTitle": "그래it 중학 영문법 개념+문제 마스터 Level 3",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 8528,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래써 중학 영문법 문제마스터 Lv.3",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래써 중학 영문법 문제마스터 Lv.3"
-    },
-    "IH-ENG-0175": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0175.jpg",
-      "imageUrl": "https://image.yes24.com/goods/168377203/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/168377203",
-      "source": "YES24",
-      "sourceTitle": "이그잼 Exam 영문법 1500제 Level 3",
-      "sourceAuthor": "저",
-      "score": 36,
-      "bytes": 13651,
-      "contentType": "image/jpeg",
-      "materialTitle": "이그잼 영문법 1500제 Lv.3",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 이그잼 영문법 1500제 Lv.3"
-    },
-    "IH-ENG-0176": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0176.jpg",
-      "materialTitle": "라이팅 와이즈 Lv.3-1",
-      "publisher": "좋은책신사고",
-      "note": "series-shared(restored)"
-    },
-    "IH-ENG-0177": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0177.jpg",
-      "imageUrl": "https://image.yes24.com/goods/119761712/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/119761712",
-      "source": "YES24",
-      "sourceTitle": "해커스 토플 액츄얼 테스트 라이팅(Hackers TOEFL Actual Test Writing)",
-      "sourceAuthor": "저",
-      "score": 25,
-      "bytes": 14208,
-      "contentType": "image/jpeg",
-      "materialTitle": "라이팅 와이즈 Lv.3-2",
-      "publisher": "좋은책신사고",
-      "searchQuery": "라이팅 와이즈 Lv.3-2 교재"
-    },
-    "IH-ENG-0179": {
-      "status": "no_cover_real",
-      "imageUrl": "https://image.yes24.com/goods/125708282/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/125708282",
-      "source": "YES24",
-      "sourceTitle": "초초빈출 손바닥 영단어",
-      "sourceAuthor": "저",
-      "score": 29,
-      "bytes": 10760,
-      "contentType": "image/jpeg",
-      "materialTitle": "초빈출 영단어 중학 고난도",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 초빈출 어휘"
-    },
     "IH-ENG-0190": {
       "status": "found",
       "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791189719470.jpg",
@@ -10907,21 +10309,6 @@
       "searchQuery": "구문이 독해다 (초4)",
       "localPath": "covers/IH-ENG-0190.jpg",
       "isbn": "9791189719470"
-    },
-    "IH-ENG-0191": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0191.jpg",
-      "imageUrl": "https://image.yes24.com/goods/43721018/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/43721018",
-      "source": "YES24",
-      "sourceTitle": "중학 영어 구문이 독해다 1",
-      "sourceAuthor": "저",
-      "score": 29,
-      "bytes": 19497,
-      "contentType": "image/jpeg",
-      "materialTitle": "구문이 독해다 (초5)",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 구문이 독해다 (초5)"
     },
     "IH-ENG-0193": {
       "status": "found",
@@ -10967,21 +10354,6 @@
       "materialTitle": "미국교과서 읽는 ASTB LISTENING KEY 1",
       "publisher": "키출판사",
       "searchQuery": "키출판사 미국교과서 읽는 ASTB LISTENING KEY 1"
-    },
-    "IH-ENG-0198": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0198.jpg",
-      "imageUrl": "https://image.yes24.com/goods/11323341/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/11323341",
-      "source": "YES24",
-      "sourceTitle": "미국교과서 읽는 리스닝 &amp; 스피킹 Listening &amp; Speaking Key Prek 준비편 3",
-      "sourceAuthor": ", 공저",
-      "score": 54,
-      "bytes": 29356,
-      "contentType": "image/jpeg",
-      "materialTitle": "미국교과서 읽는 리스닝 Listen & Speak Key",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 미국교과서 읽는 리스닝 Listen & Speak Key"
     },
     "IH-ENG-0201": {
       "status": "found",
@@ -11148,21 +10520,6 @@
       "publisher": "좋은책신사고",
       "searchQuery": "컨셉 영어듣기 유형모의고사 25회 교재"
     },
-    "IH-ENG-0234": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0234.jpg",
-      "imageUrl": "https://image.yes24.com/goods/125202617/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/125202617",
-      "source": "YES24",
-      "sourceTitle": "해커스 수능영어독해 미니 모의고사 12+2회 기본",
-      "sourceAuthor": "저",
-      "score": 28,
-      "bytes": 14037,
-      "contentType": "image/jpeg",
-      "materialTitle": "영어독해 기본모의고사 15회",
-      "publisher": "좋은책신사고",
-      "searchQuery": "영어독해 기본모의고사 15회 교재"
-    },
     "IH-ENG-0235": {
       "status": "no_cover_real",
       "imageUrl": "https://image.yes24.com/goods/107489492/L",
@@ -11176,66 +10533,6 @@
       "materialTitle": "영어독해 약점유형 모의고사 20회",
       "publisher": "좋은책신사고",
       "searchQuery": "영어독해 약점유형 모의고사 20회 교재"
-    },
-    "IH-ENG-0236": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0236.jpg",
-      "imageUrl": "https://image.yes24.com/goods/20103002/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/20103002",
-      "source": "YES24",
-      "sourceTitle": "EBS 인터넷 수능 영어영역 영어독해연습 1 종합편 (2015년) + 2016 수능실감 쎄듀 EBS 변형 FINAL 독해 모의고사 8회 (2015년)",
-      "sourceAuthor": "편집부 저",
-      "score": 28,
-      "bytes": 38323,
-      "contentType": "image/jpeg",
-      "materialTitle": "영어독해 종합모의고사 15회",
-      "publisher": "좋은책신사고",
-      "searchQuery": "영어독해 종합모의고사 15회 교재"
-    },
-    "IH-ENG-0237": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0237.jpg",
-      "imageUrl": "https://image.yes24.com/goods/126969270/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/126969270",
-      "source": "YES24",
-      "sourceTitle": "Grammar Wise Starter 그래머 와이즈 스타터",
-      "sourceAuthor": "저",
-      "score": 36,
-      "bytes": 10651,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래머 와이즈 Starter/Lv.1",
-      "publisher": "좋은책신사고",
-      "searchQuery": "좋은책신사고 그래머 와이즈 Starter/Lv.1"
-    },
-    "IH-ENG-0238": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0238.jpg",
-      "imageUrl": "https://image.yes24.com/goods/22958919/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/22958919",
-      "source": "YES24",
-      "sourceTitle": "그래머 마스터 비기너 grammar master Beginner",
-      "sourceAuthor": "등저",
-      "score": 25,
-      "bytes": 26813,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래머 중학 영문법 개념마스터 Lv.1",
-      "publisher": "좋은책신사고",
-      "searchQuery": "그래머 중학 영문법 개념마스터 Lv.1 교재"
-    },
-    "IH-ENG-0239": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0239.jpg",
-      "imageUrl": "https://image.yes24.com/goods/22958919/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/22958919",
-      "source": "YES24",
-      "sourceTitle": "그래머 마스터 비기너 grammar master Beginner",
-      "sourceAuthor": "등저",
-      "score": 25,
-      "bytes": 26813,
-      "contentType": "image/jpeg",
-      "materialTitle": "그래머 중학 영문법 문제마스터 Lv.1",
-      "publisher": "좋은책신사고",
-      "searchQuery": "그래머 중학 영문법 문제마스터 Lv.1 교재"
     },
     "IH-ENG-0245": {
       "status": "found",
@@ -11464,36 +10761,6 @@
       "publisher": "키출판사",
       "searchQuery": "키출판사 미국교과서 독해"
     },
-    "IH-ENG-0278": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0278.jpg",
-      "imageUrl": "https://image.yes24.com/goods/67350410/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/67350410",
-      "source": "YES24",
-      "sourceTitle": "강성태 영문법 필수편",
-      "sourceAuthor": "저",
-      "score": 33,
-      "bytes": 24043,
-      "contentType": "image/jpeg",
-      "materialTitle": "강성태 중학 필수 영문법 1",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 강성태 중학 필수 영문법 1"
-    },
-    "IH-ENG-0279": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0279.jpg",
-      "imageUrl": "https://image.yes24.com/goods/67350410/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/67350410",
-      "source": "YES24",
-      "sourceTitle": "강성태 영문법 필수편",
-      "sourceAuthor": "저",
-      "score": 33,
-      "bytes": 24043,
-      "contentType": "image/jpeg",
-      "materialTitle": "강성태 중학 필수 영문법 2",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 강성태 중학 필수 영문법 2"
-    },
     "IH-ENG-0280": {
       "status": "found",
       "localPath": "covers/IH-ENG-0280.jpg",
@@ -11573,21 +10840,6 @@
       "searchQuery": "문법이 쓰기다 서술형 (중2)",
       "isbn": "9791188808762"
     },
-    "IH-ENG-0290": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0290.jpg",
-      "imageUrl": "https://image.yes24.com/goods/142192638/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/142192638",
-      "source": "YES24",
-      "sourceTitle": "중학 실전 영어 서술형이 전략이다 2",
-      "sourceAuthor": "저",
-      "score": 32,
-      "bytes": 19379,
-      "contentType": "image/jpeg",
-      "materialTitle": "서술형 전략이다 2",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 서술형 전략이다 2"
-    },
     "IH-ENG-0291": {
       "status": "found",
       "localPath": "covers/IH-ENG-0291.jpg",
@@ -11604,21 +10856,6 @@
       "searchQuery": "단어가 읽기다 2",
       "isbn": "9791165263379"
     },
-    "IH-ENG-0292": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0292.jpg",
-      "imageUrl": "https://image.yes24.com/goods/59884340/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/59884340",
-      "source": "YES24",
-      "sourceTitle": "미국교과서 읽는 리딩 Reading Key Preschool Starter 1",
-      "sourceAuthor": "저",
-      "score": 36,
-      "bytes": 45535,
-      "contentType": "image/jpeg",
-      "materialTitle": "미국교과서 읽는 영단어 KEY 1",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 미국교과서 읽는 영단어 KEY 1"
-    },
     "IH-ENG-0294": {
       "status": "found",
       "localPath": "covers/IH-ENG-0294.jpg",
@@ -11633,36 +10870,6 @@
       "materialTitle": "미국교과서 읽는 영단어 KEY 3",
       "publisher": "키출판사",
       "searchQuery": "키출판사 미국교과서 읽는 영단어 KEY 3"
-    },
-    "IH-ENG-0298": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0298.jpg",
-      "imageUrl": "https://image.yes24.com/goods/42788254/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/42788254",
-      "source": "YES24",
-      "sourceTitle": "중학 영단어 단어가 읽기다 기본편",
-      "sourceAuthor": "저",
-      "score": 33,
-      "bytes": 26974,
-      "contentType": "image/jpeg",
-      "materialTitle": "중학 단어가 읽기다 (중1)",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 중학 단어가 읽기다 (중1)"
-    },
-    "IH-ENG-0301": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0301.jpg",
-      "imageUrl": "https://image.yes24.com/goods/119410293/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/119410293",
-      "source": "YES24",
-      "sourceTitle": "중학 영문법, 명쾌한 문제 대공략 - 중1",
-      "sourceAuthor": "저",
-      "score": 37,
-      "bytes": 20183,
-      "contentType": "image/jpeg",
-      "materialTitle": "중학 열공법 (명쾌한 문제 대공략)",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 중학 열공법 (명쾌한 문제 대공략)"
     },
     "IH-ENG-0308": {
       "status": "found",
@@ -11772,36 +10979,6 @@
       "searchQuery": "어법·어휘 완성",
       "isbn": "9791162409060"
     },
-    "IH-ENG-0387": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0387.jpg",
-      "imageUrl": "https://image.yes24.com/goods/125202617/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/125202617",
-      "source": "YES24",
-      "sourceTitle": "해커스 수능영어독해 미니 모의고사 12+2회 기본",
-      "sourceAuthor": "저",
-      "score": 7,
-      "bytes": 14037,
-      "contentType": "image/jpeg",
-      "materialTitle": "컨셉 영어독해 기본모의고사 15회",
-      "publisher": "좋은책신사고",
-      "searchQuery": "컨셉 영어독해 기본모의고사 15회 교재"
-    },
-    "IH-ENG-0388": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0388.jpg",
-      "imageUrl": "https://image.yes24.com/goods/20103002/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/20103002",
-      "source": "YES24",
-      "sourceTitle": "EBS 인터넷 수능 영어영역 영어독해연습 1 종합편 (2015년) + 2016 수능실감 쎄듀 EBS 변형 FINAL 독해 모의고사 8회 (2015년)",
-      "sourceAuthor": "편집부 저",
-      "score": 7,
-      "bytes": 38323,
-      "contentType": "image/jpeg",
-      "materialTitle": "컨셉 영어독해 종합모의고사 15회",
-      "publisher": "좋은책신사고",
-      "searchQuery": "컨셉 영어독해 종합모의고사 15회 교재"
-    },
     "IH-ENG-0389": {
       "status": "no_cover_real",
       "imageUrl": "https://image.yes24.com/goods/125708282/L",
@@ -11848,21 +11025,6 @@
       "searchQuery": "처음 만나는 수능 어법 (스타터 입문/베이직 기본)",
       "isbn": "9791125959618"
     },
-    "IH-ENG-0393": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0393.jpg",
-      "imageUrl": "https://image.yes24.com/goods/43721018/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/43721018",
-      "source": "YES24",
-      "sourceTitle": "중학 영어 구문이 독해다 1",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 19497,
-      "contentType": "image/jpeg",
-      "materialTitle": "중학영어 구문이 독해다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 중학영어 구문이 독해다"
-    },
     "IH-ENG-0394": {
       "status": "found",
       "localPath": "covers/IH-ENG-0394.jpg",
@@ -11893,36 +11055,6 @@
       "publisher": "키출판사",
       "searchQuery": "키출판사 고공행진 중학영어독해 READING"
     },
-    "IH-ENG-0398": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0398.jpg",
-      "imageUrl": "https://image.yes24.com/goods/116624739/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/116624739",
-      "source": "YES24",
-      "sourceTitle": "매3영 문장구조 구문독해 : 매일 3단계로 연습하는 영어 문장구조 구문독해",
-      "sourceAuthor": "저",
-      "score": 99,
-      "bytes": 19077,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 (중3 단계)",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영"
-    },
-    "IH-ENG-0399": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0399.jpg",
-      "imageUrl": "https://image.yes24.com/goods/57552678/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/57552678",
-      "source": "YES24",
-      "sourceTitle": "매3영 매일 3단계로 푸는 영어독해 전국연합 학력평가 기출 고1 (2018년)",
-      "sourceAuthor": "저",
-      "score": 47,
-      "bytes": 28499,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 전국연합 학력평가 기출 (고1)",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 전국연합 학력평가 기출 (고1)"
-    },
     "IH-ENG-0400": {
       "status": "found",
       "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791189719005.jpg",
@@ -11938,21 +11070,6 @@
       "searchQuery": "강성태 영문법 필수편",
       "localPath": "covers/IH-ENG-0400.jpg",
       "isbn": "9791189719005"
-    },
-    "IH-ENG-0401": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0401.jpg",
-      "imageUrl": "https://image.yes24.com/goods/67350410/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/67350410",
-      "source": "YES24",
-      "sourceTitle": "강성태 영문법 필수편",
-      "sourceAuthor": "저",
-      "score": 33,
-      "bytes": 24043,
-      "contentType": "image/jpeg",
-      "materialTitle": "강성태 중학 필수 영문법",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 강성태 중학 필수 영문법"
     },
     "IH-ENG-0403": {
       "status": "found",
@@ -11985,66 +11102,6 @@
       "searchQuery": "문법이 쓰기다 서술형 (중3)",
       "isbn": "9791188808779"
     },
-    "IH-ENG-0407": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0407.jpg",
-      "imageUrl": "https://image.yes24.com/goods/119410293/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/119410293",
-      "source": "YES24",
-      "sourceTitle": "중학 영문법, 명쾌한 문제 대공략 - 중1",
-      "sourceAuthor": "저",
-      "score": 33,
-      "bytes": 20183,
-      "contentType": "image/jpeg",
-      "materialTitle": "중학 열공법 (열+공부+문제+대공략)",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 중학 열공법 (열+공부+문제+대공략)"
-    },
-    "IH-ENG-0408": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0408.jpg",
-      "imageUrl": "https://image.yes24.com/goods/4740034/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/4740034",
-      "source": "YES24",
-      "sourceTitle": "절대로 틀릴 수 없는 중학영문법 내신 4200제 3",
-      "sourceAuthor": "저",
-      "score": 28,
-      "bytes": 33319,
-      "contentType": "image/jpeg",
-      "materialTitle": "중학영문법 문법이 내신이다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 중학영문법 문법"
-    },
-    "IH-ENG-0409": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0409.jpg",
-      "imageUrl": "https://image.yes24.com/goods/4740034/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/4740034",
-      "source": "YES24",
-      "sourceTitle": "절대로 틀릴 수 없는 중학영문법 내신 4200제 3",
-      "sourceAuthor": "저",
-      "score": 28,
-      "bytes": 33319,
-      "contentType": "image/jpeg",
-      "materialTitle": "중학영문법 문법이 쓰기다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 중학영문법 문법"
-    },
-    "IH-ENG-0410": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0410.jpg",
-      "imageUrl": "https://image.yes24.com/goods/84928661/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/84928661",
-      "source": "YES24",
-      "sourceTitle": "고등영어, 서술형이 전략이다",
-      "sourceAuthor": "저",
-      "score": 36,
-      "bytes": 18008,
-      "contentType": "image/jpeg",
-      "materialTitle": "고등 서술형 전략이다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 고등 서술형 전략이다"
-    },
     "IH-ENG-0411": {
       "status": "found",
       "localPath": "covers/IH-ENG-0411.jpg",
@@ -12059,36 +11116,6 @@
       "materialTitle": "문법이 쓰기다 서술형",
       "publisher": "키출판사",
       "searchQuery": "키출판사 문법이 쓰기다 서술형"
-    },
-    "IH-ENG-0413": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0413.jpg",
-      "imageUrl": "https://image.yes24.com/goods/139878101/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/139878101",
-      "source": "YES24",
-      "sourceTitle": "중학 실전 영어 서술형이 전략이다 1",
-      "sourceAuthor": "저",
-      "score": 11,
-      "bytes": 17445,
-      "contentType": "image/jpeg",
-      "materialTitle": "중학신전영어 서술형 전략이다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 중학신전영어 서술형 전략이다"
-    },
-    "IH-ENG-0417": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0417.jpg",
-      "imageUrl": "https://image.yes24.com/goods/76176484/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/76176484",
-      "source": "YES24",
-      "sourceTitle": "고등 영단어 단어가 읽기다",
-      "sourceAuthor": "저",
-      "score": 33,
-      "bytes": 24079,
-      "contentType": "image/jpeg",
-      "materialTitle": "고등 단어가 읽기다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 고등 단어가 읽기다"
     },
     "IH-ENG-0418": {
       "status": "found",
@@ -12105,21 +11132,6 @@
       "publisher": "키출판사",
       "searchQuery": "단어가 읽기다 (중3)",
       "isbn": "9788974574956"
-    },
-    "IH-ENG-0419": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0419.jpg",
-      "imageUrl": "https://image.yes24.com/goods/42788254/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/42788254",
-      "source": "YES24",
-      "sourceTitle": "중학 영단어 단어가 읽기다 기본편",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 26974,
-      "contentType": "image/jpeg",
-      "materialTitle": "키출판사 중학 영단어",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 키출판사 중학 영단어"
     },
     "IH-ENG-0426": {
       "status": "no_cover_real",
@@ -12180,21 +11192,6 @@
       "publisher": "수경출판사/자이스토리",
       "searchQuery": "자이스토리 자이스토리 영어 독해 기본"
     },
-    "IH-ENG-0450": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0450.jpg",
-      "imageUrl": "https://image.yes24.com/goods/169275544/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/169275544",
-      "source": "YES24",
-      "sourceTitle": "2027 수능대비 Xistory 자이스토리 수능 연도별 모의고사 고3 영어 (2026년)",
-      "sourceAuthor": "등저",
-      "score": 124,
-      "bytes": 13248,
-      "contentType": "image/jpeg",
-      "materialTitle": "연도별 모의고사 고3 영어",
-      "publisher": "수경출판사/자이스토리",
-      "searchQuery": "자이스토리 연도별 모의고사 고3 영어"
-    },
     "IH-ENG-0451": {
       "status": "found",
       "localPath": "covers/IH-ENG-0451.jpg",
@@ -12226,36 +11223,6 @@
       "searchQuery": "어법·어휘 실전",
       "isbn": "9791162409084"
     },
-    "IH-ENG-0464": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0464.jpg",
-      "imageUrl": "https://image.yes24.com/goods/168375900/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/168375900",
-      "source": "YES24",
-      "sourceTitle": "매3영 고3 : 매일 3단계로 푸는 영어독해 수능기출 고3",
-      "sourceAuthor": "저",
-      "score": 37,
-      "bytes": 18299,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 수능 기출 (고3)",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 수능 기출 (고3)"
-    },
-    "IH-ENG-0465": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0465.jpg",
-      "imageUrl": "https://image.yes24.com/goods/57552676/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/57552676",
-      "source": "YES24",
-      "sourceTitle": "매3영 매일 3단계로 푸는 영어독해 전국연합 학력평가 기출 고2 (2018년)",
-      "sourceAuthor": "저",
-      "score": 47,
-      "bytes": 28717,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 전국연합 학력평가 기출 (고2)",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 전국연합 학력평가 기출 (고2)"
-    },
     "IH-ENG-0466": {
       "status": "found",
       "localPath": "covers/IH-ENG-0466.jpg",
@@ -12271,21 +11238,6 @@
       "publisher": "키출판사",
       "searchQuery": "문법이 내신이다",
       "isbn": "9791189719494"
-    },
-    "IH-ENG-0467": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0467.jpg",
-      "imageUrl": "https://image.yes24.com/goods/142192638/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/142192638",
-      "source": "YES24",
-      "sourceTitle": "중학 실전 영어 서술형이 전략이다 2",
-      "sourceAuthor": "저",
-      "score": 32,
-      "bytes": 19379,
-      "contentType": "image/jpeg",
-      "materialTitle": "서술형 전략이다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 서술형 전략이다"
     },
     "IH-ENG-0475": {
       "status": "found",
@@ -12377,21 +11329,6 @@
       "publisher": "수경출판사/자이스토리",
       "searchQuery": "자이스토리 자이스토리 어법어휘 완성"
     },
-    "IH-ENG-0551": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0551.jpg",
-      "imageUrl": "https://image.yes24.com/goods/120227138/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/120227138",
-      "source": "YES24",
-      "sourceTitle": "매3영 매일 3단계로 푸는 영어 어법&#183;어휘",
-      "sourceAuthor": "저",
-      "score": 29,
-      "bytes": 17083,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 1단계 어법",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 1단계 어법"
-    },
     "IH-ENG-0554": {
       "status": "found",
       "localPath": "covers/IH-ENG-0554.jpg",
@@ -12438,21 +11375,6 @@
       "localPath": "covers/IH-ENG-0561.jpg",
       "isbn": "9791162409077"
     },
-    "IH-ENG-0563": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0563.jpg",
-      "imageUrl": "https://image.yes24.com/goods/169275544/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/169275544",
-      "source": "YES24",
-      "sourceTitle": "2027 수능대비 Xistory 자이스토리 수능 연도별 모의고사 고3 영어 (2026년)",
-      "sourceAuthor": "등저",
-      "score": 54,
-      "bytes": 13248,
-      "contentType": "image/jpeg",
-      "materialTitle": "연도별 모의고사 고3 영어 (기출)",
-      "publisher": "수경출판사/자이스토리",
-      "searchQuery": "자이스토리 연도별 모의고사 고3 영어 (기출)"
-    },
     "IH-ENG-0564": {
       "status": "found",
       "localPath": "covers/IH-ENG-0564.jpg",
@@ -12467,21 +11389,6 @@
       "materialTitle": "자이스토리 어법어휘 실전",
       "publisher": "수경출판사/자이스토리",
       "searchQuery": "자이스토리 자이스토리 어법어휘 실전"
-    },
-    "IH-ENG-0567": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0567.jpg",
-      "imageUrl": "https://image.yes24.com/goods/116624739/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/116624739",
-      "source": "YES24",
-      "sourceTitle": "매3영 문장구조 구문독해 : 매일 3단계로 연습하는 영어 문장구조 구문독해",
-      "sourceAuthor": "저",
-      "score": 109,
-      "bytes": 19077,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 문장구조 구문독해",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 문장구조 구문독해"
     },
     "IH-ENG-0568": {
       "status": "found",
@@ -12498,96 +11405,6 @@
       "publisher": "키출판사",
       "searchQuery": "강성태 영어독해",
       "isbn": "9791189719050"
-    },
-    "IH-ENG-0569": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0569.jpg",
-      "imageUrl": "https://image.yes24.com/goods/57552678/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/57552678",
-      "source": "YES24",
-      "sourceTitle": "매3영 매일 3단계로 푸는 영어독해 전국연합 학력평가 기출 고1 (2018년)",
-      "sourceAuthor": "저",
-      "score": 47,
-      "bytes": 28499,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 고1 전국연합 학력평가 기출",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 고1 전국연합 학력평가 기출"
-    },
-    "IH-ENG-0571": {
-      "status": "needs_review",
-      "localPath": "covers/IH-ENG-0571.jpg",
-      "imageUrl": "https://image.yes24.com/goods/84928661/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/84928661",
-      "source": "YES24",
-      "sourceTitle": "고등영어, 서술형이 전략이다",
-      "sourceAuthor": "저",
-      "score": 39,
-      "bytes": 18008,
-      "contentType": "image/jpeg",
-      "materialTitle": "고등영어 내신 어법 서술형 전략이다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 고등영어 내신 어법 서술형 전략이다"
-    },
-    "IH-ENG-0573": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0573.jpg",
-      "imageUrl": "https://image.yes24.com/goods/76176484/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/76176484",
-      "source": "YES24",
-      "sourceTitle": "고등 영단어 단어가 읽기다",
-      "sourceAuthor": "저",
-      "score": 8,
-      "bytes": 24079,
-      "contentType": "image/jpeg",
-      "materialTitle": "고등영단어 단어가 읽기다",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 고등영단어 단어가 읽기다"
-    },
-    "IH-ENG-0579": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0579.jpg",
-      "imageUrl": "https://image.yes24.com/goods/57552676/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/57552676",
-      "source": "YES24",
-      "sourceTitle": "매3영 매일 3단계로 푸는 영어독해 전국연합 학력평가 기출 고2 (2018년)",
-      "sourceAuthor": "저",
-      "score": 47,
-      "bytes": 28717,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 고2 전국연합 학력평가 기출",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 고2 전국연합 학력평가 기출"
-    },
-    "IH-ENG-0580": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0580.jpg",
-      "imageUrl": "https://image.yes24.com/goods/168375900/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/168375900",
-      "source": "YES24",
-      "sourceTitle": "매3영 고3 : 매일 3단계로 푸는 영어독해 수능기출 고3",
-      "sourceAuthor": "저",
-      "score": 37,
-      "bytes": 18299,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 고3 수능 기출",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 고3 수능 기출"
-    },
-    "IH-ENG-0582": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0582.jpg",
-      "imageUrl": "https://image.yes24.com/goods/120227138/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/120227138",
-      "source": "YES24",
-      "sourceTitle": "매3영 매일 3단계로 푸는 영어 어법&#183;어휘",
-      "sourceAuthor": "저",
-      "score": 25,
-      "bytes": 17083,
-      "contentType": "image/jpeg",
-      "materialTitle": "매3영 어법어휘",
-      "publisher": "키출판사",
-      "searchQuery": "키출판사 매3영 어법어휘"
     },
     "IH-ENG-0588": {
       "status": "needs_review",
@@ -12961,51 +11778,6 @@
       "searchQuery": "reading future discover 3",
       "isbn": "9781640151864"
     },
-    "IH-ENG-0805": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0805.jpg",
-      "imageUrl": "https://image.yes24.com/goods/162337474/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/162337474",
-      "source": "YES24",
-      "sourceTitle": "해커스 Updated 토플 리딩 베이직 (Hackers Updated TOEFL READING BASIC)",
-      "sourceAuthor": ", 저",
-      "score": 14,
-      "bytes": 20677,
-      "contentType": "image/jpeg",
-      "materialTitle": "Vivid Reading Basic 1",
-      "publisher": "Compass Publishing (컴퍼스 퍼블리싱)",
-      "searchQuery": "Vivid Reading Basic 1 교재"
-    },
-    "IH-ENG-0806": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0806.jpg",
-      "imageUrl": "https://image.yes24.com/goods/162337474/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/162337474",
-      "source": "YES24",
-      "sourceTitle": "해커스 Updated 토플 리딩 베이직 (Hackers Updated TOEFL READING BASIC)",
-      "sourceAuthor": ", 저",
-      "score": 14,
-      "bytes": 20677,
-      "contentType": "image/jpeg",
-      "materialTitle": "Vivid Reading Basic 2",
-      "publisher": "Compass Publishing (컴퍼스 퍼블리싱)",
-      "searchQuery": "Vivid Reading Basic 2 교재"
-    },
-    "IH-ENG-0807": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0807.jpg",
-      "imageUrl": "https://image.yes24.com/goods/162337474/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/162337474",
-      "source": "YES24",
-      "sourceTitle": "해커스 Updated 토플 리딩 베이직 (Hackers Updated TOEFL READING BASIC)",
-      "sourceAuthor": ", 저",
-      "score": 14,
-      "bytes": 20677,
-      "contentType": "image/jpeg",
-      "materialTitle": "Vivid Reading Basic 3",
-      "publisher": "Compass Publishing (컴퍼스 퍼블리싱)",
-      "searchQuery": "Vivid Reading Basic 3 교재"
-    },
     "IH-ENG-0809": {
       "status": "found",
       "localPath": "covers/IH-ENG-0809.jpg",
@@ -13194,36 +11966,6 @@
       "publisher": "A*List (에이리스트, 이퍼블릭 영어교재 브랜드) — National Geographic Learning / Cengage Learning 콘텐츠 기반",
       "searchQuery": "Wonderful World MASTER Level 6",
       "isbn": "7051862005134"
-    },
-    "IH-ENG-0862": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0862.jpg",
-      "imageUrl": "https://image.yes24.com/goods/96402488/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/96402488",
-      "source": "YES24",
-      "sourceTitle": "The 1984 Nineteen Eighty-Four",
-      "sourceAuthor": "Orwell, George",
-      "score": 0,
-      "bytes": 11215,
-      "contentType": "image/jpeg",
-      "materialTitle": "Collins Easy Learning Phonics Ages 4-5",
-      "publisher": "Collins (HarperCollins Publishers, 영국)",
-      "searchQuery": "Collins (HarperCollins Publishers, 영국) Collins Easy Learning Phonics Ages 4-5"
-    },
-    "IH-ENG-0863": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0863.jpg",
-      "imageUrl": "https://image.yes24.com/goods/96402488/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/96402488",
-      "source": "YES24",
-      "sourceTitle": "The 1984 Nineteen Eighty-Four",
-      "sourceAuthor": "Orwell, George",
-      "score": 0,
-      "bytes": 11215,
-      "contentType": "image/jpeg",
-      "materialTitle": "Collins Easy Learning Phonics Ages 5-6",
-      "publisher": "Collins (HarperCollins Publishers, 영국)",
-      "searchQuery": "Collins (HarperCollins Publishers, 영국) Collins Easy Learning Phonics Ages 5-6"
     },
     "IH-ENG-0867": {
       "status": "found",
@@ -13439,36 +12181,6 @@
       "publisher": "A*List (에이리스트, 이퍼블릭 e-public 브랜드)",
       "searchQuery": "Best Phonics 5",
       "isbn": "9791166372520"
-    },
-    "IH-ENG-0922": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0922.jpg",
-      "imageUrl": "https://image.yes24.com/goods/17466312/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/17466312",
-      "source": "YES24",
-      "sourceTitle": "Oxford Phonics World Readers Level 5 Set",
-      "sourceAuthor": "Oxford University Press",
-      "score": 56,
-      "bytes": 38920,
-      "contentType": "image/jpeg",
-      "materialTitle": "Oxford Phonics World 3: Long Vowels",
-      "publisher": "Oxford University Press",
-      "searchQuery": "Oxford University Press Oxford Phonics World 3: Long Vowels"
-    },
-    "IH-ENG-0924": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0924.jpg",
-      "imageUrl": "https://image.yes24.com/goods/17466312/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/17466312",
-      "source": "YES24",
-      "sourceTitle": "Oxford Phonics World Readers Level 5 Set",
-      "sourceAuthor": "Oxford University Press",
-      "score": 56,
-      "bytes": 38920,
-      "contentType": "image/jpeg",
-      "materialTitle": "Oxford Phonics World 5: Letter Combinations",
-      "publisher": "Oxford University Press",
-      "searchQuery": "Oxford University Press Oxford Phonics World 5: Letter Combinations"
     },
     "IH-ENG-0927": {
       "status": "found",
@@ -14426,17 +13138,6 @@
       "publisher": "EBS한국교육방송공사",
       "bytes": 45283
     },
-    "IH-ENG-1066": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1066.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202412/9788954787291C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788954787291",
-      "materialTitle": "EBS Step by Step 초등 영문법, 독해의 힘! LEVEL 1",
-      "publisher": "EBS한국교육방송공사",
-      "bytes": 44033,
-      "verifiedAt": "2026-07-01T21:44:04.596Z"
-    },
     "IH-ENG-1067": {
       "status": "found",
       "localPath": "covers/IH-ENG-1067.jpg",
@@ -15117,17 +13818,6 @@
       "publisher": "다락원",
       "bytes": 31417
     },
-    "IH-ENG-1136": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1136.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788927741480C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788927741480",
-      "materialTitle": "시험에 강한 중학영문법 1",
-      "publisher": "다락원",
-      "bytes": 31630,
-      "verifiedAt": "2026-07-01T21:44:11.082Z"
-    },
     "IH-ENG-1137": {
       "status": "found",
       "localPath": "covers/IH-ENG-1137.jpg",
@@ -15467,17 +14157,6 @@
       "materialTitle": "내신공략 중학영문법 3: 문제풀이책",
       "publisher": "다락원",
       "bytes": 27647
-    },
-    "IH-ENG-1171": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1171.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9788927708919C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788927708919",
-      "materialTitle": "내신공략 중학영문법 2: 개념이해책",
-      "publisher": "다락원",
-      "bytes": 31211,
-      "verifiedAt": "2026-07-01T21:44:07.841Z"
     },
     "IH-ENG-1172": {
       "status": "found",
@@ -17039,28 +15718,6 @@
       "publisher": "다락원",
       "bytes": 84539
     },
-    "IH-ENG-1330": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1330.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974577087C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788974577087",
-      "materialTitle": "초등 첫 영문법 문법이 쓰기다 Starter 2",
-      "publisher": "키출판사",
-      "bytes": 54445,
-      "verifiedAt": "2026-07-01T21:43:54.710Z"
-    },
-    "IH-ENG-1331": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1331.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974577070C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788974577070",
-      "materialTitle": "초등 첫 영문법 문법이 쓰기다 Starter 1",
-      "publisher": "키출판사",
-      "bytes": 54150,
-      "verifiedAt": "2026-07-01T21:43:51.299Z"
-    },
     "IH-ENG-1332": {
       "status": "found",
       "localPath": "covers/IH-ENG-1332.jpg",
@@ -18191,17 +16848,6 @@
       "publisher": "수경출판사",
       "bytes": 37593
     },
-    "IH-ENG-1446": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1446.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791162403969C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791162403969",
-      "materialTitle": "자이스토리 중등 영어 독해 기본 2",
-      "publisher": "수경출판사",
-      "bytes": 36775,
-      "verifiedAt": "2026-07-01T21:43:32.245Z"
-    },
     "IH-ENG-1447": {
       "status": "found",
       "localPath": "covers/IH-ENG-1447.jpg",
@@ -18441,17 +17087,6 @@
       "materialTitle": "자이스토리 예비 중등 영어 독해 Level 2",
       "publisher": "수경출판사",
       "bytes": 45382
-    },
-    "IH-ENG-1471": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1471.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791162403259C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791162403259",
-      "materialTitle": "자이스토리 예비 중등 영어 독해 Level 1",
-      "publisher": "수경출판사",
-      "bytes": 46523,
-      "verifiedAt": "2026-07-01T21:43:29.031Z"
     },
     "IH-ENG-1472": {
       "status": "found",
@@ -19462,17 +18097,6 @@
       "materialTitle": "내공 중학영어독해 실력 2",
       "publisher": "다락원",
       "bytes": 39516
-    },
-    "IH-ENG-1574": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1574.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9788927707882C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788927707882",
-      "materialTitle": "내공 중학영어독해 실력 1",
-      "publisher": "다락원",
-      "bytes": 39571,
-      "verifiedAt": "2026-07-01T21:43:25.574Z"
     },
     "IH-ENG-1575": {
       "status": "found",
@@ -20734,17 +19358,6 @@
       "publisher": "한국교육방송공사(EBSi)",
       "bytes": 43378
     },
-    "IH-ENG-1701": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1701.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788954778664C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788954778664",
-      "materialTitle": "EBS 초등 영어듣기평가 완벽대비 4-2(2024)",
-      "publisher": "한국교육방송공사(EBSi)",
-      "bytes": 46953,
-      "verifiedAt": "2026-07-01T21:43:08.653Z"
-    },
     "IH-ENG-1702": {
       "status": "found",
       "localPath": "covers/IH-ENG-1702.jpg",
@@ -21494,17 +20107,6 @@
       "materialTitle": "중학 1학년 바로 Listening 중학영어듣기 모의고사 24회",
       "publisher": "천재교육",
       "bytes": 42013
-    },
-    "IH-ENG-1777": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1777.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125951483C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125951483",
-      "materialTitle": "중학 3학년 바로 Listening 중학영어듣기 모의고사 24회",
-      "publisher": "천재교육",
-      "bytes": 42599,
-      "verifiedAt": "2026-07-01T21:44:21.344Z"
     },
     "IH-ENG-1778": {
       "status": "found",
@@ -25876,17 +24478,6 @@
       "publisher": "길벗스쿨",
       "bytes": 47412
     },
-    "IH-ENG-2259": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2259.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202507/9791174670151C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791174670151",
-      "materialTitle": "기적의 영단어 Quick & Easy 기본 2",
-      "publisher": "길벗스쿨",
-      "bytes": 48434,
-      "verifiedAt": "2026-07-01T21:43:22.315Z"
-    },
     "IH-ENG-2260": {
       "status": "found",
       "localPath": "covers/IH-ENG-2260.jpg",
@@ -26977,17 +25568,6 @@
       "publisher": "넥서스에듀",
       "bytes": 49674
     },
-    "IH-ENG-2370": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2370.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788928328758C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788928328758",
-      "materialTitle": "빈출도순으로 빠르게 마스터하는 초빈출 영단어 중학 발전",
-      "publisher": "좋은책신사고",
-      "bytes": 56181,
-      "verifiedAt": "2026-07-01T21:43:44.475Z"
-    },
     "IH-ENG-2371": {
       "status": "found",
       "localPath": "covers/IH-ENG-2371.jpg",
@@ -26997,17 +25577,6 @@
       "materialTitle": "빈출도순으로 빠르게 마스터하는 초빈출 영단어 중학 기본",
       "publisher": "좋은책신사고",
       "bytes": 55984
-    },
-    "IH-ENG-2372": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2372.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788928328765C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788928328765",
-      "materialTitle": "빈출도순으로 빠르게 마스터하는 초빈출 영단어 중학 고난도",
-      "publisher": "좋은책신사고",
-      "bytes": 58089,
-      "verifiedAt": "2026-07-01T21:44:17.935Z"
     },
     "IH-ENG-2373": {
       "status": "found",
@@ -28739,17 +27308,6 @@
       "publisher": "길벗스쿨",
       "bytes": 54563
     },
-    "IH-ENG-2549": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2549.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791174670458C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791174670458",
-      "materialTitle": "기적의 영어리딩 1B with 파닉스",
-      "publisher": "길벗스쿨",
-      "bytes": 51361,
-      "verifiedAt": "2026-07-01T21:43:12.057Z"
-    },
     "IH-ENG-2550": {
       "status": "found",
       "localPath": "covers/IH-ENG-2550.jpg",
@@ -30030,17 +28588,6 @@
       "publisher": "동아출판",
       "bytes": 32867
     },
-    "IH-ENG-2689": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2689.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791189719463C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791189719463",
-      "materialTitle": "중학 영어 구문이 독해다 Starter",
-      "publisher": "키출판사",
-      "bytes": 70307,
-      "verifiedAt": "2026-07-01T21:43:47.883Z"
-    },
     "IH-ENG-2690": {
       "status": "found",
       "localPath": "covers/IH-ENG-2690.jpg",
@@ -30140,17 +28687,6 @@
       "materialTitle": "연타 중학 영어 구문+독해 Level 2",
       "publisher": "YBM",
       "bytes": 20118
-    },
-    "IH-ENG-2700": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2700.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788917224214C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788917224214",
-      "materialTitle": "연타 중학 영어 구문+독해 Level 1",
-      "publisher": "YBM",
-      "bytes": 21370,
-      "verifiedAt": "2026-07-01T21:43:57.937Z"
     },
     "IH-ENG-2701": {
       "status": "found",
@@ -30421,17 +28957,6 @@
       "materialTitle": "기적의 영어문장 쓰기 2",
       "publisher": "길벗스쿨",
       "bytes": 44594
-    },
-    "IH-ENG-2728": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2728.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202405/9791164067527C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791164067527",
-      "materialTitle": "기적의 영어문장 쓰기 1",
-      "publisher": "길벗스쿨",
-      "bytes": 44761,
-      "verifiedAt": "2026-07-01T21:43:18.899Z"
     },
     "IH-ENG-2729": {
       "status": "found",
@@ -32542,17 +31067,6 @@
       "materialTitle": "EBS TV 중학 영어 중1(2017)",
       "publisher": "EBS한국교육방송공사",
       "bytes": 25010
-    },
-    "IH-ENG-2954": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2954.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788917224245C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788917224245",
-      "materialTitle": "연타 중학 영어 문법+쓰기 Level 1",
-      "publisher": "YBM",
-      "bytes": 20263,
-      "verifiedAt": "2026-07-01T21:44:01.166Z"
     },
     "IH-ENG-2955": {
       "status": "found",
@@ -41074,28 +39588,6 @@
       "publisher": "길벗스쿨",
       "bytes": 61033
     },
-    "IH-ENG-3835": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3835.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788962223941C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788962223941",
-      "materialTitle": "English Reading Basic 4",
-      "publisher": "길벗스쿨",
-      "bytes": 64775,
-      "verifiedAt": "2026-07-01T21:44:37.576Z"
-    },
-    "IH-ENG-3836": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3836.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788962223958C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788962223958",
-      "materialTitle": "English Reading Basic 5",
-      "publisher": "길벗스쿨",
-      "bytes": 64775,
-      "verifiedAt": "2026-07-01T21:44:40.991Z"
-    },
     "IH-ENG-3837": {
       "status": "found",
       "localPath": "covers/IH-ENG-3837.jpg",
@@ -42585,17 +41077,6 @@
       "materialTitle": "Grammar Wise 그래머 와이즈 Level 2(2024)",
       "publisher": "좋은책신사고",
       "bytes": 28065
-    },
-    "IH-ENG-3986": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3986.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788928349692C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788928349692",
-      "materialTitle": "Grammar Wise 그래머 와이즈 Level 1(2024)",
-      "publisher": "좋은책신사고",
-      "bytes": 28177,
-      "verifiedAt": "2026-07-01T21:43:35.486Z"
     },
     "IH-ENG-3987": {
       "status": "found",
@@ -47947,17 +46428,6 @@
       "publisher": "조안미디어",
       "bytes": 41240
     },
-    "IH-ENG-4551": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4551.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9791194659068C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791194659068",
-      "materialTitle": "Perfect Grammar 중1-1 YBM 박준언 교사용",
-      "publisher": "조안미디어",
-      "bytes": 21433,
-      "verifiedAt": "2026-07-01T21:44:44.217Z"
-    },
     "IH-ENG-4552": {
       "status": "found",
       "localPath": "covers/IH-ENG-4552.jpg",
@@ -47967,17 +46437,6 @@
       "materialTitle": "Perfect Grammar 중1-1 YBM 박준언",
       "publisher": "조안미디어",
       "bytes": 20422
-    },
-    "IH-ENG-4553": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4553.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9791194659082C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791194659082",
-      "materialTitle": "Perfect Grammar 중1-1 지학 송미정 교사용",
-      "publisher": "조안미디어",
-      "bytes": 21433,
-      "verifiedAt": "2026-07-01T21:44:47.452Z"
     },
     "IH-ENG-4554": {
       "status": "found",
@@ -55748,17 +54207,6 @@
       "materialTitle": "N프리미엄 고등 영어듣기 실전모의고사 25회(2020)",
       "publisher": "대성학력개발연구소",
       "bytes": 12269
-    },
-    "IH-ENG-5388": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-5388.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791129700384C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791129700384",
-      "materialTitle": "메가스터디 중학영어듣기 모의고사 24회 Level 1",
-      "publisher": "메가북스",
-      "bytes": 63923,
-      "verifiedAt": "2026-07-01T21:44:14.504Z"
     },
     "IH-ENG-5389": {
       "status": "found",
@@ -65358,17 +63806,6 @@
       "materialTitle": "영단어 이미지 기억법 2",
       "publisher": "북랩",
       "bytes": 17796
-    },
-    "IH-ENG-6398": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-6398.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791171420230C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791171420230",
-      "materialTitle": "대치동, 기적의 초등영어 영단어 1800 시리즈 세트",
-      "publisher": "랭컴",
-      "bytes": 79371,
-      "verifiedAt": "2026-07-01T21:44:50.867Z"
     },
     "IH-ENG-6399": {
       "status": "found",
@@ -77170,28 +75607,6 @@
       "publisher": "휴먼어린이",
       "bytes": 61036
     },
-    "IH-ENG-7746": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-7746.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9788965916055C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788965916055",
-      "materialTitle": "초등영어 쓰기독립 문장 쓰기 2: 2단계",
-      "publisher": "휴먼어린이",
-      "bytes": 66433,
-      "verifiedAt": "2026-07-01T21:44:57.689Z"
-    },
-    "IH-ENG-7747": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-7747.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9788965916048C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788965916048",
-      "materialTitle": "초등영어 쓰기독립 문장 쓰기 1: 2단계",
-      "publisher": "휴먼어린이",
-      "bytes": 66433,
-      "verifiedAt": "2026-07-01T21:45:01.102Z"
-    },
     "IH-ENG-7748": {
       "status": "found",
       "localPath": "covers/IH-ENG-7748.jpg",
@@ -80141,17 +78556,6 @@
       "publisher": "윙스출판사",
       "bytes": 65721
     },
-    "IH-ENG-8052": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8052.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791171420247C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791171420247",
-      "materialTitle": "대치동, 기적의 초등영어 통문장 1800 시리즈 세트",
-      "publisher": "랭컴",
-      "bytes": 79371,
-      "verifiedAt": "2026-07-01T21:44:54.278Z"
-    },
     "IH-ENG-8053": {
       "status": "found",
       "localPath": "covers/IH-ENG-8053.jpg",
@@ -80731,17 +79135,6 @@
       "materialTitle": "수업을 돕는 과정중심평가: 초등 영어 편",
       "publisher": "지식플랫폼",
       "bytes": 70456
-    },
-    "IH-ENG-8123": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8123.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791157686544C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791157686544",
-      "materialTitle": "가장 쉬운 초등 영어일기 따라쓰기 30일 완성",
-      "publisher": "동양북스",
-      "bytes": 61284,
-      "verifiedAt": "2026-07-01T21:43:15.459Z"
     },
     "IH-ENG-8124": {
       "status": "found",
@@ -94343,17 +92736,6 @@
       "publisher": "G스쿨",
       "bytes": 35329
     },
-    "IH-ENG-9556": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9556.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202603/9791192702704C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791192702704",
-      "materialTitle": "High School Reading English Literature(고등 영미문학읽기) 자습서",
-      "publisher": "이젠교육",
-      "bytes": 39182,
-      "verifiedAt": "2026-07-01T21:45:08.497Z"
-    },
     "IH-ENG-9557": {
       "status": "found",
       "localPath": "covers/IH-ENG-9557.jpg",
@@ -94553,17 +92935,6 @@
       "materialTitle": "유희태 영미문학 4: 영미문학 문제은행(2021)",
       "publisher": "박문각",
       "bytes": 54773
-    },
-    "IH-ENG-9580": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9580.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788983960702C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788983960702",
-      "materialTitle": "제인 에어(Jane Eyre)",
-      "publisher": "신아사",
-      "bytes": 24687,
-      "verifiedAt": "2026-07-01T21:45:15.878Z"
     },
     "IH-ENG-9581": {
       "status": "found",
@@ -95885,39 +94256,6 @@
       "publisher": "이화여자대학교출판부",
       "bytes": 17880
     },
-    "IH-ENG-9768": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9768.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983965004C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788983965004",
-      "materialTitle": "모비딕",
-      "publisher": "신아사",
-      "bytes": 75346,
-      "verifiedAt": "2026-07-01T21:45:23.467Z"
-    },
-    "IH-ENG-9769": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9769.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983964779C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788983964779",
-      "materialTitle": "트리스트람 섄디",
-      "publisher": "신아사",
-      "bytes": 30465,
-      "verifiedAt": "2026-07-01T21:45:30.871Z"
-    },
-    "IH-ENG-9770": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9770.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983964731C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788983964731",
-      "materialTitle": "폭풍의 언덕",
-      "publisher": "신아사",
-      "bytes": 28271,
-      "verifiedAt": "2026-07-01T21:45:38.300Z"
-    },
     "IH-ENG-9771": {
       "status": "found",
       "localPath": "covers/IH-ENG-9771.jpg",
@@ -96208,17 +94546,6 @@
       "publisher": "동인",
       "bytes": 17352
     },
-    "IH-ENG-9821": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9821.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788926819043C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788926819043",
-      "materialTitle": "영미 시와 과학문화",
-      "publisher": "한국학술정보",
-      "bytes": 18811,
-      "verifiedAt": "2026-07-01T21:45:45.729Z"
-    },
     "IH-ENG-9822": {
       "status": "found",
       "localPath": "covers/IH-ENG-9822.jpg",
@@ -96258,17 +94585,6 @@
       "materialTitle": "포스트모던 시대의 영미시",
       "publisher": "LIE",
       "bytes": 20608
-    },
-    "IH-ENG-9829": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9829.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788959471157C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788959471157",
-      "materialTitle": "현대영미시",
-      "publisher": "브레인하우스",
-      "bytes": 64389,
-      "verifiedAt": "2026-07-01T21:45:53.359Z"
     },
     "IH-ENG-9830": {
       "status": "found",
@@ -96329,17 +94645,6 @@
       "materialTitle": "언어학개론",
       "publisher": "시그마프레스",
       "bytes": 54464
-    },
-    "IH-ENG-9858": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9858.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968178337C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968178337",
-      "materialTitle": "언어: 풀어쓴 언어학 개론",
-      "publisher": "한국문화사",
-      "bytes": 71962,
-      "verifiedAt": "2026-07-01T21:46:00.977Z"
     },
     "IH-ENG-9859": {
       "status": "found",
@@ -96692,17 +94997,6 @@
       "publisher": "을유문화사",
       "bytes": 31933
     },
-    "IH-ENG-9912": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9912.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983962065C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788983962065",
-      "materialTitle": "영어 음성학의 이론과 실제",
-      "publisher": "신아사",
-      "bytes": 42792,
-      "verifiedAt": "2026-07-01T21:46:10.246Z"
-    },
     "IH-ENG-9913": {
       "status": "found",
       "localPath": "covers/IH-ENG-9913.jpg",
@@ -97053,17 +95347,6 @@
       "publisher": "소통",
       "bytes": 16408
     },
-    "IH-ENG-9963": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9963.jpg",
-      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/001/160/00116065.jpg?udate=20150730",
-      "source": "KOBIC",
-      "isbn": "9788977359710",
-      "materialTitle": "문화와 의사소통의 사회언어학",
-      "publisher": "한국문화사",
-      "bytes": 8737,
-      "verifiedAt": "2026-07-01T21:46:19.179Z"
-    },
     "IH-ENG-9964": {
       "status": "found",
       "localPath": "covers/IH-ENG-9964.jpg",
@@ -97084,28 +95367,6 @@
       "publisher": "고려대학교출판부",
       "bytes": 29290
     },
-    "IH-ENG-9970": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9970.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791128882142C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791128882142",
-      "materialTitle": "심리언어학, 말과 마음의 학문",
-      "publisher": "학이시습",
-      "bytes": 103906,
-      "verifiedAt": "2026-07-01T21:46:27.748Z"
-    },
-    "IH-ENG-9971": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9971.jpg",
-      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/060/725/06072598.jpg?udate=20141122",
-      "source": "KOBIC",
-      "isbn": "9788957266632",
-      "materialTitle": "심리언어학",
-      "publisher": "한국문화사",
-      "bytes": 44542,
-      "verifiedAt": "2026-07-01T21:46:36.207Z"
-    },
     "IH-ENG-9974": {
       "status": "found",
       "localPath": "covers/IH-ENG-9974.jpg",
@@ -97115,28 +95376,6 @@
       "materialTitle": "현직 교사 곰쌤의 임용 전공영어 1차 기분최고 THINK ALOUD 1: 영어교육론",
       "publisher": "지식오름",
       "bytes": 58821
-    },
-    "IH-ENG-9975": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9975.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791175199897C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791175199897",
-      "materialTitle": "New Build Up 박현수 영어교육론 5: Beyond the Bank",
-      "publisher": "박문각",
-      "bytes": 32533,
-      "verifiedAt": "2026-07-01T21:46:43.553Z"
-    },
-    "IH-ENG-9976": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9976.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202603/9791173841255C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791173841255",
-      "materialTitle": "2027 권영주 영어교육론 임용 기출문제 해설서",
-      "publisher": "법률저널",
-      "bytes": 37398,
-      "verifiedAt": "2026-07-01T21:46:50.943Z"
     },
     "IH-ENG-9977": {
       "status": "found",
@@ -97258,17 +95497,6 @@
       "publisher": "박문각",
       "bytes": 26940
     },
-    "IH-ENG-9989": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9989.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202412/9788963369631C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788963369631",
-      "materialTitle": "2026 권영주 임용전공 영어교육론",
-      "publisher": "법률저널",
-      "bytes": 63273,
-      "verifiedAt": "2026-07-01T21:46:58.525Z"
-    },
     "IH-ENG-9990": {
       "status": "found",
       "localPath": "covers/IH-ENG-9990.jpg",
@@ -97289,17 +95517,6 @@
       "publisher": "북포레",
       "bytes": 45444
     },
-    "IH-ENG-9992": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9992.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202403/9788963368818C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788963368818",
-      "materialTitle": "2025 권영주 영어교육론 기출문제 해설서",
-      "publisher": "법률저널",
-      "bytes": 31872,
-      "verifiedAt": "2026-07-01T21:47:05.933Z"
-    },
     "IH-ENG-9993": {
       "status": "found",
       "localPath": "covers/IH-ENG-9993.jpg",
@@ -97319,17 +95536,6 @@
       "materialTitle": "New Build Up 박현수 영어교육론 4 문제은행",
       "publisher": "박문각",
       "bytes": 40662
-    },
-    "IH-ENG-9995": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9995.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9791169873444C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791169873444",
-      "materialTitle": "송은우 영어교육론 키텀마스터(Keyterm Master)",
-      "publisher": "박문각",
-      "bytes": 270523,
-      "verifiedAt": "2026-07-01T21:47:13.907Z"
     },
     "IH-ENG-9996": {
       "status": "found",
@@ -97361,17 +95567,6 @@
       "publisher": "법률저널",
       "bytes": 58188
     },
-    "IH-ENG-9999": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9999.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791169872119C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791169872119",
-      "materialTitle": "New Build-Up 박현수 영어교육론 2",
-      "publisher": "박문각",
-      "bytes": 30573,
-      "verifiedAt": "2026-07-01T21:47:21.384Z"
-    },
     "IH-ENG-10000": {
       "status": "found",
       "localPath": "covers/IH-ENG-10000.jpg",
@@ -97402,17 +95597,6 @@
       "publisher": "박문각",
       "bytes": 30843
     },
-    "IH-ENG-10003": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10003.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788963367507C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788963367507",
-      "materialTitle": "2024 권영주 전공영어 영어 교육론",
-      "publisher": "법률저널",
-      "bytes": 49816,
-      "verifiedAt": "2026-07-01T21:47:28.966Z"
-    },
     "IH-ENG-10004": {
       "status": "found",
       "localPath": "covers/IH-ENG-10004.jpg",
@@ -97442,28 +95626,6 @@
       "materialTitle": "권영주 영어교육론 기출문제 해설서",
       "publisher": "지스쿨",
       "bytes": 38151
-    },
-    "IH-ENG-10009": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10009.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791167041234C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791167041234",
-      "materialTitle": "2022 New Build Up 박현수 영어교육론 4: 문제은행",
-      "publisher": "박문각",
-      "bytes": 38615,
-      "verifiedAt": "2026-07-01T21:47:36.379Z"
-    },
-    "IH-ENG-10010": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10010.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788962517002C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788962517002",
-      "materialTitle": "영어교육론 기출문제 해설서",
-      "publisher": "지스쿨",
-      "bytes": 42738,
-      "verifiedAt": "2026-07-01T21:47:43.980Z"
     },
     "IH-ENG-10011": {
       "status": "found",
@@ -97514,17 +95676,6 @@
       "materialTitle": "박현수 영어교육론 3: 기출문제",
       "publisher": "박문각",
       "bytes": 39233
-    },
-    "IH-ENG-10016": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10016.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788964794883C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788964794883",
-      "materialTitle": "조셉 신 The 영어교육론(전공영어)(2021)",
-      "publisher": "피데스",
-      "bytes": 37351,
-      "verifiedAt": "2026-07-01T21:47:51.404Z"
     },
     "IH-ENG-10017": {
       "status": "found",
@@ -97585,28 +95736,6 @@
       "materialTitle": "캐서린 영어교육론 기출 분석집",
       "publisher": "에스티유니타스",
       "bytes": 34143
-    },
-    "IH-ENG-10023": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10023.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791164443970C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791164443970",
-      "materialTitle": "박현수 영어교육론 1",
-      "publisher": "박문각",
-      "bytes": 46127,
-      "verifiedAt": "2026-07-01T21:47:59.008Z"
-    },
-    "IH-ENG-10024": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10024.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791160182019C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791160182019",
-      "materialTitle": "류지원 영어교육론",
-      "publisher": "지금",
-      "bytes": 33186,
-      "verifiedAt": "2026-07-01T21:48:06.442Z"
     },
     "IH-ENG-10025": {
       "status": "found",
@@ -97961,28 +96090,6 @@
       "materialTitle": "멀티미디어 기반 초.중등 영어교육론",
       "publisher": "학문사",
       "bytes": 42732
-    },
-    "IH-ENG-10064": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10064.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9788920041792C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788920041792",
-      "materialTitle": "영어교수법(1학기, 워크북포함)",
-      "publisher": "한국방송통신대학교출판문화원",
-      "bytes": 18183,
-      "verifiedAt": "2026-07-01T21:48:13.848Z"
-    },
-    "IH-ENG-10065": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10065.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788924080193C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788924080193",
-      "materialTitle": "임용 시험을 위한 영어 교수법",
-      "publisher": "퍼플",
-      "bytes": 21836,
-      "verifiedAt": "2026-07-01T21:48:21.258Z"
     },
     "IH-ENG-10066": {
       "status": "found",
@@ -98757,17 +96864,6 @@
       "publisher": "동국대학교출판부",
       "bytes": 25593
     },
-    "IH-ENG-10157": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10157.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788977757493C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788977757493",
-      "materialTitle": "번역에서 번역학으로",
-      "publisher": "철학과현실사",
-      "bytes": 23869,
-      "verifiedAt": "2026-07-01T21:48:28.601Z"
-    },
     "IH-ENG-10158": {
       "status": "found",
       "localPath": "covers/IH-ENG-10158.jpg",
@@ -98838,17 +96934,6 @@
       "publisher": "한국외국어대학교출판부",
       "bytes": 31947
     },
-    "IH-ENG-10166": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10166.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788995112090C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788995112090",
-      "materialTitle": "번역학 연구의 길잡이",
-      "publisher": "이지북스",
-      "bytes": 45171,
-      "verifiedAt": "2026-07-01T21:48:36.183Z"
-    },
     "IH-ENG-10168": {
       "status": "found",
       "localPath": "covers/IH-ENG-10168.jpg",
@@ -98890,17 +96975,6 @@
       "publisher": "고려대학교출판부",
       "bytes": 27152
     },
-    "IH-ENG-10175": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10175.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788992835190C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788992835190",
-      "materialTitle": "저절로 외워지는 영어",
-      "publisher": "",
-      "bytes": 20923,
-      "verifiedAt": "2026-07-01T21:48:44.729Z"
-    },
     "IH-ENG-10176": {
       "status": "found",
       "localPath": "covers/IH-ENG-10176.jpg",
@@ -98911,17 +96985,6 @@
       "publisher": "이진법영어사",
       "bytes": 20511
     },
-    "IH-ENG-10177": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10177.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124374108C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124374108",
-      "materialTitle": "로버트 쇼(Robert B. Shaw)의 동투르크스탄어-영어 사전 역주",
-      "publisher": "동문연",
-      "bytes": 26699,
-      "verifiedAt": "2026-07-01T21:48:53.443Z"
-    },
     "IH-ENG-10178": {
       "status": "found",
       "localPath": "covers/IH-ENG-10178.jpg",
@@ -98931,17 +96994,6 @@
       "materialTitle": "교과세특 영어 사례유형 작성법",
       "publisher": "올드앤뉴",
       "bytes": 34969
-    },
-    "IH-ENG-10179": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10179.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202602/9788992835176C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788992835176",
-      "materialTitle": "영어문형학습법",
-      "publisher": "이진법영어사",
-      "bytes": 31160,
-      "verifiedAt": "2026-07-01T21:49:00.802Z"
     },
     "IH-ENG-10180": {
       "status": "found",
@@ -98963,17 +97015,6 @@
       "materialTitle": "2026 3월 반배치+학력평가+중간고사 대비 예비 고1 전과목 (국어 수학 영어 사회 한국사 과학) 3개년 18회",
       "publisher": "종로교육사",
       "bytes": 33703
-    },
-    "IH-ENG-10182": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10182.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791194132462C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791194132462",
-      "materialTitle": "2026 3월 반배치+학력평가+중간고사 대비 예비 고1 전과목 (국어 수학 영어 사회 한국사 과학) 5개년 30회",
-      "publisher": "종로교육사",
-      "bytes": 33592,
-      "verifiedAt": "2026-07-01T21:49:08.215Z"
     },
     "IH-ENG-10183": {
       "status": "found",
@@ -99055,28 +97096,6 @@
       "publisher": "로이북스",
       "bytes": 52134
     },
-    "IH-ENG-10191": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10191.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202411/9791198191366C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791198191366",
-      "materialTitle": "아제르바이잔어-한국어-영어 사전",
-      "publisher": "동문연",
-      "bytes": 38220,
-      "verifiedAt": "2026-07-01T21:49:15.632Z"
-    },
-    "IH-ENG-10192": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10192.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791185719337C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791185719337",
-      "materialTitle": "탑보카(Top Voca) 2: 전치사 & 콜로케이션",
-      "publisher": "바른영어사(주)",
-      "bytes": 53572,
-      "verifiedAt": "2026-07-01T21:49:23.231Z"
-    },
     "IH-ENG-10193": {
       "status": "found",
       "localPath": "covers/IH-ENG-10193.jpg",
@@ -99086,17 +97105,6 @@
       "materialTitle": "2025 심슨 구문 복습종이",
       "publisher": "심슨영어사",
       "bytes": 33977
-    },
-    "IH-ENG-10194": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10194.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791198648907C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791198648907",
-      "materialTitle": "미국TV(Television) 방송 청취 / 시청 영어 사전",
-      "publisher": "한양출판사",
-      "bytes": 66551,
-      "verifiedAt": "2026-07-01T21:49:30.785Z"
     },
     "IH-ENG-10195": {
       "status": "found",
@@ -99211,28 +97219,6 @@
       "publisher": "어스본코리아",
       "bytes": 51437
     },
-    "IH-ENG-10207": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10207.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/8809264181843C001.jpg",
-      "source": "KOBIC",
-      "isbn": "8809264181843",
-      "materialTitle": "세계 명작 동화 골디락스와 곰 세마리 영어 사운드북",
-      "publisher": "어스본코리아",
-      "bytes": 55372,
-      "verifiedAt": "2026-07-01T21:49:38.350Z"
-    },
-    "IH-ENG-10208": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10208.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788928107018C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788928107018",
-      "materialTitle": "우리 아이 첫 영어사전",
-      "publisher": "효리원",
-      "bytes": 80095,
-      "verifiedAt": "2026-07-01T21:49:45.942Z"
-    },
     "IH-ENG-10209": {
       "status": "found",
       "localPath": "covers/IH-ENG-10209.jpg",
@@ -99293,17 +97279,6 @@
       "publisher": "어스본코리아",
       "bytes": 64494
     },
-    "IH-ENG-10215": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10215.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791185719306C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791185719306",
-      "materialTitle": "최우선 영어단어: 전치사 편",
-      "publisher": "바른영어사(주)",
-      "bytes": 38030,
-      "verifiedAt": "2026-07-01T21:49:53.326Z"
-    },
     "IH-ENG-10216": {
       "status": "found",
       "localPath": "covers/IH-ENG-10216.jpg",
@@ -99335,17 +97310,6 @@
       "materialTitle": "영어 사관학교 기출문제 정복하기",
       "publisher": "서원각",
       "bytes": 42947
-    },
-    "IH-ENG-10219": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10219.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791164382460C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791164382460",
-      "materialTitle": "신비아파트 고스트볼 더블X 6개의 예언 찾아라! 알파벳! 영어 사전",
-      "publisher": "서울문화사",
-      "bytes": 85487,
-      "verifiedAt": "2026-07-01T21:50:00.873Z"
     },
     "IH-ENG-10220": {
       "status": "found",
@@ -99397,17 +97361,6 @@
       "materialTitle": "교양영어 고급지문 1: 원서독해",
       "publisher": "바른영어사(주)",
       "bytes": 38766
-    },
-    "IH-ENG-10225": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10225.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791185719283C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791185719283",
-      "materialTitle": "교양영어 고급지문 .2: 원서독해",
-      "publisher": "바른영어사(주)",
-      "bytes": 39178,
-      "verifiedAt": "2026-07-01T21:50:08.352Z"
     },
     "IH-ENG-10226": {
       "status": "found",
@@ -99569,50 +97522,6 @@
       "publisher": "스크린영어사",
       "bytes": 70563
     },
-    "IH-ENG-10242": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10242.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788964150757C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788964150757",
-      "materialTitle": "스크린 자막없이 보기 회화문법 150",
-      "publisher": "스크린영어사",
-      "bytes": 79041,
-      "verifiedAt": "2026-07-01T21:50:15.966Z"
-    },
-    "IH-ENG-10243": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10243.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788962698091C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788962698091",
-      "materialTitle": "중졸 검정고시 실전모의고사(국어 수학 영어 사회 과학 도덕)",
-      "publisher": "신지원",
-      "bytes": 19405,
-      "verifiedAt": "2026-07-01T21:50:23.377Z"
-    },
-    "IH-ENG-10244": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10244.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791187014119C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791187014119",
-      "materialTitle": "알파벳 26자의 비밀",
-      "publisher": "진짜영어사",
-      "bytes": 69528,
-      "verifiedAt": "2026-06-29T20:48:16.523Z"
-    },
-    "IH-ENG-10245": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10245.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791161501017C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791161501017",
-      "materialTitle": "나의 영어사춘기 워크북",
-      "publisher": "시원스쿨닷컴",
-      "bytes": 36989,
-      "verifiedAt": "2026-06-29T20:48:24.141Z"
-    },
     "IH-ENG-10246": {
       "status": "found",
       "localPath": "covers/IH-ENG-10246.jpg",
@@ -99642,26 +97551,6 @@
       "materialTitle": "9급 공무원 영어(9급 영어의 모든 것)",
       "publisher": "바른영어사",
       "bytes": 78977
-    },
-    "IH-ENG-10249": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10249.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791196044404C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791196044404",
-      "materialTitle": "독약영문법",
-      "publisher": "설찬",
-      "bytes": 74647
-    },
-    "IH-ENG-10250": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10250.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791159873799C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791159873799",
-      "materialTitle": "나만의 비밀 영어사전",
-      "publisher": "북랩",
-      "bytes": 74626
     },
     "IH-ENG-10251": {
       "status": "found",
@@ -100043,16 +97932,6 @@
       "publisher": "보고미디어",
       "bytes": 21834
     },
-    "IH-ENG-10289": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10289.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791185719009C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791185719009",
-      "materialTitle": "실탄어휘 2000발(중급)",
-      "publisher": "바른영어사(주)",
-      "bytes": 71205
-    },
     "IH-ENG-10290": {
       "status": "found",
       "localPath": "covers/IH-ENG-10290.jpg",
@@ -100062,16 +97941,6 @@
       "materialTitle": "셰익스피어 인 러브",
       "publisher": "스크린영어사",
       "bytes": 80660
-    },
-    "IH-ENG-10291": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10291.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788971099339C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788971099339",
-      "materialTitle": "중학 영어사전(최신 컬러판)",
-      "publisher": "바른사",
-      "bytes": 69876
     },
     "IH-ENG-10292": {
       "status": "found",
@@ -100503,26 +98372,6 @@
       "publisher": "한국문화사",
       "bytes": 229488
     },
-    "IH-ENG-10338": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10338.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788992835060C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788992835060",
-      "materialTitle": "영어문형코드",
-      "publisher": "이진법영어사",
-      "bytes": 44199
-    },
-    "IH-ENG-10339": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10339.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788997551118C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788997551118",
-      "materialTitle": "내신잡는 중학 교과서 VOCA 1800 + 1402",
-      "publisher": "리딩영어사",
-      "bytes": 29560
-    },
     "IH-ENG-10340": {
       "status": "found",
       "localPath": "covers/IH-ENG-10340.jpg",
@@ -100542,36 +98391,6 @@
       "materialTitle": "영어사전 BASIC",
       "publisher": "넥서스",
       "bytes": 19008
-    },
-    "IH-ENG-10342": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10342.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788964150153C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788964150153",
-      "materialTitle": "디즈니 픽사 메리다와 마법의 숲",
-      "publisher": "스크린영어사",
-      "bytes": 26666
-    },
-    "IH-ENG-10343": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10343.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788997551088C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788997551088",
-      "materialTitle": "EBS연계 닥듄공 외국어영역(적중 Final 실전모의고사)(2012)(8절)",
-      "publisher": "리딩영어사",
-      "bytes": 25534
-    },
-    "IH-ENG-10344": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10344.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788997551071C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788997551071",
-      "materialTitle": "NEAT Bille(한끝편)(2012)",
-      "publisher": "리딩영어사",
-      "bytes": 17133
     },
     "IH-ENG-10345": {
       "status": "found",
@@ -100633,16 +98452,6 @@
       "publisher": "동화사",
       "bytes": 42068
     },
-    "IH-ENG-10351": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10351.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791158489595C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791158489595",
-      "materialTitle": "코퍼스 언어학을 위한 통계: 실용적 가이드",
-      "publisher": "박이정",
-      "bytes": 686527
-    },
     "IH-ENG-10352": {
       "status": "found",
       "localPath": "covers/IH-ENG-10352.jpg",
@@ -100662,26 +98471,6 @@
       "materialTitle": "코퍼스 언어학 연구",
       "publisher": "역락",
       "bytes": 42073
-    },
-    "IH-ENG-10354": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10354.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788976419491C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788976419491",
-      "materialTitle": "코퍼스언어학",
-      "publisher": "고려대학교출판문화원",
-      "bytes": 40659
-    },
-    "IH-ENG-10355": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10355.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791186778197C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791186778197",
-      "materialTitle": "코퍼스 언어학의 이해와 실제",
-      "publisher": "한빛문화",
-      "bytes": 64252
     },
     "IH-ENG-10356": {
       "status": "found",
@@ -100802,16 +98591,6 @@
       "materialTitle": "Issues in TESOL",
       "publisher": "Woosong University Press",
       "bytes": 35500
-    },
-    "IH-ENG-10372": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10372.jpg",
-      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/095/202/09520262.jpg?udate=20170414",
-      "source": "KOBIC",
-      "isbn": "9788963320953",
-      "materialTitle": "English linguistics for TESOL",
-      "publisher": "OfficeofAcademicInformationPaiChaiUniversity",
-      "bytes": 55875
     },
     "IH-ENG-10373": {
       "status": "found",
@@ -100942,16 +98721,6 @@
       "materialTitle": "Introduction to English Literature",
       "publisher": "한빛문화",
       "bytes": 23744
-    },
-    "IH-ENG-10387": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-10387.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788955063677C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788955063677",
-      "materialTitle": "영문학의 길잡이",
-      "publisher": "동인",
-      "bytes": 200534
     },
     "IH-ENG-10388": {
       "status": "found",
