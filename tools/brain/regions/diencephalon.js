@@ -9,8 +9,9 @@ const { ROOT, readBooks } = require("../lib");
 const STATE_PATH = path.join(__dirname, "..", "brain_state.json");
 const LOG_PATH = path.join(__dirname, "..", "brain_log.jsonl");
 
-// 알라딘 일 5,000 한도. 하루 12사이클(2h) 가정 → 사이클당 안전 예산.
-const ALADIN_DAILY = 5000, CYCLES_PER_DAY = 12;
+// 알라딘 일 5,000 한도(무료). 재시도·deep 추가호출 여유분을 남겨 4,500만 예산화.
+// 하루 12사이클(2h) → 사이클당 375콜. 한도 초과는 과금이 아니라 에러지만, 안정 운영을 위해.
+const ALADIN_DAILY = 4500, CYCLES_PER_DAY = 12;
 
 module.exports = {
   id: "diencephalon", ko: "간뇌", role: "감지·조절·항상성(상태·건강·키·쿼터)",
