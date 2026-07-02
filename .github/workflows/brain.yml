@@ -25,7 +25,7 @@ concurrency:
 jobs:
   cycle:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120   # deep 사이클(KOBIC 수확 포함)은 60분을 넘음 — 옛 refresh-catalog과 동일 예산
     steps:
       - uses: actions/checkout@v4
 

@@ -18,8 +18,8 @@ module.exports = {
       env: { ENRICH_LIMIT: "3000" } },
     { id: "foreign", ko: "원서 표지·메타 보강(키 불필요)", tier: "routine",
       cmd: "node tools/enrich_foreign.js", env: { ENRICH_LIMIT: "150" } },
-    // 표지 결측 재수집 — 무겁고 네트워크 의존 → 깊은/수동 사이클에서만
-    { id: "collect-covers", ko: "결측 표지 수집", tier: "deep", cmd: "node tools/collect_covers.js" },
+    // 표지 결측 재수집 — 대량 다운로드로 매우 무거움(deep 예산 초과 위험) → 수동 전용
+    { id: "collect-covers", ko: "결측 표지 수집", tier: "manual", cmd: "node tools/collect_covers.js" },
     { id: "recollect-kobic", ko: "KOBIC 표지 재수집", tier: "manual", cmd: "node tools/recollect_kobic_covers.js" },
     { id: "recollect-kyobo", ko: "교보 표지 재수집", tier: "manual", cmd: "node tools/recollect_kyobo.js" },
     { id: "recollect-series", ko: "시리즈 표지 재수집 v2", tier: "manual", cmd: "node tools/recollect_series_v2.js" },
