@@ -55,7 +55,9 @@ module.exports = {
     s.at = ctx.now.toISOString();
     s.enrichCursor = ctx.plan.nextCursor != null ? ctx.plan.nextCursor : s.enrichCursor;
     if (ctx.plan.tiers.includes("deep")) s.lastDeepCycle = s.cycle;
-    if (report.some((r) => r.id === "nerve_bundles" && !r.skipped)) s.lastHarvestCycle = s.cycle;
+    // 수확 기록: 신경다발의 세부 스텝이 실제로 하나라도 성공했을 때만(전부 스킵이면 미기록)
+    const nb = report.find((r) => r.id === "nerve_bundles");
+    if (nb && (nb.steps || []).some((st) => st.ok)) s.lastHarvestCycle = s.cycle;
     s.lastReport = report.map((r) => ({ id: r.id, ko: r.ko, ok: !!r.ok, skipped: !!r.skipped, steps: (r.steps || []).length }));
     try { fs.writeFileSync(STATE_PATH, JSON.stringify(s, null, 2)); } catch (e) {}
     // 사고 기록(감사용 뇌파 로그) — 한 줄 추가 + 최근 800줄만 보존(무한증가 방지)
