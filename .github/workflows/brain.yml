@@ -78,15 +78,20 @@ jobs:
 
       # 📱 PC→모바일 데이터 동기 — 모바일 고유 레이아웃(index.html/app_base)은 건드리지 않고
       #    공유 데이터(books.js·toc.js·rankings.json)만 갱신. covers(대용량)는 제외해 경량 유지.
-      #    MOBILE_PUSH_TOKEN(모바일 repo contents:write 권한 PAT) 시크릿이 있어야 동작.
+      #    인증: MOBILE_SYNC_KEY 시크릿(모바일 repo 전용 write deploy key) — 미설정 시 조용히 스킵.
       - name: 📱 모바일 사이트 데이터 동기
         if: ${{ github.event.inputs.mode != 'map' }}
         env:
-          MOBILE_TOKEN: ${{ secrets.MOBILE_PUSH_TOKEN }}
+          MOBILE_KEY: ${{ secrets.MOBILE_SYNC_KEY }}
         run: |
-          if [ -z "$MOBILE_TOKEN" ]; then echo "MOBILE_PUSH_TOKEN 미설정 — 모바일 동기 스킵"; exit 0; fi
+          if [ -z "$MOBILE_KEY" ]; then echo "MOBILE_SYNC_KEY 미설정 — 모바일 동기 스킵"; exit 0; fi
+          mkdir -p ~/.ssh
+          printf '%s\n' "$MOBILE_KEY" > ~/.ssh/mobile_sync
+          chmod 600 ~/.ssh/mobile_sync
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/mobile_sync -o IdentitiesOnly=yes"
           git clone --depth=1 --filter=blob:none --sparse \
-            "https://x-access-token:$MOBILE_TOKEN@github.com/inheok1103-alt/english-textbook-system-mobile.git" mob
+            git@github.com:inheok1103-alt/english-textbook-system-mobile.git mob
           cd mob
           git sparse-checkout set books.js toc.js rankings.json
           for f in books.js toc.js rankings.json; do [ -f "../$f" ] && cp "../$f" "$f"; done
