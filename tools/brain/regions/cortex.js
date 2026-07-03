@@ -32,6 +32,30 @@ module.exports = {
       },
     },
     {
+      id: "error-inbox", ko: "오류·신고 인박스 감시(중앙관리)", tier: "routine",
+      run: async (ctx) => {
+        // 사이트가 올린 err(런타임 오류)·report(사용자 신고)를 GAS 인박스에서 읽어
+        // brain_errors.md로 정리 — /errors 커맨드와 사람이 보는 중앙 뷰. 새 항목이 오면 ⚠ 표시.
+        let ep = "";
+        try { ep = (fs.readFileSync(path.join(ROOT, "tools", "app_base.html"), "utf8").match(/GUIDE_ENDPOINT\s*=\s*"([^"]+)"/) || [])[1] || ""; } catch (e) {}
+        if (!ep) return { note: "엔드포인트 미확인 — 스킵" };
+        const r = await fetch(ep + "?events=1&n=200", { redirect: "follow" });
+        const j = await r.json();
+        const errs = (j.events || []).filter((e) => e.event === "err" || e.event === "report");
+        const total = ((j.counts && j.counts.err) || 0) + ((j.counts && j.counts.report) || 0);
+        const fresh = Math.max(0, total - (ctx.state.errSeen || 0));
+        ctx.state.errSeen = total;
+        const lines = errs.slice(0, 30).map((e) => {
+          let x = {}; try { x = JSON.parse(e.extra || "{}"); } catch (e2) {}
+          return "- [" + String(e.at || "").slice(0, 16) + "] " + (e.event === "report" ? "🙋신고" : "💥오류") + ": " + (x.m || "") + (x.src ? " @" + x.src : "");
+        });
+        fs.writeFileSync(path.join(__dirname, "..", "brain_errors.md"),
+          "# 🐞 오류·신고 인박스 (brain 자동 갱신)\n\n누적 " + total + "건" + (fresh ? " · 🆕 새 항목 " + fresh + "건" : "") +
+          " — 조치하려면 Claude Code에서 `/errors`\n\n" + (lines.join("\n") || "(접수된 항목 없음)") + "\n");
+        return { note: "누적 " + total + "건" + (fresh ? " · 🆕 " + fresh + "건 ⚠" : "") };
+      },
+    },
+    {
       id: "output-report", ko: "건강 스냅샷 산출(brain_output.json)", tier: "routine",
       run: async (ctx) => {
         const out = { at: ctx.now.toISOString(), cycle: ctx.state.cycle, tiers: ctx.plan.tiers, health: ctx.health };

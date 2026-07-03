@@ -1,59 +1,18 @@
 {
-  "cycle": 12,
-  "enrichCursor": 4541,
+  "cycle": 13,
+  "enrichCursor": 4916,
   "lastHarvestCycle": 2,
   "lastDeepCycle": 2,
-  "at": "2026-07-03T02:02:27.374Z",
+  "at": "2026-07-03T05:16:58.118Z",
   "lastReport": [
-    {
-      "id": "nerve_bundles",
-      "ko": "신경다발",
-      "ok": true,
-      "skipped": false,
-      "steps": 11
-    },
-    {
-      "id": "neurons",
-      "ko": "뉴런",
-      "ok": true,
-      "skipped": false,
-      "steps": 7
-    },
-    {
-      "id": "synapses",
-      "ko": "시냅스",
-      "ok": true,
-      "skipped": false,
-      "steps": 5
-    },
-    {
-      "id": "cerebellum",
-      "ko": "소뇌",
-      "ok": true,
-      "skipped": false,
-      "steps": 9
-    },
-    {
-      "id": "cerebrum",
-      "ko": "대뇌",
-      "ok": true,
-      "skipped": false,
-      "steps": 3
-    },
     {
       "id": "cortex",
       "ko": "대뇌피질",
       "ok": true,
       "skipped": false,
-      "steps": 3
-    },
-    {
-      "id": "prefrontal",
-      "ko": "전전두엽",
-      "ok": true,
-      "skipped": false,
-      "steps": 1
+      "steps": 4
     }
   ],
-  "lastInsightCycle": 11
+  "lastInsightCycle": 11,
+  "errSeen": 0
 }
