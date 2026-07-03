@@ -116,8 +116,8 @@ jobs:
       pages: write
       id-token: write
     concurrency:
-      group: pages          # pages.yml과 같은 그룹 — 동시 배포 충돌 방지
-      cancel-in-progress: true
+      group: pages          # pages.yml과 같은 그룹 — 동시 배포 직렬화(취소 안 함 → 환경잠금 failure 방지)
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

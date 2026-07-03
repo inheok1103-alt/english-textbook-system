@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false   # 배포는 취소하지 않고 직렬화(GitHub Pages 공식 권장) — 경쟁 취소→환경잠금 failure 방지
 
 jobs:
   deploy:
