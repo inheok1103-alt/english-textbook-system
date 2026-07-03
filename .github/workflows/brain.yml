@@ -105,3 +105,29 @@ jobs:
             git commit -m "🧠 brain 데이터 동기(PC→모바일)"
             git push
           fi
+
+  # 🌐 PC Pages 배포 — brain[bot]의 GITHUB_TOKEN 푸시는 GitHub 규칙상 pages.yml을 트리거하지
+  #    않으므로(무한루프 방지 정책), 사이클 뒤 여기서 직접 배포해 PC 라이브를 최신으로 유지한다.
+  deploy-pc:
+    needs: cycle
+    if: ${{ github.event.inputs.mode != 'map' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages          # pages.yml과 같은 그룹 — 동시 배포 충돌 방지
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main          # cycle 잡이 방금 푸시한 최신 main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4

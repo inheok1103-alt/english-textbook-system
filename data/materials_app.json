@@ -43213,7 +43213,7 @@
   "fullComment": "만 13~18세 / 중1-고3 · 독해 실력~수능 교재. 학교 내신·수능 대비 목적에 적합, 독해기초·근거찾기 보강.",
   "part": "독해",
   "track": "",
-  "gradeBand": "중등",
+  "gradeBand": "고등",
   "cefr": "",
   "lexile": null,
   "ageBand": "초등고(11-13)",
@@ -43429,11 +43429,11 @@
   "id": "IH-ENG-3979",
   "pub": "NE능률",
   "title": "리딩튜터 주니어 1",
-  "skill": "문법",
+  "skill": "독해",
   "level": 4,
   "goals": [
-   "문법 잡기",
-   "독해 늘리기"
+   "독해 늘리기",
+   "문법 잡기"
   ],
   "timing": [
    "학기중 꾸준히"
@@ -43455,7 +43455,7 @@
   "fullComment": "",
   "part": "",
   "track": "중/고등 학습서 > 영어/수학일반/한자 > 영문법",
-  "gradeBand": "고등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "중등(13-16)",
@@ -43470,11 +43470,11 @@
   "id": "IH-ENG-3978",
   "pub": "NE능률",
   "title": "리딩튜터 주니어 2",
-  "skill": "문법",
+  "skill": "독해",
   "level": 4,
   "goals": [
-   "문법 잡기",
-   "독해 늘리기"
+   "독해 늘리기",
+   "문법 잡기"
   ],
   "timing": [
    "학기중 꾸준히"
@@ -43496,7 +43496,7 @@
   "fullComment": "",
   "part": "",
   "track": "중/고등 학습서 > 영어/수학일반/한자 > 영문법",
-  "gradeBand": "고등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "중등(13-16)",
@@ -43511,11 +43511,11 @@
   "id": "IH-ENG-3977",
   "pub": "NE능률",
   "title": "리딩튜터 주니어 3",
-  "skill": "문법",
+  "skill": "독해",
   "level": 4,
   "goals": [
-   "문법 잡기",
-   "독해 늘리기"
+   "독해 늘리기",
+   "문법 잡기"
   ],
   "timing": [
    "학기중 꾸준히"
@@ -43537,7 +43537,7 @@
   "fullComment": "",
   "part": "",
   "track": "중/고등 학습서 > 영어/수학일반/한자 > 영문법",
-  "gradeBand": "고등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "중등(13-16)",
@@ -43552,11 +43552,11 @@
   "id": "IH-ENG-3976",
   "pub": "NE능률",
   "title": "리딩튜터 주니어 4",
-  "skill": "문법",
+  "skill": "독해",
   "level": 4,
   "goals": [
-   "문법 잡기",
-   "독해 늘리기"
+   "독해 늘리기",
+   "문법 잡기"
   ],
   "timing": [
    "학기중 꾸준히"
@@ -43578,7 +43578,7 @@
   "fullComment": "",
   "part": "",
   "track": "중/고등 학습서 > 영어/수학일반/한자 > 영문법",
-  "gradeBand": "고등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "중등(13-16)",
@@ -69985,86 +69985,6 @@
   "isbn": "9791168369634",
   "kdc": "",
   "pubDate": "2023년 08월 11일",
-  "source": "KOBIC"
- },
- {
-  "id": "IH-ENG-8641",
-  "pub": "투블로(TOOBLO)",
-  "title": "뻔히 다보이는 수능영어기출: 2020학년도 대학수학능력시험 영어영역",
-  "skill": "모의/기출",
-  "level": 4,
-  "goals": [
-   "수능·모의고사"
-  ],
-  "timing": [
-   "시험 직전"
-  ],
-  "q": 74.815201,
-  "teacherRef": false,
-  "examPrep": false,
-  "examType": "",
-  "parentBook": false,
-  "tags": [],
-  "situations": [],
-  "weaknesses": [],
-  "cover": "covers/IH-ENG-8641.jpg",
-  "price": 11250,
-  "salesPoint": 0,
-  "pop": 0,
-  "age": "",
-  "comment": "",
-  "fullComment": "",
-  "part": "",
-  "track": "중/고등 학습서 > 고등학교 과목별 > 수능문제집 > 영어영역",
-  "gradeBand": "고등",
-  "cefr": "",
-  "lexile": null,
-  "ageBand": "중등(13-16)",
-  "status": "정상",
-  "foreign": false,
-  "isbn": "9791197542220",
-  "kdc": "언어(740)",
-  "pubDate": "2022년 04월 18일",
-  "source": "KOBIC"
- },
- {
-  "id": "IH-ENG-8643",
-  "pub": "투블로(TOOBLO)",
-  "title": "뻔히 다보이는 수능영어기출: 2021학년도 대학수학능력시험 영어영역",
-  "skill": "모의/기출",
-  "level": 4,
-  "goals": [
-   "수능·모의고사"
-  ],
-  "timing": [
-   "시험 직전"
-  ],
-  "q": 74.814421,
-  "teacherRef": false,
-  "examPrep": false,
-  "examType": "",
-  "parentBook": false,
-  "tags": [],
-  "situations": [],
-  "weaknesses": [],
-  "cover": "covers/IH-ENG-8643.jpg",
-  "price": 11250,
-  "salesPoint": 0,
-  "pop": 0,
-  "age": "",
-  "comment": "",
-  "fullComment": "",
-  "part": "",
-  "track": "중/고등 학습서 > 고등학교 과목별 > 수능문제집 > 영어영역",
-  "gradeBand": "고등",
-  "cefr": "",
-  "lexile": null,
-  "ageBand": "중등(13-16)",
-  "status": "정상",
-  "foreign": false,
-  "isbn": "9791197542213",
-  "kdc": "언어(740)",
-  "pubDate": "2022년 04월 18일",
   "source": "KOBIC"
  },
  {
@@ -144673,7 +144593,7 @@
   "fullComment": "만 12~15세 / 초6-중3 · 독해 실력~수능 교재. 기초 다지기·학교 내신 목적에 적합, 독해기초·문단구조 보강.",
   "part": "독해",
   "track": "",
-  "gradeBand": "초등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "초등고(11-13)",
@@ -232370,7 +232290,7 @@
   "fullComment": "",
   "part": "",
   "track": "중/고등 학습서 > 영어/수학일반/한자 > 독해",
-  "gradeBand": "고등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "중등(13-16)",
@@ -232410,7 +232330,7 @@
   "fullComment": "",
   "part": "",
   "track": "중/고등 학습서 > 영어/수학일반/한자 > 독해",
-  "gradeBand": "고등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "중등(13-16)",
@@ -232450,7 +232370,7 @@
   "fullComment": "",
   "part": "",
   "track": "중/고등 학습서 > 영어/수학일반/한자 > 독해",
-  "gradeBand": "고등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "중등(13-16)",
@@ -232490,7 +232410,7 @@
   "fullComment": "",
   "part": "",
   "track": "중/고등 학습서 > 영어/수학일반/한자 > 독해",
-  "gradeBand": "고등",
+  "gradeBand": "중등",
   "cefr": "",
   "lexile": null,
   "ageBand": "중등(13-16)",
