@@ -41,18 +41,24 @@ module.exports = {
         if (!ep) return { note: "엔드포인트 미확인 — 스킵" };
         const r = await fetch(ep + "?events=1&n=200", { redirect: "follow" });
         const j = await r.json();
-        const errs = (j.events || []).filter((e) => e.event === "err" || e.event === "report");
-        const total = ((j.counts && j.counts.err) || 0) + ((j.counts && j.counts.report) || 0);
+        const cnt = j.counts || {};
+        // 조치 대상 = 우리 코드 오류(err) + 사용자 신고(report). err3p(타 출처 불투명)는 규모만 표기.
+        const actionable = (j.events || []).filter((e) => e.event === "err" || e.event === "report");
+        const total = (cnt.err || 0) + (cnt.report || 0);
+        const noise3p = cnt.err3p || 0;
         const fresh = Math.max(0, total - (ctx.state.errSeen || 0));
         ctx.state.errSeen = total;
-        const lines = errs.slice(0, 30).map((e) => {
+        const lines = actionable.slice(0, 30).map((e) => {
           let x = {}; try { x = JSON.parse(e.extra || "{}"); } catch (e2) {}
           return "- [" + String(e.at || "").slice(0, 16) + "] " + (e.event === "report" ? "🙋신고" : "💥오류") + ": " + (x.m || "") + (x.src ? " @" + x.src : "");
         });
         fs.writeFileSync(path.join(__dirname, "..", "brain_errors.md"),
-          "# 🐞 오류·신고 인박스 (brain 자동 갱신)\n\n누적 " + total + "건" + (fresh ? " · 🆕 새 항목 " + fresh + "건" : "") +
-          " — 조치하려면 Claude Code에서 `/errors`\n\n" + (lines.join("\n") || "(접수된 항목 없음)") + "\n");
-        return { note: "누적 " + total + "건" + (fresh ? " · 🆕 " + fresh + "건 ⚠" : "") };
+          "# 🐞 오류·신고 인박스 (brain 자동 갱신)\n\n" +
+          "조치 대상 " + total + "건" + (fresh ? " · 🆕 새 항목 " + fresh + "건 ⚠" : "") +
+          " — 있으면 Claude Code에서 `/errors`\n" +
+          "타 출처 노이즈(err3p, CDN·브라우저확장 불투명 오류, 조치 불가) " + noise3p + "건 — 참고용\n\n" +
+          (lines.join("\n") || "(조치 대상 없음)") + "\n");
+        return { note: "조치대상 " + total + "건" + (fresh ? " · 🆕 " + fresh + " ⚠" : "") + " · 3p노이즈 " + noise3p };
       },
     },
     {
