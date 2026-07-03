@@ -917,7 +917,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791189719005",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -967,7 +967,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791189719050",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -2766,7 +2766,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791165260392",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -2994,7 +2994,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791165260354",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -9087,7 +9087,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.806587,
+  "q": 67.806587,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -9095,7 +9095,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/22236/59/cover500/k272636721_1.jpg",
+  "cover": "covers/IH-ENG-10225.jpg",
   "price": 17010,
   "salesPoint": 531,
   "pop": 531,
@@ -9852,7 +9852,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788974574574",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -9987,7 +9987,7 @@
   "ageBand": "초등저(8-10)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791189719470",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -12321,7 +12321,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788900444223",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -12367,7 +12367,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788900444247",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -15810,7 +15810,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.906966,
+  "q": 80.906966,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -15818,7 +15818,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/36841/37/cover500/k522030202_1.jpg",
+  "cover": "covers/IH-ENG-2259.jpg",
   "price": 11700,
   "salesPoint": 201,
   "pop": 201,
@@ -16142,7 +16142,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 74.951693,
+  "q": 80.951693,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -16150,7 +16150,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37617/30/cover500/k462032841_1.jpg",
+  "cover": "covers/IH-ENG-2549.jpg",
   "price": 15300,
   "salesPoint": 905,
   "pop": 905,
@@ -16636,7 +16636,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.841066,
+  "q": 80.841066,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -16644,7 +16644,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34028/77/cover500/k472931067_1.jpg",
+  "cover": "covers/IH-ENG-2728.jpg",
   "price": 13500,
   "salesPoint": 3713,
   "pop": 3713,
@@ -19548,6 +19548,129 @@
   "kdc": "",
   "pubDate": "",
   "source": ""
+ },
+ {
+  "id": "IH-ENG-11088",
+  "pub": "서연교육출판",
+  "title": "기출플러스 중학 영어 2-1 내신대비문제집(천재 이재영)(2022)",
+  "skill": "모의/기출",
+  "level": 3,
+  "goals": [
+   "수능·모의고사",
+   "내신 대비"
+  ],
+  "timing": [
+   "시험 직전"
+  ],
+  "q": 74.863595,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-11088.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "중/고등 학습서 > 중학교 학년별 > 중2문제집 > 영어",
+  "gradeBand": "중등",
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "초등고(11-13)",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791167440198",
+  "kdc": "언어(740)",
+  "pubDate": "2022년 02월 10일",
+  "source": "KOBIC"
+ },
+ {
+  "id": "IH-ENG-11089",
+  "pub": "서연교육출판",
+  "title": "기출플러스 중학 영어 3-1 내신대비문제집(능률 김성곤)(2024)",
+  "skill": "모의/기출",
+  "level": 3,
+  "goals": [
+   "수능·모의고사",
+   "내신 대비"
+  ],
+  "timing": [
+   "시험 직전"
+  ],
+  "q": 74.863985,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-11089.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "중/고등 학습서 > 중학교 학년별 > 중3문제집 > 영어",
+  "gradeBand": "중등",
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "초등고(11-13)",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791167440280",
+  "kdc": "언어(740)",
+  "pubDate": "2022년 02월 10일",
+  "source": "KOBIC"
+ },
+ {
+  "id": "IH-ENG-11085",
+  "pub": "서연교육출판",
+  "title": "기출플러스 중학 영어 3-2 내신대비문제집(동아 윤정미)(2023)",
+  "skill": "모의/기출",
+  "level": 3,
+  "goals": [
+   "수능·모의고사",
+   "내신 대비"
+  ],
+  "timing": [
+   "시험 직전"
+  ],
+  "q": 74.891379,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-11085.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "중/고등 학습서 > 중학교 학년별 > 중3문제집 > 영어",
+  "gradeBand": "중등",
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "초등고(11-13)",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791167440501",
+  "kdc": "언어(740)",
+  "pubDate": "2023년 07월 07일",
+  "source": "KOBIC"
  },
  {
   "id": "IH-ENG-8311",
@@ -22535,7 +22658,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.718895,
+  "q": 60.718895,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -22543,7 +22666,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/10060/3/cover500/k352536873_1.jpg",
+  "cover": "covers/IH-ENG-10250.jpg",
   "price": 12600,
   "salesPoint": 95,
   "pop": 95,
@@ -24347,7 +24470,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.651865,
+  "q": 60.651865,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -24355,7 +24478,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/10278/62/cover500/8927707885_1.jpg",
+  "cover": "covers/IH-ENG-1574.jpg",
   "price": 10800,
   "salesPoint": 1384,
   "pop": 1384,
@@ -25135,7 +25258,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.781201,
+  "q": 74.781201,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -25143,7 +25266,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/26810/38/cover500/8927708911_1.jpg",
+  "cover": "covers/IH-ENG-1171.jpg",
   "price": 9450,
   "salesPoint": 3404,
   "pop": 3404,
@@ -25582,7 +25705,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 50.583224,
+  "q": 56.583224,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -25590,7 +25713,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/2120/7/cover500/8997551116_1.jpg",
+  "cover": "covers/IH-ENG-10339.jpg",
   "price": 6750,
   "salesPoint": 59,
   "pop": 59,
@@ -33210,7 +33333,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791165263379",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -33254,7 +33377,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788974574956",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -33298,7 +33421,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791189719456",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -36851,7 +36974,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.667933,
+  "q": 60.667933,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -36859,7 +36982,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/10515/69/cover500/k592530031_2.jpg",
+  "cover": "covers/IH-ENG-10249.jpg",
   "price": 17100,
   "salesPoint": 31,
   "pop": 31,
@@ -37290,7 +37413,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791162409015",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -37340,7 +37463,7 @@
   "ageBand": "고등(16-19)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791162409008",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -38767,7 +38890,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 50.585041,
+  "q": 56.585041,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -38775,7 +38898,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/1966/39/cover500/8964150155_1.jpg",
+  "cover": "covers/IH-ENG-10342.jpg",
   "price": 17100,
   "salesPoint": 144,
   "pop": 144,
@@ -40190,7 +40313,7 @@
   "ageBand": "유아(5-7)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791125965701",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -40602,7 +40725,7 @@
   "ageBand": "초등저(8-10)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788900447156",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -40650,7 +40773,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788900447170",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -41294,7 +41417,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.90143,
+  "q": 80.90143,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -41302,7 +41425,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39194/95/cover500/k372138782_1.jpg",
+  "cover": "covers/IH-ENG-10177.jpg",
   "price": 39900,
   "salesPoint": 0,
   "pop": 0,
@@ -52353,7 +52476,7 @@
   "ageBand": "고등(16-19)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791129711281",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -52816,7 +52939,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.378506,
+  "q": 30.378506,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -52824,7 +52947,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/59/80/cover500/8983965002_2.jpg",
+  "cover": "covers/IH-ENG-9768.jpg",
   "price": 12000,
   "salesPoint": 137,
   "pop": 137,
@@ -53783,7 +53906,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791189719494",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -53835,7 +53958,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791189719487",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -54367,7 +54490,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791188808755",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -54417,7 +54540,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791188808762",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -54467,7 +54590,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791188808779",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -55394,7 +55517,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.237993,
+  "q": 30.237993,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -55402,7 +55525,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38/90/cover500/8977359716_1.jpg",
+  "cover": "covers/IH-ENG-9963.jpg",
   "price": 27000,
   "salesPoint": 231,
   "pop": 231,
@@ -56901,7 +57024,7 @@
   "ageBand": "유아(5-7)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791188808168",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -57578,7 +57701,7 @@
   "ageBand": "유아(5-7)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791188808366",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -57624,7 +57747,7 @@
   "ageBand": "초등저(8-10)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791188808151",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -58815,7 +58938,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.889125,
+  "q": 80.889125,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -58823,7 +58946,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34167/88/cover500/k002931915_1.jpg",
+  "cover": "covers/IH-ENG-10194.jpg",
   "price": 50000,
   "salesPoint": 0,
   "pop": 0,
@@ -64048,7 +64171,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 50.594849,
+  "q": 56.594849,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -64056,7 +64179,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/1520/40/cover500/8977757495_1.jpg",
+  "cover": "covers/IH-ENG-10157.jpg",
   "price": 10000,
   "salesPoint": 31,
   "pop": 31,
@@ -64368,7 +64491,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.422957,
+  "q": 30.422957,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -64376,7 +64499,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/62/25/cover500/8995112093_1.jpg",
+  "cover": "covers/IH-ENG-10166.jpg",
   "price": 10800,
   "salesPoint": 29,
   "pop": 29,
@@ -74167,7 +74290,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 68.830533,
+  "q": 74.830533,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -74175,7 +74298,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28430/29/cover500/k972835415_1.jpg",
+  "cover": "covers/IH-ENG-10207.jpg",
   "price": 15200,
   "salesPoint": 498,
   "pop": 498,
@@ -82513,7 +82636,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.699466,
+  "q": 67.699466,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -82521,7 +82644,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/15142/57/cover500/8964150759_1.jpg",
+  "cover": "covers/IH-ENG-10242.jpg",
   "price": 18810,
   "salesPoint": 64,
   "pop": 64,
@@ -85232,7 +85355,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.863923,
+  "q": 74.863923,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -85240,7 +85363,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/29015/91/cover500/892774148x_1.jpg",
+  "cover": "covers/IH-ENG-1136.jpg",
   "price": 13950,
   "salesPoint": 434,
   "pop": 434,
@@ -86165,7 +86288,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.805323,
+  "q": 67.805323,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -86173,7 +86296,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/24108/38/cover500/k802639534_1.jpg",
+  "cover": "covers/IH-ENG-10219.jpg",
   "price": 10800,
   "salesPoint": 137,
   "pop": 137,
@@ -87232,7 +87355,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.973514,
+  "q": 80.973514,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -87240,7 +87363,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39712/51/cover500/8997134620_1.jpg",
+  "cover": "covers/IH-ENG-10468.jpg",
   "price": 19000,
   "salesPoint": 0,
   "pop": 0,
@@ -87272,7 +87395,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.973124,
+  "q": 80.973124,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -87280,7 +87403,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39712/78/cover500/8997134639_1.jpg",
+  "cover": "covers/IH-ENG-10469.jpg",
   "price": 19000,
   "salesPoint": 0,
   "pop": 0,
@@ -87592,7 +87715,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.585478,
+  "q": 60.585478,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -87600,7 +87723,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/4161/86/cover500/1185719008_2.jpg",
+  "cover": "covers/IH-ENG-10289.jpg",
   "price": 13500,
   "salesPoint": 63,
   "pop": 63,
@@ -87632,7 +87755,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 36.488267,
+  "q": 42.488267,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -87640,7 +87763,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/452/95/cover500/8957266631_1.jpg",
+  "cover": "covers/IH-ENG-9971.jpg",
   "price": 16000,
   "salesPoint": 62,
   "pop": 62,
@@ -87672,7 +87795,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.802713,
+  "q": 67.802713,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -87680,7 +87803,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/23407/30/cover500/k912637418_1.jpg",
+  "cover": "covers/IH-ENG-9970.jpg",
   "price": 22800,
   "salesPoint": 370,
   "pop": 370,
@@ -91283,7 +91406,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.890757,
+  "q": 80.890757,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -91291,7 +91414,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/35145/22/cover500/k442934912_1.jpg",
+  "cover": "covers/IH-ENG-10191.jpg",
   "price": 76000,
   "salesPoint": 16,
   "pop": 16,
@@ -92437,7 +92560,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.701577,
+  "q": 67.701577,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -92445,7 +92568,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/17252/63/cover500/k672534093_1.jpg",
+  "cover": "covers/IH-ENG-10244.jpg",
   "price": 17010,
   "salesPoint": 119,
   "pop": 119,
@@ -93478,6 +93601,46 @@
   "source": "KOBIC"
  },
  {
+  "id": "IH-ENG-11384",
+  "pub": "스크린영어사",
+  "title": "어린왕자",
+  "skill": "독해",
+  "level": 3,
+  "goals": [
+   "독해 늘리기"
+  ],
+  "timing": [
+   "학기중 꾸준히"
+  ],
+  "q": 60.654,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-11384.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "외국어 > 영어문고 > 기타영어문고",
+  "gradeBand": "전체",
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "전체",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9788964150726",
+  "kdc": "언어(747)",
+  "pubDate": "2016년 06월 10일",
+  "source": "KOBIC"
+ },
+ {
   "id": "IH-ENG-8940",
   "pub": "",
   "title": "어린왕자로 강해지는 영문독해",
@@ -94148,7 +94311,7 @@
   "ageBand": "고등(16-19)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791162409084",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -94199,7 +94362,7 @@
   "ageBand": "고등(16-19)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791162409060",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -95129,7 +95292,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.792689,
+  "q": 67.792689,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -95137,7 +95300,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/23190/62/cover500/896817833x_2.jpg",
+  "cover": "covers/IH-ENG-9858.jpg",
   "price": 22000,
   "salesPoint": 2051,
   "pop": 2051,
@@ -101221,7 +101384,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 36.46634,
+  "q": 42.46634,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -101229,7 +101392,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/253/77/cover500/8955063679_1.jpg",
+  "cover": "covers/IH-ENG-10387.jpg",
   "price": 11400,
   "salesPoint": 69,
   "pop": 69,
@@ -101421,7 +101584,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 36.542207,
+  "q": 42.542207,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -101429,7 +101592,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/882/14/cover500/8926819043_1.jpg",
+  "cover": "covers/IH-ENG-9821.jpg",
   "price": 33300,
   "salesPoint": 17,
   "pop": 17,
@@ -106799,7 +106962,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.235027,
+  "q": 30.235027,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -106807,7 +106970,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1175685%3Ftimestamp%3D20190127041821",
+  "cover": "covers/IH-ENG-9912.jpg",
   "price": 12000,
   "salesPoint": 0,
   "pop": 0,
@@ -108910,7 +109073,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.874072,
+  "q": 74.874072,
   "teacherRef": true,
   "examPrep": false,
   "examType": "",
@@ -108918,7 +109081,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28834/0/cover500/8920041792_1.jpg",
+  "cover": "covers/IH-ENG-10064.jpg",
   "price": 14100,
   "salesPoint": 843,
   "pop": 843,
@@ -111232,7 +111395,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 50.583615,
+  "q": 56.583615,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -111240,7 +111403,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/2084/26/cover500/899283506x_1.jpg",
+  "cover": "covers/IH-ENG-10338.jpg",
   "price": 11700,
   "salesPoint": 41,
   "pop": 41,
@@ -111272,7 +111435,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 74.995637,
+  "q": 80.995637,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -111280,7 +111443,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38764/77/cover500/8992835175_1.jpg",
+  "cover": "covers/IH-ENG-10179.jpg",
   "price": 27000,
   "salesPoint": 30,
   "pop": 30,
@@ -126559,7 +126722,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 68.836003,
+  "q": 74.836003,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -126567,7 +126730,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/27541/43/cover500/8928107016_1.jpg",
+  "cover": "covers/IH-ENG-10208.jpg",
   "price": 10800,
   "salesPoint": 46,
   "pop": 46,
@@ -136163,7 +136326,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.845341,
+  "q": 74.845341,
   "teacherRef": false,
   "examPrep": true,
   "examType": "임용(교원)",
@@ -136171,7 +136334,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/img/noimg_b.gif",
+  "cover": "covers/IH-ENG-10065.jpg",
   "price": 15000,
   "salesPoint": 11,
   "pop": 11,
@@ -137529,7 +137692,7 @@
   "ageBand": "고등(16-19)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791162409077",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -137787,7 +137950,7 @@
    "기초 입문",
    "학기중 꾸준히"
   ],
-  "q": 73.850582,
+  "q": 79.850582,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -137795,7 +137958,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/27355/81/cover500/k212732521_1.jpg",
+  "cover": "covers/IH-ENG-1471.jpg",
   "price": 10800,
   "salesPoint": 2801,
   "pop": 2801,
@@ -138289,7 +138452,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.786664,
+  "q": 74.786664,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -138297,7 +138460,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/29790/31/cover500/k082838710_1.jpg",
+  "cover": "covers/IH-ENG-1446.jpg",
   "price": 13050,
   "salesPoint": 5315,
   "pop": 5315,
@@ -138825,7 +138988,7 @@
   "ageBand": "초등저(8-10)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791162402511",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -139743,7 +139906,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.900804,
+  "q": 80.900804,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -139751,7 +139914,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F7235569%3Ftimestamp%3D20260613121308",
+  "cover": "covers/IH-ENG-10175.jpg",
   "price": 27000,
   "salesPoint": 0,
   "pop": 0,
@@ -144037,7 +144200,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.794904,
+  "q": 67.794904,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -144045,7 +144208,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/25095/69/cover500/8983960701_1.jpg",
+  "cover": "covers/IH-ENG-9580.jpg",
   "price": 15000,
   "salesPoint": 88,
   "pop": 88,
@@ -150663,7 +150826,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 61.753912,
+  "q": 67.753912,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -150671,7 +150834,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/20006/66/cover500/k552635149_2.jpg",
+  "cover": "covers/IH-ENG-2689.jpg",
   "price": 11700,
   "salesPoint": 3772,
   "pop": 3772,
@@ -152215,7 +152378,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.586728,
+  "q": 60.586728,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -152223,7 +152386,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/305/14/cover500/897109933x_1.jpg",
+  "cover": "covers/IH-ENG-10291.jpg",
   "price": 27000,
   "salesPoint": 305,
   "pop": 305,
@@ -158151,7 +158314,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791125959571",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -158200,7 +158363,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791125959601",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -158253,7 +158416,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791125959618",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -158303,7 +158466,7 @@
   "ageBand": "중등(13-16)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791125959632",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -163124,6 +163287,47 @@
   "source": "KOBIC"
  },
  {
+  "id": "IH-ENG-10472",
+  "pub": "키출판사",
+  "title": "초등 영문법 문법이 쓰기다 기본 1",
+  "skill": "문법",
+  "level": 2,
+  "goals": [
+   "문법 잡기",
+   "쓰기·서술형"
+  ],
+  "timing": [
+   "학기중 꾸준히"
+  ],
+  "q": 80.940026,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-10472.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "초등 학습서 > 단계별시리즈 > 영어",
+  "gradeBand": "초등",
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "초등저(8-10)",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791165263010",
+  "kdc": "언어(740)",
+  "pubDate": "2025년 04월 29일",
+  "source": "KOBIC"
+ },
+ {
   "id": "IH-ENG-1052",
   "pub": "키출판사",
   "title": "초등 영문법 문법이 쓰기다 기본 2",
@@ -165640,7 +165844,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 50.059073,
+  "q": 56.059073,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -165651,7 +165855,7 @@
    "읽기시작",
    "파닉스/음가"
   ],
-  "cover": "https://image.aladin.co.kr/product/12562/71/cover500/8974574543_1.jpg",
+  "cover": "covers/IH-ENG-0070.jpg",
   "price": 12600,
   "salesPoint": 2702,
   "pop": 2702,
@@ -168143,7 +168347,7 @@
    "기초 입문",
    "학기중 꾸준히"
   ],
-  "q": 54.68081,
+  "q": 60.68081,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -168151,7 +168355,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/11295/69/cover500/8974577070_2.jpg",
+  "cover": "covers/IH-ENG-1331.jpg",
   "price": 12600,
   "salesPoint": 17599,
   "pop": 17599,
@@ -168185,7 +168389,7 @@
    "기초 입문",
    "학기중 꾸준히"
   ],
-  "q": 54.6812,
+  "q": 60.6812,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -168193,7 +168397,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/11295/84/cover500/8974577089_2.jpg",
+  "cover": "covers/IH-ENG-1330.jpg",
   "price": 12600,
   "salesPoint": 12120,
   "pop": 12120,
@@ -170598,7 +170802,7 @@
   "ageBand": "유아(5-7)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788926947210",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -181141,7 +181345,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.930557,
+  "q": 80.930557,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -181149,7 +181353,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34598/22/cover500/k792933677_1.jpg",
+  "cover": "covers/IH-ENG-10351.jpg",
   "price": 24000,
   "salesPoint": 76,
   "pop": 76,
@@ -181181,7 +181385,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.728612,
+  "q": 60.728612,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -181189,7 +181393,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/10591/6/cover500/k722530537_1.jpg",
+  "cover": "covers/IH-ENG-10355.jpg",
   "price": 15000,
   "salesPoint": 68,
   "pop": 68,
@@ -182432,7 +182636,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.890136,
+  "q": 80.890136,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -182440,7 +182644,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34384/88/cover500/k572932404_1.jpg",
+  "cover": "covers/IH-ENG-10192.jpg",
   "price": 20700,
   "salesPoint": 470,
   "pop": 470,
@@ -184814,7 +185018,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.378205,
+  "q": 30.378205,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -184822,7 +185026,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/234/81/cover500/8983964774_1.jpg",
+  "cover": "covers/IH-ENG-9769.jpg",
   "price": 12000,
   "salesPoint": 51,
   "pop": 51,
@@ -189897,7 +190101,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.349157,
+  "q": 30.349157,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -189905,7 +190109,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/53/66/cover500/8983964731_1.jpg",
+  "cover": "covers/IH-ENG-9770.jpg",
   "price": 10000,
   "salesPoint": 40,
   "pop": 40,
@@ -205887,7 +206091,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9791165269661",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -213938,7 +214142,7 @@
   "ageBand": "초등고(11-13)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788954796767",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -216573,7 +216777,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 79.857986,
+  "q": 85.857986,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -216581,7 +216785,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/35314/24/cover500/8954787290_1.jpg",
+  "cover": "covers/IH-ENG-1066.jpg",
   "price": 12600,
   "salesPoint": 4673,
   "pop": 4673,
@@ -219821,7 +220025,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.885029,
+  "q": 74.885029,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -219829,7 +220033,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/32782/2/cover500/8954778666_1.jpg",
+  "cover": "covers/IH-ENG-1701.jpg",
   "price": 11700,
   "salesPoint": 1720,
   "pop": 1720,
@@ -221896,7 +222100,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.639993,
+  "q": 60.639993,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -221904,7 +222108,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "",
+  "cover": "covers/IH-ENG-10372.jpg",
   "price": null,
   "salesPoint": 0,
   "pop": 0,
@@ -227280,7 +227484,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 79.911524,
+  "q": 85.911524,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -227288,7 +227492,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34646/35/cover500/8928349699_2.jpg",
+  "cover": "covers/IH-ENG-3986.jpg",
   "price": 12600,
   "salesPoint": 4236,
   "pop": 4236,
@@ -229138,7 +229342,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.917442,
+  "q": 80.917442,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -229146,7 +229350,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38858/65/cover500/k072137000_1.jpg",
+  "cover": "covers/IH-ENG-9556.jpg",
   "price": 16200,
   "salesPoint": 60,
   "pop": 60,
@@ -237989,7 +238193,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 50.587229,
+  "q": 56.587229,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -237997,7 +238201,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/1845/94/cover500/8997551078_1.jpg",
+  "cover": "covers/IH-ENG-10344.jpg",
   "price": 13500,
   "salesPoint": 12,
   "pop": 12,
@@ -238070,7 +238274,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.972344,
+  "q": 80.972344,
   "teacherRef": false,
   "examPrep": true,
   "examType": "임용(교원)",
@@ -238078,7 +238282,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39001/76/cover500/k482137221_1.jpg",
+  "cover": "covers/IH-ENG-9975.jpg",
   "price": 27000,
   "salesPoint": 190,
   "pop": 190,
@@ -243436,7 +243640,7 @@
   "ageBand": "초등저(8-10)",
   "status": "분류완료",
   "foreign": false,
-  "isbn": "",
+  "isbn": "9788996245544",
   "kdc": "",
   "pubDate": "",
   "source": ""
@@ -278556,7 +278760,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.869429,
+  "q": 80.869429,
   "teacherRef": false,
   "examPrep": true,
   "examType": "임용(교원)",
@@ -278564,7 +278768,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/33565/88/cover500/8963368815_1.jpg",
+  "cover": "covers/IH-ENG-9992.jpg",
   "price": 35000,
   "salesPoint": 39,
   "pop": 39,
@@ -279751,7 +279955,7 @@
    "시험 직전",
    "기초 입문"
   ],
-  "q": 74.918308,
+  "q": 80.918308,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -279759,7 +279963,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38160/34/cover500/k052034505_1.jpg",
+  "cover": "covers/IH-ENG-10182.jpg",
   "price": 16200,
   "salesPoint": 64,
   "pop": 64,
@@ -280329,7 +280533,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.948182,
+  "q": 80.948182,
   "teacherRef": false,
   "examPrep": true,
   "examType": "임용(교원)",
@@ -280337,7 +280541,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/35361/4/cover500/8963369633_1.jpg",
+  "cover": "covers/IH-ENG-9989.jpg",
   "price": 26000,
   "salesPoint": 149,
   "pop": 149,
@@ -284257,7 +284461,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.971877,
+  "q": 80.971877,
   "teacherRef": false,
   "examPrep": true,
   "examType": "임용(교원)",
@@ -284265,7 +284469,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38839/85/cover500/k702137493_1.jpg",
+  "cover": "covers/IH-ENG-9976.jpg",
   "price": 36000,
   "salesPoint": 180,
   "pop": 180,

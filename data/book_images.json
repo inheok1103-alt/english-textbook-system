@@ -5561,17 +5561,19 @@
     "IH-ENG-0619": {
       "status": "found",
       "localPath": "covers/IH-ENG-0619.jpg",
-      "imageUrl": "https://image.yes24.com/goods/3402403/L",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9780521269599C001.jpg",
       "sourcePage": "https://www.yes24.com/Product/Goods/3402403",
-      "source": "YES24",
+      "source": "KOBIC",
       "sourceTitle": "Grammar In Use Intermediate : Complete Audio CD",
       "sourceAuthor": "저",
       "score": 42,
-      "bytes": 41001,
+      "bytes": 16911,
       "contentType": "image/jpeg",
       "materialTitle": "Grammar in Use (Cambridge, Murphy)",
       "publisher": "해외원서(특목고)",
-      "searchQuery": "Grammar in Use (Cambridge, Murphy) 교재"
+      "searchQuery": "Grammar in Use (Cambridge, Murphy) 교재",
+      "isbn": "9780521269599",
+      "verifiedAt": "2026-07-03T08:21:55.543Z"
     },
     "IH-ENG-0621": {
       "status": "found",
@@ -9692,9 +9694,9 @@
     "IH-ENG-0011": {
       "status": "found",
       "localPath": "covers/IH-ENG-0011.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788900447156.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788900447156C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788900447156",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "뜯어먹는 초등 필수 영단어 1",
       "sourceAuthor": "저",
       "score": 100,
@@ -9703,14 +9705,15 @@
       "materialTitle": "뜯어먹는 초등 필수 영단어 1",
       "publisher": "동아출판",
       "searchQuery": "뜯어먹는 초등 필수 영단어 1",
-      "isbn": "9788900447156"
+      "isbn": "9788900447156",
+      "verifiedAt": "2026-07-03T08:19:48.981Z"
     },
     "IH-ENG-0012": {
       "status": "found",
       "localPath": "covers/IH-ENG-0012.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788900447170.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788900447170C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788900447170",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "뜯어먹는 초등 필수 영단어 2",
       "sourceAuthor": "저",
       "score": 100,
@@ -9719,14 +9722,15 @@
       "materialTitle": "뜯어먹는 초등 필수 영단어 2",
       "publisher": "동아출판",
       "searchQuery": "뜯어먹는 초등 필수 영단어 2",
-      "isbn": "9788900447170"
+      "isbn": "9788900447170",
+      "verifiedAt": "2026-07-03T08:19:51.864Z"
     },
     "IH-ENG-0016": {
       "status": "found",
       "localPath": "covers/IH-ENG-0016.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162402511.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791162402511C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791162402511",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "자이스토리 초등 영어 듣기 평가 모의고사 5-1",
       "sourceAuthor": ",,, 공저",
       "score": 74,
@@ -9735,7 +9739,8 @@
       "materialTitle": "자이스토리 초등 영어 듣기 평가 모의고사",
       "publisher": "수경출판사(자이스토리)",
       "searchQuery": "자이스토리 초등 영어 듣기 평가 모의고사",
-      "isbn": "9791162402511"
+      "isbn": "9791162402511",
+      "verifiedAt": "2026-07-03T08:19:54.866Z"
     },
     "IH-ENG-0020": {
       "status": "found",
@@ -9782,9 +9787,9 @@
     "IH-ENG-0032": {
       "status": "found",
       "localPath": "covers/IH-ENG-0032.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788900444223.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788900444223C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788900444223",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "초등 영문법 Grammar CLEAR Starter(그래머 클리어 스타터) 1",
       "sourceAuthor": "저",
       "score": 84,
@@ -9793,14 +9798,15 @@
       "materialTitle": "그래머 클리어 스타터1",
       "publisher": "동아출판",
       "searchQuery": "그래머 클리어 스타터1",
-      "isbn": "9788900444223"
+      "isbn": "9788900444223",
+      "verifiedAt": "2026-07-03T08:19:57.750Z"
     },
     "IH-ENG-0033": {
       "status": "found",
       "localPath": "covers/IH-ENG-0033.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788900444247.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788900444247C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788900444247",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "초등 영문법 Grammar CLEAR Starter(그래머 클리어 스타터) 2",
       "sourceAuthor": "저",
       "score": 84,
@@ -9809,7 +9815,8 @@
       "materialTitle": "그래머 클리어 스타터2",
       "publisher": "동아출판",
       "searchQuery": "그래머 클리어 스타터2",
-      "isbn": "9788900444247"
+      "isbn": "9788900444247",
+      "verifiedAt": "2026-07-03T08:20:00.626Z"
     },
     "IH-ENG-0040": {
       "status": "found",
@@ -9948,9 +9955,9 @@
     },
     "IH-ENG-0111": {
       "status": "found",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791188808168.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791188808168C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791188808168",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "미국교과서 읽는 리딩 Reading Key Preschool Starter 1",
       "sourceAuthor": ", 공저",
       "score": 114,
@@ -9960,14 +9967,15 @@
       "publisher": "키출판사",
       "searchQuery": "미국교과서 읽는 리딩 Reading Key 1",
       "localPath": "covers/IH-ENG-0111.jpg",
-      "isbn": "9791188808168"
+      "isbn": "9791188808168",
+      "verifiedAt": "2026-07-03T08:20:03.761Z"
     },
     "IH-ENG-0114": {
       "status": "found",
       "localPath": "covers/IH-ENG-0114.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791188808366.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791188808366C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791188808366",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "미국교과서 읽는 리스닝 & 스피킹 Listening & Speaking Key K 2",
       "sourceAuthor": ", 공저",
       "score": 88,
@@ -9976,14 +9984,15 @@
       "materialTitle": "미국교과서 읽는 리스닝&스피킹 Listening & Speaking Key",
       "publisher": "키출판사",
       "searchQuery": "미국교과서 읽는 리스닝&스피킹 Listening & Speaking Key",
-      "isbn": "9791188808366"
+      "isbn": "9791188808366",
+      "verifiedAt": "2026-07-03T08:20:06.791Z"
     },
     "IH-ENG-0115": {
       "status": "found",
       "localPath": "covers/IH-ENG-0115.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791188808151.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791188808151C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791188808151",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "미국교과서 읽는 리스닝 & 스피킹(Listening & Speaking) Key K 1",
       "sourceAuthor": ", 공저",
       "score": 126,
@@ -9992,7 +10001,8 @@
       "materialTitle": "미국교과서 읽는 리스닝&스피킹 Listening & Speaking Key 1",
       "publisher": "키출판사",
       "searchQuery": "미국교과서 읽는 리스닝&스피킹 Listening & Speaking Key 1",
-      "isbn": "9791188808151"
+      "isbn": "9791188808151",
+      "verifiedAt": "2026-07-03T08:20:09.834Z"
     },
     "IH-ENG-0116": {
       "status": "found",
@@ -10020,9 +10030,9 @@
     },
     "IH-ENG-0190": {
       "status": "found",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791189719470.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791189719470C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791189719470",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "초등 영어 구문이 독해다 Starter Reading",
       "sourceAuthor": "저",
       "score": 50,
@@ -10032,7 +10042,8 @@
       "publisher": "키출판사",
       "searchQuery": "구문이 독해다 (초4)",
       "localPath": "covers/IH-ENG-0190.jpg",
-      "isbn": "9791189719470"
+      "isbn": "9791189719470",
+      "verifiedAt": "2026-07-03T08:20:13.977Z"
     },
     "IH-ENG-0193": {
       "status": "found",
@@ -10082,9 +10093,9 @@
     "IH-ENG-0201": {
       "status": "found",
       "localPath": "covers/IH-ENG-0201.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791189719456.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791189719456C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791189719456",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "고등 영단어 단어가 읽기다",
       "sourceAuthor": ",, 공저",
       "score": 50,
@@ -10093,7 +10104,8 @@
       "materialTitle": "단어가 읽기다 (초5)",
       "publisher": "키출판사",
       "searchQuery": "단어가 읽기다 (초5)",
-      "isbn": "9791189719456"
+      "isbn": "9791189719456",
+      "verifiedAt": "2026-07-03T08:20:19.731Z"
     },
     "IH-ENG-0202": {
       "status": "found",
@@ -10188,9 +10200,9 @@
     "IH-ENG-0219": {
       "status": "found",
       "localPath": "covers/IH-ENG-0219.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162409015.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791162409015C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791162409015",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "자이스토리 영어 독해 기본(2026)",
       "sourceAuthor": "등저",
       "score": 50,
@@ -10199,7 +10211,8 @@
       "materialTitle": "독해 기본",
       "publisher": "수경출판사/자이스토리",
       "searchQuery": "독해 기본",
-      "isbn": "9791162409015"
+      "isbn": "9791162409015",
+      "verifiedAt": "2026-07-03T08:20:25.322Z"
     },
     "IH-ENG-0228": {
       "status": "found",
@@ -10333,9 +10346,9 @@
     "IH-ENG-0258": {
       "status": "found",
       "localPath": "covers/IH-ENG-0258.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791125959601.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125959601C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791125959601",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "기출 문장으로 공략하는 처음 만나는 수능 구문 베이직 워크북(기본)(2026)",
       "sourceAuthor": ",,,,, 공저",
       "score": 66,
@@ -10344,14 +10357,15 @@
       "materialTitle": "처음 만나는 수능 구문 베이직 (기본)",
       "publisher": "천재교육",
       "searchQuery": "처음 만나는 수능 구문 베이직 (기본)",
-      "isbn": "9791125959601"
+      "isbn": "9791125959601",
+      "verifiedAt": "2026-07-03T08:20:28.227Z"
     },
     "IH-ENG-0262": {
       "status": "found",
       "localPath": "covers/IH-ENG-0262.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791125959632.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125959632C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791125959632",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "기출 지문으로 공략하는 처음 만나는 수능 어법 베이직(기본)(2026)",
       "sourceAuthor": ",,,,, 공저",
       "score": 66,
@@ -10360,14 +10374,15 @@
       "materialTitle": "처음 만나는 수능 어법 베이직(기본)",
       "publisher": "천재교육",
       "searchQuery": "처음 만나는 수능 어법 베이직(기본)",
-      "isbn": "9791125959632"
+      "isbn": "9791125959632",
+      "verifiedAt": "2026-07-03T08:20:31.116Z"
     },
     "IH-ENG-0265": {
       "status": "found",
       "localPath": "covers/IH-ENG-0265.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788926947210.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788926947210C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788926947210",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "초등영어 교과서 영단어 3학년과정 1단계(2026)",
       "sourceAuthor": "편집부 저",
       "score": 58,
@@ -10376,14 +10391,15 @@
       "materialTitle": "초등영어 교과서 영단어",
       "publisher": "천재교육",
       "searchQuery": "초등영어 교과서 영단어",
-      "isbn": "9788926947210"
+      "isbn": "9788926947210",
+      "verifiedAt": "2026-07-03T08:20:34.027Z"
     },
     "IH-ENG-0266": {
       "status": "found",
       "localPath": "covers/IH-ENG-0266.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791125965701.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125965701C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791125965701",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "똑똑한 하루 Phonics Starter B (알파벳+파닉스2)",
       "sourceAuthor": "편집부 저",
       "score": 66,
@@ -10392,13 +10408,14 @@
       "materialTitle": "똑똑한 하루 Phonics Starter",
       "publisher": "천재교육",
       "searchQuery": "똑똑한 하루 Phonics Starter",
-      "isbn": "9791125965701"
+      "isbn": "9791125965701",
+      "verifiedAt": "2026-07-03T08:20:36.917Z"
     },
     "IH-ENG-0268": {
       "status": "found",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788974574574.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788974574574C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788974574574",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "중학 영어 구문이 독해다 1(예비중~중1)",
       "sourceAuthor": "저",
       "score": 88,
@@ -10408,13 +10425,14 @@
       "publisher": "키출판사",
       "searchQuery": "구문이 독해다 (중1)",
       "localPath": "covers/IH-ENG-0268.jpg",
-      "isbn": "9788974574574"
+      "isbn": "9788974574574",
+      "verifiedAt": "2026-07-03T08:20:39.961Z"
     },
     "IH-ENG-0271": {
       "status": "found",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791165269661.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791165269661C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791165269661",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "미국교과서 읽는 리딩 American School Textbook Reading Key Selection of 40",
       "sourceAuthor": ", 공저",
       "score": 84,
@@ -10424,14 +10442,15 @@
       "publisher": "키출판사",
       "searchQuery": "American School Textbook Reading Key",
       "localPath": "covers/IH-ENG-0271.jpg",
-      "isbn": "9791165269661"
+      "isbn": "9791165269661",
+      "verifiedAt": "2026-07-03T08:20:42.980Z"
     },
     "IH-ENG-0272": {
       "status": "found",
       "localPath": "covers/IH-ENG-0272.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791165260354.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791165260354C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791165260354",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "고공행진 중학 영어 독해 Level 1",
       "sourceAuthor": ",, 공저",
       "score": 100,
@@ -10440,7 +10459,8 @@
       "materialTitle": "고공행진 중학 영어 독해 1",
       "publisher": "키출판사",
       "searchQuery": "고공행진 중학 영어 독해 1",
-      "isbn": "9791165260354"
+      "isbn": "9791165260354",
+      "verifiedAt": "2026-07-03T08:20:45.985Z"
     },
     "IH-ENG-0275": {
       "status": "needs_review",
@@ -10488,9 +10508,9 @@
     "IH-ENG-0280": {
       "status": "found",
       "localPath": "covers/IH-ENG-0280.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791165260392.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791165260392C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791165260392",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "고공행진 중학 영문법 Level 1",
       "sourceAuthor": "저",
       "score": 96,
@@ -10499,14 +10519,15 @@
       "materialTitle": "고공행진 중학 영문법 1",
       "publisher": "키출판사",
       "searchQuery": "고공행진 중학 영문법 1",
-      "isbn": "9791165260392"
+      "isbn": "9791165260392",
+      "verifiedAt": "2026-07-03T08:20:48.991Z"
     },
     "IH-ENG-0282": {
       "status": "found",
       "localPath": "covers/IH-ENG-0282.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791189719487.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791189719487C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791189719487",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "중학 영문법 문법이 내신이다 1학년",
       "sourceAuthor": "저",
       "score": 92,
@@ -10515,7 +10536,8 @@
       "materialTitle": "문법이 내신이다 1",
       "publisher": "키출판사",
       "searchQuery": "문법이 내신이다 1",
-      "isbn": "9791189719487"
+      "isbn": "9791189719487",
+      "verifiedAt": "2026-07-03T08:20:51.991Z"
     },
     "IH-ENG-0284": {
       "status": "found",
@@ -10535,9 +10557,9 @@
     "IH-ENG-0287": {
       "status": "found",
       "localPath": "covers/IH-ENG-0287.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791188808755.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791188808755C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791188808755",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "중학 영문법 문법이 쓰기다 서술형 집중훈련: 1학년",
       "sourceAuthor": "저",
       "score": 88,
@@ -10546,14 +10568,15 @@
       "materialTitle": "문법이 쓰기다 서술형 (중1)",
       "publisher": "키출판사",
       "searchQuery": "문법이 쓰기다 서술형 (중1)",
-      "isbn": "9791188808755"
+      "isbn": "9791188808755",
+      "verifiedAt": "2026-07-03T08:20:55.018Z"
     },
     "IH-ENG-0288": {
       "status": "found",
       "localPath": "covers/IH-ENG-0288.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791188808762.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791188808762C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791188808762",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "중학 영문법 문법이 쓰기다 서술형 집중훈련: 2학년",
       "sourceAuthor": "저",
       "score": 88,
@@ -10562,14 +10585,15 @@
       "materialTitle": "문법이 쓰기다 서술형 (중2)",
       "publisher": "키출판사",
       "searchQuery": "문법이 쓰기다 서술형 (중2)",
-      "isbn": "9791188808762"
+      "isbn": "9791188808762",
+      "verifiedAt": "2026-07-03T08:20:58.018Z"
     },
     "IH-ENG-0291": {
       "status": "found",
       "localPath": "covers/IH-ENG-0291.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791165263379.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791165263379C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791165263379",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "초등 영단어, 단어가 읽기다 Level 2",
       "sourceAuthor": "저",
       "score": 84,
@@ -10578,7 +10602,8 @@
       "materialTitle": "단어가 읽기다 (중2)",
       "publisher": "키출판사",
       "searchQuery": "단어가 읽기다 2",
-      "isbn": "9791165263379"
+      "isbn": "9791165263379",
+      "verifiedAt": "2026-07-03T08:21:01.022Z"
     },
     "IH-ENG-0294": {
       "status": "found",
@@ -10674,9 +10699,9 @@
     "IH-ENG-0380": {
       "status": "found",
       "localPath": "covers/IH-ENG-0380.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162409008.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791162409008C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791162409008",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "자이스토리 영어 독해 완성(2026)",
       "sourceAuthor": "등저",
       "score": 50,
@@ -10685,14 +10710,15 @@
       "materialTitle": "독해 완성",
       "publisher": "수경출판사/자이스토리",
       "searchQuery": "독해 완성",
-      "isbn": "9791162409008"
+      "isbn": "9791162409008",
+      "verifiedAt": "2026-07-03T08:21:06.814Z"
     },
     "IH-ENG-0383": {
       "status": "found",
       "localPath": "covers/IH-ENG-0383.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162409060.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791162409060C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791162409060",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "자이스토리 영어 어법·어휘 완성(2026)",
       "sourceAuthor": "등저",
       "score": 54,
@@ -10701,7 +10727,8 @@
       "materialTitle": "어법·어휘 완성",
       "publisher": "수경출판사/자이스토리",
       "searchQuery": "어법·어휘 완성",
-      "isbn": "9791162409060"
+      "isbn": "9791162409060",
+      "verifiedAt": "2026-07-03T08:21:09.687Z"
     },
     "IH-ENG-0389": {
       "status": "no_cover_real",
@@ -10720,9 +10747,9 @@
     "IH-ENG-0390": {
       "status": "found",
       "localPath": "covers/IH-ENG-0390.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791125959571.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125959571C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791125959571",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "기출 문장으로 공략하는 처음 만나는 수능 구문 스타터(입문)(2026)",
       "sourceAuthor": ",,,,, 공저",
       "score": 66,
@@ -10731,14 +10758,15 @@
       "materialTitle": "처음 만나는 수능 구문 (스타터 입문/베이직 기본)",
       "publisher": "천재교육",
       "searchQuery": "처음 만나는 수능 구문 (스타터 입문/베이직 기본)",
-      "isbn": "9791125959571"
+      "isbn": "9791125959571",
+      "verifiedAt": "2026-07-03T08:21:12.555Z"
     },
     "IH-ENG-0391": {
       "status": "found",
       "localPath": "covers/IH-ENG-0391.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791125959618.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125959618C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791125959618",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "기출 지문으로 공략하는 처음 만나는 수능 어법 스타터(입문)(2026)",
       "sourceAuthor": ",,,,, 공저",
       "score": 66,
@@ -10747,7 +10775,8 @@
       "materialTitle": "처음 만나는 수능 어법 (스타터 입문/베이직 기본)",
       "publisher": "천재교육",
       "searchQuery": "처음 만나는 수능 어법 (스타터 입문/베이직 기본)",
-      "isbn": "9791125959618"
+      "isbn": "9791125959618",
+      "verifiedAt": "2026-07-03T08:21:15.425Z"
     },
     "IH-ENG-0394": {
       "status": "found",
@@ -10781,9 +10810,9 @@
     },
     "IH-ENG-0400": {
       "status": "found",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791189719005.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791189719005C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791189719005",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "강성태 영문법: 필수편",
       "sourceAuthor": "저",
       "score": 54,
@@ -10793,7 +10822,8 @@
       "publisher": "키출판사",
       "searchQuery": "강성태 영문법 필수편",
       "localPath": "covers/IH-ENG-0400.jpg",
-      "isbn": "9791189719005"
+      "isbn": "9791189719005",
+      "verifiedAt": "2026-07-03T08:21:18.429Z"
     },
     "IH-ENG-0403": {
       "status": "found",
@@ -10813,9 +10843,9 @@
     "IH-ENG-0406": {
       "status": "found",
       "localPath": "covers/IH-ENG-0406.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791188808779.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791188808779C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791188808779",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "중학 영문법 문법이 쓰기다 서술형 집중훈련: 3학년",
       "sourceAuthor": "저",
       "score": 88,
@@ -10824,7 +10854,8 @@
       "materialTitle": "문법이 쓰기다 서술형 (중3)",
       "publisher": "키출판사",
       "searchQuery": "문법이 쓰기다 서술형 (중3)",
-      "isbn": "9791188808779"
+      "isbn": "9791188808779",
+      "verifiedAt": "2026-07-03T08:21:21.431Z"
     },
     "IH-ENG-0411": {
       "status": "found",
@@ -10844,9 +10875,9 @@
     "IH-ENG-0418": {
       "status": "found",
       "localPath": "covers/IH-ENG-0418.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788974574956.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788974574956C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788974574956",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "중학 영단어 단어가 읽기다 실력편(중2~중3)",
       "sourceAuthor": "저",
       "score": 88,
@@ -10855,7 +10886,8 @@
       "materialTitle": "단어가 읽기다 (중3)",
       "publisher": "키출판사",
       "searchQuery": "단어가 읽기다 (중3)",
-      "isbn": "9788974574956"
+      "isbn": "9788974574956",
+      "verifiedAt": "2026-07-03T08:21:24.308Z"
     },
     "IH-ENG-0426": {
       "status": "no_cover_real",
@@ -10934,9 +10966,9 @@
     "IH-ENG-0454": {
       "status": "found",
       "localPath": "covers/IH-ENG-0454.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162409084.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791162409084C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791162409084",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "자이스토리 영어 어법 어휘 실전(2026)(2027 수능대비)",
       "sourceAuthor": ",,, 등저",
       "score": 54,
@@ -10945,14 +10977,15 @@
       "materialTitle": "어법·어휘 실전",
       "publisher": "수경출판사/자이스토리",
       "searchQuery": "어법·어휘 실전",
-      "isbn": "9791162409084"
+      "isbn": "9791162409084",
+      "verifiedAt": "2026-07-03T08:21:27.272Z"
     },
     "IH-ENG-0466": {
       "status": "found",
       "localPath": "covers/IH-ENG-0466.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791189719494.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791189719494C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791189719494",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "중학 영문법 문법이 내신이다 2학년",
       "sourceAuthor": "저",
       "score": 54,
@@ -10961,7 +10994,8 @@
       "materialTitle": "문법이 내신이다",
       "publisher": "키출판사",
       "searchQuery": "문법이 내신이다",
-      "isbn": "9791189719494"
+      "isbn": "9791189719494",
+      "verifiedAt": "2026-07-03T08:21:30.279Z"
     },
     "IH-ENG-0475": {
       "status": "found",
@@ -10996,18 +11030,19 @@
     "IH-ENG-0488": {
       "status": "found",
       "localPath": "covers/IH-ENG-0488.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791129711281.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791129711281C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791129711281",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "메가스터디 N제 영어영역 어법 어휘 222제",
       "sourceAuthor": ",,, 공저",
       "score": 70,
-      "bytes": 30331,
+      "bytes": 24124,
       "contentType": "image/jpeg",
       "materialTitle": "메가스터디 N제 영어영역 어법·어휘",
       "publisher": "메가스터디북스",
       "searchQuery": "메가스터디 N제 영어영역 어법·어휘",
-      "isbn": "9791129711281"
+      "isbn": "9791129711281",
+      "verifiedAt": "2026-07-03T08:21:33.153Z"
     },
     "IH-ENG-0489": {
       "status": "no_cover_real",
@@ -11085,9 +11120,9 @@
     },
     "IH-ENG-0561": {
       "status": "found",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162409077.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791162409077C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791162409077",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "자이스토리 영어 독해 실전(2026)(2027 수능대비)",
       "sourceAuthor": "등저",
       "score": 62,
@@ -11097,7 +11132,8 @@
       "publisher": "수경출판사/자이스토리",
       "searchQuery": "자이스토리 영어 독해 실전 (Xi STORY)",
       "localPath": "covers/IH-ENG-0561.jpg",
-      "isbn": "9791162409077"
+      "isbn": "9791162409077",
+      "verifiedAt": "2026-07-03T08:21:36.030Z"
     },
     "IH-ENG-0564": {
       "status": "found",
@@ -11117,9 +11153,9 @@
     "IH-ENG-0568": {
       "status": "found",
       "localPath": "covers/IH-ENG-0568.jpg",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791189719050.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791189719050C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9791189719050",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "강성태 영어독해 속독편",
       "sourceAuthor": "저",
       "score": 54,
@@ -11128,7 +11164,8 @@
       "materialTitle": "강성태 영어독해",
       "publisher": "키출판사",
       "searchQuery": "강성태 영어독해",
-      "isbn": "9791189719050"
+      "isbn": "9791189719050",
+      "verifiedAt": "2026-07-03T08:21:39.045Z"
     },
     "IH-ENG-0588": {
       "status": "needs_review",
@@ -11241,19 +11278,20 @@
     },
     "IH-ENG-0657": {
       "status": "found",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788996245544.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788996245544C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788996245544",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "Power Up 수능대비 영숙어",
       "sourceAuthor": "Nixon, Caroline",
       "score": 54,
-      "bytes": 83024,
+      "bytes": 34262,
       "contentType": "image/jpeg",
       "materialTitle": "Power Up",
       "publisher": "Cambridge",
       "searchQuery": "Power Up",
       "localPath": "covers/IH-ENG-0657.jpg",
-      "isbn": "9788996245544"
+      "isbn": "9788996245544",
+      "verifiedAt": "2026-07-03T08:22:36.643Z"
     },
     "IH-ENG-0658": {
       "status": "found",
@@ -11363,9 +11401,9 @@
     },
     "IH-ENG-0685": {
       "status": "found",
-      "imageUrl": "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788954796767.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9788954796767C001.jpg",
       "sourcePage": "https://product.kyobobook.co.kr/detail/9788954796767",
-      "source": "Kyobo",
+      "source": "KOBIC",
       "sourceTitle": "EBS 강의노트 수능개념 김제희의 Close-Up 구문·구조 독해(2026)(2028 수능대비)",
       "sourceAuthor": "National Geographic Learning (COR)",
       "score": 54,
@@ -11375,7 +11413,8 @@
       "publisher": "NationalGeographic/Cengage",
       "searchQuery": "Close-Up",
       "localPath": "covers/IH-ENG-0685.jpg",
-      "isbn": "9788954796767"
+      "isbn": "9788954796767",
+      "verifiedAt": "2026-07-03T08:22:50.395Z"
     },
     "IH-ENG-0687": {
       "status": "found",
@@ -37452,15 +37491,6 @@
       "publisher": "부크크(bookk)",
       "bytes": 67351
     },
-    "IH-ENG-5515": {
-      "status": "no_cover_real",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202507/9791199273931C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791199273931",
-      "materialTitle": "스프링 여행 영어회화",
-      "publisher": "어학시대",
-      "bytes": 34150
-    },
     "IH-ENG-5516": {
       "status": "found",
       "localPath": "covers/IH-ENG-5516.jpg",
@@ -54011,15 +54041,6 @@
       "publisher": "와이비엠",
       "bytes": 58494
     },
-    "IH-ENG-8029": {
-      "status": "no_cover_real",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202506/9788917304060C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788917304060",
-      "materialTitle": "초등 영어자습서&평가문제집 4-2 (최희경) 22개정",
-      "publisher": "와이비엠",
-      "bytes": 34150
-    },
     "IH-ENG-8030": {
       "status": "found",
       "localPath": "covers/IH-ENG-8030.jpg",
@@ -58979,15 +59000,6 @@
       "materialTitle": "이얼 신유형 영어 유지성 실전독해 올인원 구문+독해",
       "publisher": "용감한북스",
       "bytes": 38622
-    },
-    "IH-ENG-8964": {
-      "status": "no_cover_real",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202508/9791168182301C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791168182301",
-      "materialTitle": "2026 백세레나 영어: 독해편",
-      "publisher": "고시동네",
-      "bytes": 34150
     },
     "IH-ENG-8965": {
       "status": "found",
@@ -67324,6 +67336,666 @@
       "materialTitle": "9월 학력평가 기말고사 대비 모의고사 4개년 고1 전과목(국어 수학 영어 사회 한국사 과학) (2026년)",
       "publisher": "",
       "bytes": 48039
+    },
+    "IH-ENG-10472": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10472.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9791165263010C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165263010",
+      "materialTitle": "초등 영문법 문법이 쓰기다 기본 1",
+      "publisher": "키출판사",
+      "bytes": 100358
+    },
+    "IH-ENG-11085": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-11085.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202307/9791167440501C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791167440501",
+      "materialTitle": "기출플러스 중학 영어 3-2 내신대비문제집(동아 윤정미)(2023)",
+      "publisher": "서연교육출판",
+      "bytes": 32653
+    },
+    "IH-ENG-11088": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-11088.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202303/9791167440198C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791167440198",
+      "materialTitle": "기출플러스 중학 영어 2-1 내신대비문제집(천재 이재영)(2022)",
+      "publisher": "서연교육출판",
+      "bytes": 30359
+    },
+    "IH-ENG-11089": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-11089.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791167440280C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791167440280",
+      "materialTitle": "기출플러스 중학 영어 3-1 내신대비문제집(능률 김성곤)(2024)",
+      "publisher": "서연교육출판",
+      "bytes": 34956
+    },
+    "IH-ENG-11384": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-11384.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788964150726C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788964150726",
+      "materialTitle": "어린왕자",
+      "publisher": "스크린영어사",
+      "bytes": 32804
+    },
+    "IH-ENG-0070": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-0070.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974574543C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974574543",
+      "bytes": 53610,
+      "materialTitle": "초등 영어 파닉스가 스타트다 1",
+      "verifiedAt": "2026-07-03T07:56:18.831Z"
+    },
+    "IH-ENG-1066": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1066.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202412/9788954787291C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954787291",
+      "bytes": 44033,
+      "materialTitle": "EBS Step by Step 초등 영문법, 독해의 힘! LEVEL 1",
+      "verifiedAt": "2026-07-03T07:56:27.299Z"
+    },
+    "IH-ENG-1136": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1136.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788927741480C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927741480",
+      "bytes": 31630,
+      "materialTitle": "시험에 강한 중학영문법 1",
+      "verifiedAt": "2026-07-03T07:56:30.190Z"
+    },
+    "IH-ENG-1171": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1171.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9788927708919C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927708919",
+      "bytes": 31211,
+      "materialTitle": "내신공략 중학영문법 2: 개념이해책",
+      "verifiedAt": "2026-07-03T07:56:33.077Z"
+    },
+    "IH-ENG-1330": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1330.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974577087C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974577087",
+      "bytes": 54445,
+      "materialTitle": "초등 첫 영문법 문법이 쓰기다 Starter 2",
+      "verifiedAt": "2026-07-03T07:56:36.097Z"
+    },
+    "IH-ENG-1331": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1331.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974577070C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974577070",
+      "bytes": 54150,
+      "materialTitle": "초등 첫 영문법 문법이 쓰기다 Starter 1",
+      "verifiedAt": "2026-07-03T07:56:39.131Z"
+    },
+    "IH-ENG-1446": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1446.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791162403969C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791162403969",
+      "bytes": 36775,
+      "materialTitle": "자이스토리 중등 영어 독해 기본 2",
+      "verifiedAt": "2026-07-03T07:56:45.844Z"
+    },
+    "IH-ENG-1471": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1471.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791162403259C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791162403259",
+      "bytes": 46523,
+      "materialTitle": "자이스토리 예비 중등 영어 독해 Level 1",
+      "verifiedAt": "2026-07-03T07:56:48.866Z"
+    },
+    "IH-ENG-1574": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1574.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9788927707882C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927707882",
+      "bytes": 39571,
+      "materialTitle": "내공 중학영어독해 실력 1",
+      "verifiedAt": "2026-07-03T07:56:51.752Z"
+    },
+    "IH-ENG-1701": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-1701.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788954778664C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954778664",
+      "bytes": 46953,
+      "materialTitle": "EBS 초등 영어듣기평가 완벽대비 4-2(2024)",
+      "verifiedAt": "2026-07-03T07:56:54.774Z"
+    },
+    "IH-ENG-2259": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-2259.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202507/9791174670151C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174670151",
+      "bytes": 48434,
+      "materialTitle": "기적의 영단어 Quick & Easy 기본 2",
+      "verifiedAt": "2026-07-03T07:57:01.476Z"
+    },
+    "IH-ENG-2549": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-2549.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791174670458C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174670458",
+      "bytes": 51361,
+      "materialTitle": "기적의 영어리딩 1B with 파닉스",
+      "verifiedAt": "2026-07-03T07:57:04.502Z"
+    },
+    "IH-ENG-2689": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-2689.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791189719463C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791189719463",
+      "bytes": 70307,
+      "materialTitle": "중학 영어 구문이 독해다 Starter",
+      "verifiedAt": "2026-07-03T07:57:07.516Z"
+    },
+    "IH-ENG-2728": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-2728.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202405/9791164067527C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791164067527",
+      "bytes": 44761,
+      "materialTitle": "기적의 영어문장 쓰기 1",
+      "verifiedAt": "2026-07-03T07:57:10.539Z"
+    },
+    "IH-ENG-3986": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-3986.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788928349692C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788928349692",
+      "bytes": 28177,
+      "materialTitle": "Grammar Wise 그래머 와이즈 Level 1(2024)",
+      "verifiedAt": "2026-07-03T07:57:20.788Z"
+    },
+    "IH-ENG-9556": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9556.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202603/9791192702704C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791192702704",
+      "bytes": 39182,
+      "materialTitle": "High School Reading English Literature(고등 영미문학읽기) 자습서",
+      "verifiedAt": "2026-07-03T08:13:29.596Z"
+    },
+    "IH-ENG-9580": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9580.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788983960702C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788983960702",
+      "bytes": 24687,
+      "materialTitle": "제인 에어(Jane Eyre)",
+      "verifiedAt": "2026-07-03T08:13:36.217Z"
+    },
+    "IH-ENG-9768": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9768.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983965004C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788983965004",
+      "bytes": 75346,
+      "materialTitle": "모비딕",
+      "verifiedAt": "2026-07-03T08:14:48.411Z"
+    },
+    "IH-ENG-9769": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9769.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983964779C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788983964779",
+      "bytes": 30465,
+      "materialTitle": "트리스트람 섄디",
+      "verifiedAt": "2026-07-03T08:14:51.289Z"
+    },
+    "IH-ENG-9770": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9770.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983964731C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788983964731",
+      "bytes": 28271,
+      "materialTitle": "폭풍의 언덕",
+      "verifiedAt": "2026-07-03T08:14:54.152Z"
+    },
+    "IH-ENG-9821": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9821.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788926819043C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788926819043",
+      "bytes": 18811,
+      "materialTitle": "영미 시와 과학문화",
+      "verifiedAt": "2026-07-03T08:14:57.015Z"
+    },
+    "IH-ENG-9858": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9858.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968178337C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968178337",
+      "bytes": 71962,
+      "materialTitle": "언어: 풀어쓴 언어학 개론",
+      "verifiedAt": "2026-07-03T08:15:00.029Z"
+    },
+    "IH-ENG-9912": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9912.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788983962065C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788983962065",
+      "bytes": 42792,
+      "materialTitle": "영어 음성학의 이론과 실제",
+      "verifiedAt": "2026-07-03T08:15:39.467Z"
+    },
+    "IH-ENG-9963": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9963.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/001/160/00116065.jpg?udate=20150730",
+      "source": "KOBIC",
+      "isbn": "9788977359710",
+      "bytes": 8737,
+      "materialTitle": "문화와 의사소통의 사회언어학",
+      "verifiedAt": "2026-07-03T08:16:16.055Z"
+    },
+    "IH-ENG-9970": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9970.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791128882142C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791128882142",
+      "bytes": 103906,
+      "materialTitle": "심리언어학, 말과 마음의 학문",
+      "verifiedAt": "2026-07-03T08:16:26.370Z"
+    },
+    "IH-ENG-9971": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9971.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/060/725/06072598.jpg?udate=20141122",
+      "source": "KOBIC",
+      "isbn": "9788957266632",
+      "bytes": 44542,
+      "materialTitle": "심리언어학",
+      "verifiedAt": "2026-07-03T08:16:30.109Z"
+    },
+    "IH-ENG-9975": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9975.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791175199897C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175199897",
+      "bytes": 32533,
+      "materialTitle": "New Build Up 박현수 영어교육론 5: Beyond the Bank",
+      "verifiedAt": "2026-07-03T08:16:32.973Z"
+    },
+    "IH-ENG-9976": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9976.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202603/9791173841255C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791173841255",
+      "bytes": 37398,
+      "materialTitle": "2027 권영주 영어교육론 임용 기출문제 해설서",
+      "verifiedAt": "2026-07-03T08:16:35.830Z"
+    },
+    "IH-ENG-9989": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9989.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202412/9788963369631C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788963369631",
+      "bytes": 63273,
+      "materialTitle": "2026 권영주 임용전공 영어교육론",
+      "verifiedAt": "2026-07-03T08:16:38.836Z"
+    },
+    "IH-ENG-9992": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-9992.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202403/9788963368818C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788963368818",
+      "bytes": 31872,
+      "materialTitle": "2025 권영주 영어교육론 기출문제 해설서",
+      "verifiedAt": "2026-07-03T08:16:41.705Z"
+    },
+    "IH-ENG-10064": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10064.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9788920041792C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788920041792",
+      "bytes": 18183,
+      "materialTitle": "영어교수법",
+      "verifiedAt": "2026-07-03T08:17:02.585Z"
+    },
+    "IH-ENG-10065": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10065.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788924080193C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788924080193",
+      "bytes": 21836,
+      "materialTitle": "임용 시험을 위한 영어 교수법",
+      "verifiedAt": "2026-07-03T08:17:05.445Z"
+    },
+    "IH-ENG-10157": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10157.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788977757493C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788977757493",
+      "bytes": 23869,
+      "materialTitle": "번역에서 번역학으로",
+      "verifiedAt": "2026-07-03T08:17:48.299Z"
+    },
+    "IH-ENG-10166": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10166.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788995112090C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788995112090",
+      "bytes": 45171,
+      "materialTitle": "번역학 연구의 길잡이",
+      "verifiedAt": "2026-07-03T08:17:54.993Z"
+    },
+    "IH-ENG-10175": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10175.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788992835190C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788992835190",
+      "bytes": 20923,
+      "materialTitle": "저절로 외워지는 영어",
+      "verifiedAt": "2026-07-03T08:18:06.047Z"
+    },
+    "IH-ENG-10177": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10177.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124374108C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124374108",
+      "bytes": 26699,
+      "materialTitle": "로버트 쇼(Robert B. Shaw)의 동투르크스탄어-영어 사전 역주",
+      "verifiedAt": "2026-07-03T08:18:08.917Z"
+    },
+    "IH-ENG-10179": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10179.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202602/9788992835176C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788992835176",
+      "bytes": 31160,
+      "materialTitle": "영어문형학습법",
+      "verifiedAt": "2026-07-03T08:18:12.962Z"
+    },
+    "IH-ENG-10182": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10182.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791194132462C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791194132462",
+      "bytes": 33592,
+      "materialTitle": "2026 3월 반배치+학력평가+중간고사 대비 예비 고1 전과목 (국어 수학 영어 사회 한국사 과학) 5개년 30회",
+      "verifiedAt": "2026-07-03T08:18:15.821Z"
+    },
+    "IH-ENG-10191": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10191.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202411/9791198191366C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791198191366",
+      "bytes": 38220,
+      "materialTitle": "아제르바이잔어-한국어-영어 사전",
+      "verifiedAt": "2026-07-03T08:18:18.673Z"
+    },
+    "IH-ENG-10192": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10192.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791185719337C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791185719337",
+      "bytes": 53572,
+      "materialTitle": "탑보카(Top Voca) 2: 전치사 & 콜로케이션",
+      "verifiedAt": "2026-07-03T08:18:21.658Z"
+    },
+    "IH-ENG-10194": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10194.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791198648907C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791198648907",
+      "bytes": 66551,
+      "materialTitle": "미국TV(Television) 방송 청취 / 시청 영어 사전",
+      "verifiedAt": "2026-07-03T08:18:24.641Z"
+    },
+    "IH-ENG-10207": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10207.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/8809264181843C001.jpg",
+      "source": "KOBIC",
+      "isbn": "8809264181843",
+      "bytes": 55372,
+      "materialTitle": "세계 명작 동화 골디락스와 곰 세마리 영어 사운드북",
+      "verifiedAt": "2026-07-03T08:18:31.527Z"
+    },
+    "IH-ENG-10208": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10208.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788928107018C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788928107018",
+      "bytes": 80095,
+      "materialTitle": "우리 아이 첫 영어사전",
+      "verifiedAt": "2026-07-03T08:18:34.514Z"
+    },
+    "IH-ENG-10219": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10219.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791164382460C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791164382460",
+      "bytes": 85487,
+      "materialTitle": "신비아파트 고스트볼 더블X 6개의 예언 찾아라! 알파벳! 영어 사전",
+      "verifiedAt": "2026-07-03T08:18:37.495Z"
+    },
+    "IH-ENG-10225": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10225.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791185719283C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791185719283",
+      "bytes": 39178,
+      "materialTitle": "교양영어 고급지문 .2: 원서독해",
+      "verifiedAt": "2026-07-03T08:18:40.348Z"
+    },
+    "IH-ENG-10242": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10242.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788964150757C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788964150757",
+      "bytes": 79041,
+      "materialTitle": "스크린 자막없이 보기 회화문법 150",
+      "verifiedAt": "2026-07-03T08:18:43.358Z"
+    },
+    "IH-ENG-10244": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10244.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791187014119C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791187014119",
+      "bytes": 69528,
+      "materialTitle": "알파벳 26자의 비밀",
+      "verifiedAt": "2026-07-03T08:18:46.658Z"
+    },
+    "IH-ENG-10249": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10249.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791196044404C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791196044404",
+      "bytes": 74647,
+      "materialTitle": "독약영문법",
+      "verifiedAt": "2026-07-03T08:18:49.635Z"
+    },
+    "IH-ENG-10250": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10250.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791159873799C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791159873799",
+      "bytes": 74626,
+      "materialTitle": "나만의 비밀 영어사전",
+      "verifiedAt": "2026-07-03T08:18:52.608Z"
+    },
+    "IH-ENG-10289": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10289.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791185719009C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791185719009",
+      "bytes": 71205,
+      "materialTitle": "실탄어휘 2000발(중급)",
+      "verifiedAt": "2026-07-03T08:18:55.612Z"
+    },
+    "IH-ENG-10291": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10291.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788971099339C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788971099339",
+      "bytes": 69876,
+      "materialTitle": "중학 영어사전(최신 컬러판)",
+      "verifiedAt": "2026-07-03T08:18:58.619Z"
+    },
+    "IH-ENG-10338": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10338.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788992835060C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788992835060",
+      "bytes": 44199,
+      "materialTitle": "영어문형코드",
+      "verifiedAt": "2026-07-03T08:19:12.661Z"
+    },
+    "IH-ENG-10339": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10339.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788997551118C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788997551118",
+      "bytes": 29560,
+      "materialTitle": "내신잡는 중학 교과서 VOCA 1800 + 1402",
+      "verifiedAt": "2026-07-03T08:19:15.533Z"
+    },
+    "IH-ENG-10342": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10342.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788964150153C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788964150153",
+      "bytes": 26666,
+      "materialTitle": "디즈니 픽사 메리다와 마법의 숲",
+      "verifiedAt": "2026-07-03T08:19:18.414Z"
+    },
+    "IH-ENG-10344": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10344.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788997551071C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788997551071",
+      "bytes": 17133,
+      "materialTitle": "NEAT Bille(한끝편)(2012)",
+      "verifiedAt": "2026-07-03T08:19:21.289Z"
+    },
+    "IH-ENG-10351": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10351.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791158489595C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791158489595",
+      "bytes": 686527,
+      "materialTitle": "코퍼스 언어학을 위한 통계: 실용적 가이드",
+      "verifiedAt": "2026-07-03T08:19:24.735Z"
+    },
+    "IH-ENG-10355": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10355.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791186778197C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791186778197",
+      "bytes": 64252,
+      "materialTitle": "코퍼스 언어학의 이해와 실제",
+      "verifiedAt": "2026-07-03T08:19:27.736Z"
+    },
+    "IH-ENG-10372": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10372.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/095/202/09520262.jpg?udate=20170414",
+      "source": "KOBIC",
+      "isbn": "9788963320953",
+      "bytes": 55875,
+      "materialTitle": "English linguistics for TESOL",
+      "verifiedAt": "2026-07-03T08:19:31.871Z"
+    },
+    "IH-ENG-10387": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10387.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788955063677C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788955063677",
+      "bytes": 200534,
+      "materialTitle": "영문학의 길잡이",
+      "verifiedAt": "2026-07-03T08:19:35.581Z"
+    },
+    "IH-ENG-10468": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10468.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9788997134625C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788997134625",
+      "bytes": 1569500,
+      "materialTitle": "실전! 글로벌 비즈니스 한국어 통번역 1",
+      "verifiedAt": "2026-07-03T08:19:40.224Z"
+    },
+    "IH-ENG-10469": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-10469.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9788997134632C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788997134632",
+      "bytes": 1636676,
+      "materialTitle": "실전! 글로벌 비즈니스 한국어 통번역 2",
+      "verifiedAt": "2026-07-03T08:19:45.512Z"
     }
   }
 }
