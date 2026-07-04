@@ -16,7 +16,7 @@ const master = JSON.parse(html.match(/<script id="master-data" type="application
 const images = (JSON.parse(fs.readFileSync(IMG_JSON, "utf8")).images) || {};
 
 // 무료 API enrich 캐시(있으면 머지) — 알라딘(인기·가격·표지·절판) > 카카오(가격·표지 폴백) > 원서(OpenLibrary/GoogleBooks 표지·메타)
-function loadEnrich(name) { try { return JSON.parse(fs.readFileSync(path.join(DATA, name), "utf8")) || {}; } catch (e) { return {}; } }
+function loadEnrich(name) { try { const j = JSON.parse(fs.readFileSync(path.join(DATA, name), "utf8")) || {}; return (j.items && typeof j.items === "object") ? j.items : j; } catch (e) { return {}; } }   // {items:{}} 래퍼도 관용
 const ENRICH_ALADIN = loadEnrich("aladin_enrich.json");
 const ENRICH_KAKAO = loadEnrich("kakao_enrich.json");
 const ENRICH_FOREIGN = loadEnrich("foreign_enrich.json");

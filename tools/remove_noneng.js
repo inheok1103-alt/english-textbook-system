@@ -29,6 +29,15 @@ function isNonEnglish(b) {
   if (!engKw && /일본어|중국어|광둥어|불어|독일어|스페인어|러시아어|베트남어|아랍어|태국어|한글|한국어\s*학습|한자|한문|프로그래밍|컴퓨터|코딩|파이썬|자바|엑셀|VBA|일본어능력시험|JLPT|JPT|HSK|TOPIK|토픽/i.test(s)) return true;
   // 규칙2: KOBIC 책인데 영어 신호 0 (라틴<3 + 학습키워드無 + 전공無) → 비영어(KDC 840 오태깅 한국책·번역서 등)
   if (b.source === "KOBIC" && latin < 3 && !engKw && !major) return true;
+  // 규칙3: 알라딘 수확분 타 과목(국어·수학·사회·과학 등) — 카테고리가 영어/외국어가 아니면 제거(카테고리 기반=신뢰).
+  //         "문법·독해·어휘"가 국어책에도 있어 키워드로는 못 거르므로 알라딘 카테고리 경로로 판정.
+  if (b.source === "ALADIN") {
+    const cat2 = cat + " " + (b.category || "");
+    if (!/영어|영문|외국어|english/i.test(cat2) && /국어|수학|사회탐구|사회·?문화|과학탐구|통합과학|한국사|국사|세계사|동아시아|한국지리|세계지리|도덕|윤리|한문|물리학|화학|생명과학|지구과학|정치와\s*법/.test(cat2)) return true;
+    // 제목이 명백한 타 과목 — 세계사 독해·한국사·국어·한자 어휘 등 잔존분(강한 영어신호 없을 때만)
+    const strongEng = /영어|영문|영단어|영숙어|영작|파닉스|phonics|토익|toeic|토플|toefl|텝스|english|grammar|voca(?!청)|리딩|reading/i.test(t);
+    if (!strongEng && /세계사|한국사|국사|국어|한자\s*어휘|사회\s*교과서|역사\s*독해/.test(t)) return true;
+  }
   return false;
 }
 

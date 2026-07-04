@@ -17,6 +17,9 @@ module.exports = {
     { id: "merge-major", ko: "전공 병합", tier: "deep", cmd: "node tools/harvest_kobic_merge.js" },
     { id: "harvest-foreign", ko: "원서 발굴(ELT)", tier: "deep", cmd: "node tools/harvest_kobic.js", env: { KOBIC_NOPUBFILTER: "1", KOBIC_MAXPAGES: "6", KOBIC_TERMS: FOREIGN } },
     { id: "merge-foreign", ko: "원서 병합", tier: "deep", cmd: "node tools/harvest_kobic_merge.js" },
+    // 🛒 알라딘 상업 카탈로그 전수 수확·병합(참고서·시험서·인기 시리즈 — KOBIC 누락 상시 보완)
+    { id: "harvest-aladin", ko: "알라딘 영어교재 전수 수확", tier: "deep", cmd: "node tools/harvest_aladin.js", env: { ALADIN_PAGES: "3" } },
+    { id: "merge-aladin", ko: "알라딘 수확 병합·정리(영역·학년 자동)", tier: "deep", cmd: "node tools/merge_aladin_catalog.js" },
     // 확장/특수 카탈로그(수동): 원서 고전·ELT·특수 시드 확장
     { id: "import-classics", ko: "원서 고전 시드", tier: "manual", cmd: "node tools/import_classics.js" },
     { id: "add-elt", ko: "ELT 시리즈 시드", tier: "manual", cmd: "node tools/add_elt.js" },
