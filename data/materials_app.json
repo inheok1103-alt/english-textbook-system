@@ -1080,7 +1080,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.711096,
+  "q": 60.711096,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -1088,7 +1088,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/12603/98/cover500/8974572885_1.jpg",
+  "cover": "covers/IH-ALADIN-9788974572884.jpg",
   "price": 14400,
   "salesPoint": 33285,
   "pop": 33285,
@@ -2150,7 +2150,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.862222,
+  "q": 74.862222,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -2158,7 +2158,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/30388/54/cover500/8960499757_1.jpg",
+  "cover": "covers/IH-ALADIN-9788960499751.jpg",
   "price": 18000,
   "salesPoint": 13515,
   "pop": 13515,
@@ -18722,49 +18722,6 @@
   "source": "ALADIN"
  },
  {
-  "id": "IH-ALADIN-9791164065110",
-  "pub": "길벗스쿨",
-  "title": "기적의 영어문장 만들기 1~5권 세트 - 전5권 - 단어 블록 연결로 초등 문법과 작문을 동시에 해결!",
-  "skill": "문법",
-  "level": 2,
-  "goals": [
-   "문법 잡기",
-   "학교영어 따라가기",
-   "어휘 늘리기",
-   "쓰기·서술형"
-  ],
-  "timing": [
-   "학기중 꾸준히"
-  ],
-  "q": 74.87818,
-  "teacherRef": false,
-  "examPrep": false,
-  "examType": "",
-  "parentBook": false,
-  "tags": [],
-  "situations": [],
-  "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/33743/74/cover500/k962930863_1.jpg",
-  "price": 63000,
-  "salesPoint": 526,
-  "pop": 526,
-  "age": "",
-  "comment": "",
-  "fullComment": "",
-  "part": "",
-  "track": "문법",
-  "gradeBand": "초등",
-  "cefr": "",
-  "lexile": null,
-  "ageBand": "초등저(8-10)",
-  "status": "정상",
-  "foreign": false,
-  "isbn": "9791164065110",
-  "kdc": "",
-  "pubDate": "2024-04-15",
-  "source": "ALADIN"
- },
- {
   "id": "IH-ALADIN-9791164065134",
   "pub": "길벗스쿨",
   "title": "기적의 영어문장 만들기 2 : 2형식 문장 - 단어 블록 연결로 초등 문법과 작문을 동시에 해결!",
@@ -18848,6 +18805,49 @@
   "isbn": "9791164065141",
   "kdc": "",
   "pubDate": "2023-05-23",
+  "source": "ALADIN"
+ },
+ {
+  "id": "IH-ALADIN-9791164065110",
+  "pub": "길벗스쿨",
+  "title": "기적의 영어문장 만들기 세트 - 전5권 - 단어 블록 연결로 초등 문법과 작문을 동시에 해결!",
+  "skill": "문법",
+  "level": 2,
+  "goals": [
+   "문법 잡기",
+   "학교영어 따라가기",
+   "어휘 늘리기",
+   "쓰기·서술형"
+  ],
+  "timing": [
+   "학기중 꾸준히"
+  ],
+  "q": 74.87818,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "https://image.aladin.co.kr/product/33743/74/cover500/k962930863_1.jpg",
+  "price": 63000,
+  "salesPoint": 526,
+  "pop": 526,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "문법",
+  "gradeBand": "초등",
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "초등저(8-10)",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791164065110",
+  "kdc": "",
+  "pubDate": "2024-04-15",
   "source": "ALADIN"
  },
  {
@@ -23754,7 +23754,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.901738,
+  "q": 80.901738,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -23762,7 +23762,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34526/22/cover500/k162932852_1.jpg",
+  "cover": "covers/IH-ALADIN-9791192389998.jpg",
   "price": 22500,
   "salesPoint": 15021,
   "pop": 15021,
@@ -33776,7 +33776,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.723638,
+  "q": 67.723638,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -33784,7 +33784,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/17168/65/cover500/8927701054_1.jpg",
+  "cover": "covers/IH-ALADIN-9788927701057.jpg",
   "price": 22500,
   "salesPoint": 24989,
   "pop": 24989,
@@ -44599,7 +44599,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.939568,
+  "q": 80.939568,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -44607,7 +44607,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34312/43/cover500/k132932479_1.jpg",
+  "cover": "covers/IH-ALADIN-9791140709960.jpg",
   "price": 17820,
   "salesPoint": 18439,
   "pop": 18439,
@@ -45127,7 +45127,7 @@
  {
   "id": "IH-ALADIN-9791190859127",
   "pub": "맥스밀리언북하우스",
-  "title": "듀오랩 이중언어 포켓북 시리즈 1~5 세트 - 전5권",
+  "title": "듀오랩 이중언어 포켓북 세트 - 전5권",
   "skill": "독해",
   "level": 3,
   "goals": [
@@ -55997,7 +55997,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.925591,
+  "q": 80.925591,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -56005,7 +56005,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/35777/7/cover500/k542036941_3.jpg",
+  "cover": "covers/IH-ALADIN-9791166571824.jpg",
   "price": 19800,
   "salesPoint": 11799,
   "pop": 11799,
@@ -56646,7 +56646,7 @@
   "timing": [
    "방학 단기집중"
   ],
-  "q": 74.897304,
+  "q": 80.897304,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -56654,7 +56654,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38156/85/cover500/k642034401_1.jpg",
+  "cover": "covers/IH-ALADIN-9791198843845.jpg",
   "price": 19980,
   "salesPoint": 21054,
   "pop": 21054,
@@ -56689,7 +56689,7 @@
    "시험 직전",
    "방학 단기집중"
   ],
-  "q": 74.928422,
+  "q": 80.928422,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -56697,7 +56697,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/36723/92/cover500/k182030891_1.jpg",
+  "cover": "covers/IH-ALADIN-9791198843821.jpg",
   "price": 23400,
   "salesPoint": 10847,
   "pop": 10847,
@@ -67222,7 +67222,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 36.518761,
+  "q": 42.518761,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -67230,7 +67230,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/725/30/cover500/k772639003_1.jpg",
+  "cover": "covers/IH-ALADIN-9788974578329.jpg",
   "price": 13500,
   "salesPoint": 10656,
   "pop": 10656,
@@ -79974,7 +79974,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.746872,
+  "q": 67.746872,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원(기타)",
@@ -79982,7 +79982,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/14902/59/cover500/8994553096_1.jpg",
+  "cover": "covers/IH-ALADIN-9788994553092.jpg",
   "price": 28800,
   "salesPoint": 27571,
   "pop": 27571,
@@ -80256,7 +80256,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.870184,
+  "q": 80.870184,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -80264,7 +80264,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34112/12/cover500/k662931384_3.jpg",
+  "cover": "covers/IH-ALADIN-9791168271999.jpg",
   "price": 17100,
   "salesPoint": 13808,
   "pop": 13808,
@@ -90553,7 +90553,7 @@
  {
   "id": "IH-ALADIN-9791156350569",
   "pub": "랭귀지북스",
-  "title": "셜록 홈즈 걸작선: 다섯 개의 오렌지 씨앗 / 푸른 카벙클 The Five Orange Pips /The Adventure of the Blue Carbuncle  (교재 1권 + 무료 MP3 다운로드)",
+  "title": "셜록 홈즈 걸작선: 다섯 개의 오렌지 씨앗 / 푸른 카벙클 The Five Orange Pips /The Adventure of the Blue Carbuncle (교재 1권 + 무료 MP3 다운로드)",
   "skill": "독해",
   "level": 3,
   "goals": [
@@ -111261,7 +111261,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.834423,
+  "q": 74.834423,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -111269,7 +111269,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/31108/72/cover500/k342831746_1.jpg",
+  "cover": "covers/IH-ALADIN-9791187158448.jpg",
   "price": 1350,
   "salesPoint": 14182,
   "pop": 14182,
@@ -113570,7 +113570,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.912701,
+  "q": 74.912701,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -113578,7 +113578,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/32263/77/cover500/896806282x_1.jpg",
+  "cover": "covers/IH-ALADIN-9788968062827.jpg",
   "price": 17100,
   "salesPoint": 9658,
   "pop": 9658,
@@ -113744,7 +113744,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.912461,
+  "q": 80.912461,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -113752,7 +113752,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37257/66/cover500/896806587x_1.jpg",
+  "cover": "covers/IH-ALADIN-9788968065873.jpg",
   "price": 17100,
   "salesPoint": 8661,
   "pop": 8661,
@@ -113831,7 +113831,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.907005,
+  "q": 80.907005,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -113839,7 +113839,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37277/97/cover500/8968065853_1.jpg",
+  "cover": "covers/IH-ALADIN-9788968065859.jpg",
   "price": 18000,
   "salesPoint": 19184,
   "pop": 19184,
@@ -124672,7 +124672,7 @@
  {
   "id": "IH-ALADIN-9791112185723",
   "pub": "부크크(bookk)",
-  "title": "영생수 시리즈 6-1 : 영어로 생각하는 수학 6-1 - 초등6학년 제1권",
+  "title": "영생수 : 영어로 생각하는 수학 6-1 - 초등6학년 제1권",
   "skill": "독해",
   "level": 2,
   "goals": [
@@ -125690,7 +125690,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.380724,
+  "q": 30.380724,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -125698,7 +125698,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/100/22/cover500/8995637153_2.jpg",
+  "cover": "covers/IH-ALADIN-9788995637159.jpg",
   "price": 6750,
   "salesPoint": 14824,
   "pop": 14824,
@@ -129759,7 +129759,7 @@
   "timing": [
    "방학 단기집중"
   ],
-  "q": 68.777173,
+  "q": 74.777173,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -129767,7 +129767,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28258/73/cover500/k212835380_1.jpg",
+  "cover": "covers/IH-ALADIN-9791166831515.jpg",
   "price": 13500,
   "salesPoint": 15589,
   "pop": 15589,
@@ -133822,7 +133822,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.926853,
+  "q": 80.926853,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -133830,7 +133830,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34292/9/cover500/k682932176_1.jpg",
+  "cover": "covers/IH-ALADIN-9791171010875.jpg",
   "price": 19800,
   "salesPoint": 32349,
   "pop": 32349,
@@ -135032,7 +135032,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 36.525761,
+  "q": 42.525761,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -135040,7 +135040,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/20085/74/cover500/k322635340_1.jpg",
+  "cover": "covers/IH-ALADIN-9788957974643.jpg",
   "price": 18900,
   "salesPoint": 24419,
   "pop": 24419,
@@ -135072,7 +135072,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 36.530451,
+  "q": 42.530451,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -135080,7 +135080,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/873/2/cover500/8957974660_2.jpg",
+  "cover": "covers/IH-ALADIN-9788957974667.jpg",
   "price": 10800,
   "salesPoint": 10673,
   "pop": 10673,
@@ -136447,7 +136447,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.894643,
+  "q": 80.894643,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -136455,7 +136455,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37605/22/cover500/k962032835_1.jpg",
+  "cover": "covers/IH-ALADIN-9791171715435.jpg",
   "price": 18000,
   "salesPoint": 29179,
   "pop": 29179,
@@ -186998,7 +186998,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.830008,
+  "q": 74.830008,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -187006,7 +187006,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28101/59/cover500/8968062285_1.jpg",
+  "cover": "covers/IH-ALADIN-9788968062285.jpg",
   "price": 17100,
   "salesPoint": 75962,
   "pop": 75962,
@@ -187449,7 +187449,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.828786,
+  "q": 74.828786,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -187457,7 +187457,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28101/59/cover500/896806234x_1.jpg",
+  "cover": "covers/IH-ALADIN-9788968062346.jpg",
   "price": 17100,
   "salesPoint": 15375,
   "pop": 15375,
@@ -187531,7 +187531,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 68.835131,
+  "q": 74.835131,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -187539,7 +187539,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28101/59/cover500/8968062250_1.jpg",
+  "cover": "covers/IH-ALADIN-9788968062254.jpg",
   "price": 15300,
   "salesPoint": 42907,
   "pop": 42907,
@@ -187895,7 +187895,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 68.771433,
+  "q": 74.771433,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -187903,7 +187903,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28101/58/cover500/8968062315_1.jpg",
+  "cover": "covers/IH-ALADIN-9788968062315.jpg",
   "price": 16200,
   "salesPoint": 26720,
   "pop": 26720,
@@ -187979,7 +187979,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 68.837686,
+  "q": 74.837686,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -187987,7 +187987,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/30568/66/cover500/8968062706_1.jpg",
+  "cover": "covers/IH-ALADIN-9788968062704.jpg",
   "price": 18900,
   "salesPoint": 13576,
   "pop": 13576,
@@ -190456,7 +190456,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 73.865089,
+  "q": 79.865089,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -190464,7 +190464,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28182/68/cover500/k962835773_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125337102.jpg",
   "price": 11700,
   "salesPoint": 8828,
   "pop": 8828,
@@ -193501,7 +193501,7 @@
  {
   "id": "IH-ALADIN-9788968064470",
   "pub": "쎄듀(CEDU)",
-  "title": "초등 영어 독해 왓츠 리딩 (What’s Reading) 30/40 - 쉽고 재미있게 완성되는 영어 독해력",
+  "title": "초등 영어 독해 왓츠 리딩 (What’s Reading) 30 - 쉽고 재미있게 완성되는 영어 독해력",
   "skill": "독해",
   "level": 3,
   "goals": [
@@ -209177,7 +209177,7 @@
    "시험 직전",
    "학기중 꾸준히"
   ],
-  "q": 79.936556,
+  "q": 85.936556,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -209185,7 +209185,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/35396/0/cover500/k672035915_1.jpg",
+  "cover": "covers/IH-ALADIN-9791161509228.jpg",
   "price": 19620,
   "salesPoint": 9733,
   "pop": 9733,
@@ -209420,7 +209420,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 73.917072,
+  "q": 79.917072,
   "teacherRef": false,
   "examPrep": true,
   "examType": "경찰",
@@ -209428,7 +209428,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/32462/94/cover500/k302935207_2.jpg",
+  "cover": "covers/IH-ALADIN-9791169661027.jpg",
   "price": 14220,
   "salesPoint": 14888,
   "pop": 14888,
@@ -210147,7 +210147,7 @@
   "timing": [
    "방학 단기집중"
   ],
-  "q": 74.946656,
+  "q": 80.946656,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -210155,7 +210155,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37952/45/cover500/k832033651_2.jpg",
+  "cover": "covers/IH-ALADIN-9791124038123.jpg",
   "price": 19800,
   "salesPoint": 8925,
   "pop": 8925,
@@ -222713,6 +222713,46 @@
   "source": "KOBIC"
  },
  {
+  "id": "IH-ENG-11587",
+  "pub": "메가스터디북스",
+  "title": "풀어서 외우는 영단어 예비고",
+  "skill": "어휘",
+  "level": 4,
+  "goals": [
+   "어휘 늘리기"
+  ],
+  "timing": [
+   "기초 입문"
+  ],
+  "q": 80.945457,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-11587.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "중/고등 학습서 > 영어/수학일반/한자 > 단어/숙어",
+  "gradeBand": "고등",
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "중등(13-16)",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791129718273",
+  "kdc": "언어(740)",
+  "pubDate": "2026년 06월 26일",
+  "source": "KOBIC"
+ },
+ {
   "id": "IH-ALADIN-9791129718198",
   "pub": "메가스터디북스(참고서)",
   "title": "풀어서 외우는 영단어 예비중 - 문제 풀이로 완성하는 영단어 학습",
@@ -227829,7 +227869,7 @@
    "시험 직전",
    "학기중 꾸준히"
   ],
-  "q": 74.949059,
+  "q": 80.949059,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -227837,7 +227877,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/36548/43/cover500/8965427754_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965427759.jpg",
   "price": 15030,
   "salesPoint": 8490,
   "pop": 8490,
@@ -227917,7 +227957,7 @@
    "시험 직전",
    "학기중 꾸준히"
   ],
-  "q": 74.876442,
+  "q": 80.876442,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -227925,7 +227965,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/36428/47/cover500/8965424585_2.jpg",
+  "cover": "covers/IH-ALADIN-9788965424581.jpg",
   "price": 15930,
   "salesPoint": 25603,
   "pop": 25603,
@@ -227960,7 +228000,7 @@
    "시험 직전",
    "학기중 꾸준히"
   ],
-  "q": 74.947104,
+  "q": 80.947104,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -227968,7 +228008,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/36548/43/cover500/8965427762_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965427766.jpg",
   "price": 15930,
   "salesPoint": 24073,
   "pop": 24073,
@@ -231235,7 +231275,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 68.862236,
+  "q": 74.862236,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -231243,7 +231283,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/2573/76/cover500/s422136414_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965420286.jpg",
   "price": 11610,
   "salesPoint": 17056,
   "pop": 17056,
@@ -231319,7 +231359,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.871373,
+  "q": 80.871373,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원(기타)",
@@ -231327,7 +231367,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/45/16/cover500/8990700051_3.jpg",
+  "cover": "covers/IH-ALADIN-9788990700056.jpg",
   "price": 15210,
   "salesPoint": 23400,
   "pop": 23400,
@@ -231619,7 +231659,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.9233,
+  "q": 80.9233,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원(기타)",
@@ -231627,7 +231667,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34/62/cover500/8995151730_3.jpg",
+  "cover": "covers/IH-ALADIN-9788995151730.jpg",
   "price": 15210,
   "salesPoint": 9655,
   "pop": 9655,
@@ -231704,7 +231744,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.939315,
+  "q": 80.939315,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -231712,7 +231752,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/103/9/cover500/s832534099_1.jpg",
+  "cover": "covers/IH-ALADIN-9788990700506.jpg",
   "price": 8910,
   "salesPoint": 10890,
   "pop": 10890,
@@ -233943,7 +233983,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.916533,
+  "q": 80.916533,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -233951,7 +233991,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/14315/37/cover500/8965422515_3.jpg",
+  "cover": "covers/IH-ALADIN-9788965422518.jpg",
   "price": 20610,
   "salesPoint": 11268,
   "pop": 11268,
@@ -233986,7 +234026,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.91622,
+  "q": 80.91622,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -233994,7 +234034,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/14315/37/cover500/8965422523_2.jpg",
+  "cover": "covers/IH-ALADIN-9788965422525.jpg",
   "price": 22410,
   "salesPoint": 9013,
   "pop": 9013,
@@ -234205,7 +234245,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.854084,
+  "q": 80.854084,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -234213,7 +234253,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/15085/21/cover500/s202733549_2.jpg",
+  "cover": "covers/IH-ALADIN-9788965422594.jpg",
   "price": 15210,
   "salesPoint": 9612,
   "pop": 9612,
@@ -234507,7 +234547,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.869445,
+  "q": 80.869445,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -234515,7 +234555,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/30666/67/cover500/s182039571_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965425052.jpg",
   "price": 10710,
   "salesPoint": 16981,
   "pop": 16981,
@@ -234801,7 +234841,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.895622,
+  "q": 80.895622,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -234809,7 +234849,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/29690/7/cover500/8965424828_3.jpg",
+  "cover": "covers/IH-ALADIN-9788965424826.jpg",
   "price": 10710,
   "salesPoint": 9917,
   "pop": 9917,
@@ -234931,7 +234971,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.924791,
+  "q": 80.924791,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -234939,7 +234979,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/35422/13/cover500/8965427487_3.jpg",
+  "cover": "covers/IH-ALADIN-9788965427483.jpg",
   "price": 17010,
   "salesPoint": 18642,
   "pop": 18642,
@@ -235146,7 +235186,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.921847,
+  "q": 80.921847,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -235154,7 +235194,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/30640/55/cover500/s182931386_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965424772.jpg",
   "price": 16920,
   "salesPoint": 44259,
   "pop": 44259,
@@ -235189,7 +235229,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.917551,
+  "q": 80.917551,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -235197,7 +235237,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/30640/30/cover500/s432931235_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965424765.jpg",
   "price": 16920,
   "salesPoint": 52672,
   "pop": 52672,
@@ -235283,7 +235323,7 @@
    "시험 직전",
    "방학 단기집중"
   ],
-  "q": 68.901145,
+  "q": 74.901145,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -235291,7 +235331,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/32355/26/cover500/8965425999_2.jpg",
+  "cover": "covers/IH-ALADIN-9788965425991.jpg",
   "price": 23400,
   "salesPoint": 8950,
   "pop": 8950,
@@ -235711,7 +235751,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.917009,
+  "q": 80.917009,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -235719,7 +235759,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37573/4/cover500/s482034500_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965426820.jpg",
   "price": 25200,
   "salesPoint": 12615,
   "pop": 12615,
@@ -235840,7 +235880,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.906145,
+  "q": 80.906145,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -235848,7 +235888,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37573/5/cover500/8965426537_3.jpg",
+  "cover": "covers/IH-ALADIN-9788965426530.jpg",
   "price": 26100,
   "salesPoint": 16393,
   "pop": 16393,
@@ -235972,7 +236012,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.906122,
+  "q": 80.906122,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -235980,7 +236020,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37573/13/cover500/8965426553_3.jpg",
+  "cover": "covers/IH-ALADIN-9788965426554.jpg",
   "price": 29700,
   "salesPoint": 13967,
   "pop": 13967,
@@ -236102,7 +236142,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.957248,
+  "q": 80.957248,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -236110,7 +236150,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37573/3/cover500/s692034424_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965426561.jpg",
   "price": 25200,
   "salesPoint": 12121,
   "pop": 12121,
@@ -243165,7 +243205,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.39977,
+  "q": 30.39977,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -243173,7 +243213,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/65/16/cover500/8934922052_1.jpg",
+  "cover": "covers/IH-ALADIN-9788934922056.jpg",
   "price": 13410,
   "salesPoint": 39191,
   "pop": 39191,
@@ -256661,7 +256701,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.968437,
+  "q": 80.968437,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -256669,7 +256709,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38507/6/cover500/8954798772_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954798778.jpg",
   "price": 13500,
   "salesPoint": 12337,
   "pop": 12337,
@@ -257619,7 +257659,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.947869,
+  "q": 80.947869,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -257627,7 +257667,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39553/45/cover500/k892139046_1.jpg",
+  "cover": "covers/IH-ALADIN-9771976770006.jpg",
   "price": 11400,
   "salesPoint": 18680,
   "pop": 18680,
@@ -257907,7 +257947,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.725122,
+  "q": 60.725122,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -257915,7 +257955,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/9923/61/cover500/k042735582_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954741293.jpg",
   "price": 9000,
   "salesPoint": 19293,
   "pop": 19293,
@@ -258961,7 +259001,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 74.930869,
+  "q": 80.930869,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -258969,7 +259009,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34353/49/cover500/8954785875_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954785877.jpg",
   "price": 11250,
   "salesPoint": 11387,
   "pop": 11387,
@@ -259804,7 +259844,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 68.788401,
+  "q": 74.788401,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -259812,7 +259852,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28709/42/cover500/8954761623_2.jpg",
+  "cover": "covers/IH-ALADIN-9788954761628.jpg",
   "price": 8100,
   "salesPoint": 9686,
   "pop": 9686,
@@ -260422,7 +260462,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.768008,
+  "q": 74.768008,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -260430,7 +260470,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/26209/53/cover500/8954756700_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954756709.jpg",
   "price": 12150,
   "salesPoint": 8869,
   "pop": 8869,
@@ -261415,7 +261455,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 74.897234,
+  "q": 80.897234,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -261423,7 +261463,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38698/33/cover500/8954799353_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954799355.jpg",
   "price": 14400,
   "salesPoint": 12494,
   "pop": 12494,
@@ -261793,7 +261833,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.925855,
+  "q": 80.925855,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -261801,7 +261841,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/35009/66/cover500/8954786766_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954786768.jpg",
   "price": 14400,
   "salesPoint": 9658,
   "pop": 9658,
@@ -262002,7 +262042,7 @@
   "timing": [
    "기초 입문"
   ],
-  "q": 74.926179,
+  "q": 80.926179,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -262010,7 +262050,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34353/50/cover500/8954785859_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954785853.jpg",
   "price": 9000,
   "salesPoint": 11530,
   "pop": 11530,
@@ -262751,7 +262791,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.94288,
+  "q": 80.94288,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -262759,7 +262799,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37888/41/cover500/8954796524_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954796521.jpg",
   "price": 12000,
   "salesPoint": 10365,
   "pop": 10365,
@@ -262792,7 +262832,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.940754,
+  "q": 80.940754,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -262800,7 +262840,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37887/14/cover500/8954796311_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954796316.jpg",
   "price": 14000,
   "salesPoint": 8550,
   "pop": 8550,
@@ -262832,7 +262872,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.59853,
+  "q": 60.59853,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -262840,7 +262880,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/6012/91/cover500/s052534054_1.jpg",
+  "cover": "covers/IH-ALADIN-9788954735810.jpg",
   "price": 5000,
   "salesPoint": 74790,
   "pop": 74790,
@@ -263463,7 +263503,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.811361,
+  "q": 67.811361,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -263471,7 +263511,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/25855/32/cover500/f742737361_1.jpg",
+  "cover": "covers/IH-ALADIN-9791162371732.jpg",
   "price": 12600,
   "salesPoint": 12234,
   "pop": 12234,
@@ -266464,12 +266504,11 @@
  {
   "id": "IH-ALADIN-9788917228069",
   "pub": "(주)YBM(와이비엠)",
-  "title": "ETS TOEIC Test 공식문제집 LC (문제집 + 해설집 + ETS 성우 MP3, ETS 빈출어휘 PDF 파일 무료 제공) - 출제기관 미공개 2017 최신 실전문항 독점 공개",
+  "title": "ETS TOEIC Test 공식문제집 LC - 출제기관 미공개 2017 최신 실전문항 독점 공개",
   "skill": "듣기",
   "level": 4,
   "goals": [
    "듣기",
-   "어휘 늘리기",
    "시험영어(토익·토플)"
   ],
   "timing": [
@@ -266558,7 +266597,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.963348,
+  "q": 80.963348,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -266566,7 +266605,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39574/46/cover500/8917244165_1.jpg",
+  "cover": "covers/IH-ALADIN-9788917244168.jpg",
   "price": 13500,
   "salesPoint": 13900,
   "pop": 13900,
@@ -266600,7 +266639,7 @@
    "시험 직전",
    "방학 단기집중"
   ],
-  "q": 74.967627,
+  "q": 80.967627,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -266608,7 +266647,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/36682/57/cover500/8917243770_1.jpg",
+  "cover": "covers/IH-ALADIN-9788917243772.jpg",
   "price": 17550,
   "salesPoint": 31003,
   "pop": 31003,
@@ -266642,7 +266681,7 @@
    "시험 직전",
    "방학 단기집중"
   ],
-  "q": 74.971188,
+  "q": 80.971188,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -266650,7 +266689,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/36682/90/cover500/8917243789_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917243789.jpg",
   "price": 17550,
   "salesPoint": 79345,
   "pop": 79345,
@@ -266685,7 +266724,7 @@
    "방학 단기집중",
    "학기중 꾸준히"
   ],
-  "q": 68.885024,
+  "q": 74.885024,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -266693,7 +266732,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/29711/93/cover500/8917237959_1.jpg",
+  "cover": "covers/IH-ALADIN-9788917237955.jpg",
   "price": 17550,
   "salesPoint": 33336,
   "pop": 33336,
@@ -266728,7 +266767,7 @@
    "시험 직전",
    "방학 단기집중"
   ],
-  "q": 74.883746,
+  "q": 80.883746,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -266736,7 +266775,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/34851/6/cover500/8917239617_1.jpg",
+  "cover": "covers/IH-ALADIN-9788917239614.jpg",
   "price": 17550,
   "salesPoint": 12033,
   "pop": 12033,
@@ -266900,7 +266939,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.793061,
+  "q": 74.793061,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -266908,7 +266947,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28415/31/cover500/891723853x_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917238532.jpg",
   "price": 16020,
   "salesPoint": 44131,
   "pop": 44131,
@@ -266942,7 +266981,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.840297,
+  "q": 74.840297,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -266950,7 +266989,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28415/36/cover500/8917238548_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917238549.jpg",
   "price": 16020,
   "salesPoint": 48251,
   "pop": 48251,
@@ -266984,7 +267023,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.878431,
+  "q": 74.878431,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -266992,7 +267031,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/33010/92/cover500/8917239498_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917239492.jpg",
   "price": 17820,
   "salesPoint": 113727,
   "pop": 113727,
@@ -267026,7 +267065,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.923599,
+  "q": 74.923599,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267034,7 +267073,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/33010/94/cover500/8917239501_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917239508.jpg",
   "price": 17820,
   "salesPoint": 122852,
   "pop": 122852,
@@ -267068,7 +267107,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.888564,
+  "q": 80.888564,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267076,7 +267115,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38034/70/cover500/8917243797_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917243796.jpg",
   "price": 19800,
   "salesPoint": 92630,
   "pop": 92630,
@@ -267110,7 +267149,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.952077,
+  "q": 80.952077,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267118,7 +267157,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38034/72/cover500/8917243800_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917243802.jpg",
   "price": 19800,
   "salesPoint": 99794,
   "pop": 99794,
@@ -267155,7 +267194,7 @@
    "시험 직전",
    "기초 입문"
   ],
-  "q": 68.787961,
+  "q": 74.787961,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267163,7 +267202,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28415/24/cover500/8917238580_1.jpg",
+  "cover": "covers/IH-ALADIN-9788917238587.jpg",
   "price": 13500,
   "salesPoint": 18817,
   "pop": 18817,
@@ -267186,7 +267225,7 @@
  {
   "id": "IH-ALADIN-9788917238594",
   "pub": "와이비엠",
-  "title": "ETS 토익 정기시험 기출입문서 RC 리딩 - TOEIC 기출문제 한국 독점출간/ 본책 + 해설집 + 무료 동영상 강의(QR 코드) +  \n단어장 파일/ MP3 + 온라인 모의고사 + APP 모바일 학습  / 2022 대비 최신판",
+  "title": "ETS 토익 정기시험 기출입문서 RC 리딩 - TOEIC 기출문제 한국 독점출간/ 본책 + 해설집 + 무료 동영상 강의(QR 코드) + 단어장 파일/ MP3 + 온라인 모의고사 + APP 모바일 학습 / 2022 대비 최신판",
   "skill": "어휘",
   "level": 3,
   "goals": [
@@ -267200,7 +267239,7 @@
    "시험 직전",
    "기초 입문"
   ],
-  "q": 68.794356,
+  "q": 74.794356,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267208,7 +267247,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28415/29/cover500/8917238599_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917238594.jpg",
   "price": 13500,
   "salesPoint": 17837,
   "pop": 17837,
@@ -267243,7 +267282,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.846686,
+  "q": 74.846686,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267251,7 +267290,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28415/28/cover500/8917238602_1.jpg",
+  "cover": "covers/IH-ALADIN-9788917238600.jpg",
   "price": 17820,
   "salesPoint": 11061,
   "pop": 11061,
@@ -267274,7 +267313,7 @@
  {
   "id": "IH-ALADIN-9788917238617",
   "pub": "(주)YBM(와이비엠)",
-  "title": "ETS 토익 정기시험 기출종합서 RC 리딩 - TOEIC 기출문제 한국 독점출간 / 본책 + 해설집 + 단어 테스트지 + 온라인 모의고사 + \n무료 동영상 강의(QR코드) + APP 모바일 학습 / 2022 대비 최신판",
+  "title": "ETS 토익 정기시험 기출종합서 RC 리딩 - TOEIC 기출문제 한국 독점출간 / 본책 + 해설집 + 단어 테스트지 + 온라인 모의고사 + 무료 동영상 강의(QR코드) + APP 모바일 학습 / 2022 대비 최신판",
   "skill": "어휘",
   "level": 5,
   "goals": [
@@ -267286,7 +267325,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.845512,
+  "q": 74.845512,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267294,7 +267333,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28415/42/cover500/8917238610_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917238617.jpg",
   "price": 17820,
   "salesPoint": 9833,
   "pop": 9833,
@@ -267327,7 +267366,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.869807,
+  "q": 74.869807,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267335,7 +267374,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/31894/55/cover500/8917239315_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917239317.jpg",
   "price": 17820,
   "salesPoint": 8722,
   "pop": 8722,
@@ -267369,7 +267408,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.825723,
+  "q": 74.825723,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -267377,7 +267416,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/31894/61/cover500/8917239323_2.jpg",
+  "cover": "covers/IH-ALADIN-9788917239324.jpg",
   "price": 17820,
   "salesPoint": 9188,
   "pop": 9188,
@@ -271447,7 +271486,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 73.819618,
+  "q": 79.819618,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -271455,7 +271494,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28038/41/cover500/k502734136_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125337072.jpg",
   "price": 13950,
   "salesPoint": 51252,
   "pop": 51252,
@@ -271532,7 +271571,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 73.868402,
+  "q": 79.868402,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -271540,7 +271579,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28038/53/cover500/k722734137_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125337089.jpg",
   "price": 13950,
   "salesPoint": 50028,
   "pop": 50028,
@@ -271617,7 +271656,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 73.774359,
+  "q": 79.774359,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -271625,7 +271664,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/28038/53/cover500/k792734137_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125337096.jpg",
   "price": 13950,
   "salesPoint": 29880,
   "pop": 29880,
@@ -272369,7 +272408,7 @@
  {
   "id": "IH-ALADIN-9788968061790",
   "pub": "쎄듀(CEDU)",
-  "title": "Grammar Q Advanced 1 - 문법 응용력을 높여주는 GRAMMAR Q 시리즈",
+  "title": "Grammar Q Advanced 1 - 문법 응용력을 높여주는 GRAMMAR Q",
   "skill": "문법",
   "level": 4,
   "goals": [
@@ -272454,7 +272493,7 @@
  {
   "id": "IH-ALADIN-9788968061806",
   "pub": "쎄듀(CEDU)",
-  "title": "Grammar Q Advanced 2 - 문법 응용력을 높여주는 GRAMMAR Q 시리즈",
+  "title": "Grammar Q Advanced 2 - 문법 응용력을 높여주는 GRAMMAR Q",
   "skill": "문법",
   "level": 4,
   "goals": [
@@ -272539,7 +272578,7 @@
  {
   "id": "IH-ALADIN-9788968061769",
   "pub": "쎄듀(CEDU)",
-  "title": "Grammar Q Intermediate 1 - 문법 응용력을 높여주는 GRAMMAR Q 시리즈",
+  "title": "Grammar Q Intermediate 1 - 문법 응용력을 높여주는 GRAMMAR Q",
   "skill": "문법",
   "level": 3,
   "goals": [
@@ -272624,7 +272663,7 @@
  {
   "id": "IH-ALADIN-9788968061776",
   "pub": "쎄듀(CEDU)",
-  "title": "Grammar Q Intermediate 2 - 문법 응용력을 높여주는 GRAMMAR Q 시리즈",
+  "title": "Grammar Q Intermediate 2 - 문법 응용력을 높여주는 GRAMMAR Q",
   "skill": "문법",
   "level": 3,
   "goals": [
@@ -272709,15 +272748,14 @@
  {
   "id": "IH-ALADIN-9788968061738",
   "pub": "쎄듀(CEDU)",
-  "title": "Grammar Q Starter 1 - 문법 응용력을 높여주는 GRAMMAR Q 시리즈",
+  "title": "Grammar Q Starter 1 - 문법 응용력을 높여주는 GRAMMAR Q",
   "skill": "문법",
   "level": 2,
   "goals": [
    "문법 잡기"
   ],
   "timing": [
-   "기초 입문",
-   "학기중 꾸준히"
+   "기초 입문"
   ],
   "q": 61.785057,
   "teacherRef": false,
@@ -272795,15 +272833,14 @@
  {
   "id": "IH-ALADIN-9788968061745",
   "pub": "쎄듀(CEDU)",
-  "title": "Grammar Q Starter 2 - 문법 응용력을 높여주는 GRAMMAR Q 시리즈",
+  "title": "Grammar Q Starter 2 - 문법 응용력을 높여주는 GRAMMAR Q",
   "skill": "문법",
   "level": 2,
   "goals": [
    "문법 잡기"
   ],
   "timing": [
-   "기초 입문",
-   "학기중 꾸준히"
+   "기초 입문"
   ],
   "q": 61.779973,
   "teacherRef": false,
@@ -281645,7 +281682,7 @@
  {
   "id": "IH-ALADIN-9788917231564",
   "pub": "(주)YBM(와이비엠)",
-  "title": "Junior Time for Grammar 1 - 초등학생을 위한 기초 문법 시리즈",
+  "title": "Junior Time for Grammar 1 - 초등학생을 위한 기초 문법",
   "skill": "문법",
   "level": 1,
   "goals": [
@@ -281653,8 +281690,7 @@
    "학교영어 따라가기"
   ],
   "timing": [
-   "기초 입문",
-   "학기중 꾸준히"
+   "기초 입문"
   ],
   "q": 61.741013,
   "teacherRef": false,
@@ -284785,7 +284821,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.704585,
+  "q": 60.704585,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -284793,7 +284829,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/11049/39/cover500/k712531270_1.jpg",
+  "cover": "covers/IH-ALADIN-9791188228010.jpg",
   "price": 11520,
   "salesPoint": 15058,
   "pop": 15058,
@@ -284826,7 +284862,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.645278,
+  "q": 60.645278,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -284834,7 +284870,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/11049/44/cover500/k952531271_1.jpg",
+  "cover": "covers/IH-ALADIN-9791188228034.jpg",
   "price": 11520,
   "salesPoint": 14123,
   "pop": 14123,
@@ -284867,7 +284903,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.648377,
+  "q": 60.648377,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -284875,7 +284911,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/11049/36/cover500/k792531270_1.jpg",
+  "cover": "covers/IH-ALADIN-9791188228058.jpg",
   "price": 11520,
   "salesPoint": 9558,
   "pop": 9558,
@@ -285236,7 +285272,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.705858,
+  "q": 60.705858,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -285244,7 +285280,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/11049/40/cover500/k852531270_1.jpg",
+  "cover": "covers/IH-ALADIN-9791195312771.jpg",
   "price": 11520,
   "salesPoint": 14210,
   "pop": 14210,
@@ -285277,7 +285313,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.699561,
+  "q": 60.699561,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -285285,7 +285321,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/11049/42/cover500/k872531270_1.jpg",
+  "cover": "covers/IH-ALADIN-9791195312795.jpg",
   "price": 11520,
   "salesPoint": 9512,
   "pop": 9512,
@@ -286164,7 +286200,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 24.411784,
+  "q": 30.411784,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -286172,7 +286208,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/101/95/cover500/8974890410_1.jpg",
+  "cover": "covers/IH-ALADIN-9788974890414.jpg",
   "price": 9900,
   "salesPoint": 12339,
   "pop": 12339,
@@ -296774,7 +296810,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 36.484459,
+  "q": 42.484459,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -296782,7 +296818,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/1270/54/cover500/8994521593_3.jpg",
+  "cover": "covers/IH-ALADIN-9788994521596.jpg",
   "price": 16150,
   "salesPoint": 8594,
   "pop": 8594,
@@ -298067,7 +298103,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.776218,
+  "q": 67.776218,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -298075,7 +298111,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/21160/51/cover500/k452636885_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125329275.jpg",
   "price": 11700,
   "salesPoint": 14509,
   "pop": 14509,
@@ -298108,7 +298144,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.772702,
+  "q": 67.772702,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -298116,7 +298152,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/21160/60/cover500/k402636885_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125329282.jpg",
   "price": 11700,
   "salesPoint": 10599,
   "pop": 10599,
@@ -298149,7 +298185,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.773089,
+  "q": 67.773089,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -298157,7 +298193,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/21161/7/cover500/k432636885_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125329299.jpg",
   "price": 11700,
   "salesPoint": 9913,
   "pop": 9913,
@@ -310744,7 +310780,7 @@
    "시험 직전",
    "방학 단기집중"
   ],
-  "q": 68.916394,
+  "q": 74.916394,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -310752,7 +310788,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/30740/49/cover500/8969653376_1.jpg",
+  "cover": "covers/IH-ALADIN-9788969653376.jpg",
   "price": 19800,
   "salesPoint": 10483,
   "pop": 10483,
@@ -325328,7 +325364,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.903345,
+  "q": 80.903345,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -325336,7 +325372,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37508/15/cover500/k992032821_1.jpg",
+  "cover": "covers/IH-ALADIN-9791162409046.jpg",
   "price": 17550,
   "salesPoint": 17197,
   "pop": 17197,
@@ -325368,7 +325404,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.902235,
+  "q": 80.902235,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -325376,7 +325412,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37571/18/cover500/k992032624_1.jpg",
+  "cover": "covers/IH-ALADIN-9791162409053.jpg",
   "price": 17550,
   "salesPoint": 13253,
   "pop": 13253,
@@ -339503,7 +339539,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 68.907569,
+  "q": 74.907569,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -339511,7 +339547,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/29533/96/cover500/s965424879_1.jpg",
+  "cover": "covers/IH-ALADIN-9788965424871.jpg",
   "price": 17010,
   "salesPoint": 8611,
   "pop": 8611,
@@ -339924,7 +339960,7 @@
    "기초 입문",
    "학기중 꾸준히"
   ],
-  "q": 79.913182,
+  "q": 85.913182,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -339932,7 +339968,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/32469/11/cover500/k602935303_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125342847.jpg",
   "price": 13050,
   "salesPoint": 8873,
   "pop": 8873,
@@ -341303,7 +341339,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.959952,
+  "q": 80.959952,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -341311,7 +341347,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38104/54/cover500/k342034185_1.jpg",
+  "cover": "covers/IH-ALADIN-9791139724356.jpg",
   "price": 19800,
   "salesPoint": 8763,
   "pop": 8763,
@@ -346776,7 +346812,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 79.910371,
+  "q": 85.910371,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -346784,7 +346820,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37339/3/cover500/k752032779_1.jpg",
+  "cover": "covers/IH-ALADIN-9791169664943.jpg",
   "price": 23400,
   "salesPoint": 8860,
   "pop": 8860,
@@ -346818,7 +346854,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 79.910993,
+  "q": 85.910993,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -346826,7 +346862,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37483/78/cover500/k032032017_1.jpg",
+  "cover": "covers/IH-ALADIN-9791169665025.jpg",
   "price": 14400,
   "salesPoint": 11628,
   "pop": 11628,
@@ -346945,7 +346981,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 79.910737,
+  "q": 85.910737,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -346953,7 +346989,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37520/43/cover500/k842032926_1.jpg",
+  "cover": "covers/IH-ALADIN-9791169665056.jpg",
   "price": 9000,
   "salesPoint": 9430,
   "pop": 9430,
@@ -346986,7 +347022,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 79.905392,
+  "q": 85.905392,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -346994,7 +347030,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39244/0/cover500/k312138106_1.jpg",
+  "cover": "covers/IH-ALADIN-9791169666145.jpg",
   "price": 13500,
   "salesPoint": 20500,
   "pop": 20500,
@@ -347029,7 +347065,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 79.90006,
+  "q": 85.90006,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -347037,7 +347073,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37902/55/cover500/k682033737_2.jpg",
+  "cover": "covers/IH-ALADIN-9791169665179.jpg",
   "price": 14400,
   "salesPoint": 11937,
   "pop": 11937,
@@ -347152,7 +347188,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 79.948647,
+  "q": 85.948647,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -347160,7 +347196,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39120/43/cover500/k202137357_1.jpg",
+  "cover": "covers/IH-ALADIN-9791169666053.jpg",
   "price": 11700,
   "salesPoint": 10935,
   "pop": 10935,
@@ -347358,7 +347394,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 79.892024,
+  "q": 85.892024,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -347366,7 +347402,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38699/8/cover500/k032136822_1.jpg",
+  "cover": "covers/IH-ALADIN-9791160184273.jpg",
   "price": 22500,
   "salesPoint": 10213,
   "pop": 10213,
@@ -347399,7 +347435,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 79.946005,
+  "q": 85.946005,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -347407,7 +347443,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39064/1/cover500/k162137752_1.jpg",
+  "cover": "covers/IH-ALADIN-9791199858909.jpg",
   "price": 13500,
   "salesPoint": 9715,
   "pop": 9715,
@@ -347797,7 +347833,7 @@
  {
   "id": "IH-ALADIN-9791169665858",
   "pub": "공단기(에스티유니타스)",
-  "title": "2026 정재현 공무원 영어 실전동형 모의고사 Season 2 - 정재현 합격 파이널 시리즈",
+  "title": "2026 정재현 공무원 영어 실전동형 모의고사 Season 2 - 정재현 합격 파이널",
   "skill": "모의/기출",
   "level": 5,
   "goals": [
@@ -347805,8 +347841,7 @@
    "시험영어(토익·토플)"
   ],
   "timing": [
-   "시험 직전",
-   "학기중 꾸준히"
+   "시험 직전"
   ],
   "q": 79.909746,
   "teacherRef": false,
@@ -350435,7 +350470,7 @@
   "timing": [
    "방학 단기집중"
   ],
-  "q": 79.906388,
+  "q": 85.906388,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -350443,7 +350478,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39382/8/cover500/k752139873_2.jpg",
+  "cover": "covers/IH-ALADIN-9791169666152.jpg",
   "price": 23400,
   "salesPoint": 17850,
   "pop": 17850,
@@ -350922,7 +350957,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.965533,
+  "q": 80.965533,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -350930,7 +350965,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38343/28/cover500/k192135169_1.jpg",
+  "cover": "covers/IH-ALADIN-9791175632158.jpg",
   "price": 17910,
   "salesPoint": 10534,
   "pop": 10534,
@@ -351248,7 +351283,7 @@
   "timing": [
    "시험 직전"
   ],
-  "q": 74.914537,
+  "q": 80.914537,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -351256,7 +351291,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/38081/83/cover500/k542034084_1.jpg",
+  "cover": "covers/IH-ALADIN-9791162409107.jpg",
   "price": 19350,
   "salesPoint": 10739,
   "pop": 10739,
@@ -351331,7 +351366,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 79.954108,
+  "q": 85.954108,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -351339,7 +351374,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/39137/30/cover500/k522137655_1.jpg",
+  "cover": "covers/IH-ALADIN-9791169666046.jpg",
   "price": 16200,
   "salesPoint": 11540,
   "pop": 11540,
@@ -352193,7 +352228,7 @@
  {
   "id": "IH-ALADIN-9791176443005",
   "pub": "해커스공무원",
-  "title": "2027 해커스공무원 기출 보카 3000+ 1~2권+영어단어 미니암기장 3종 세트 - 전3권 (스프링) - 신유형 반영ㅣ기출 어휘+기초 어휘+다의어+생활영어ㅣ국가직, 지방직 등 9급 공무원 전 직렬 시험 대비ㅣ단어암기 어플ㅣ단어시험지 제작 프로그램",
+  "title": "2027 해커스공무원 기출 보카 3000++영어단어 미니암기장 3종 세트 - 전3권 (스프링) - 신유형 반영ㅣ기출 어휘+기초 어휘+다의어+생활영어ㅣ국가직, 지방직 등 9급 공무원 전 직렬 시험 대비ㅣ단어암기 어플ㅣ단어시험지 제작 프로그램",
   "skill": "문법",
   "level": 2,
   "goals": [
@@ -353129,7 +353164,7 @@
  {
   "id": "IH-ALADIN-9788965424338",
   "pub": "해커스어학연구소(Hackers)",
-  "title": "2주 만에 끝내는 해커스 지텔프 문법 (G-TELP) Level. 2 - 최신개정판|G-TELP KOREA(지텔프코리아) 공식 지정|5/7급 공무원·회계사·노무사·감정평가사·세무사 대비 영어시험|G-TELP 문법 암기 노트",
+  "title": "2주 만에 끝내는 해커스 지텔프 문법 (G-TELP) Level. 2 - 최신개정판|G-TELP KOREA(지텔프코리아) 공식 지정|5급 공무원·회계사·노무사·감정평가사·세무사 대비 영어시험|G-TELP 문법 암기 노트",
   "skill": "문법",
   "level": 3,
   "goals": [
@@ -353142,7 +353177,7 @@
   "q": 73.813075,
   "teacherRef": false,
   "examPrep": true,
-  "examType": "공무원 7급",
+  "examType": "공무원 5급",
   "parentBook": false,
   "tags": [],
   "situations": [],
@@ -354412,7 +354447,7 @@
    "시험 직전",
    "방학 단기집중"
   ],
-  "q": 74.941793,
+  "q": 80.941793,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -354420,7 +354455,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37487/68/cover500/k022032111_1.jpg",
+  "cover": "covers/IH-ALADIN-9791198843838.jpg",
   "price": 18810,
   "salesPoint": 8709,
   "pop": 8709,
@@ -355251,7 +355286,7 @@
  {
   "id": "IH-ALADIN-9791112199409",
   "pub": "부크크(bookk)",
-  "title": "50 덩어리 소통 영어 (컬러판) - 너덜너덜 시리즈",
+  "title": "50 덩어리 소통 영어 (컬러판) - 너덜너덜",
   "skill": "독해",
   "level": 3,
   "goals": [
