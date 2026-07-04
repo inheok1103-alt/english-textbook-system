@@ -1,16 +1,16 @@
 {
-  "cycle": 22,
-  "enrichCursor": 1328,
+  "cycle": 23,
+  "enrichCursor": 1703,
   "lastHarvestCycle": 14,
   "lastDeepCycle": 14,
-  "at": "2026-07-04T02:00:31.739Z",
+  "at": "2026-07-04T06:40:21.976Z",
   "lastReport": [
     {
       "id": "nerve_bundles",
       "ko": "신경다발",
       "ok": true,
       "skipped": false,
-      "steps": 11
+      "steps": 13
     },
     {
       "id": "neurons",
