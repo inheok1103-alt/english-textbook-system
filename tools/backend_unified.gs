@@ -86,16 +86,18 @@ function buildEvents_(p) {
 // 여러 무료 LLM을 앞에서부터 시도 → 키 없으면 스킵, 한도(429)·오류·한자면 다음 모델/프로바이더로.
 // 프로바이더별 쿼터가 완전히 분리라 한 곳이 통째로 죽어도 항상 켜진 채 버틴다("여러 무료 두뇌를 엮은 신경다발").
 // 키는 Script Property에만 저장(공개 노출 금지). Groq만 GROQ_KEY_INLINE 폴백 허용(GAS 전용본에서 채움).
-var GROQ_KEY_INLINE = '';
+// 키 내장(GAS 전용본에서만 채움 — 공개 repo에는 빈값 유지). Script Property가 있으면 그게 우선.
+var INLINE_KEYS = { GROQ_KEY: '', CEREBRAS_KEY: '', GEMINI_KEY: '', OPENROUTER_KEY: '' };
+// 실측 검증한 모델만(2026-07). 순서=신뢰도: Groq→Cerebras→Gemini→OpenRouter(최하위·flaky).
 var LLM_PROVIDERS = [
   { name: 'groq', keyProp: 'GROQ_KEY', type: 'openai', url: 'https://api.groq.com/openai/v1/chat/completions',
     models: ['llama-3.3-70b-versatile', 'openai/gpt-oss-120b', 'meta-llama/llama-4-scout-17b-16e-instruct', 'llama-3.1-8b-instant'] },
   { name: 'cerebras', keyProp: 'CEREBRAS_KEY', type: 'openai', url: 'https://api.cerebras.ai/v1/chat/completions',
-    models: ['llama-3.3-70b', 'llama3.1-8b'] },
-  { name: 'openrouter', keyProp: 'OPENROUTER_KEY', type: 'openai', url: 'https://openrouter.ai/api/v1/chat/completions',
-    models: ['meta-llama/llama-3.3-70b-instruct:free', 'google/gemini-2.0-flash-exp:free', 'qwen/qwen-2.5-72b-instruct:free'] },
+    models: ['gpt-oss-120b', 'gemma-4-31b'] },
   { name: 'gemini', keyProp: 'GEMINI_KEY', type: 'gemini', url: 'https://generativelanguage.googleapis.com/v1beta/models/',
-    models: ['gemini-2.0-flash', 'gemini-1.5-flash'] },
+    models: ['gemini-2.5-flash-lite', 'gemini-2.5-flash', 'gemini-2.0-flash'] },
+  { name: 'openrouter', keyProp: 'OPENROUTER_KEY', type: 'openai', url: 'https://openrouter.ai/api/v1/chat/completions',
+    models: ['google/gemma-4-31b-it:free', 'google/gemma-4-26b-a4b-it:free'] },
 ];
 
 // 한 (프로바이더, 모델) 호출 → 답 문자열 or '' (실패). msgs[0]은 system.
@@ -123,6 +125,7 @@ function callLLM_(prov, model, key, msgs) {
   else ans = d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content;
   if (ans) ans = String(ans).replace(/<think>[\s\S]*?<\/think>/g, '').trim();
   if (ans && /[一-鿿]/.test(ans)) return { ans: '', dbg: '한자 검출' };   // 한자 섞이면 실패
+  if (ans && (ans.match(/[가-힣]/g) || []).length < 5) return { ans: '', dbg: '한글 부재(영어 누출)' };   // 영어로만 답하면 실패
   if (ans) return { ans: ans };
   return { ans: '', dbg: 'HTTP ' + res.getResponseCode() + ' | ' + String((d.error && (d.error.message || d.error)) || '').slice(0, 120) };
 }
@@ -149,7 +152,7 @@ function chatProxy_(p) {
   var lastDbg = '', anyKey = false;
   for (var pi = 0; pi < LLM_PROVIDERS.length; pi++) {
     var prov = LLM_PROVIDERS[pi];
-    var key = String(props.getProperty(prov.keyProp) || (prov.name === 'groq' ? GROQ_KEY_INLINE : '')).trim();
+    var key = String(props.getProperty(prov.keyProp) || INLINE_KEYS[prov.keyProp] || '').trim();
     if (!key) continue;                 // 키 없는 프로바이더는 스킵
     anyKey = true;
     for (var mi = 0; mi < prov.models.length; mi++) {
