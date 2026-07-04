@@ -82,16 +82,55 @@ function buildEvents_(p) {
   return { ok: true, generatedAt: new Date().toISOString(), total: rows.length, uniqueDevices: Object.keys(dev).length, counts: counts, events: recent };
 }
 
-// ===== 교재 상담 LLM 프록시 (Groq) — 키는 Script Property 'GROQ_KEY'에만 저장(리포·클라이언트 노출 금지) =====
-// 모델 폴백 체인(실측 선정): 70B(품질) → gpt-oss-120b(한국어 최상·별도쿼터) → llama4-scout(별도쿼터) → 8B(최후).
-// 각 모델 쿼터가 분리라 일일 한도(429)에 사실상 안 걸림. 한자(漢字) 섞인 답도 실패로 간주 → 다음 모델 재시도.
-var GROQ_MODELS = ['llama-3.3-70b-versatile', 'openai/gpt-oss-120b', 'meta-llama/llama-4-scout-17b-16e-instruct', 'llama-3.1-8b-instant'];
+// ===== 교재 상담 LLM 프록시 — 무료 프로바이더 폴백체인 =====
+// 여러 무료 LLM을 앞에서부터 시도 → 키 없으면 스킵, 한도(429)·오류·한자면 다음 모델/프로바이더로.
+// 프로바이더별 쿼터가 완전히 분리라 한 곳이 통째로 죽어도 항상 켜진 채 버틴다("여러 무료 두뇌를 엮은 신경다발").
+// 키는 Script Property에만 저장(공개 노출 금지). Groq만 GROQ_KEY_INLINE 폴백 허용(GAS 전용본에서 채움).
+var GROQ_KEY_INLINE = '';
+var LLM_PROVIDERS = [
+  { name: 'groq', keyProp: 'GROQ_KEY', type: 'openai', url: 'https://api.groq.com/openai/v1/chat/completions',
+    models: ['llama-3.3-70b-versatile', 'openai/gpt-oss-120b', 'meta-llama/llama-4-scout-17b-16e-instruct', 'llama-3.1-8b-instant'] },
+  { name: 'cerebras', keyProp: 'CEREBRAS_KEY', type: 'openai', url: 'https://api.cerebras.ai/v1/chat/completions',
+    models: ['llama-3.3-70b', 'llama3.1-8b'] },
+  { name: 'openrouter', keyProp: 'OPENROUTER_KEY', type: 'openai', url: 'https://openrouter.ai/api/v1/chat/completions',
+    models: ['meta-llama/llama-3.3-70b-instruct:free', 'google/gemini-2.0-flash-exp:free', 'qwen/qwen-2.5-72b-instruct:free'] },
+  { name: 'gemini', keyProp: 'GEMINI_KEY', type: 'gemini', url: 'https://generativelanguage.googleapis.com/v1beta/models/',
+    models: ['gemini-2.0-flash', 'gemini-1.5-flash'] },
+];
+
+// 한 (프로바이더, 모델) 호출 → 답 문자열 or '' (실패). msgs[0]은 system.
+function callLLM_(prov, model, key, msgs) {
+  var opt, url;
+  if (prov.type === 'gemini') {
+    var sys = (msgs[0] && msgs[0].role === 'system') ? msgs[0].content : '';
+    var contents = msgs.filter(function (m) { return m.role !== 'system'; })
+      .map(function (m) { return { role: (m.role === 'assistant' ? 'model' : 'user'), parts: [{ text: m.content }] }; });
+    url = prov.url + model + ':generateContent?key=' + encodeURIComponent(key);
+    opt = { method: 'post', contentType: 'application/json', muteHttpExceptions: true,
+      payload: JSON.stringify({ systemInstruction: { parts: [{ text: sys }] }, contents: contents,
+        generationConfig: { temperature: 0.4, maxOutputTokens: 700 } }) };
+  } else { // openai 호환(groq·cerebras·openrouter)
+    var payload = { model: model, temperature: 0.4, max_tokens: (model.indexOf('gpt-oss') >= 0 ? 900 : 500), messages: msgs };
+    if (model.indexOf('gpt-oss') >= 0) payload.reasoning_effort = 'low';
+    url = prov.url;
+    opt = { method: 'post', contentType: 'application/json', muteHttpExceptions: true,
+      headers: { Authorization: 'Bearer ' + key }, payload: JSON.stringify(payload) };
+  }
+  var res = UrlFetchApp.fetch(url, opt);
+  var d = {}; try { d = JSON.parse(res.getContentText()); } catch (e) { return { ans: '', dbg: 'HTTP ' + res.getResponseCode() + ' 파싱실패' }; }
+  var ans;
+  if (prov.type === 'gemini') ans = d.candidates && d.candidates[0] && d.candidates[0].content && d.candidates[0].content.parts && d.candidates[0].content.parts[0] && d.candidates[0].content.parts[0].text;
+  else ans = d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content;
+  if (ans) ans = String(ans).replace(/<think>[\s\S]*?<\/think>/g, '').trim();
+  if (ans && /[一-鿿]/.test(ans)) return { ans: '', dbg: '한자 검출' };   // 한자 섞이면 실패
+  if (ans) return { ans: ans };
+  return { ans: '', dbg: 'HTTP ' + res.getResponseCode() + ' | ' + String((d.error && (d.error.message || d.error)) || '').slice(0, 120) };
+}
+
 function chatProxy_(p) {
-  var key = String(PropertiesService.getScriptProperties().getProperty('GROQ_KEY') || '').trim();
-  if (!key) return { ok: false, answer: '' };                 // 키 없으면 앱이 검색기반으로 폴백
   var q = String(p.q || '').slice(0, 400);
   var cands = parseJson_(p.cands || p.c, []);   // 'c'는 GAS가 가로채 400 유발 → 'cands' 사용
-  // 매 질문을 학습 데이터로 축적(events_v1) — 뭘 많이 묻는지·어떤 후보가 떴는지 시트에 쌓임
+  // 매 질문을 학습 데이터로 축적(events_v1)
   try { logEventRow_({ e: 'chat_q', id: (cands && cands[0] && cands[0].t) || '', extraQ: q }); } catch (eLog) {}
   var lines = (cands || []).slice(0, 6).map(function (b, i) {
     return (i + 1) + '. ' + b.t + ' (' + (b.p || '') + ', ' + (b.g || '') + ', ' + (b.s || '') + ', Lv' + (b.l || '') + ', 판매지수 ' + (b.sp || 0) +
@@ -101,35 +140,28 @@ function chatProxy_(p) {
     + '중요: 후보 중 질문자의 학년·수준에 안 맞는 책(예: 고등학생에게 초/중등용, 왕초보에게 심화서)은 추천에서 빼고 그 이유를 짧게 언급하라. 맞는 후보가 하나도 없으면 솔직히 없다고 말하고, 추천에 꼭 필요한 것 한 가지만 되물어라(예: 학년, 목표). 두 교재를 비교해달라는 질문이면 차이점을 짚고 상황별로 골라줘라. 이전 대화가 있으면 맥락을 이어가라. '
     + '한줄평이 있으면 활용하라. 후보에 없는 책은 절대 언급하지 말고 과장하지 마라. 학년·영역·수준·가격·판매인기를 자연스럽게 녹여라.';
   var usr = '질문: ' + q + '\n\n후보 교재:\n' + lines;
-  // 대화 이력(클라가 최근 3턴 전달) → 멀티턴 상담: "그럼 더 쉬운 걸로" 같은 후속 질문 맥락 유지
-  var hist = parseJson_(p.hist, []);
+  var hist = parseJson_(p.hist, []);   // 멀티턴 맥락(클라 최근 3턴)
   var msgs = [{ role: 'system', content: sys }];
-  (hist || []).slice(-4).forEach(function (h) {
-    if (h && h.t) msgs.push({ role: (h.w === 'a' ? 'assistant' : 'user'), content: String(h.t).slice(0, 120) });
-  });
+  (hist || []).slice(-4).forEach(function (h) { if (h && h.t) msgs.push({ role: (h.w === 'a' ? 'assistant' : 'user'), content: String(h.t).slice(0, 120) }); });
   msgs.push({ role: 'user', content: usr });
-  var lastDbg = '';
-  for (var mi = 0; mi < GROQ_MODELS.length; mi++) {
-    var m = GROQ_MODELS[mi];
-    try {
-      var payload = { model: m, temperature: 0.4, max_tokens: (m.indexOf('gpt-oss') >= 0 ? 900 : 400),
-        messages: msgs };
-      if (m.indexOf('gpt-oss') >= 0) payload.reasoning_effort = 'low';   // gpt-oss는 내부 추론이 토큰을 먹음 → 낮게+여유
-      var res = UrlFetchApp.fetch('https://api.groq.com/openai/v1/chat/completions', {
-        method: 'post', contentType: 'application/json',
-        headers: { Authorization: 'Bearer ' + key },
-        payload: JSON.stringify(payload), muteHttpExceptions: true });
-      var code = res.getResponseCode(), body = res.getContentText();
-      var d = {}; try { d = JSON.parse(body); } catch (e2) {}
-      var ans = d && d.choices && d.choices[0] && d.choices[0].message && d.choices[0].message.content;
-      if (ans) ans = String(ans).replace(/<think>[\s\S]*?<\/think>/g, '').trim();   // 추론 태그 방어
-      if (ans && /[一-鿿]/.test(ans)) { lastDbg = m + ': 한자 검출 → 다음 모델'; ans = ''; }   // 한자 섞이면 실패 처리
-      if (ans) return { ok: true, answer: ans, ver: 'v7', model: m };
-      if (!lastDbg || lastDbg.indexOf('한자') < 0) lastDbg = m + ': HTTP ' + code + ' | ' + String((d.error && d.error.message) || body).slice(0, 140);
-    } catch (err) { lastDbg = m + ': ' + String(err).slice(0, 140); }
+
+  var props = PropertiesService.getScriptProperties();
+  var lastDbg = '', anyKey = false;
+  for (var pi = 0; pi < LLM_PROVIDERS.length; pi++) {
+    var prov = LLM_PROVIDERS[pi];
+    var key = String(props.getProperty(prov.keyProp) || (prov.name === 'groq' ? GROQ_KEY_INLINE : '')).trim();
+    if (!key) continue;                 // 키 없는 프로바이더는 스킵
+    anyKey = true;
+    for (var mi = 0; mi < prov.models.length; mi++) {
+      try {
+        var r = callLLM_(prov, prov.models[mi], key, msgs);
+        if (r.ans) return { ok: true, answer: r.ans, ver: 'v8', provider: prov.name, model: prov.models[mi] };
+        lastDbg = prov.name + '/' + prov.models[mi] + ': ' + (r.dbg || '빈응답');
+      } catch (err) { lastDbg = prov.name + '/' + prov.models[mi] + ': ' + String(err).slice(0, 120); }
+    }
   }
-  // 전 모델 실패 — 원인을 dbg로 노출(원격 진단용), 앱은 검색기반 템플릿으로 폴백
-  return { ok: true, answer: '', ver: 'v7', dbg: lastDbg };
+  if (!anyKey) return { ok: false, answer: '' };   // 키 전무 → 앱이 검색기반 폴백
+  return { ok: true, answer: '', ver: 'v8', dbg: lastDbg };   // 전 프로바이더 실패 → 검색기반 폴백
 }
 
 // ===== 공통 유틸 =====
