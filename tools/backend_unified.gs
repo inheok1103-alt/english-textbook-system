@@ -149,22 +149,28 @@ function chatProxy_(p) {
   msgs.push({ role: 'user', content: usr });
 
   var props = PropertiesService.getScriptProperties();
+  // 라운드로빈: 신뢰 프로바이더(groq·cerebras·gemini)를 요청마다 돌려가며 primary로 → 각 무료한도가 합산돼
+  // 전체 용량↑ + 모든 키가 실제로 일함(한 곳이 놀지 않음). OpenRouter는 항상 최후 폴백.
+  var rot = 0;
+  try { var cache = CacheService.getScriptCache(); rot = (parseInt(cache.get('chatRot') || '0', 10) || 0); cache.put('chatRot', String((rot + 1) % 3), 21600); } catch (eC) {}
+  var head = LLM_PROVIDERS.slice(0, 3), tail = LLM_PROVIDERS.slice(3), k = head.length ? (rot % head.length) : 0;
+  var ORDER = head.slice(k).concat(head.slice(0, k)).concat(tail);
   var lastDbg = '', anyKey = false;
-  for (var pi = 0; pi < LLM_PROVIDERS.length; pi++) {
-    var prov = LLM_PROVIDERS[pi];
+  for (var pi = 0; pi < ORDER.length; pi++) {
+    var prov = ORDER[pi];
     var key = String(props.getProperty(prov.keyProp) || INLINE_KEYS[prov.keyProp] || '').trim();
     if (!key) continue;                 // 키 없는 프로바이더는 스킵
     anyKey = true;
     for (var mi = 0; mi < prov.models.length; mi++) {
       try {
         var r = callLLM_(prov, prov.models[mi], key, msgs);
-        if (r.ans) return { ok: true, answer: r.ans, ver: 'v8', provider: prov.name, model: prov.models[mi] };
+        if (r.ans) return { ok: true, answer: r.ans, ver: 'v9', provider: prov.name, model: prov.models[mi] };
         lastDbg = prov.name + '/' + prov.models[mi] + ': ' + (r.dbg || '빈응답');
       } catch (err) { lastDbg = prov.name + '/' + prov.models[mi] + ': ' + String(err).slice(0, 120); }
     }
   }
   if (!anyKey) return { ok: false, answer: '' };   // 키 전무 → 앱이 검색기반 폴백
-  return { ok: true, answer: '', ver: 'v8', dbg: lastDbg };   // 전 프로바이더 실패 → 검색기반 폴백
+  return { ok: true, answer: '', ver: 'v9', dbg: lastDbg };   // 전 프로바이더 실패 → 검색기반 폴백
 }
 
 // ===== 공통 유틸 =====
