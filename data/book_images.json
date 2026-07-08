@@ -70986,6 +70986,786 @@
       "bytes": 89671,
       "materialTitle": "Spotlight on One Phonics : Student Book (Paperback + E.CODE + APP)",
       "verifiedAt": "2026-07-07T15:41:27.690Z"
+    },
+    "IH-ENG-12155": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-12155.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791143601742C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143601742",
+      "materialTitle": "EBS E보카 중학 기본",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 30306
+    },
+    "IH-ENG-12156": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-12156.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791143601759C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143601759",
+      "materialTitle": "EBS E보카 중학 실력",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 30314
+    },
+    "IH-ENG-12157": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-12157.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791143601766C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143601766",
+      "materialTitle": "EBS E보카 중학 고난도",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 31624
+    },
+    "IH-ALADIN-9791125947912": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125947912.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125947912C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125947912",
+      "bytes": 61156,
+      "materialTitle": "LET'S GO Phonics 2",
+      "verifiedAt": "2026-07-08T20:39:28.516Z"
+    },
+    "IH-ALADIN-9788965427407": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965427407.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9788965427407C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965427407",
+      "bytes": 54835,
+      "materialTitle": "해커스 고등 서술형 쓰기의 기술 실력편 - 문법 포인트를 알면 서술형이 술술 풀린다! | 전국 고등학교 영어 내신 빈출 포인트 반영 | 서술형 실전 모의고사 6회분",
+      "verifiedAt": "2026-07-08T20:39:32.473Z"
+    },
+    "IH-ALADIN-9788968061776": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968061776.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061776C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061776",
+      "bytes": 40695,
+      "materialTitle": "Grammar Q Intermediate 2 - 문법 응용력을 높여주는 GRAMMAR Q",
+      "verifiedAt": "2026-07-08T20:39:35.757Z"
+    },
+    "IH-ALADIN-9788964351093": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788964351093.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788964351093C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788964351093",
+      "bytes": 43070,
+      "materialTitle": "그램그램 영문법 원정대 15 - 대답하라! 퍼펙트의 현재완료 퀴즈",
+      "verifiedAt": "2026-07-08T20:39:38.907Z"
+    },
+    "IH-ALADIN-9788917244175": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788917244175.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9788917244175C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788917244175",
+      "bytes": 37763,
+      "materialTitle": "YBM 실전토익 LC 1000 2 (전면개정판) - 동영상 강의 / MP3 스트리밍 & 다운로드 / PART 2 만점 대비 추가 100제 PDF / 핵심 어휘 단어장 PDF, 단어 암기용 MP3/APP 포함 부가학습 자료 100% 무료 제공",
+      "verifiedAt": "2026-07-08T20:39:41.906Z"
+    },
+    "IH-ALADIN-9791161504360": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791161504360.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791161504360C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791161504360",
+      "bytes": 30830,
+      "materialTitle": "시원스쿨 토익 실전 1500제 RC - 실전 15회분 집중 연습으로 토익 900+ 종결",
+      "verifiedAt": "2026-07-08T20:39:44.761Z"
+    },
+    "IH-ALADIN-9788968065880": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968065880.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202509/9788968065880C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968065880",
+      "bytes": 32237,
+      "materialTitle": "어법끝 실전 모의고사 - 수능 어법 파이널 점검",
+      "verifiedAt": "2026-07-08T20:39:47.627Z"
+    },
+    "IH-ALADIN-9788968064470": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968064470.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202411/9788968064470C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968064470",
+      "bytes": 38755,
+      "materialTitle": "초등 영어 독해 왓츠 리딩 (What’s Reading) 30 - 쉽고 재미있게 완성되는 영어 독해력",
+      "verifiedAt": "2026-07-08T20:39:53.470Z"
+    },
+    "IH-ALADIN-9791157842131": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791157842131.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791157842131C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791157842131",
+      "bytes": 74894,
+      "materialTitle": "하루 3줄 영어 일기 - 조금씩, 매일, 계속! 영어가 일취월장하는 3대 습관",
+      "verifiedAt": "2026-07-08T20:39:56.716Z"
+    },
+    "IH-ALADIN-9788954793261": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788954793261.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202506/9788954793261C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954793261",
+      "bytes": 45591,
+      "materialTitle": "EBS 기초 영독해 - 미리 완성하는 중학 기초 영독해",
+      "verifiedAt": "2026-07-08T20:40:00.778Z"
+    },
+    "IH-ALADIN-9791195919338": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791195919338.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791195919338C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791195919338",
+      "bytes": 51935,
+      "materialTitle": "기적의 영어 알파벳 - 대문자 소문자 알파벳 따라쓰기로 alphabet 52개수 발음 쓰기 완성",
+      "verifiedAt": "2026-07-08T20:40:03.952Z"
+    },
+    "IH-ALADIN-9788968062506": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968062506.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788968062506C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062506",
+      "bytes": 23883,
+      "materialTitle": "초등 영어 독해 왓츠 리딩 (What’s Reading) 80B - 쉽고 재미있게 완성되는 영어독해력",
+      "verifiedAt": "2026-07-08T20:40:06.844Z"
+    },
+    "IH-ALADIN-9788901118918": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788901118918.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788901118918C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788901118918",
+      "bytes": 75593,
+      "materialTitle": "똑똑한 유아 독해 1단계 1 : 생활글",
+      "verifiedAt": "2026-07-08T20:40:10.009Z"
+    },
+    "IH-ALADIN-9788900491487": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788900491487.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788900491487C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788900491487",
+      "bytes": 46182,
+      "materialTitle": "특급기출 중학 영어 2-2 2학기 통합 동아 윤정미 (2026년) - 2022 개정 교육과정, 중학 영어 교과서 점유율 1위",
+      "verifiedAt": "2026-07-08T20:40:13.052Z"
+    },
+    "IH-ALADIN-9791125947905": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125947905.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125947905C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125947905",
+      "bytes": 61530,
+      "materialTitle": "LET'S GO Phonics 1",
+      "verifiedAt": "2026-07-08T20:40:16.192Z"
+    },
+    "IH-ALADIN-9788965422532": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965422532.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788965422532C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965422532",
+      "bytes": 53979,
+      "materialTitle": "해커스 텝스 베이직 리딩 (TEPS Basic Reading) - 텝스 필수 문법 어휘 독해 4주 완성! / 텝스 실전모의고사 제공 / 본교재 동영상 강의 무료 / TEPS 유형 분석 반영 (학습자료 무료 다운로드 + 단어암기 MP3 무료 다운로드)",
+      "verifiedAt": "2026-07-08T20:40:23.981Z"
+    },
+    "IH-ALADIN-9788964358399": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788964358399.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788964358399C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788964358399",
+      "bytes": 81669,
+      "materialTitle": "English Bus 1 SB (Student Book + E.CODE + APP)",
+      "verifiedAt": "2026-07-08T20:40:27.086Z"
+    },
+    "IH-ALADIN-9788965428114": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965428114.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9788965428114C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965428114",
+      "bytes": 78215,
+      "materialTitle": "해커스 Updated 토플 스피킹 베이직 (Hackers Updated TOEFL Speaking Basic) - 2026 NEW TOEFL 완벽 반영 | 기초부터 실전까지 20일 완성 | 본 교재 인강 | 말하기 연습 프로그램 | 교재 MP3 | iBT 토플 스피킹 실전모의고사",
+      "verifiedAt": "2026-07-08T20:40:33.368Z"
+    },
+    "IH-ALADIN-9788956603124": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788956603124.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788956603124C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788956603124",
+      "bytes": 39936,
+      "materialTitle": "뉴욕의사의 백신 영어 - 내 생애 마지막 영어 공부법",
+      "verifiedAt": "2026-07-08T20:40:36.383Z"
+    },
+    "IH-ALADIN-9788952136701": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788952136701.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9788952136701C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788952136701",
+      "bytes": 232478,
+      "materialTitle": "NEW TEPS 1 - 서울대학교 TEPS관리위원회 공식기출문제집",
+      "verifiedAt": "2026-07-08T20:40:43.876Z"
+    },
+    "IH-ALADIN-9791169400008": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791169400008.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791169400008C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791169400008",
+      "bytes": 45651,
+      "materialTitle": "그래머 타파 Grammar TAPA Level 1 - 핵심 문법으로 격파하는, 중학 영문법 특강서",
+      "verifiedAt": "2026-07-08T20:40:46.866Z"
+    },
+    "IH-ALADIN-9791125342915": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125342915.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202309/9791125342915C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125342915",
+      "bytes": 41925,
+      "materialTitle": "1316 Listening Level 2 - 기초부터 내신까지 중학 듣기 완성",
+      "verifiedAt": "2026-07-08T20:40:49.888Z"
+    },
+    "IH-ALADIN-9791186701850": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791186701850.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791186701850C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791186701850",
+      "bytes": 53314,
+      "materialTitle": "발음을 부탁해 : 원리편 - 모두를 위한 빛나는 영어!",
+      "verifiedAt": "2026-07-08T20:40:53.242Z"
+    },
+    "IH-ALADIN-9791164065134": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791164065134.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202305/9791164065134C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791164065134",
+      "bytes": 45113,
+      "materialTitle": "기적의 영어문장 만들기 2 : 2형식 문장 - 단어 블록 연결로 초등 문법과 작문을 동시에 해결!",
+      "verifiedAt": "2026-07-08T20:41:00.829Z"
+    },
+    "IH-ALADIN-9788965424697": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965424697.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9788965424697C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965424697",
+      "bytes": 37085,
+      "materialTitle": "HACKERS APEX READING for the TOEFL iBT Basic - 토플지문 학습을 통한 독해력 완성 l 해설집 + 무료 MP3 다운로드",
+      "verifiedAt": "2026-07-08T20:41:06.472Z"
+    },
+    "IH-ALADIN-9788965425083": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965425083.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788965425083C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965425083",
+      "bytes": 62009,
+      "materialTitle": "해커스 토익 실전 1000제 1 LC Listening(리스닝) 해설집 - 최신기출유형 100% 반영 [온라인 실전모의고사ㅣ정답녹음 MP3ㅣ무료 동영상강의 제공]",
+      "verifiedAt": "2026-07-08T20:41:09.562Z"
+    },
+    "IH-ALADIN-9788965428367": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965428367.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788965428367C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965428367",
+      "bytes": 45085,
+      "materialTitle": "해커스 Updated 토플 리스닝 인터미디엇 (Hackers Updated TOEFL LISTENING Intermediate) - 2026 NEW TOEFL 완벽 반영 | 토플 중급 리스닝 20일 완성 | 본 교재 인강 | 교재&단어암기 MP3 | iBT 리스닝 실전모의고사 | 쉐도잉 프로그램",
+      "verifiedAt": "2026-07-08T20:41:12.600Z"
+    },
+    "IH-ALADIN-9791125348276": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125348276.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202411/9791125348276C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125348276",
+      "bytes": 52599,
+      "materialTitle": "달곰한 LITERACY Reading Level 1",
+      "verifiedAt": "2026-07-08T20:41:15.618Z"
+    },
+    "IH-ALADIN-9788965422570": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965422570.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9788965422570C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965422570",
+      "bytes": 40811,
+      "materialTitle": "해커스 텝스 (TEPS) 중급 청해 - TEPS 최신 출제경향 반영, 텝스 청해 중급에서 상급으로!",
+      "verifiedAt": "2026-07-08T20:41:18.519Z"
+    },
+    "IH-ALADIN-9791161504377": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791161504377.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791161504377C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791161504377",
+      "bytes": 34477,
+      "materialTitle": "시원스쿨 토익 실전 1500제 LC - 실전 15회분 집중 연습으로 토익 900+ 종결",
+      "verifiedAt": "2026-07-08T20:41:21.416Z"
+    },
+    "IH-ALADIN-9791124028353": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124028353.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202602/9791124028353C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124028353",
+      "bytes": 59351,
+      "materialTitle": "현서네 유튜브 영어 로드맵 - 초등학교 졸업 전 영어로 자유롭게 말하는",
+      "verifiedAt": "2026-07-08T20:41:24.430Z"
+    },
+    "IH-ALADIN-9788927708803": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927708803.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788927708803C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927708803",
+      "bytes": 55744,
+      "materialTitle": "Decoding the TOEFL iBT Reading Intermediate - New TOEFL Edition",
+      "verifiedAt": "2026-07-08T20:41:27.455Z"
+    },
+    "IH-ALADIN-9791194320319": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791194320319.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791194320319C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791194320319",
+      "bytes": 38646,
+      "materialTitle": "2026 성정혜 영어 단짠 피드백 모의고사 vol.3 - 난도 변화 대응 + 응시 전략 완성 실전 훈련",
+      "verifiedAt": "2026-07-08T20:41:30.324Z"
+    },
+    "IH-ALADIN-9788998454364": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788998454364.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788998454364C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788998454364",
+      "bytes": 116323,
+      "materialTitle": "The Voca+ 플러스 3 - 완전개정판, 중2~중3 대상",
+      "verifiedAt": "2026-07-08T20:41:33.438Z"
+    },
+    "IH-ALADIN-9791125309697": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125309697.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9791125309697C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125309697",
+      "bytes": 39972,
+      "materialTitle": "리딩버디 1 - 초등학생의 영어 친구",
+      "verifiedAt": "2026-07-08T20:41:39.006Z"
+    },
+    "IH-ALADIN-9791188700073": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791188700073.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791188700073C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791188700073",
+      "bytes": 66678,
+      "materialTitle": "엄마표 영어 이제 시작합니다 - 7세까지 영어 노출 제로, 16세에 해외 대학 입학한 비밀",
+      "verifiedAt": "2026-07-08T20:41:41.977Z"
+    },
+    "IH-ALADIN-9788994521633": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788994521633.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788994521633C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788994521633",
+      "bytes": 40780,
+      "materialTitle": "Preparation Book for the TOEFL Junior Test LC Advanced - Focus on Question Types",
+      "verifiedAt": "2026-07-08T20:41:44.832Z"
+    },
+    "IH-ALADIN-9788968061622": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968061622.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061622C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061622",
+      "bytes": 66813,
+      "materialTitle": "Reading Q : Intermediate 1",
+      "verifiedAt": "2026-07-08T20:41:47.807Z"
+    },
+    "IH-ALADIN-9788968062476": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968062476.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788968062476C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968062476",
+      "bytes": 24175,
+      "materialTitle": "초등 영어 독해 왓츠 리딩 (What’s Reading) 70B - 쉽고 재미있게 완성되는 영어독해력",
+      "verifiedAt": "2026-07-08T20:41:50.658Z"
+    },
+    "IH-ALADIN-9791125947929": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125947929.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125947929C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125947929",
+      "bytes": 64996,
+      "materialTitle": "LET'S GO Phonics 3",
+      "verifiedAt": "2026-07-08T20:41:53.617Z"
+    },
+    "IH-ALADIN-9788998454357": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788998454357.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788998454357C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788998454357",
+      "bytes": 172799,
+      "materialTitle": "The Voca+ 플러스 2 - 완전개정판, 중1~중2 대상",
+      "verifiedAt": "2026-07-08T20:41:56.749Z"
+    },
+    "IH-ALADIN-9788968064487": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968064487.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202411/9788968064487C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968064487",
+      "bytes": 37573,
+      "materialTitle": "초등 영어 독해 왓츠 리딩 (What’s Reading) 50 - 쉽고 재미있게 완성되는 영어 독해력",
+      "verifiedAt": "2026-07-08T20:41:59.704Z"
+    },
+    "IH-ALADIN-9791162374320": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791162374320.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791162374320C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791162374320",
+      "bytes": 44937,
+      "materialTitle": "EEA : English for Everyday Activities 서바이벌편 Activity Book - 50일 롤플레잉 연습으로 실전 영어 끝내기",
+      "verifiedAt": "2026-07-08T20:42:02.692Z"
+    },
+    "IH-ALADIN-9791166833021": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791166833021.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791166833021C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166833021",
+      "bytes": 50259,
+      "materialTitle": "한 권으로 끝내는 필수 구문 1000제",
+      "verifiedAt": "2026-07-08T20:42:06.857Z"
+    },
+    "IH-ALADIN-9788965422549": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965422549.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788965422549C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965422549",
+      "bytes": 54790,
+      "materialTitle": "해커스 텝스 베이직 리스닝 (TEPS Basic Listening) - 텝스 청해 입문 4주 완성! / 텝스 실전모의고사 제공 / 실제 텝스 성우가 녹음한 MP3 무료 / TEPS 유형 분석 반영 (학습자료 무료 다운로드+단어암기 MP3 무료 다운로드)",
+      "verifiedAt": "2026-07-08T20:42:10.079Z"
+    },
+    "IH-ALADIN-9791197084010": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791197084010.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791197084010C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791197084010",
+      "bytes": 39459,
+      "materialTitle": "ER 문법 1200제 Basic - 편입문법 토플 토익 탭스",
+      "verifiedAt": "2026-07-08T20:42:13.111Z"
+    },
+    "IH-ALADIN-9788969650900": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788969650900.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788969650900C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788969650900",
+      "bytes": 41330,
+      "materialTitle": "스타 IELTS 실전 Writing : Academic Module - IELTS 최신 경향 100% 반영, 실전을 그대로 옮겨놓은 모의고사 20회분",
+      "verifiedAt": "2026-07-08T20:42:16.162Z"
+    },
+    "IH-ALADIN-9791191975246": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791191975246.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791191975246C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791191975246",
+      "bytes": 43902,
+      "materialTitle": "내 아이 언어 발달의 모든 것 - 0~5세 연령에 따른 체크리스트부터, 원칙, Q&A 그리고 놀이 방법까지!",
+      "verifiedAt": "2026-07-08T20:42:19.190Z"
+    },
+    "IH-ALADIN-9788965428350": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965428350.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788965428350C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965428350",
+      "bytes": 42678,
+      "materialTitle": "해커스 Updated 토플 라이팅 인터미디엇 (Hackers Updated TOEFL WRITING Intermediate) - 2026 NEW TOEFL 완벽 반영 | 토플 중급 라이팅 20일 완성 | 본 교재 인강 | iBT 라이팅 실전모의고사",
+      "verifiedAt": "2026-07-08T20:42:22.222Z"
+    },
+    "IH-ALADIN-9788994521589": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788994521589.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788994521589C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788994521589",
+      "bytes": 42213,
+      "materialTitle": "Preparation Book for the TOEFL Junior Test LFM Basic - Focus on Question Types",
+      "verifiedAt": "2026-07-08T20:42:25.262Z"
+    },
+    "IH-ALADIN-9791190283649": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791190283649.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791190283649C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190283649",
+      "bytes": 46163,
+      "materialTitle": "실생활 영어단어 4000 - 분야별 꼭! 필요한",
+      "verifiedAt": "2026-07-08T20:42:28.268Z"
+    },
+    "IH-ALADIN-9791187158554": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791187158554.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202310/9791187158554C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791187158554",
+      "bytes": 49012,
+      "materialTitle": "영어 공부법 MBTI + 수준별 영어책 추천 - 아무리 해도 영어가 안되는 당신을 위한 맞춤 솔루션!",
+      "verifiedAt": "2026-07-08T20:42:31.307Z"
+    },
+    "IH-ALADIN-9791161509723": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791161509723.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9791161509723C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791161509723",
+      "bytes": 51680,
+      "materialTitle": "10일 단기공략 지텔프 공식 기출 32-65+ - 공식 기출문제로 10일만에 문법, 독해, 청취, 어휘를 한번에!",
+      "verifiedAt": "2026-07-08T20:42:34.300Z"
+    },
+    "IH-ALADIN-9791164062300": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791164062300.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791164062300C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791164062300",
+      "bytes": 57547,
+      "materialTitle": "엄마표 세마디 생활영어 - 그림과 챈트로 영어 말문트기",
+      "verifiedAt": "2026-07-08T20:42:37.294Z"
+    },
+    "IH-ALADIN-9791165211370": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165211370.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791165211370C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165211370",
+      "bytes": 36547,
+      "materialTitle": "스피킹 매트릭스 : 3분 영어 말하기 - 국내 1위 영어 스피킹 훈련 프로그램",
+      "verifiedAt": "2026-07-08T20:42:40.148Z"
+    },
+    "IH-ALADIN-9788917228540": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788917228540.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788917228540C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788917228540",
+      "bytes": 23929,
+      "materialTitle": "YBM 스타트 토익 LC (교재 + 해설집 + 무료MP3) - 토익주관사가 제시하는 쉬운 토익",
+      "verifiedAt": "2026-07-08T20:42:43.013Z"
+    },
+    "IH-ALADIN-9791172101886": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791172101886.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791172101886C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791172101886",
+      "bytes": 81951,
+      "materialTitle": "미국식 영어 발음 수업 - 처음이라서 막막한 발음 강세부터 연음·축약까지, 발음의 핵심을 한 권에",
+      "verifiedAt": "2026-07-08T20:42:46.123Z"
+    },
+    "IH-ALADIN-9788964358405": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788964358405.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788964358405C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788964358405",
+      "bytes": 88266,
+      "materialTitle": "English Bus 2 SB (Student Book + E.CODE + APP)",
+      "verifiedAt": "2026-07-08T20:42:49.113Z"
+    },
+    "IH-ALADIN-9788965426035": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965426035.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9788965426035C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965426035",
+      "bytes": 61528,
+      "materialTitle": "해커스 토플 액츄얼 테스트 라이팅 (Hackers TOEFL Actual Test Writing) - iBT 라이팅 실전모의고사 20회(교재 17회+온라인 3회), 토플 라이팅 답안 작성 프로그램/통합형 문제학습 MP3, 토플시험 실전서",
+      "verifiedAt": "2026-07-08T20:42:52.100Z"
+    },
+    "IH-ALADIN-9791143601360": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791143601360.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791143601360C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143601360",
+      "bytes": 54430,
+      "materialTitle": "EBS 만점마무리 봉투모의고사 시즌1 영어영역 3회분 (2026년) - 봉투모의고사 1위! 시리즈 누적판매 500만",
+      "verifiedAt": "2026-07-08T20:42:55.071Z"
+    },
+    "IH-ALADIN-9788927708032": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927708032.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788927708032C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927708032",
+      "bytes": 70221,
+      "materialTitle": "Debate Pro Junior Book 1 (본책 + 워크북 + MP3 파일 다운로드)",
+      "verifiedAt": "2026-07-08T20:42:58.052Z"
+    },
+    "IH-ALADIN-9791192788661": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791192788661.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791192788661C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791192788661",
+      "bytes": 51853,
+      "materialTitle": "미국 일잘러들의 비즈니스 영어 - 현직 미국 로펌 20년 차 변호사가 알려주는 실전 영어",
+      "verifiedAt": "2026-07-08T20:43:01.023Z"
+    },
+    "IH-ALADIN-9791164065141": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791164065141.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202305/9791164065141C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791164065141",
+      "bytes": 46000,
+      "materialTitle": "기적의 영어문장 만들기 3 : 3형식 문장 - 단어 블록 연결로 초등 문법과 작문을 동시에 해결!",
+      "verifiedAt": "2026-07-08T20:43:03.994Z"
+    },
+    "IH-ALADIN-9791175500365": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791175500365.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791175500365C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175500365",
+      "bytes": 54045,
+      "materialTitle": "서아쌤의 토익 비밀과외 기출 VOCA - 하루 30분, 어느새 토익 VOCA 완성",
+      "verifiedAt": "2026-07-08T20:43:10.819Z"
+    },
+    "IH-ALADIN-9788917230307": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788917230307.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788917230307C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788917230307",
+      "bytes": 38689,
+      "materialTitle": "Activator Reading for the TOEFL iBT Intermediate - 개정판",
+      "verifiedAt": "2026-07-08T20:43:13.816Z"
+    },
+    "IH-ALADIN-9788974576592": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788974576592.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974576592C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974576592",
+      "bytes": 61955,
+      "materialTitle": "미국교과서 읽는 리스닝 & 스피킹 PreK 준비편 1 (Student Book + Workbook) - 초등생용",
+      "verifiedAt": "2026-07-08T20:43:16.960Z"
+    },
+    "IH-ALADIN-9788927708841": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927708841.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788927708841C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927708841",
+      "bytes": 53823,
+      "materialTitle": "Decoding the TOEFL iBT Reading Advanced - New TOEFL Edition",
+      "verifiedAt": "2026-07-08T20:43:23.242Z"
+    },
+    "IH-ALADIN-9788965428336": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965428336.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788965428336C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965428336",
+      "bytes": 42312,
+      "materialTitle": "해커스 Updated 토플 스피킹 인터미디엇 (Hackers Updated TOEFL SPEAKING Intermediate) - 2026 NEW TOEFL 완벽 반영 | 토플 중급 스피킹 20일 완성 | 본 교재 인강 | 교재 MP3 | iBT 스피킹 실전모의고사 | 말하기 연습 프로그램",
+      "verifiedAt": "2026-07-08T20:43:26.230Z"
+    },
+    "IH-ALADIN-9788963059372": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788963059372.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202308/9788963059372C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788963059372",
+      "bytes": 414825,
+      "materialTitle": "미국엄마와 함께하는 리얼 엄마표 영어",
+      "verifiedAt": "2026-07-08T20:43:30.924Z"
+    },
+    "IH-ALADIN-9788927780816": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927780816.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202411/9788927780816C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927780816",
+      "bytes": 40712,
+      "materialTitle": "절대어휘 5100 3 (본책 + 워크북 + MP3 + 문제출제프로그램) - 3rd Edition",
+      "verifiedAt": "2026-07-08T20:43:39.644Z"
+    },
+    "IH-ALADIN-9788965421276": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965421276.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9788965421276C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965421276",
+      "bytes": 40554,
+      "materialTitle": "HACKERS APEX LISTENING for the TOEFL iBT Intermediate - APEX 토플 리스닝 시리즈ㅣNew TOEFL Edition, [해설집+MP3 무료 다운로드(QR코드 포함)]",
+      "verifiedAt": "2026-07-08T20:43:42.663Z"
+    },
+    "IH-ALADIN-9788965426721": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965426721.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202402/9788965426721C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965426721",
+      "bytes": 53363,
+      "materialTitle": "해커스 어법 제대로: 단계별 학습으로 제대로 완성하는 영어 어법 - 수능, 내신 어법 대비 ㅣ 서술형 대비 영작 워크시트 ㅣ 보카 암기 트레이너",
+      "verifiedAt": "2026-07-08T20:43:48.369Z"
+    },
+    "IH-ALADIN-9791161508528": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791161508528.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791161508528C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791161508528",
+      "bytes": 46444,
+      "materialTitle": "한 권으로 끝내는 시원스쿨 실전토익 900+ (LC + RC + 실전 모의고사) - 이 책 한 권으로 토익 900+ 끝!",
+      "verifiedAt": "2026-07-08T20:43:51.333Z"
+    },
+    "IH-ALADIN-9791130604374": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791130604374.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791130604374C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791130604374",
+      "bytes": 20775,
+      "materialTitle": "윤재성의 소리영어 66일 트레이닝 - 우리말처럼 영어 말문이 터지는 3단계 발성 훈련법",
+      "verifiedAt": "2026-07-08T20:43:54.203Z"
+    },
+    "IH-ALADIN-9791157523672": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791157523672.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791157523672C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791157523672",
+      "bytes": 51976,
+      "materialTitle": "This Is Grammar 고급 1",
+      "verifiedAt": "2026-07-08T20:43:57.207Z"
     }
   }
 }
