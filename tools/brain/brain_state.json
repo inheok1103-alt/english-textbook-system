@@ -1,9 +1,9 @@
 {
-  "cycle": 60,
-  "enrichCursor": 6854,
+  "cycle": 61,
+  "enrichCursor": 7229,
   "lastHarvestCycle": 50,
   "lastDeepCycle": 50,
-  "at": "2026-07-08T15:58:17.857Z",
+  "at": "2026-07-08T17:28:00.505Z",
   "lastReport": [
     {
       "id": "nerve_bundles",
