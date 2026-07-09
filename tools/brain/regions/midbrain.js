@@ -25,8 +25,9 @@ module.exports = {
     if (deep) tiers.push("deep");
     if (a.manual) tiers.push("manual"); // 명시적으로만
 
-    // 신호 흐름 순서(신경계): 신경다발→뉴런→시냅스→소뇌→대뇌→대뇌피질→전전두엽(성찰)
-    let run = ["nerve_bundles", "neurons", "synapses", "cerebellum", "cerebrum", "cortex", "prefrontal"];
+    // 신호 흐름 순서(신경계) — regions/index.js(단일 SSOT)에서 파생해 지도순서=실행순서 보장.
+    // lazy require: 로드시점 순환참조 회피(index는 신호부위를 require, midbrain은 여기서만 index를 읽음).
+    let run = require("./index").SIGNAL.slice();
     if (onlyRegion) run = run.filter((r) => r === onlyRegion);
 
     // 보강 로테이션 커서(간뇌가 다음 사이클로 넘김) — 전 카탈로그를 며칠에 걸쳐 순회.

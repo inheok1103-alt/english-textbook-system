@@ -30,19 +30,13 @@ for (const a of raw) {
 }
 const DRY = !!args.dry;
 
-// ── 부위 하네스 로드(개별 하네스 = regions/*.js) ─────────────────────────
-const diencephalon = require("./regions/diencephalon");
+// ── 부위 하네스 로드 — 순서·구성은 regions/index.js(단일 SSOT)에서 파생 ────────
+//    부위 추가/순서변경은 regions/index.js 배열 한 곳만 수정(3중 하드코딩 제거).
+const REG = require("./regions");                        // { CONTROL, SIGNAL, REGIONS }
+const diencephalon = require("./regions/diencephalon");  // 제어부는 직접 require(사이클 회피)
 const midbrain = require("./regions/midbrain");
-const REGIONS = {
-  nerve_bundles: require("./regions/nerve_bundles"),
-  neurons: require("./regions/neurons"),
-  synapses: require("./regions/synapses"),
-  cerebellum: require("./regions/cerebellum"),
-  cerebrum: require("./regions/cerebrum"),
-  cortex: require("./regions/cortex"),
-  prefrontal: require("./regions/prefrontal"),
-};
-const SIGNAL_ORDER = ["nerve_bundles", "neurons", "synapses", "cerebellum", "cerebrum", "cortex", "prefrontal"];
+const REGIONS = REG.REGIONS;                             // 신호부위 모듈 맵
+const SIGNAL_ORDER = REG.SIGNAL;                         // 신호 흐름 순서(=실행순서)
 
 const log = (m) => console.log(m);
 const now = () => new Date();
