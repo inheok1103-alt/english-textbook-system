@@ -50,6 +50,13 @@ jobs:
     permissions:
       pages: write
       id-token: write
+    # ⚠️ github-pages 환경 배포는 pages.yml·brain.yml deploy-pc와 반드시 같은 concurrency
+    #   그룹(pages)으로 직렬화해야 함. 워크플로레벨 concurrency는 group:refresh-catalog가
+    #   점유하므로 여기선 잡레벨로 지정. 없으면 수동 실행 시 세 경로가 동시 배포→
+    #   'in progress deployment' 400 실패→소유자 이메일 알림. cancel-in-progress:false는 Pages 공식 권장.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
