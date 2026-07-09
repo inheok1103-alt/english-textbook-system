@@ -1,14 +1,61 @@
 {
-  "cycle": 68,
-  "enrichCursor": 1008,
-  "lastHarvestCycle": 62,
-  "lastDeepCycle": 62,
-<<<<<<< HEAD
-  "at": "2026-07-09T14:32:37.928Z",
-=======
-  "at": "2026-07-09T14:39:30.778Z",
->>>>>>> e9aac85 (🧠 Phase1: 뇌간(brainstem) 부위 신설 — deploy/verify/report를 manual tier로 브레인 정식편입(크론 무영향) + deploy.js CI인식)
+  "cycle": 1,
+  "enrichCursor": 375,
+  "lastHarvestCycle": 1,
+  "lastDeepCycle": 1,
+  "at": "2026-07-09T17:48:27.880Z",
+  "errSeen": 5,
+  "lastInsightCycle": 1,
   "lastReport": [
+    {
+      "id": "nerve_bundles",
+      "ko": "신경다발",
+      "ok": true,
+      "skipped": false,
+      "steps": 15
+    },
+    {
+      "id": "neurons",
+      "ko": "뉴런",
+      "ok": true,
+      "skipped": false,
+      "steps": 7
+    },
+    {
+      "id": "synapses",
+      "ko": "시냅스",
+      "ok": true,
+      "skipped": false,
+      "steps": 5
+    },
+    {
+      "id": "cerebellum",
+      "ko": "소뇌",
+      "ok": true,
+      "skipped": false,
+      "steps": 10
+    },
+    {
+      "id": "cerebrum",
+      "ko": "대뇌",
+      "ok": true,
+      "skipped": false,
+      "steps": 3
+    },
+    {
+      "id": "cortex",
+      "ko": "대뇌피질",
+      "ok": true,
+      "skipped": false,
+      "steps": 4
+    },
+    {
+      "id": "prefrontal",
+      "ko": "전전두엽",
+      "ok": true,
+      "skipped": false,
+      "steps": 1
+    },
     {
       "id": "brainstem",
       "ko": "뇌간",
@@ -16,7 +63,5 @@
       "skipped": false,
       "steps": 5
     }
-  ],
-  "lastInsightCycle": 11,
-  "errSeen": 5
+  ]
 }
