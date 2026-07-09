@@ -22,6 +22,12 @@ const GH_CRED = `-c credential.helper=!gh auth git-credential`;
 
 function git(cmd, opts = {}) { return cp.execSync("git " + cmd, { cwd: ROOT, encoding: "utf8", stdio: opts.quiet ? ["ignore", "pipe", "ignore"] : "pipe", ...opts }).trim(); }
 function tryGit(cmd, opts = {}) { try { return { ok: true, out: git(cmd, opts) }; } catch (e) { return { ok: false, out: (e.stdout || "") + (e.stderr || "") + e.message }; } }
+// push는 자격증명이 필요 → execFileSync 배열인자로 셸 파싱 우회(cmd.exe에서 공백·! 미보존 방지).
+// credential.helper=!gh… 는 Windows 'manager' 헬퍼의 /dev/tty 프롬프트 행을 회피(gh CLI 인증 재사용).
+function gitPush(remote, refspec) {
+  try { cp.execFileSync("git", ["-c", "credential.helper=!gh auth git-credential", "push", remote, refspec], { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }); return { ok: true }; }
+  catch (e) { return { ok: false, out: (e.stderr || "") + (e.message || "") }; }
+}
 function log(m) { console.log(m); }
 function branch() { return git("rev-parse --abbrev-ref HEAD"); }
 
@@ -57,7 +63,7 @@ function commitPush() {
         if (!cont.ok) { tryGit("rebase --abort"); log(`  ⚠️ rebase 충돌(rankings 외) — 중단, 수동 필요`); return false; }
       }
     }
-    const push = tryGit(`${GH_CRED} push origin HEAD:main`);
+    const push = gitPush("origin","HEAD:main");
     git("fetch origin", { quiet: true });
     if (git("rev-parse HEAD") === git("rev-parse origin/main")) { log(`  ✅ 푸시 성공(시도 ${i})`); return true; }
     log(`  ↻ 경쟁 감지 — 재시도 ${i}/4`);
@@ -107,7 +113,7 @@ function syncMobile() {
   if (tryGit("diff --cached --quiet").ok) { log("  변경 없음"); git("checkout main", { quiet: true }); return true; }
   git(`commit -q -m ${JSON.stringify("📱 모바일 동기: " + (rep.join(" ") || "데이터"))}`);
   let pushed = false;
-  for (let i = 1; i <= 3; i++) { const p = tryGit(`${GH_CRED} push lab mobile:main`); git("fetch lab", { quiet: true }); if (git("rev-parse HEAD") === git("rev-parse lab/main")) { pushed = true; break; } tryGit("rebase lab/main"); if (fs.existsSync(path.join(ROOT, ".git/rebase-merge"))) { tryGit("checkout --theirs rankings.json"); tryGit("add -A"); tryGit("-c core.editor=true rebase --continue"); } }
+  for (let i = 1; i <= 3; i++) { const p = gitPush("lab","mobile:main"); git("fetch lab", { quiet: true }); if (git("rev-parse HEAD") === git("rev-parse lab/main")) { pushed = true; break; } tryGit("rebase lab/main"); if (fs.existsSync(path.join(ROOT, ".git/rebase-merge"))) { tryGit("checkout --theirs rankings.json"); tryGit("add -A"); tryGit("-c core.editor=true rebase --continue"); } }
   log(`  이식: ${rep.join(" ") || "데이터만"} · 푸시 ${pushed ? "✅" : "❌"}`);
   git("checkout main", { quiet: true });
   return pushed;
