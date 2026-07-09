@@ -25,7 +25,10 @@ function tryGit(cmd, opts = {}) { try { return { ok: true, out: git(cmd, opts) }
 // push는 자격증명이 필요 → execFileSync 배열인자로 셸 파싱 우회(cmd.exe에서 공백·! 미보존 방지).
 // credential.helper=!gh… 는 Windows 'manager' 헬퍼의 /dev/tty 프롬프트 행을 회피(gh CLI 인증 재사용).
 function gitPush(remote, refspec) {
-  try { cp.execFileSync("git", ["-c", "credential.helper=!gh auth git-credential", "push", remote, refspec], { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }); return { ok: true }; }
+  // CI(GitHub Actions)에선 gh헬퍼 불필요 — actions/checkout이 GITHUB_TOKEN을 이미 설정. 로컬에서만 gh헬퍼로 manager 프롬프트 회피.
+  const ci = process.env.GITHUB_ACTIONS === "true";
+  const argv = ci ? ["push", remote, refspec] : ["-c", "credential.helper=!gh auth git-credential", "push", remote, refspec];
+  try { cp.execFileSync("git", argv, { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }); return { ok: true }; }
   catch (e) { return { ok: false, out: (e.stderr || "") + (e.message || "") }; }
 }
 function log(m) { console.log(m); }

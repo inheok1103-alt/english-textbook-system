@@ -11,8 +11,9 @@
 // 제어부(신호흐름 밖, 항상 먼저) — id만 보관(모듈 require는 brain.js가)
 const CONTROL = ["diencephalon", "midbrain"];
 
-// 신호 흐름 순서: 수확→보강→연결→정제→빌드/랭킹→출력검증→성찰
-const SIGNAL = ["nerve_bundles", "neurons", "synapses", "cerebellum", "cerebrum", "cortex", "prefrontal"];
+// 신호 흐름 순서: 수확→보강→연결→정제→빌드/랭킹→출력검증→성찰→운동출력(배포·검증)
+// ⚠️ brainstem(뇌간)의 step은 전부 manual tier라 자동 사이클에선 실행 안 됨(크론 무영향).
+const SIGNAL = ["nerve_bundles", "neurons", "synapses", "cerebellum", "cerebrum", "cortex", "prefrontal", "brainstem"];
 
 // 신호부위 모듈 맵(순서대로 require)
 const REGIONS = {};
