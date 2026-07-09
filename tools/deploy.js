@@ -43,7 +43,7 @@ function extractFn(src, name) {
 }
 // 모바일에 이식할 공유 순수로직(레이아웃 아님 — main↔mobile 동일해야) 화이트리스트
 const SHARED_FNS = ["gradeGap", "gradeAllowed", "audienceOk", "ctxScore", "starterRec", "startByGoal",
-  "recommendForCell", "chatRetrieve", "parseChat", "weeklyRows", "barRows", "rankBadge", "recCard"];
+  "recommendForCell", "chatRetrieve", "parseChat", "weeklyRows", "barRows", "rankBadge", "recCard", "curriculumRationale"];
 const SHARED_CONSTS = [/const _GORD=\{[^}]*\};/, /window\.__rankState = \{[^}]*\};/];
 
 // ── ① origin 커밋·푸시(내성) ─────────────────────────────────────────────
