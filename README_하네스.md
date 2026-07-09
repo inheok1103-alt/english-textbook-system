@@ -21,8 +21,7 @@
     build_app.js             ← ★ 빌드: DB+표지 → index.html
     expand_master.js         ← 교재 DB 확장(누락보강+특목고+고난도어휘+나이/코멘트/파트)
     collect_covers.js        ← YES24 표지 수집기(재개형)
-    curriculum_backend.gs    ← 공유/집계 백엔드(Google Apps Script)
-    guide_config.js          ← 중앙 서버 /exec URL 설정(참고)
+    backend_unified.gs       ← ★ 통합 백엔드(챗봇 LLM폴백·랭킹·평가·이벤트로깅, Google Apps Script)
 ```
 
 ## 2. 데이터 파이프라인
@@ -66,9 +65,9 @@ node collect_covers.js "..\data\iinhyuk_english_book_guide_v0.9_expanded.html"
 
 ## 4. 공유·집계 서버(선택) — 삼육중 패턴
 
-1. Google Sheets → 확장 > Apps Script에 `tools/curriculum_backend.gs` 붙여넣기
+1. Google Sheets → 확장 > Apps Script에 `tools/backend_unified.gs` 붙여넣기 → `setupAll()` 1회 실행
 2. 배포 > 새 배포 > 웹앱 (실행: 나 / 액세스: 모든 사용자) → `/exec` URL 복사
-3. `index.html` 상단 `window.GUIDE_ENDPOINT = ""` 에 URL 입력(또는 `guide_config.js` 사용)
+3. `tools/app_base.html`의 `window.GUIDE_ENDPOINT`(약 350행)에 URL 입력 후 재빌드(`node tools/build_app.js`)
 4. 배포: Netlify Drop(app.netlify.com/drop)에 `교재` 폴더 통째로 드래그
    → 모바일/PC 어디서나 접속, 공유 데이터가 대시보드에 실시간 집계
 

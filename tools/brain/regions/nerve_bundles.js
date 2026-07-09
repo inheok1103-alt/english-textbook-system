@@ -19,6 +19,9 @@ module.exports = {
     { id: "merge-foreign", ko: "원서 병합", tier: "deep", cmd: "node tools/harvest_kobic_merge.js" },
     // 🛒 알라딘 상업 카탈로그 전수 수확·병합(참고서·시험서·인기 시리즈 — KOBIC 누락 상시 보완)
     { id: "harvest-aladin", ko: "알라딘 영어교재 전수 수확", tier: "deep", cmd: "node tools/harvest_aladin.js", env: { ALADIN_PAGES: "3" } },
+    // 🔁 발견→수확 폐루프: 놓친 인기교재 감사(gap_scan) → 카탈로그 주입(consume_gap) → merge가 master로 병합.
+    { id: "gap_scan", ko: "카탈로그 누락 감사(알라딘 인기 시리즈)", tier: "deep", cmd: "node tools/audit_gaps.js" },
+    { id: "consume_gap", ko: "누락교재 카탈로그 주입(폐루프 소비)", tier: "deep", cmd: "node tools/consume_gap.js" },
     { id: "merge-aladin", ko: "알라딘 수확 병합·정리(영역·학년 자동)", tier: "deep", cmd: "node tools/merge_aladin_catalog.js" },
     // 확장/특수 카탈로그(수동): 원서 고전·ELT·특수 시드 확장
     { id: "import-classics", ko: "원서 고전 시드", tier: "manual", cmd: "node tools/import_classics.js" },

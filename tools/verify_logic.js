@@ -70,6 +70,12 @@ GRADES.forEach((g) => {
   check(`[${g}] 추천풀 비지 않음`, n >= 10, n + "종");
 });
 
+// 6) 시스템 일관성(pipeline↔brain 스크립트 드리프트) — 사전 게이트에 포함
+let consistencyOk = true;
+try { require("child_process").execSync("node tools/verify_consistency.js", { cwd: ROOT, stdio: "ignore" }); }
+catch (e) { consistencyOk = false; }
+check("pipeline↔brain 스크립트 일관성", consistencyOk, "드리프트 감지(verify_consistency 실패)");
+
 // ── 결과 ────────────────────────────────────────────────────────────────
 console.log(`🔬 로직 검증 — BOOKS ${BOOKS.length}종`);
 if (fails.length) fails.forEach((f) => console.log("  ❌ " + f));

@@ -21,7 +21,8 @@ const HARNESS = [
   { id: "report", ko: "폰 리포트 다이제스트", layer: "리포트", cmd: "node tools/brain/digest.js <topic>", file: "tools/brain/digest.js", workflow: "hourly-report.yml", surface: "cloud", note: "brain 상태·랭킹·최근작업을 ntfy JSON으로. 설정 report_config.json" },
   { id: "deploy", ko: "배포 하네스", layer: "배포", cmd: "node tools/deploy.js [--push|--sync-mobile|--all|--dry]", file: "tools/deploy.js", workflow: "(로컬 수동 / 향후 brain.yml 편입)", surface: "both", note: "빌드→커밋→push(rebase내성)→모바일동기→라이브검증을 한 코드경로로" },
   { id: "verify_live", ko: "라이브 검증", layer: "검증", cmd: "node tools/verify_live.js [pc|mobile|both]", file: "tools/verify_live.js", workflow: "(deploy 후)", surface: "both", note: "배포된 사이트 HTTP200·렌더무결성·데이터로드 실측(사후검증)" },
-  { id: "verify_logic", ko: "로직 검증", layer: "검증", cmd: "node tools/verify_logic.js", file: "tools/verify_logic.js", workflow: "(pre-deploy/CI)", surface: "local", note: "추천·챗봇 순수로직 전수 시뮬(학년제약·크래시·누수) — 사전검증" },
+  { id: "verify_logic", ko: "로직 검증", layer: "검증", cmd: "node tools/verify_logic.js", file: "tools/verify_logic.js", workflow: "(pre-deploy/CI)", surface: "local", note: "추천·챗봇 순수로직 전수 시뮬(학년제약·크래시·누수)+일관성 guard — 사전검증" },
+  { id: "verify_consistency", ko: "일관성 guard", layer: "검증", cmd: "node tools/verify_consistency.js", file: "tools/verify_consistency.js", workflow: "(verify_logic 내장)", surface: "local", note: "pipeline↔brain 스크립트 드리프트 감지(단일 진실원천 강제)" },
 ];
 
 // ── 브레인 부위 introspect(제어부 + 신호부위 + 각 step) ──────────────────────
