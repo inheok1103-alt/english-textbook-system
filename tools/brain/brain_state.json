@@ -1,9 +1,9 @@
 {
-  "cycle": 1,
-  "enrichCursor": 375,
+  "cycle": 2,
+  "enrichCursor": 750,
   "lastHarvestCycle": 1,
   "lastDeepCycle": 1,
-  "at": "2026-07-09T17:48:27.880Z",
+  "at": "2026-07-09T21:13:45.778Z",
   "errSeen": 5,
   "lastInsightCycle": 1,
   "lastReport": [
