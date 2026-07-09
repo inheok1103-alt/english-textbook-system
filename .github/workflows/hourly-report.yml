@@ -1,0 +1,46 @@
+name: hourly-report
+# 📱 1시간마다 브레인이 연구·업데이트한 내용을 다이제스트로 만들어 ntfy 푸시로 폰에 보고.
+# ⚠️ 이 워크플로는 "절대 실패하지 않도록" 설계됨 — 실패하면 그 자체가 소유자에게 오류 이메일을
+#    보내 알림 스팸이 되므로(원래 문제와 동일), 모든 단계가 exit 0으로 끝나게 방어함.
+on:
+  schedule:
+    - cron: '0 * * * *'       # 매시 정각(UTC). 표시 시각은 digest.js가 KST로 변환.
+  workflow_dispatch:           # 수동 테스트 버튼
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hourly-report
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 60      # digest.js의 `git log --since` 를 위한 얕은 히스토리
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 다이제스트 생성 + ntfy 발송
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          set +e   # 어떤 명령이 실패해도 스텝을 중단하지 않음(알림스팸 방지)
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "NTFY_TOPIC 시크릿 미설정 — 발송 스킵(무해). 설정하면 폰 알림이 켜집니다."
+            exit 0
+          fi
+          node tools/brain/digest.js "$NTFY_TOPIC" > payload.json
+          if [ ! -s payload.json ]; then
+            echo "다이제스트 생성 실패/빈 페이로드 — 스킵"
+            exit 0
+          fi
+          echo "페이로드 $(wc -c < payload.json) bytes 생성"
+          # ntfy JSON 발행(루트로 POST, body에 topic 포함). -f 미사용 → HTTP 오류여도 스텝 성공 유지.
+          HTTP=$(curl -sS -o /dev/null -w "%{http_code}" -H "Content-Type: application/json" -d @payload.json https://ntfy.sh/)
+          echo "ntfy 응답: HTTP $HTTP"
+          exit 0
