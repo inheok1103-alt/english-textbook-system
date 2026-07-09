@@ -1,0 +1,33 @@
+{
+  "_설명": "📱 시간별 폰 리포트 상세설정. 값만 바꾸면 digest.js가 바로 반영(재배포 불필요, 다음 발송부터 적용). 크론은 매시 실행되지만 아래 설정으로 발송 여부·내용을 세밀 제어함.",
+
+  "enabled": true,
+  "_enabled": "false로 두면 리포트 전체 정지(알림 안 옴).",
+
+  "everyNHours": 1,
+  "_everyNHours": "발송 간격. 1=매시간, 2=2시간마다, 3=3시간마다, 6=6시간마다. (크론은 매시 돌지만 이 값으로 걸러 발송)",
+
+  "quietHours": { "startKST": 0, "endKST": 7 },
+  "_quietHours": "이 시간대(KST, start<=시각<end)엔 발송 안 함. 예 {0,7}=밤 0~6시 무음. 끄려면 start와 end를 같게(예 {0,0}).",
+
+  "onlyOnChange": false,
+  "_onlyOnChange": "true면 최근 1시간 새 작업(커밋)이 없을 땐 발송 스킵 — 변화 있을 때만 알림.",
+
+  "priority": 3,
+  "_priority": "ntfy 알림 강도 1(조용)~5(긴급). 기본 3. 브레인 사이클 실패 시 자동으로 4로 올림.",
+
+  "sections": {
+    "catalog": true,
+    "recentWork": true,
+    "weeklyBest": true,
+    "brainHealth": true,
+    "insight": true
+  },
+  "_sections": "리포트에 넣을 항목 on/off. catalog=카탈로그규모, recentWork=최근1시간작업, weeklyBest=주간베스트셀러, brainHealth=브레인상태, insight=최근통찰.",
+
+  "weeklyBuckets": ["고", "중", "초", "성인"],
+  "_weeklyBuckets": "베스트셀러에 표시할 학년대와 순서. 예 [\"고\",\"성인\"]만 두면 그 둘만.",
+
+  "weeklyTopN": 1,
+  "_weeklyTopN": "학년대별 베스트셀러 상위 몇 권 표시(1~5)."
+}
