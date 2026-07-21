@@ -23076,16 +23076,6 @@
       "publisher": "NE능률",
       "bytes": 58157
     },
-    "IH-ENG-2893": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2893.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791125331032C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125331032",
-      "materialTitle": "내신평정 Middle School English(중학 영어) 3-2 평가문제집",
-      "publisher": "NE능률",
-      "bytes": 58635
-    },
     "IH-ENG-2894": {
       "status": "found",
       "localPath": "covers/IH-ENG-2894.jpg",
@@ -26155,16 +26145,6 @@
       "materialTitle": "2026 다빈출코드 수능기출문제집 영어영역 듣기",
       "publisher": "NE능률",
       "bytes": 38380
-    },
-    "IH-ENG-3557": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3557.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350774C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125350774",
-      "materialTitle": "다빈출코드 학평기출문제집 영어영역 고1 독해(2026 학평대비)",
-      "publisher": "NE능률",
-      "bytes": 39210
     },
     "IH-ENG-3558": {
       "status": "found",
@@ -31945,16 +31925,6 @@
       "materialTitle": "초등영문법 누적복습: 시제편",
       "publisher": "라임",
       "bytes": 48979
-    },
-    "IH-ENG-4511": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4511.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202507/9791171587322C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791171587322",
-      "materialTitle": "꼭 알아야 하는 영문법",
-      "publisher": "SLA영어북스토어",
-      "bytes": 44680
     },
     "IH-ENG-4512": {
       "status": "found",
@@ -52866,26 +52836,6 @@
       "publisher": "에듀플라자",
       "bytes": 84821
     },
-    "IH-ENG-7822": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-7822.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202603/9791174102386C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791174102386",
-      "materialTitle": "내신콘서트 중학 영어 기출문제집 1-1 기말고사(YBM 김은형)(2026)",
-      "publisher": "에듀플라자",
-      "bytes": 43000
-    },
-    "IH-ENG-7823": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-7823.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202603/9791174102287C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791174102287",
-      "materialTitle": "내신콘서트 중학 영어 기출문제집 2-1 기말고사(YBM 김은형)(2026)",
-      "publisher": "에듀플라자",
-      "bytes": 41405
-    },
     "IH-ENG-7824": {
       "status": "found",
       "localPath": "covers/IH-ENG-7824.jpg",
@@ -52895,16 +52845,6 @@
       "materialTitle": "중학영어 실전모의고사 Grammar (중간/기말) 2-1 유형별 객관식(동아 윤정미)(2026)",
       "publisher": "SLA영어북스토어",
       "bytes": 45631
-    },
-    "IH-ENG-7825": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-7825.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202602/9791174101372C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791174101372",
-      "materialTitle": "내신콘서트 중학 영어 기출문제집 2-1 전과정 통합본(중간 기말)(지학 송미정)(2026)",
-      "publisher": "에듀플라자",
-      "bytes": 48885
     },
     "IH-ENG-7826": {
       "status": "found",
@@ -52925,16 +52865,6 @@
       "materialTitle": "100발100중 최종점검 기출문제집 중학 영어 2-1 전과정(천재 소영순)(2026)",
       "publisher": "에듀원",
       "bytes": 50510
-    },
-    "IH-ENG-7828": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-7828.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202602/9791174101761C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791174101761",
-      "materialTitle": "내신콘서트 중학 영어 기출문제집 2-1 중간고사(비상 황종배)(2026)",
-      "publisher": "에듀플라자",
-      "bytes": 44488
     },
     "IH-ENG-7829": {
       "status": "found",
@@ -58205,16 +58135,6 @@
       "materialTitle": "내신콘서트 영어 기출문제집 1학기 기말고사 중학 2-1(천재 정사열)(2025)",
       "publisher": "에듀플라자",
       "bytes": 36229
-    },
-    "IH-ENG-8842": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8842.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9791164999675C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791164999675",
-      "materialTitle": "내신콘서트 영어 기출문제집 1학기 기말고사 중학 3-1(YBM 박준언)(2025)",
-      "publisher": "에듀플라자",
-      "bytes": 39118
     },
     "IH-ENG-8843": {
       "status": "found",
@@ -74851,6 +74771,156 @@
       "bytes": 63319,
       "materialTitle": "미드영어 패턴사전 - 한 번만 봐도 미드족이 되는",
       "verifiedAt": "2026-07-20T08:27:32.549Z"
+    },
+    "IH-ALADIN-9791175633124": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791175633124.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791175633124C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175633124",
+      "bytes": 46071,
+      "materialTitle": "2027 마더텅 수능기출 모의고사 30회 영어 영역 SE (2026년)",
+      "verifiedAt": "2026-07-21T15:11:46.726Z"
+    },
+    "IH-ALADIN-9788967152475": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788967152475.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788967152475C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788967152475",
+      "bytes": 38436,
+      "materialTitle": "한 권으로 끝내는 잉글리쉬앤 토익 700+ - LC + RC + VOCA",
+      "verifiedAt": "2026-07-21T15:11:50.049Z"
+    },
+    "IH-ALADIN-9791199356641": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791199356641.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791199356641C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791199356641",
+      "bytes": 82044,
+      "materialTitle": "영어 적기교육의 비밀 - 대치동 학원 없이 아이비리그 보낸 18년 영어교육 바이블",
+      "verifiedAt": "2026-07-21T15:11:53.555Z"
+    },
+    "IH-ALADIN-9791194630234": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791194630234.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791194630234C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791194630234",
+      "bytes": 60745,
+      "materialTitle": "AI 시대의 영어 공부법 - 15살, 토익 만점으로 대학 입학! 사교육 없이 이룬 영어 혁명",
+      "verifiedAt": "2026-07-21T15:11:57.036Z"
+    },
+    "IH-ALADIN-9791172344115": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791172344115.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791172344115C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791172344115",
+      "bytes": 41725,
+      "materialTitle": "영어 감정카드 How do you feel today? - English Emotion Card 64종 감정 단어로 표현력+영어 회화를 함께 배워요. 감정 표현 표정 이모티콘, 비폭력 대화 나 전달법, 영어 스피킹 음성 QR코드 mp3파일, 영어 그림책 독후활동지, SEL 사회정서학습 자료 제공",
+      "verifiedAt": "2026-07-21T15:12:00.352Z"
+    },
+    "IH-ALADIN-9788965423768": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965423768.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788965423768C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965423768",
+      "bytes": 53427,
+      "materialTitle": "Hackers Grammar Gateway 영문판 패키지 - 전2권 - 영어실력 단기향상 ㅣ 초보를 위한 기초 영문법",
+      "verifiedAt": "2026-07-21T15:12:03.852Z"
+    },
+    "IH-ALADIN-9791129718259": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791129718259.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791129718259C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129718259",
+      "bytes": 41855,
+      "materialTitle": "풀어서 외우는 영단어 중3 - 문제 풀이로 완성하는 영단어 학습",
+      "verifiedAt": "2026-07-21T15:12:07.182Z"
+    },
+    "IH-ALADIN-9791174102508": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102508.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102508C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102508",
+      "bytes": 43650,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중3 동아 이병민 (2026년) - 2015 개정 교육과정",
+      "verifiedAt": "2026-07-21T15:12:10.698Z"
+    },
+    "IH-ALADIN-9791186031599": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791186031599.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791186031599C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791186031599",
+      "bytes": 59118,
+      "materialTitle": "Reading Live 200 : 2",
+      "verifiedAt": "2026-07-21T15:12:14.224Z"
+    },
+    "IH-ALADIN-9788927708797": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927708797.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788927708797C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927708797",
+      "bytes": 52993,
+      "materialTitle": "Decoding the TOEFL iBT Writing Basic - New TOEFL Edition",
+      "verifiedAt": "2026-07-21T15:12:17.767Z"
+    },
+    "IH-ALADIN-9788967819927": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788967819927.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788967819927C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788967819927",
+      "bytes": 38621,
+      "materialTitle": "영어 알파벳",
+      "verifiedAt": "2026-07-21T15:12:21.098Z"
+    },
+    "IH-ALADIN-9788961985215": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788961985215.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788961985215C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788961985215",
+      "bytes": 55108,
+      "materialTitle": "Build Up for the TOEFL Primary test Step 2",
+      "verifiedAt": "2026-07-21T15:12:24.610Z"
+    },
+    "IH-ALADIN-9791166083037": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791166083037.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791166083037C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166083037",
+      "bytes": 38017,
+      "materialTitle": "씨뮬 15th 사설 3년간 수능 기출 모의고사 고3 영어 (2026년) - 2027 수능대비",
+      "verifiedAt": "2026-07-21T15:12:27.934Z"
+    },
+    "IH-ALADIN-9788927780298": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927780298.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788927780298C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927780298",
+      "bytes": 30566,
+      "materialTitle": "TOEFL MAP Writing Basic - New TOEFL Edition",
+      "verifiedAt": "2026-07-21T15:12:31.258Z"
+    },
+    "IH-ALADIN-9788917239355": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788917239355.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202405/9788917239355C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788917239355",
+      "bytes": 40512,
+      "materialTitle": "Write Now 1",
+      "verifiedAt": "2026-07-21T15:12:34.575Z"
     }
   }
 }
