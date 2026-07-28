@@ -75331,6 +75331,256 @@
       "bytes": 37948,
       "materialTitle": "100발 100중 기출문제집 최종점검 2학기 전과정 중2 영어 천재 이상기 (2026년용) - 2022 개정 교육과정",
       "verifiedAt": "2026-07-26T16:50:33.721Z"
+    },
+    "IH-ENG-13945": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-13945.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791165219642C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165219642",
+      "materialTitle": "프로그래머가 알아야 할 알고리즘 40",
+      "publisher": "길벗",
+      "bytes": 40361
+    },
+    "IH-ENG-13949": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-13949.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791160507829C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791160507829",
+      "materialTitle": "프로그래머를 위한 확률과 통계",
+      "publisher": "길벗",
+      "bytes": 63995
+    },
+    "IH-ENG-13951": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-13951.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791160506624C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791160506624",
+      "materialTitle": "프로그래머를 위한 기초 해석학",
+      "publisher": "길벗",
+      "bytes": 62194
+    },
+    "IH-ENG-14173": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14173.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791190727587C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190727587",
+      "materialTitle": "응용언어학 개론",
+      "publisher": "태학사",
+      "bytes": 35323
+    },
+    "IH-ENG-14174": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14174.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788925409474C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788925409474",
+      "materialTitle": "중국 언어학개론",
+      "publisher": "교육과학사",
+      "bytes": 12353
+    },
+    "IH-ENG-14178": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14178.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788984332188C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788984332188",
+      "materialTitle": "현대 일본언어학 개론",
+      "publisher": "보고사",
+      "bytes": 30494
+    },
+    "IH-ENG-14197": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14197.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791156867173C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791156867173",
+      "materialTitle": "한국인 이름의 사회언어학",
+      "publisher": "역락",
+      "bytes": 84286
+    },
+    "IH-ENG-14200": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14200.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791156861485C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791156861485",
+      "materialTitle": "사회언어학 관점에서의 국어 호칭어 사적 전개 양상 연구",
+      "publisher": "역락",
+      "bytes": 25515
+    },
+    "IH-ENG-14203": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14203.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788953493056C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788953493056",
+      "materialTitle": "강원도 동해안 방언의 사회언어학적 연구",
+      "publisher": "한국학술정보",
+      "bytes": 21332
+    },
+    "IH-ENG-14204": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14204.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/014/734/01473485.jpg?udate=20100111",
+      "source": "KOBIC",
+      "isbn": "9788957262160",
+      "materialTitle": "한국어의 사회언어학",
+      "publisher": "한국문화사",
+      "bytes": 4819
+    },
+    "IH-ENG-14280": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14280.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791198767868C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791198767868",
+      "materialTitle": "외국인 학습자를 위한 한국어통번역의 이해",
+      "publisher": "웨이메이커 북스",
+      "bytes": 38463
+    },
+    "IH-ENG-14281": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14281.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202508/9791143006561C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143006561",
+      "materialTitle": "AI와 통번역 교육(큰글자책)",
+      "publisher": "커뮤니케이션북스",
+      "bytes": 107511
+    },
+    "IH-ENG-14282": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14282.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202503/9788997134601C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788997134601",
+      "materialTitle": "AI 시대 통번역의 포스트에디팅 전략",
+      "publisher": "KONG & PARK, Inc.",
+      "bytes": 1138644
+    },
+    "IH-ENG-14284": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14284.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788940292426C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788940292426",
+      "materialTitle": "한일 통번역 노트",
+      "publisher": "시사일본어사",
+      "bytes": 44401
+    },
+    "IH-ENG-14291": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-14291.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788992059114C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788992059114",
+      "materialTitle": "통번역사의 한국어",
+      "publisher": "이지북스",
+      "bytes": 35566
+    },
+    "IH-ALADIN-9791176492027": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176492027.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791176492027C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176492027",
+      "bytes": 40767,
+      "materialTitle": "2027 박문각 공무원 진가영 영어 단판승 독해 유형별 전략서 - 공무원 9급 영어 시험 대비 독해 기본서",
+      "verifiedAt": "2026-07-28T06:41:33.087Z"
+    },
+    "IH-ALADIN-9788901118901": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788901118901.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9788901118901C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788901118901",
+      "bytes": 66203,
+      "materialTitle": "똑똑한 유아 독해 세트 - 전9권",
+      "verifiedAt": "2026-07-28T06:41:36.411Z"
+    },
+    "IH-ALADIN-9788971728482": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788971728482.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788971728482C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788971728482",
+      "bytes": 98658,
+      "materialTitle": "IELTS 급상승 Grammar 기초다지기 - IELTS 기본기를 위한 필수문법",
+      "verifiedAt": "2026-07-28T06:41:39.753Z"
+    },
+    "IH-ALADIN-9791129718211": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791129718211.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791129718211C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129718211",
+      "bytes": 41884,
+      "materialTitle": "풀어서 외우는 영단어 중1 - 문제 풀이로 완성하는 영단어 학습",
+      "verifiedAt": "2026-07-28T06:41:42.910Z"
+    },
+    "IH-ALADIN-9791161508948": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791161508948.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791161508948C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791161508948",
+      "bytes": 38084,
+      "materialTitle": "시원스쿨 취업영어 이슈 표현",
+      "verifiedAt": "2026-07-28T06:41:46.068Z"
+    },
+    "IH-ALADIN-9791171010806": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791171010806.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791171010806C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791171010806",
+      "bytes": 45336,
+      "materialTitle": "면접자의 영어 - 면접관이 바로 뽑고 싶은, 개정판",
+      "verifiedAt": "2026-07-28T06:41:49.396Z"
+    },
+    "IH-ALADIN-9791176040204": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176040204.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791176040204C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176040204",
+      "bytes": 28348,
+      "materialTitle": "중학영어 1학년 2학기 내신 대비 Grammar (중간/기말) 동아(윤정미) - 개정판",
+      "verifiedAt": "2026-07-28T06:41:52.549Z"
+    },
+    "IH-ALADIN-9791124392089": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124392089.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124392089C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124392089",
+      "bytes": 31464,
+      "materialTitle": "어린 왕자 영어 필사 : 전편 - 하루 10분으로 마음에 위로가 되는",
+      "verifiedAt": "2026-07-28T06:41:55.732Z"
+    },
+    "IH-ALADIN-9791112098931": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112098931.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202603/9791112098931C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112098931",
+      "bytes": 63838,
+      "materialTitle": "국제학교 가기 전 꼭 알아야 하는 필수 영어단어 -초등 과학편-",
+      "verifiedAt": "2026-07-28T06:41:59.058Z"
+    },
+    "IH-ALADIN-9788927701019": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927701019.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788927701019C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927701019",
+      "bytes": 56573,
+      "materialTitle": "미드영어 특급패턴 202 - 미드보다 좋은 스피킹 교재는 없다!",
+      "verifiedAt": "2026-07-28T06:42:05.401Z"
     }
   }
 }
