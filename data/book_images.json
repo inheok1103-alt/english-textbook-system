@@ -75332,16 +75332,6 @@
       "materialTitle": "100발 100중 기출문제집 최종점검 2학기 전과정 중2 영어 천재 이상기 (2026년용) - 2022 개정 교육과정",
       "verifiedAt": "2026-07-26T16:50:33.721Z"
     },
-    "IH-ENG-13945": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-13945.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791165219642C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791165219642",
-      "materialTitle": "프로그래머가 알아야 할 알고리즘 40",
-      "publisher": "길벗",
-      "bytes": 40361
-    },
     "IH-ENG-13949": {
       "status": "found",
       "localPath": "covers/IH-ENG-13949.jpg",
@@ -75371,26 +75361,6 @@
       "materialTitle": "응용언어학 개론",
       "publisher": "태학사",
       "bytes": 35323
-    },
-    "IH-ENG-14174": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-14174.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788925409474C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788925409474",
-      "materialTitle": "중국 언어학개론",
-      "publisher": "교육과학사",
-      "bytes": 12353
-    },
-    "IH-ENG-14178": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-14178.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788984332188C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788984332188",
-      "materialTitle": "현대 일본언어학 개론",
-      "publisher": "보고사",
-      "bytes": 30494
     },
     "IH-ENG-14197": {
       "status": "found",
