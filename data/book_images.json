@@ -75641,6 +75641,96 @@
       "bytes": 73071,
       "materialTitle": "1일 1주제 9분 만에 끝내는 영어",
       "verifiedAt": "2026-07-29T13:37:27.522Z"
+    },
+    "IH-ENG-15198": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15198.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174970480C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174970480",
+      "materialTitle": "체계기능언어학의 멀티모달 담화분석",
+      "publisher": "",
+      "bytes": 45664
+    },
+    "IH-ALADIN-9791112106469": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112106469.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202603/9791112106469C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112106469",
+      "bytes": 59616,
+      "materialTitle": "국제학교 가기 전 꼭 알아야 하는 필수 영어단어 - -초등 수학편-",
+      "verifiedAt": "2026-07-30T18:51:22.931Z"
+    },
+    "IH-ALADIN-9788987915838": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788987915838.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788987915838C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788987915838",
+      "bytes": 99905,
+      "materialTitle": "프리즌 브레이크 에피소드 4 - Cute Poison",
+      "verifiedAt": "2026-07-30T18:51:26.073Z"
+    },
+    "IH-ALADIN-9791176230865": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176230865.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791176230865C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176230865",
+      "bytes": 28432,
+      "materialTitle": "2027 Logical Mind : [Customizing] 하프모의고사 4회분 영어영역 (2026년) - 틀린 문제에서 시작해 나만의 학습으로 이어지는 하프모의고사",
+      "verifiedAt": "2026-07-30T18:51:32.012Z"
+    },
+    "IH-ALADIN-9791186924754": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791186924754.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791186924754C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791186924754",
+      "bytes": 44007,
+      "materialTitle": "Polybooks Grammar Joy 4 - 메가스터디 엘리하이 강의교재, 개정판",
+      "verifiedAt": "2026-07-30T18:51:34.997Z"
+    },
+    "IH-ALADIN-9788963059020": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788963059020.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788963059020C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788963059020",
+      "bytes": 57121,
+      "materialTitle": "엄마표 유치원 영어 - 일상에서 영어로 배우는, 세이펜 기능 적용, 세이펜 미포함",
+      "verifiedAt": "2026-07-30T18:51:38.037Z"
+    },
+    "IH-ALADIN-9791169193450": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791169193450.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202508/9791169193450C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791169193450",
+      "bytes": 69953,
+      "materialTitle": "영국 문학 개관 - 제4판",
+      "verifiedAt": "2026-07-30T18:51:41.013Z"
+    },
+    "IH-ALADIN-9791166083013": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791166083013.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791166083013C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166083013",
+      "bytes": 36892,
+      "materialTitle": "씨뮬 15th 사설 기출 모의고사 고2 영어 (2027년) - 2027 내신·학평",
+      "verifiedAt": "2026-07-30T18:51:43.877Z"
+    },
+    "IH-ALADIN-9791124001066": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124001066.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791124001066C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124001066",
+      "bytes": 32926,
+      "materialTitle": "마이갓 26년 고1 6월 모의고사 Workbook",
+      "verifiedAt": "2026-07-30T18:51:46.788Z"
     }
   }
 }
