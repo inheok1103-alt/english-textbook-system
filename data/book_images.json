@@ -75731,6 +75731,86 @@
       "bytes": 32926,
       "materialTitle": "마이갓 26년 고1 6월 모의고사 Workbook",
       "verifiedAt": "2026-07-30T18:51:46.788Z"
+    },
+    "IH-ALADIN-9788962814316": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788962814316.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788962814316C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788962814316",
+      "bytes": 33359,
+      "materialTitle": "노베토익 : 기본",
+      "verifiedAt": "2026-07-31T22:44:32.558Z"
+    },
+    "IH-ALADIN-9788927781080": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927781080.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788927781080C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927781080",
+      "bytes": 39833,
+      "materialTitle": "How to Master Skills for the TOEFL iBT Actual Test Reading 1 - Second Edition",
+      "verifiedAt": "2026-07-31T22:44:35.794Z"
+    },
+    "IH-ALADIN-9788927701866": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927701866.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9788927701866C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927701866",
+      "bytes": 96696,
+      "materialTitle": "Hansel and Gretel / Rapunzel (New Edition) - 헨젤과 그레텔 / 라푼젤",
+      "verifiedAt": "2026-07-31T22:44:39.214Z"
+    },
+    "IH-ALADIN-9791174102461": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102461.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102461C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102461",
+      "bytes": 27434,
+      "materialTitle": "내신콘서트 고등영어 기출문제집 공통영어 2 천재 강상구 (2026년)",
+      "verifiedAt": "2026-07-31T22:44:42.433Z"
+    },
+    "IH-ALADIN-9788965427438": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965427438.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788965427438C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965427438",
+      "bytes": 42662,
+      "materialTitle": "Hackers Reading Smart Master (해커스 리딩 스마트 마스터) Level 1 - Smart, Skillful, and Critical Reading ┃ 고등 독해의 완성",
+      "verifiedAt": "2026-07-31T22:44:45.843Z"
+    },
+    "IH-ALADIN-9791129718198": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791129718198.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791129718198C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129718198",
+      "bytes": 43225,
+      "materialTitle": "풀어서 외우는 영단어 예비중 - 문제 풀이로 완성하는 영단어 학습",
+      "verifiedAt": "2026-07-31T22:44:49.253Z"
+    },
+    "IH-ALADIN-9788962812015": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788962812015.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788962812015C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788962812015",
+      "bytes": 109687,
+      "materialTitle": "최소한의 토익 600컷",
+      "verifiedAt": "2026-07-31T22:44:52.851Z"
+    },
+    "IH-ALADIN-9788927701873": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927701873.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9788927701873C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927701873",
+      "bytes": 108122,
+      "materialTitle": "Jack and the Beanstalk / Goldilocks and the Three Bears / The Little Red Hen (New Edition) - 잭과 콩나무 / 골디락스와 곰 세 마리 / 작은 붉은 암탉",
+      "verifiedAt": "2026-07-31T22:44:56.444Z"
     }
   }
 }
