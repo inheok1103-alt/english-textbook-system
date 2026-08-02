@@ -75811,6 +75811,86 @@
       "bytes": 108122,
       "materialTitle": "Jack and the Beanstalk / Goldilocks and the Three Bears / The Little Red Hen (New Edition) - 잭과 콩나무 / 골디락스와 곰 세 마리 / 작은 붉은 암탉",
       "verifiedAt": "2026-07-31T22:44:56.444Z"
+    },
+    "IH-ALADIN-9791192361758": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791192361758.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791192361758C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791192361758",
+      "bytes": 65138,
+      "materialTitle": "Smart Listening 1-1",
+      "verifiedAt": "2026-08-02T07:04:00.635Z"
+    },
+    "IH-ALADIN-9791190020343": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791190020343.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791190020343C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791190020343",
+      "bytes": 20831,
+      "materialTitle": "공무원 영어 하다 330제 기본",
+      "verifiedAt": "2026-08-02T07:04:03.815Z"
+    },
+    "IH-ALADIN-9788962811735": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788962811735.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788962811735C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788962811735",
+      "bytes": 51707,
+      "materialTitle": "밀크토익 실전모의고사 - 매월 나오는 신선한 토익",
+      "verifiedAt": "2026-08-02T07:04:07.156Z"
+    },
+    "IH-ALADIN-9788917305166": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788917305166.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788917305166C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788917305166",
+      "bytes": 66773,
+      "materialTitle": "초등학교 영어 자습서 & 평가문제집 5-2 : 최희경 외 - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-02T07:04:10.514Z"
+    },
+    "IH-ALADIN-9791194467175": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791194467175.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202412/9791194467175C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791194467175",
+      "bytes": 76890,
+      "materialTitle": "SMART 여행영어 - All New 바로 보고 바로 통하는",
+      "verifiedAt": "2026-08-02T07:04:13.867Z"
+    },
+    "IH-ALADIN-9791124272312": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124272312.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791124272312C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124272312",
+      "bytes": 64920,
+      "materialTitle": "최상위 감각을 키우는 4~7세 영어 로드맵 - 엄마표 영어, 영어 유치원, 해외체험…한 권으로 끝낸다!",
+      "verifiedAt": "2026-08-02T07:04:17.217Z"
+    },
+    "IH-ALADIN-9791124009819": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124009819.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791124009819C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124009819",
+      "bytes": 53129,
+      "materialTitle": "동백꽃 STEP 1 동백꽃 기본 영어",
+      "verifiedAt": "2026-08-02T07:04:20.569Z"
+    },
+    "IH-ALADIN-9788927701941": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927701941.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9788927701941C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927701941",
+      "bytes": 62630,
+      "materialTitle": "Puss in Boots / Cinderella (New Edition) - 장화 신은 고양이 / 신데렐라",
+      "verifiedAt": "2026-08-02T07:04:23.927Z"
     }
   }
 }
