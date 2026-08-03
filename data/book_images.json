@@ -75891,6 +75891,326 @@
       "bytes": 62630,
       "materialTitle": "Puss in Boots / Cinderella (New Edition) - 장화 신은 고양이 / 신데렐라",
       "verifiedAt": "2026-08-02T07:04:23.927Z"
+    },
+    "IH-ENG-15199": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15199.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150645C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150645",
+      "materialTitle": "원픽 영문법 중학 기본 4",
+      "publisher": "A*List",
+      "bytes": 50085
+    },
+    "IH-ENG-15200": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15200.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150690C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150690",
+      "materialTitle": "원픽 영문법 중학 필수 3",
+      "publisher": "A*List",
+      "bytes": 47848
+    },
+    "IH-ENG-15201": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15201.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150553C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150553",
+      "materialTitle": "원픽 영문법 중학 기초 1",
+      "publisher": "A*List",
+      "bytes": 39468
+    },
+    "IH-ENG-15202": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15202.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150560C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150560",
+      "materialTitle": "원픽 영문법 중학 기초 2",
+      "publisher": "A*List",
+      "bytes": 40988
+    },
+    "IH-ENG-15203": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15203.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150652C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150652",
+      "materialTitle": "원픽 영문법 중학 기본 5",
+      "publisher": "A*List",
+      "bytes": 53508
+    },
+    "IH-ENG-15204": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15204.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150577C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150577",
+      "materialTitle": "원픽 영문법 중학 기초 3",
+      "publisher": "A*List",
+      "bytes": 41951
+    },
+    "IH-ENG-15205": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15205.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150669C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150669",
+      "materialTitle": "원픽 영문법 중학 기본 6",
+      "publisher": "A*List",
+      "bytes": 51615
+    },
+    "IH-ENG-15206": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15206.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150584C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150584",
+      "materialTitle": "원픽 영문법 중학 기초 4",
+      "publisher": "A*List",
+      "bytes": 39197
+    },
+    "IH-ENG-15207": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15207.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150676C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150676",
+      "materialTitle": "원픽 영문법 중학 필수 1",
+      "publisher": "A*List",
+      "bytes": 47224
+    },
+    "IH-ENG-15208": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15208.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150591C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150591",
+      "materialTitle": "원픽 영문법 중학 기초 5",
+      "publisher": "A*List",
+      "bytes": 42566
+    },
+    "IH-ENG-15209": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15209.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150683C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150683",
+      "materialTitle": "원픽 영문법 중학 필수 2",
+      "publisher": "A*List",
+      "bytes": 46620
+    },
+    "IH-ENG-15210": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15210.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150706C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150706",
+      "materialTitle": "원픽 영문법 중학 필수 4",
+      "publisher": "A*List",
+      "bytes": 47424
+    },
+    "IH-ENG-15211": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15211.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150713C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150713",
+      "materialTitle": "원픽 영문법 중학 필수 5",
+      "publisher": "A*List",
+      "bytes": 50015
+    },
+    "IH-ENG-15212": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15212.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150720C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150720",
+      "materialTitle": "원픽 영문법 중학 필수 6",
+      "publisher": "A*List",
+      "bytes": 49053
+    },
+    "IH-ENG-15213": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15213.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150737C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150737",
+      "materialTitle": "원픽 영문법 중학 고난도 1",
+      "publisher": "A*List",
+      "bytes": 44706
+    },
+    "IH-ENG-15214": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15214.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150744C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150744",
+      "materialTitle": "원픽 영문법 중학 고난도 2",
+      "publisher": "A*List",
+      "bytes": 47190
+    },
+    "IH-ENG-15215": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15215.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150751C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150751",
+      "materialTitle": "원픽 영문법 중학 고난도 3",
+      "publisher": "A*List",
+      "bytes": 47456
+    },
+    "IH-ENG-15216": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15216.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150768C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150768",
+      "materialTitle": "원픽 영문법 중학 고난도 4",
+      "publisher": "A*List",
+      "bytes": 46883
+    },
+    "IH-ENG-15217": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15217.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150775C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150775",
+      "materialTitle": "원픽 영문법 중학 고난도 5",
+      "publisher": "A*List",
+      "bytes": 46691
+    },
+    "IH-ENG-15218": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15218.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150782C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150782",
+      "materialTitle": "원픽 영문법 중학 고난도 6",
+      "publisher": "A*List",
+      "bytes": 46021
+    },
+    "IH-ENG-15219": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15219.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150607C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150607",
+      "materialTitle": "원픽 영문법 중학 기초 6",
+      "publisher": "A*List",
+      "bytes": 52352
+    },
+    "IH-ENG-15220": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15220.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150614C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150614",
+      "materialTitle": "원픽 영문법 중학 기본 1",
+      "publisher": "A*List",
+      "bytes": 49598
+    },
+    "IH-ENG-15221": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15221.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150621C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150621",
+      "materialTitle": "원픽 영문법 중학 기본 2",
+      "publisher": "A*List",
+      "bytes": 52314
+    },
+    "IH-ENG-15222": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15222.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791175150638C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175150638",
+      "materialTitle": "원픽 영문법 중학 기본 3",
+      "publisher": "A*List",
+      "bytes": 50442
+    },
+    "IH-ALADIN-9791174102447": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102447.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102447C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102447",
+      "bytes": 27403,
+      "materialTitle": "내신콘서트 고등영어 기출문제집 공통영어 2 비상 홍민표 (2026년)",
+      "verifiedAt": "2026-08-03T17:51:55.183Z"
+    },
+    "IH-ALADIN-9788900491357": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788900491357.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788900491357C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788900491357",
+      "bytes": 36958,
+      "materialTitle": "특급내신템 교과서 완성편 중학 영어 1-2 이병민 (2026년) - 교과서 집필진이 개발한 특별한 내신 아이템",
+      "verifiedAt": "2026-08-03T17:51:59.064Z"
+    },
+    "IH-ALADIN-9791174102553": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102553.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102553C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102553",
+      "bytes": 43773,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중3 천재 이재영 (2026년) - 2015 개정 교육과정",
+      "verifiedAt": "2026-08-03T17:52:02.979Z"
+    },
+    "IH-ALADIN-9788987985824": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788987985824.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788987985824C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788987985824",
+      "bytes": 30740,
+      "materialTitle": "7세 아이 첫영어 - 연령별 학습능력에 맞춘",
+      "verifiedAt": "2026-08-03T17:52:05.939Z"
+    },
+    "IH-ALADIN-9791196845926": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791196845926.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791196845926C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791196845926",
+      "bytes": 89719,
+      "materialTitle": "보카엘 VOCAEL 고교기초 (예비고·고1) 상 - 외우지 말고 이해하라",
+      "verifiedAt": "2026-08-03T17:52:09.119Z"
+    },
+    "IH-ALADIN-9791160783971": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791160783971.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791160783971C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791160783971",
+      "bytes": 57112,
+      "materialTitle": "영어! 뭘 대단한 것을 가르친다고?",
+      "verifiedAt": "2026-08-03T17:52:12.206Z"
+    },
+    "IH-ALADIN-9791192978550": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791192978550.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202501/9791192978550C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791192978550",
+      "bytes": 47297,
+      "materialTitle": "MY FIRST LEARNING ALPHABET 알파벳 연습장",
+      "verifiedAt": "2026-08-03T17:52:15.309Z"
+    },
+    "IH-ALADIN-9788927702085": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927702085.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202505/9788927702085C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927702085",
+      "bytes": 100821,
+      "materialTitle": "Peter Pan (New Edition) - 피터팬",
+      "verifiedAt": "2026-08-03T17:52:18.527Z"
     }
   }
 }
