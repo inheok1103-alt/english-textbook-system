@@ -76211,6 +76211,86 @@
       "bytes": 100821,
       "materialTitle": "Peter Pan (New Edition) - 피터팬",
       "verifiedAt": "2026-08-03T17:52:18.527Z"
+    },
+    "IH-ALADIN-9788989292678": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788989292678.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788989292678C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788989292678",
+      "bytes": 77458,
+      "materialTitle": "영어 간판을 읽자",
+      "verifiedAt": "2026-08-05T00:36:23.473Z"
+    },
+    "IH-ALADIN-9791186924747": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791186924747.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791186924747C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791186924747",
+      "bytes": 43964,
+      "materialTitle": "Polybooks Grammar Joy 3 - 메가스터디 엘리하이 강의교재, 개정판",
+      "verifiedAt": "2026-08-05T00:36:26.716Z"
+    },
+    "IH-ALADIN-9788962816235": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788962816235.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788962816235C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788962816235",
+      "bytes": 35508,
+      "materialTitle": "노베토익 : 입문",
+      "verifiedAt": "2026-08-05T00:36:29.805Z"
+    },
+    "IH-ALADIN-9791175982116": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791175982116.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791175982116C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175982116",
+      "bytes": 87212,
+      "materialTitle": "토익 만점 카투사도 안 들리는 미국 뉴스 학습 노트",
+      "verifiedAt": "2026-08-05T00:36:33.049Z"
+    },
+    "IH-ALADIN-9788917238358": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788917238358.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788917238358C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788917238358",
+      "bytes": 48956,
+      "materialTitle": "English Town Starter Book 2 (For Everyone)",
+      "verifiedAt": "2026-08-05T00:36:36.301Z"
+    },
+    "IH-ALADIN-9791174102621": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102621.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174102621C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102621",
+      "bytes": 79333,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중2 동아 이병민 (2026년)",
+      "verifiedAt": "2026-08-05T00:36:39.539Z"
+    },
+    "IH-ALADIN-9791176090490": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176090490.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791176090490C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176090490",
+      "bytes": 37868,
+      "materialTitle": "100발 100중 기출문제집 최종점검 2학기 전과정 중2 영어 능률 김기택 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-05T00:36:42.634Z"
+    },
+    "IH-ALADIN-9791133723744": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791133723744.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791133723744C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791133723744",
+      "bytes": 85618,
+      "materialTitle": "적중100 영어 알리오올리오 2학기 전과정 중2 동아 이병민 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-05T00:36:45.880Z"
     }
   }
 }
