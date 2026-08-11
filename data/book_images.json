@@ -76611,6 +76611,96 @@
       "bytes": 37939,
       "materialTitle": "100발 100중 기출문제집 최종점검 2학기 전과정 중2 영어 동아 이병민 (2026년) - 2022 개정 교육과정",
       "verifiedAt": "2026-08-09T23:53:41.194Z"
+    },
+    "IH-ENG-15809": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-15809.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791124854006C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124854006",
+      "materialTitle": "통섭의 영어학",
+      "publisher": "대학영어연구소",
+      "bytes": 49735
+    },
+    "IH-ENG-16040": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-16040.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791160180305C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791160180305",
+      "materialTitle": "조셉 신 영어교육론(전공영어)(교원임용)",
+      "publisher": "지금",
+      "bytes": 32905
+    },
+    "IH-ALADIN-9791193614372": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791193614372.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791193614372C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791193614372",
+      "bytes": 30470,
+      "materialTitle": "키다리 아저씨 1~2 세트 - 전2권",
+      "verifiedAt": "2026-08-11T02:52:51.851Z"
+    },
+    "IH-ALADIN-9791166476594": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791166476594.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791166476594C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166476594",
+      "bytes": 94790,
+      "materialTitle": "회사 업무 영어 길라잡이",
+      "verifiedAt": "2026-08-11T02:52:55.305Z"
+    },
+    "IH-ALADIN-9791175871182": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791175871182.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791175871182C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175871182",
+      "bytes": 30666,
+      "materialTitle": "EASY FINAL 쉬운 마무리 수능 봉투모의고사 영어영역 3회분 (2026년) - EBS 완벽분석",
+      "verifiedAt": "2026-08-11T02:52:58.573Z"
+    },
+    "IH-ALADIN-9791199893108": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791199893108.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791199893108C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791199893108",
+      "bytes": 64412,
+      "materialTitle": "미미월간지 6월 (2026년) - 2027 수능대비",
+      "verifiedAt": "2026-08-11T02:53:02.034Z"
+    },
+    "IH-ALADIN-9788952139795": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788952139795.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788952139795C001.gif",
+      "source": "KOBIC",
+      "isbn": "9788952139795",
+      "bytes": 127416,
+      "materialTitle": "걸리버 여행기 - 개정판",
+      "verifiedAt": "2026-08-11T02:53:05.684Z"
+    },
+    "IH-ALADIN-9788961263726": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788961263726.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9788961263726C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788961263726",
+      "bytes": 30598,
+      "materialTitle": "수능 완승 EBS 완벽분석 중앙 FINAL 실전봉투 모의고사 영어영역 3회분 (2026년) - EBS 수능특강 변형문제 완전분석 및 간접연계 대비",
+      "verifiedAt": "2026-08-11T02:53:08.964Z"
+    },
+    "IH-ALADIN-9791124324103": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124324103.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791124324103C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124324103",
+      "bytes": 42344,
+      "materialTitle": "날개 : 오늘의 언어로 다시 읽다 - 이상의 날개, 현대적 문체 개작과 영어 번역",
+      "verifiedAt": "2026-08-11T02:53:12.227Z"
     }
   }
 }
