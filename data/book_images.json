@@ -36542,16 +36542,6 @@
       "publisher": "영어닷컴",
       "bytes": 24840
     },
-    "IH-ENG-5306": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-5306.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788996790648C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788996790648",
-      "materialTitle": "영어독해 워런버핏",
-      "publisher": "영어닷컴",
-      "bytes": 28675
-    },
     "IH-ENG-5316": {
       "status": "found",
       "localPath": "covers/IH-ENG-5316.jpg",
@@ -38051,16 +38041,6 @@
       "materialTitle": "유창한 영어회화를 꼭 원하는 분 1",
       "publisher": "아델북스",
       "bytes": 30405
-    },
-    "IH-ENG-5589": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-5589.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9791185345284C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791185345284",
-      "materialTitle": "영어로 이야기",
-      "publisher": "영어로연구소",
-      "bytes": 28580
     },
     "IH-ENG-5590": {
       "status": "found",
