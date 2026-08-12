@@ -23172,16 +23172,6 @@
       "publisher": "동아출판",
       "bytes": 64068
     },
-    "IH-ENG-2912": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2912.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791125326007C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125326007",
-      "materialTitle": "열중 16강 독해+문법 Level 1",
-      "publisher": "NE능률",
-      "bytes": 40484
-    },
     "IH-ENG-2913": {
       "status": "found",
       "localPath": "covers/IH-ENG-2913.jpg",
@@ -23191,16 +23181,6 @@
       "materialTitle": "열중 16강 독해+문법 Level 2",
       "publisher": "NE능률",
       "bytes": 40871
-    },
-    "IH-ENG-2914": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2914.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791125326038C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125326038",
-      "materialTitle": "열중 16강 문법 Level 1",
-      "publisher": "NE능률",
-      "bytes": 40387
     },
     "IH-ENG-2915": {
       "status": "found",
