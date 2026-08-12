@@ -76637,6 +76637,76 @@
       "bytes": 42344,
       "materialTitle": "날개 : 오늘의 언어로 다시 읽다 - 이상의 날개, 현대적 문체 개작과 영어 번역",
       "verifiedAt": "2026-08-11T02:53:12.227Z"
+    },
+    "IH-ALADIN-9791124392096": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124392096.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124392096C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124392096",
+      "bytes": 46649,
+      "materialTitle": "어린 왕자 영어 필사 : 후편 - 하루 10분으로 마음에 위로가 되는",
+      "verifiedAt": "2026-08-12T05:31:23.326Z"
+    },
+    "IH-ALADIN-9788962810820": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788962810820.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788962810820C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788962810820",
+      "bytes": 38309,
+      "materialTitle": "Winning TOEFL Reading Step 2 - 2nd Edition",
+      "verifiedAt": "2026-08-12T05:31:26.215Z"
+    },
+    "IH-ALADIN-9788962814231": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788962814231.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788962814231C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788962814231",
+      "bytes": 38495,
+      "materialTitle": "노베토익 단어장 - 700+ 목표 점수를 위한 핵심 기출1,200단어",
+      "verifiedAt": "2026-08-12T05:31:29.102Z"
+    },
+    "IH-ALADIN-9791124143124": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124143124.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124143124C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124143124",
+      "bytes": 42335,
+      "materialTitle": "상황별 실용영어표현 3300 - 딱! 이거 하나면 된다!",
+      "verifiedAt": "2026-08-12T05:31:31.984Z"
+    },
+    "IH-ALADIN-9791124281826": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124281826.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124281826C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124281826",
+      "bytes": 29062,
+      "materialTitle": "Insight 실전봉투모의고사 영어영역 3회분 (2026년) - EBS 완벽분석",
+      "verifiedAt": "2026-08-12T05:31:34.861Z"
+    },
+    "IH-ALADIN-9791124281819": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124281819.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124281819C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124281819",
+      "bytes": 28500,
+      "materialTitle": "SKY 실전봉투모의고사 영어영역 3회분 (2026년) - EBS 완벽분석",
+      "verifiedAt": "2026-08-12T05:31:37.745Z"
+    },
+    "IH-ALADIN-9791124281802": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124281802.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124281802C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124281802",
+      "bytes": 28380,
+      "materialTitle": "Essence 에센스 파이널 실전봉투모의고사 영어영역 3회분 (2026년)",
+      "verifiedAt": "2026-08-12T05:31:40.632Z"
     }
   }
 }
