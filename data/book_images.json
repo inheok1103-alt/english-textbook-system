@@ -26642,16 +26642,6 @@
       "publisher": "NE능률",
       "bytes": 36009
     },
-    "IH-ENG-3640": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3640.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125340348C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125340348",
-      "materialTitle": "수능유형 픽(Pick) 독해 기본(2024)",
-      "publisher": "NE능률",
-      "bytes": 34972
-    },
     "IH-ENG-3643": {
       "status": "found",
       "localPath": "covers/IH-ENG-3643.jpg",
@@ -56761,16 +56751,6 @@
       "materialTitle": "수능 영어 기출 분석 - 말벡(Malbec)(for 2024) -",
       "publisher": "퍼플",
       "bytes": 46767
-    },
-    "IH-ENG-8634": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8634.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788966629176C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788966629176",
-      "materialTitle": "수능영어 스키마",
-      "publisher": "이지수능교육",
-      "bytes": 57750
     },
     "IH-ENG-8635": {
       "status": "found",
