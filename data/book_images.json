@@ -38762,16 +38762,6 @@
       "publisher": "송원",
       "bytes": 41800
     },
-    "IH-ENG-5688": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-5688.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791196776619C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791196776602",
-      "materialTitle": "진짜 네이티브 영어회화: 일상패턴",
-      "publisher": "원북스",
-      "bytes": 69556
-    },
     "IH-ENG-5689": {
       "status": "found",
       "localPath": "covers/IH-ENG-5689.jpg",
@@ -76627,6 +76617,86 @@
       "bytes": 28380,
       "materialTitle": "Essence 에센스 파이널 실전봉투모의고사 영어영역 3회분 (2026년)",
       "verifiedAt": "2026-08-12T05:31:40.632Z"
+    },
+    "IH-ALADIN-9791175242685": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791175242685.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791175242685C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175242685",
+      "bytes": 65040,
+      "materialTitle": "수레바퀴 아래서 미니미니 키링북 (영문판)",
+      "verifiedAt": "2026-08-13T10:41:29.426Z"
+    },
+    "IH-ALADIN-9791112198723": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112198723.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112198723C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112198723",
+      "bytes": 69792,
+      "materialTitle": "강남 엄마는 왜 영어에 흔들리는가",
+      "verifiedAt": "2026-08-13T10:41:32.554Z"
+    },
+    "IH-ALADIN-9791175242401": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791175242401.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791175242401C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175242401",
+      "bytes": 28177,
+      "materialTitle": "어린 왕자 미니미니북 (영문판) : The Little Prince",
+      "verifiedAt": "2026-08-13T10:41:35.599Z"
+    },
+    "IH-ALADIN-9791124324004": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124324004.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791124324004C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124324004",
+      "bytes": 32290,
+      "materialTitle": "동주, 영어로 다시 만나다 - 윤동주, 한국어를 가장 아름답게 쓴 시인",
+      "verifiedAt": "2026-08-13T10:41:38.598Z"
+    },
+    "IH-ALADIN-9791199675988": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791199675988.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791199675988C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791199675988",
+      "bytes": 83418,
+      "materialTitle": "미미월간지 5월 (2026년) - 2027 수능대비",
+      "verifiedAt": "2026-08-13T10:41:41.721Z"
+    },
+    "IH-ALADIN-9791168182561": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791168182561.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791168182561C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791168182561",
+      "bytes": 49415,
+      "materialTitle": "캐치 온 잉글리쉬 세트 - 전2권 - 9급 공무원 시험대비, 확장 4판",
+      "verifiedAt": "2026-08-13T10:41:44.967Z"
+    },
+    "IH-ALADIN-9791199893122": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791199893122.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791199893122C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791199893122",
+      "bytes": 66637,
+      "materialTitle": "미미월간지 7월 (2026년)",
+      "verifiedAt": "2026-08-13T10:41:48.285Z"
+    },
+    "IH-ALADIN-9791176022521": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176022521.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791176022521C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176022521",
+      "bytes": 35857,
+      "materialTitle": "9월 7개년 전국연합 모의고사 고1 영어 (2026년) - 2022 개정 교육과정, 전국연합 및 내신대비",
+      "verifiedAt": "2026-08-13T10:41:51.518Z"
     }
   }
 }
