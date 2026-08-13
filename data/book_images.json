@@ -23812,16 +23812,6 @@
       "publisher": "다락원",
       "bytes": 665588
     },
-    "IH-ENG-3017": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3017.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125340997C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125340997",
-      "materialTitle": "초등영어 사이트 워드가 된다 세트",
-      "publisher": "NE능률",
-      "bytes": 62588
-    },
     "IH-ENG-3018": {
       "status": "found",
       "localPath": "covers/IH-ENG-3018.jpg",
@@ -24031,16 +24021,6 @@
       "materialTitle": "초등영어 리스닝튜터 Beginner 2",
       "publisher": "NE능률",
       "bytes": 49861
-    },
-    "IH-ENG-3039": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3039.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125337294C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337294",
-      "materialTitle": "초등영어 리스닝튜터 Beginner 1",
-      "publisher": "NE능률",
-      "bytes": 48173
     },
     "IH-ENG-3041": {
       "status": "found",
