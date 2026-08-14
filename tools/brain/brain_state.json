@@ -1,11 +1,11 @@
 {
-  "cycle": 338,
-  "enrichCursor": 4639,
-  "lastHarvestCycle": 327,
-  "lastDeepCycle": 327,
-  "at": "2026-08-14T08:59:06.006Z",
+  "cycle": 339,
+  "enrichCursor": 5014,
+  "lastHarvestCycle": 339,
+  "lastDeepCycle": 339,
+  "at": "2026-08-14T10:49:53.223Z",
   "errSeen": 5,
-  "lastInsightCycle": 255,
+  "lastInsightCycle": 339,
   "lastReport": [
     {
       "id": "nerve_bundles",
