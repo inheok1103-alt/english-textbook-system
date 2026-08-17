@@ -76827,6 +76827,86 @@
       "bytes": 37136,
       "materialTitle": "Reading World History",
       "verifiedAt": "2026-08-16T16:06:23.592Z"
+    },
+    "IH-ALADIN-9791195864089": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791195864089.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791195864089C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791195864089",
+      "bytes": 53425,
+      "materialTitle": "썸타는 영어",
+      "verifiedAt": "2026-08-17T17:55:16.337Z"
+    },
+    "IH-ALADIN-8809496291594": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-8809496291594.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/8809496291594C001.jpg",
+      "source": "KOBIC",
+      "isbn": "8809496291594",
+      "bytes": 93364,
+      "materialTitle": "[DVD] 스피킹 스쿨 500 영어 단어 퀴즈왕 - 힌트 5문장으로 맞히는 영단어 퀴즈, 26가지 주제 530개 단어, 엄마표 홈스쿨링 영어공부, 유아·어린이·성인·시니어까지 활용하는 영어스피킹 영상·PPT·PDF·활동지 패키지",
+      "verifiedAt": "2026-08-17T17:55:19.372Z"
+    },
+    "IH-ALADIN-9791112200228": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112200228.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112200228C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112200228",
+      "bytes": 45902,
+      "materialTitle": "the get book - 50 덩어리 소통 영어",
+      "verifiedAt": "2026-08-17T17:55:22.469Z"
+    },
+    "IH-ALADIN-9791112191656": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112191656.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112191656C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112191656",
+      "bytes": 24640,
+      "materialTitle": "50 덩어리 소통 영어",
+      "verifiedAt": "2026-08-17T17:55:25.447Z"
+    },
+    "IH-ALADIN-9791112188939": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112188939.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112188939C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112188939",
+      "bytes": 112746,
+      "materialTitle": "처음 만나는 알파벳 라임 이야기 4권",
+      "verifiedAt": "2026-08-17T17:55:29.436Z"
+    },
+    "IH-ALADIN-9791139233162": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791139233162.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791139233162C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791139233162",
+      "bytes": 30799,
+      "materialTitle": "영어 유치원 안 부러운 73 초등영어",
+      "verifiedAt": "2026-08-17T17:55:33.321Z"
+    },
+    "IH-ALADIN-9791124028650": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124028650.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791124028650C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124028650",
+      "bytes": 48549,
+      "materialTitle": "중등 영어 고난도 독해 - 특목고·외고 대비부터 수능 독해 훈련까지",
+      "verifiedAt": "2026-08-17T17:55:36.386Z"
+    },
+    "IH-ALADIN-9791175900936": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791175900936.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791175900936C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175900936",
+      "bytes": 36023,
+      "materialTitle": "Grammar in Level 3A - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-17T17:55:39.320Z"
     }
   }
 }
