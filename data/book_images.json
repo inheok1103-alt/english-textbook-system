@@ -76987,6 +76987,86 @@
       "bytes": 80136,
       "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중2 미래엔 문영인 (2026년) - 2022 개정 교육과정",
       "verifiedAt": "2026-08-18T21:58:12.394Z"
+    },
+    "IH-ALADIN-9791174102683": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102683.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174102683C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102683",
+      "bytes": 79484,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중2 천재 이상기 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-19T23:53:06.481Z"
+    },
+    "IH-ALADIN-9791174102690": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102690.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174102690C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102690",
+      "bytes": 79622,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중2 YBM 박준언 (2026년)",
+      "verifiedAt": "2026-08-19T23:53:09.533Z"
+    },
+    "IH-ALADIN-9791174102669": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102669.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174102669C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102669",
+      "bytes": 79390,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중2 능률 김기택 (2026년)",
+      "verifiedAt": "2026-08-19T23:53:12.612Z"
+    },
+    "IH-ALADIN-9791174102652": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102652.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174102652C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102652",
+      "bytes": 79450,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중2 지학 송미정 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-19T23:53:15.671Z"
+    },
+    "IH-ALADIN-9791174102966": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102966.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174102966C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102966",
+      "bytes": 104295,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중2 비상 황종배 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-19T23:53:18.865Z"
+    },
+    "IH-ALADIN-9791171731220": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791171731220.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791171731220C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791171731220",
+      "bytes": 55878,
+      "materialTitle": "교과서 기출어법 천재(이상기) 중2-2 (스프링)",
+      "verifiedAt": "2026-08-19T23:53:21.945Z"
+    },
+    "IH-ALADIN-9791171731237": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791171731237.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791171731237C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791171731237",
+      "bytes": 57003,
+      "materialTitle": "[교사용] 교과서 기출어법 천재(이상기) 중2-2 (스프링)",
+      "verifiedAt": "2026-08-19T23:53:25.004Z"
+    },
+    "IH-ALADIN-9791174102973": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102973.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174102973C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102973",
+      "bytes": 104136,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 중간고사 중2 지학 송미정 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-19T23:53:28.205Z"
     }
   }
 }
