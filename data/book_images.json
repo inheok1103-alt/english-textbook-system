@@ -77227,6 +77227,86 @@
       "bytes": 60711,
       "materialTitle": "[교사용] 교과서 기출어법 능률(김기택) 중2-2 (스프링) - 개정판",
       "verifiedAt": "2026-08-22T04:24:34.713Z"
+    },
+    "IH-ALADIN-9791176090360": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176090360.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791176090360C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176090360",
+      "bytes": 46732,
+      "materialTitle": "100발 100중 기출문제집 2학기 중간고사 중2 영어 천재 이상기 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-23T08:01:34.408Z"
+    },
+    "IH-ALADIN-9791176090414": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176090414.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791176090414C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176090414",
+      "bytes": 46680,
+      "materialTitle": "100발 100중 기출문제집 2학기 중간고사 중2 영어 YBM 김은형 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-08-23T08:01:37.460Z"
+    },
+    "IH-ALADIN-9791174102591": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102591.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102591C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102591",
+      "bytes": 43840,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중3 능률 양현권 (2026년) - 2015 개정 교육과정",
+      "verifiedAt": "2026-08-23T08:01:40.502Z"
+    },
+    "IH-ALADIN-9791174102584": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102584.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102584C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102584",
+      "bytes": 43840,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중3 YBM 송미정 (2026년) - 2015 개정 교육과정",
+      "verifiedAt": "2026-08-23T08:01:43.570Z"
+    },
+    "IH-ALADIN-9791174102607": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102607.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102607C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102607",
+      "bytes": 43764,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중3 금성 최인철 (2026년) - 2015 개정 교육과정",
+      "verifiedAt": "2026-08-23T08:01:46.602Z"
+    },
+    "IH-ALADIN-9791174102560": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174102560.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791174102560C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174102560",
+      "bytes": 43761,
+      "materialTitle": "내신콘서트 중학영어 기출문제집 2학기 전과정 통합본 중3 천재 정사열 (2026년) - 2015 개정 교육과정",
+      "verifiedAt": "2026-08-23T08:01:49.643Z"
+    },
+    "IH-ALADIN-9791155923917": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791155923917.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791155923917C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791155923917",
+      "bytes": 70319,
+      "materialTitle": "감성적 창작시와 지적 영어 교육",
+      "verifiedAt": "2026-08-23T08:01:52.685Z"
+    },
+    "IH-ALADIN-9791112182784": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112182784.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112182784C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112182784",
+      "bytes": 30522,
+      "materialTitle": "Reading Essays",
+      "verifiedAt": "2026-08-23T08:01:55.656Z"
     }
   }
 }
