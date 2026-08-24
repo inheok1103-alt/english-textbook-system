@@ -77307,6 +77307,86 @@
       "bytes": 30522,
       "materialTitle": "Reading Essays",
       "verifiedAt": "2026-08-23T08:01:55.656Z"
+    },
+    "IH-ALADIN-9791176492379": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176492379.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791176492379C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176492379",
+      "bytes": 41141,
+      "materialTitle": "박문각 공무원 진가영 영어 단판승 문법 적중 포인트 - 박문각 공무원 9급 영어 시험대비 공무원 영어 기본서, 개정 5판",
+      "verifiedAt": "2026-08-24T10:30:28.089Z"
+    },
+    "IH-ALADIN-9788927781318": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927781318.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788927781318C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927781318",
+      "bytes": 43356,
+      "materialTitle": "VOCA 탄탄 3 (실력) - 중학 영단어 시리즈, 2nd Edition",
+      "verifiedAt": "2026-08-24T10:30:31.602Z"
+    },
+    "IH-ALADIN-9788927781325": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927781325.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788927781325C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927781325",
+      "bytes": 41245,
+      "materialTitle": "VOCA 탄탄 4 (완성) - 중학 영단어 시리즈, 2nd Edition",
+      "verifiedAt": "2026-08-24T10:30:34.916Z"
+    },
+    "IH-ALADIN-9791112203236": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112203236.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112203236C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112203236",
+      "bytes": 129088,
+      "materialTitle": "신나는 역할놀이 라임북",
+      "verifiedAt": "2026-08-24T10:30:38.601Z"
+    },
+    "IH-ALADIN-9791112204707": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112204707.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112204707C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112204707",
+      "bytes": 97917,
+      "materialTitle": "알파벳 라임북 (컬러판)",
+      "verifiedAt": "2026-08-24T10:30:42.093Z"
+    },
+    "IH-ALADIN-9791172570255": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791172570255.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791172570255C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791172570255",
+      "bytes": 89660,
+      "materialTitle": "왕초보 필수 영숙어 500",
+      "verifiedAt": "2026-08-24T10:30:45.583Z"
+    },
+    "IH-ALADIN-9791174171689": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174171689.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791174171689C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174171689",
+      "bytes": 52323,
+      "materialTitle": "영어 펜습자 교본",
+      "verifiedAt": "2026-08-24T10:30:49.061Z"
+    },
+    "IH-ALADIN-9791112186904": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112186904.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112186904C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112186904",
+      "bytes": 149082,
+      "materialTitle": "A to Z ALPHABET RHYME - 알파벳과 라임이 만나는 신나는 여행",
+      "verifiedAt": "2026-08-24T10:30:52.742Z"
     }
   }
 }
