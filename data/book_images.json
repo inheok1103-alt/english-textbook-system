@@ -77387,6 +77387,86 @@
       "bytes": 149082,
       "materialTitle": "A to Z ALPHABET RHYME - 알파벳과 라임이 만나는 신나는 여행",
       "verifiedAt": "2026-08-24T10:30:52.742Z"
+    },
+    "IH-ALADIN-9791112204950": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112204950.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112204950C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112204950",
+      "bytes": 101910,
+      "materialTitle": "질문놀이 라임북",
+      "verifiedAt": "2026-08-25T14:05:56.946Z"
+    },
+    "IH-ALADIN-9791112198167": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112198167.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112198167C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112198167",
+      "bytes": 102396,
+      "materialTitle": "감정표현 라임북",
+      "verifiedAt": "2026-08-25T14:06:00.091Z"
+    },
+    "IH-ALADIN-9791112184443": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112184443.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112184443C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112184443",
+      "bytes": 134412,
+      "materialTitle": "쉬운 영어 즐거운 라임북 - 말하고 놀아요, 알파벳 친구들",
+      "verifiedAt": "2026-08-25T14:06:03.225Z"
+    },
+    "IH-ALADIN-9791192978680": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791192978680.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791192978680C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791192978680",
+      "bytes": 53437,
+      "materialTitle": "썼다 지웠다 ABC",
+      "verifiedAt": "2026-08-25T14:06:06.243Z"
+    },
+    "IH-ALADIN-9791171421145": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791171421145.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791171421145C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791171421145",
+      "bytes": 65216,
+      "materialTitle": "영어 낭독필사 : 안데르센 동화",
+      "verifiedAt": "2026-08-25T14:06:09.256Z"
+    },
+    "IH-ALADIN-9791171421152": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791171421152.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791171421152C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791171421152",
+      "bytes": 89210,
+      "materialTitle": "영어 낭독필사 : 그림 동화",
+      "verifiedAt": "2026-08-25T14:06:12.279Z"
+    },
+    "IH-ALADIN-9791176310345": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176310345.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791176310345C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176310345",
+      "bytes": 55914,
+      "materialTitle": "콘텐츠로 읽는 영어와 문화 - 커피, 광고, 그리고 영어",
+      "verifiedAt": "2026-08-25T14:06:15.302Z"
+    },
+    "IH-ALADIN-9791112212757": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112212757.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112212757C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112212757",
+      "bytes": 66110,
+      "materialTitle": "카펠영어 워크북 x 피터 래빗 이야기 (vol.1)",
+      "verifiedAt": "2026-08-25T14:06:18.320Z"
     }
   }
 }
