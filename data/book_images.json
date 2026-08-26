@@ -77467,6 +77467,86 @@
       "bytes": 66110,
       "materialTitle": "카펠영어 워크북 x 피터 래빗 이야기 (vol.1)",
       "verifiedAt": "2026-08-25T14:06:18.320Z"
+    },
+    "IH-ALADIN-9791112199409": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112199409.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112199409C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112199409",
+      "bytes": 23493,
+      "materialTitle": "50 덩어리 소통 영어 (컬러판) - 너덜너덜",
+      "verifiedAt": "2026-08-26T16:29:27.655Z"
+    },
+    "IH-ALADIN-9791112183316": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112183316.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112183316C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112183316",
+      "bytes": 167914,
+      "materialTitle": "처음 만나는 알파벳 라임 이야기 2권 - My First Alphabet Rhyme Book",
+      "verifiedAt": "2026-08-26T16:29:31.394Z"
+    },
+    "IH-ALADIN-9791112182074": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112182074.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112182074C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112182074",
+      "bytes": 171339,
+      "materialTitle": "처음 만나는 알파벳 라임 이야기 1권",
+      "verifiedAt": "2026-08-26T16:29:35.811Z"
+    },
+    "IH-ALADIN-9791124143162": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124143162.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791124143162C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124143162",
+      "bytes": 48662,
+      "materialTitle": "요만큼만 알아도 TOEIC이 900+!",
+      "verifiedAt": "2026-08-26T16:29:39.763Z"
+    },
+    "IH-ALADIN-9791129718297": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791129718297.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791129718297C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129718297",
+      "bytes": 44656,
+      "materialTitle": "백점백승 구조 독해 초등 사회 5학년 - 2022 개정 교육과정, 초등 상위권",
+      "verifiedAt": "2026-08-26T16:29:43.314Z"
+    },
+    "IH-ALADIN-9791129718303": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791129718303.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791129718303C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129718303",
+      "bytes": 44765,
+      "materialTitle": "백점백승 구조 독해 초등 사회 6학년 - 2022 개정 교육과정, 초등 상위권",
+      "verifiedAt": "2026-08-26T16:29:46.873Z"
+    },
+    "IH-ALADIN-9791129718310": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791129718310.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791129718310C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129718310",
+      "bytes": 43735,
+      "materialTitle": "백점백승 구조 독해 초등 과학 5학년 - 2022 개정 교육과정, 초등 상위권",
+      "verifiedAt": "2026-08-26T16:29:50.406Z"
+    },
+    "IH-ALADIN-9791129718327": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791129718327.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791129718327C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129718327",
+      "bytes": 44459,
+      "materialTitle": "백점백승 구조 독해 초등 과학 6학년 - 2022 개정 교육과정, 초등 상위권",
+      "verifiedAt": "2026-08-26T16:29:53.893Z"
     }
   }
 }
