@@ -77547,6 +77547,86 @@
       "bytes": 44459,
       "materialTitle": "백점백승 구조 독해 초등 과학 6학년 - 2022 개정 교육과정, 초등 상위권",
       "verifiedAt": "2026-08-26T16:29:53.893Z"
+    },
+    "IH-ALADIN-9791112185723": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112185723.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112185723C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112185723",
+      "bytes": 173980,
+      "materialTitle": "영생수 : 영어로 생각하는 수학 6-1 - 초등6학년 제1권",
+      "verifiedAt": "2026-08-29T22:04:41.662Z"
+    },
+    "IH-ALADIN-9791163865964": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791163865964.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791163865964C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791163865964",
+      "bytes": 47831,
+      "materialTitle": "영어 유치원 - 불안으로 결제하지 말고 기준으로 선택하세요",
+      "verifiedAt": "2026-08-29T22:04:45.154Z"
+    },
+    "IH-ALADIN-9791112188458": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112188458.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112188458C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112188458",
+      "bytes": 124918,
+      "materialTitle": "소피아쌤의 성인 여행영어 2탄",
+      "verifiedAt": "2026-08-29T22:04:48.812Z"
+    },
+    "IH-ALADIN-9791112183378": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112183378.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112183378C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112183378",
+      "bytes": 118593,
+      "materialTitle": "소피아쌤의 성인 여행영어 1탄",
+      "verifiedAt": "2026-08-29T22:04:52.472Z"
+    },
+    "IH-ALADIN-9791112180056": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112180056.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791112180056C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112180056",
+      "bytes": 65404,
+      "materialTitle": "트립스픽 영어 3권 - 무사히 집으로",
+      "verifiedAt": "2026-08-29T22:04:55.962Z"
+    },
+    "IH-ALADIN-9791197903243": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791197903243.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791197903243C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791197903243",
+      "bytes": 78154,
+      "materialTitle": "GPS 지피에스 토플 TOEFL SEASON 1 실전모의고사",
+      "verifiedAt": "2026-08-29T22:04:59.423Z"
+    },
+    "IH-ALADIN-9791197903250": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791197903250.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202607/9791197903250C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791197903250",
+      "bytes": 80146,
+      "materialTitle": "GPS 지피에스 토플 TOEFL SEASON 1 정답 및 해설",
+      "verifiedAt": "2026-08-29T22:05:02.903Z"
+    },
+    "IH-ALADIN-9788927702436": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927702436.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788927702436C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927702436",
+      "bytes": 49788,
+      "materialTitle": "The Best TOEFL Junior LFM Basic",
+      "verifiedAt": "2026-08-29T22:05:06.405Z"
     }
   }
 }
