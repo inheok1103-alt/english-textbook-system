@@ -77627,6 +77627,96 @@
       "bytes": 49788,
       "materialTitle": "The Best TOEFL Junior LFM Basic",
       "verifiedAt": "2026-08-29T22:05:06.405Z"
+    },
+    "IH-ENG-16000": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-16000.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202608/9791171012787C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791171012787",
+      "materialTitle": "미국 영어 회화 문법 Q&A",
+      "publisher": "사람in",
+      "bytes": 60732
+    },
+    "IH-ALADIN-9788927702443": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927702443.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9788927702443C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927702443",
+      "bytes": 35750,
+      "materialTitle": "The Best TOEFL Junior LFM Intermediate",
+      "verifiedAt": "2026-09-01T20:55:11.566Z"
+    },
+    "IH-ALADIN-9791176492133": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176492133.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791176492133C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176492133",
+      "bytes": 31368,
+      "materialTitle": "2027 박문각 공무원 김세현 영어 All In One 기본서 - 박문각 공무원 9급 영어 시험대비 공무원 영어 기본서",
+      "verifiedAt": "2026-09-01T20:55:15.331Z"
+    },
+    "IH-ALADIN-9791112207319": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791112207319.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791112207319C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791112207319",
+      "bytes": 155737,
+      "materialTitle": "The Woodcutter and the promise of a fairy",
+      "verifiedAt": "2026-09-01T20:55:19.521Z"
+    },
+    "IH-ALADIN-9791175983090": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791175983090.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791175983090C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175983090",
+      "bytes": 108199,
+      "materialTitle": "Start of the Eternal War",
+      "verifiedAt": "2026-09-01T20:55:24.077Z"
+    },
+    "IH-ALADIN-9791173744648": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791173744648.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202606/9791173744648C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791173744648",
+      "bytes": 78515,
+      "materialTitle": "상황별 임상영어 25 - 호주 간호사가 매일 쓰는 인계·노티·차팅 영어",
+      "verifiedAt": "2026-09-01T20:55:27.595Z"
+    },
+    "IH-ALADIN-9791176090124": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176090124.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791176090124C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176090124",
+      "bytes": 50379,
+      "materialTitle": "100발 100중 기출문제집 1학기 기말고사 중2 영어 동아 윤정미 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-09-01T20:55:31.098Z"
+    },
+    "IH-ALADIN-9791159996665": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791159996665.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202303/9791159996665C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791159996665",
+      "bytes": 12940,
+      "materialTitle": "BIGVOCA core - 단어를 외우는 가장 완벽한 방법",
+      "verifiedAt": "2026-09-01T20:55:34.206Z"
+    },
+    "IH-ALADIN-9791165757908": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165757908.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9791165757908C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165757908",
+      "bytes": 48369,
+      "materialTitle": "100발 100중 기출문제집 1학기 기말고사 중3 영어 동아 윤정미 (2026년용)",
+      "verifiedAt": "2026-09-01T20:55:37.690Z"
     }
   }
 }
