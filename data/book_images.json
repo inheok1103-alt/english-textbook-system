@@ -57332,36 +57332,6 @@
       "publisher": "박문각",
       "bytes": 33764
     },
-    "IH-ENG-8768": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8768.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791124082010C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124082010",
-      "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 초등 2학년(2026)",
-      "publisher": "하늘교육",
-      "bytes": 40679
-    },
-    "IH-ENG-8769": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8769.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791124082102C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124082102",
-      "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 고등2 세트(2026)",
-      "publisher": "하늘교육",
-      "bytes": 40594
-    },
-    "IH-ENG-8770": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8770.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791124082119C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124082119",
-      "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 고등3 세트(2026)",
-      "publisher": "하늘교육",
-      "bytes": 31860
-    },
     "IH-ENG-8771": {
       "status": "found",
       "localPath": "covers/IH-ENG-8771.jpg",
@@ -57391,46 +57361,6 @@
       "materialTitle": "2026 박문각 공무원 진가영 영어 문법 끝판왕 300제(문판왕)",
       "publisher": "박문각",
       "bytes": 32816
-    },
-    "IH-ENG-8774": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8774.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791124082089C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124082089",
-      "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 중등 3학년(2026)",
-      "publisher": "하늘교육",
-      "bytes": 40698
-    },
-    "IH-ENG-8775": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8775.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791124082096C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124082096",
-      "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 고등 1 - 전2(2026)",
-      "publisher": "하늘교육",
-      "bytes": 40499
-    },
-    "IH-ENG-8776": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8776.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791124082027C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124082027",
-      "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 초등 3학년 세트(2026)",
-      "publisher": "하늘교육",
-      "bytes": 40694
-    },
-    "IH-ENG-8777": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8777.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791124082034C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124082034",
-      "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 초등 4학년 세트(2026)",
-      "publisher": "하늘교육",
-      "bytes": 40615
     },
     "IH-ENG-8778": {
       "status": "found",
@@ -77657,6 +77587,76 @@
       "bytes": 48369,
       "materialTitle": "100발 100중 기출문제집 1학기 기말고사 중3 영어 동아 윤정미 (2026년용)",
       "verifiedAt": "2026-09-01T20:55:37.690Z"
+    },
+    "IH-ALADIN-9788960499379": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788960499379.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788960499379C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788960499379",
+      "bytes": 86998,
+      "materialTitle": "거의 모든 행동 표현의 영어",
+      "verifiedAt": "2026-09-03T21:56:05.000Z"
+    },
+    "IH-ALADIN-9788934917380": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788934917380.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/015/634/01563439.jpg?udate=20181114",
+      "source": "KOBIC",
+      "isbn": "9788934917380",
+      "bytes": 140950,
+      "materialTitle": "3030 English 1탄 - 하루 30분씩 30일이면 미국 유치원생처럼 말할 수 있다",
+      "verifiedAt": "2026-09-03T21:56:10.168Z"
+    },
+    "IH-ALADIN-9791125342854": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125342854.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202309/9791125342854C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125342854",
+      "bytes": 44047,
+      "materialTitle": "1316 Grammar Level 2 - 기초부터 내신까지 중학 영문법 완성",
+      "verifiedAt": "2026-09-03T21:56:13.657Z"
+    },
+    "IH-ALADIN-9788955431315": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788955431315.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/001/677/00167711.jpg?udate=20130224",
+      "source": "KOBIC",
+      "isbn": "9788955431315",
+      "bytes": 15664,
+      "materialTitle": "기탄 영어 베이직 A단계 1집 - 유아 5세~초등 2학년",
+      "verifiedAt": "2026-09-03T21:56:18.409Z"
+    },
+    "IH-ALADIN-9791155813102": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791155813102.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791155813102C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791155813102",
+      "bytes": 31990,
+      "materialTitle": "걸어 다니는 어원 사전 - 모든 영어 단어에는 이야기가 있다",
+      "verifiedAt": "2026-09-03T21:56:21.848Z"
+    },
+    "IH-ALADIN-9791157523658": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791157523658.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791157523658C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791157523658",
+      "bytes": 52314,
+      "materialTitle": "This Is Grammar 중급 1 - 최신개정판",
+      "verifiedAt": "2026-09-03T21:56:28.735Z"
+    },
+    "IH-ALADIN-9788900481990": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788900481990.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202412/9788900481990C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788900481990",
+      "bytes": 46513,
+      "materialTitle": "특급기출 중학 영어 1-1 1학기 통합 동아 윤정미 (2026년용) - 2022 개정 교육과정, 중학 영어 교과서 점유율 1위",
+      "verifiedAt": "2026-09-03T21:56:31.787Z"
     }
   }
 }
