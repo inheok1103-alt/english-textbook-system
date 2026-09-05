@@ -77627,6 +77627,86 @@
       "bytes": 46513,
       "materialTitle": "특급기출 중학 영어 1-1 1학기 통합 동아 윤정미 (2026년용) - 2022 개정 교육과정, 중학 영어 교과서 점유율 1위",
       "verifiedAt": "2026-09-03T21:56:31.787Z"
+    },
+    "IH-ALADIN-9788954761635": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788954761635.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788954761635C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954761635",
+      "bytes": 79301,
+      "materialTitle": "EBS 마이 그래머 코치 My Grammar Coach 표준편 (2026년용) - 개념 잡는 중학 영문법",
+      "verifiedAt": "2026-09-05T19:29:08.447Z"
+    },
+    "IH-ALADIN-9791188228096": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791188228096.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791188228096C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791188228096",
+      "bytes": 38338,
+      "materialTitle": "Longman Grammar Mentor Joy Plus 1",
+      "verifiedAt": "2026-09-05T19:29:11.524Z"
+    },
+    "IH-ALADIN-9791157523634": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791157523634.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791157523634C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791157523634",
+      "bytes": 50316,
+      "materialTitle": "This Is Grammar 초급 1 - 최신개정판",
+      "verifiedAt": "2026-09-05T19:29:14.699Z"
+    },
+    "IH-ALADIN-9791165758141": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165758141.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9791165758141C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165758141",
+      "bytes": 50081,
+      "materialTitle": "100발 100중 기출문제집 1학기 기말고사 중1 영어 동아 윤정미 (2026년용) - 2022 개정 교육과정",
+      "verifiedAt": "2026-09-05T19:29:17.932Z"
+    },
+    "IH-ALADIN-9788974578336": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788974578336.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788974578336C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974578336",
+      "bytes": 56840,
+      "materialTitle": "미국교과서 읽는 리딩 Basic 2 (교재 + 워크북) - 중.고등학생용(중급과정)",
+      "verifiedAt": "2026-09-05T19:29:21.029Z"
+    },
+    "IH-ALADIN-9791125348931": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125348931.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202412/9791125348931C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125348931",
+      "bytes": 38106,
+      "materialTitle": "빠른 독해 바른 독해 유형독해 - 개정판",
+      "verifiedAt": "2026-09-05T19:29:23.969Z"
+    },
+    "IH-ALADIN-9791188228287": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791188228287.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791188228287C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791188228287",
+      "bytes": 49235,
+      "materialTitle": "Longman Grammar Mentor Joy Early Start 1",
+      "verifiedAt": "2026-09-05T19:29:27.014Z"
+    },
+    "IH-ALADIN-9788964358238": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788964358238.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788964358238C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788964358238",
+      "bytes": 16909,
+      "materialTitle": "Bricks 중학 Grammar 1",
+      "verifiedAt": "2026-09-05T19:29:29.950Z"
     }
   }
 }
