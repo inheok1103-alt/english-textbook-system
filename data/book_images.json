@@ -27242,26 +27242,6 @@
       "publisher": "해커스어학연구소",
       "bytes": 42494
     },
-    "IH-ENG-3799": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3799.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791162723708C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791162723708",
-      "materialTitle": "English Grammar Forest with Workbook Level 1: Basic",
-      "publisher": "마더텅",
-      "bytes": 60717
-    },
-    "IH-ENG-3800": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3800.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791162723722C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791162723722",
-      "materialTitle": "English Grammar Forest with Workbook Level 2: Intermediate",
-      "publisher": "마더텅",
-      "bytes": 62301
-    },
     "IH-ENG-3802": {
       "status": "found",
       "localPath": "covers/IH-ENG-3802.jpg",
