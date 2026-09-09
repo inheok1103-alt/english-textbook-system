@@ -77727,6 +77727,96 @@
       "bytes": 34607,
       "materialTitle": "EBS 정승익의 수능 개념 잡는 대박구문 - 정승익 강사 직접 집필, 강의",
       "verifiedAt": "2026-09-07T03:41:00.766Z"
+    },
+    "IH-ENG-16860": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-16860.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/8809445905947C001.jpg",
+      "source": "KOBIC",
+      "isbn": "8809445905947",
+      "materialTitle": "누르면 들리는 한글 영어 사운드북 펀펀 송 20",
+      "publisher": "",
+      "bytes": 51915
+    },
+    "IH-ENG-16861": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-16861.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791173421792C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791173421792",
+      "materialTitle": "누나, 떡볶이, 대박! 옥스퍼드 영어사전이 주목한 한국어",
+      "publisher": "신아사",
+      "bytes": 31260
+    },
+    "IH-ALADIN-9791165263935": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165263935.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202501/9791165263935C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165263935",
+      "bytes": 57761,
+      "materialTitle": "과학도 독해가 먼저다 초등 3학년 - 2022 개정 교육과정 반영, 독해와 교과 공부를 한 번에 끝내는 교과 독해 프로그램",
+      "verifiedAt": "2026-09-09T15:49:10.037Z"
+    },
+    "IH-ALADIN-9791125324775": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125324775.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125324775C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125324775",
+      "bytes": 36244,
+      "materialTitle": "쓰기로 마스터하는 중학 서술형 2학년 - 최신 중간.기말고사 빈출 서술형 마스터",
+      "verifiedAt": "2026-09-09T15:49:13.343Z"
+    },
+    "IH-ALADIN-9791176090131": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176090131.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791176090131C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176090131",
+      "bytes": 50428,
+      "materialTitle": "100발 100중 기출문제집 1학기 기말고사 중2 영어 동아 이병민 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-09-09T15:49:16.859Z"
+    },
+    "IH-ALADIN-9788961981965": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788961981965.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788961981965C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788961981965",
+      "bytes": 75814,
+      "materialTitle": "Reading for Vocabulary Level B",
+      "verifiedAt": "2026-09-09T15:49:24.749Z"
+    },
+    "IH-ALADIN-9791166082894": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791166082894.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791166082894C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166082894",
+      "bytes": 44751,
+      "materialTitle": "씨뮬 14th 전국연합 3년간 기출 모의고사 고2 영어 (2026년) - 내신·학평",
+      "verifiedAt": "2026-09-09T15:49:28.235Z"
+    },
+    "IH-ALADIN-9788960498792": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788960498792.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788960498792C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788960498792",
+      "bytes": 55832,
+      "materialTitle": "구슬쌤의 예의 바른 영어 표현",
+      "verifiedAt": "2026-09-09T15:49:31.735Z"
+    },
+    "IH-ALADIN-9791166082924": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791166082924.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791166082924C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166082924",
+      "bytes": 50292,
+      "materialTitle": "씨뮬 14th 전국연합 3년간 수능 기출 모의고사 고3 영어 (2026년) - 2027 수능대비",
+      "verifiedAt": "2026-09-09T15:49:35.216Z"
     }
   }
 }
