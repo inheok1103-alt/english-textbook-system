@@ -77817,6 +77817,86 @@
       "bytes": 50292,
       "materialTitle": "씨뮬 14th 전국연합 3년간 수능 기출 모의고사 고3 영어 (2026년) - 2027 수능대비",
       "verifiedAt": "2026-09-09T15:49:35.216Z"
+    },
+    "IH-ENG-17709": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-17709.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791143033062C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143033062",
+      "materialTitle": "AI와 수어통번역사",
+      "publisher": "",
+      "bytes": 57704
+    },
+    "IH-ALADIN-9791125342861": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125342861.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202309/9791125342861C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125342861",
+      "bytes": 44055,
+      "materialTitle": "1316 Grammar Level 3 - 기초부터 내신까지 중학 영문법 완성",
+      "verifiedAt": "2026-09-11T21:50:30.059Z"
+    },
+    "IH-ALADIN-9791125337393": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125337393.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125337393C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125337393",
+      "bytes": 32780,
+      "materialTitle": "수능만만 어법.어휘 228제 - 만만한 수능영어",
+      "verifiedAt": "2026-09-11T21:50:32.702Z"
+    },
+    "IH-ALADIN-9791194347057": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791194347057.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202412/9791194347057C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791194347057",
+      "bytes": 48085,
+      "materialTitle": "너를 영어1등급으로 만들어주마 (2026 최신개정판) - 수능 50일 전 내가 발견한 비밀, 2027학년도 수능 대비",
+      "verifiedAt": "2026-09-11T21:50:35.506Z"
+    },
+    "IH-ALADIN-9791188228300": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791188228300.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791188228300C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791188228300",
+      "bytes": 46460,
+      "materialTitle": "Longman Grammar Mentor Joy Early Start 2",
+      "verifiedAt": "2026-09-11T21:50:38.319Z"
+    },
+    "IH-ALADIN-9788955431322": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788955431322.jpg",
+      "imageUrl": "https://bookthumb-phinf.pstatic.net/cover/001/677/00167713.jpg?udate=20150715",
+      "source": "KOBIC",
+      "isbn": "9788955431322",
+      "bytes": 16669,
+      "materialTitle": "기탄 영어 베이직 A단계 2집 - 유아 5세~초등 2학년",
+      "verifiedAt": "2026-09-11T21:50:42.836Z"
+    },
+    "IH-ALADIN-9791165759506": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165759506.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202508/9791165759506C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165759506",
+      "bytes": 51026,
+      "materialTitle": "100발 100중 기출문제집 2학기 기말고사 중1 영어 동아 윤정미 (2026년용) - 2022 개정 교육과정",
+      "verifiedAt": "2026-09-11T21:50:46.150Z"
+    },
+    "IH-ALADIN-9788968061769": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968061769.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061769C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061769",
+      "bytes": 41937,
+      "materialTitle": "Grammar Q Intermediate 1 - 문법 응용력을 높여주는 GRAMMAR Q",
+      "verifiedAt": "2026-09-11T21:50:48.819Z"
     }
   }
 }
