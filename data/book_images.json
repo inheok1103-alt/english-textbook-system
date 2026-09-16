@@ -77967,6 +77967,76 @@
       "bytes": 24633,
       "materialTitle": "바로 문제 푸는 문법 1460제 Level 3 - 시험이 쉬워지는 중학 실전 영문법",
       "verifiedAt": "2026-09-13T19:03:11.674Z"
+    },
+    "IH-ALADIN-9788926964668": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788926964668.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788926964668C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788926964668",
+      "bytes": 66490,
+      "materialTitle": "Grammar, Zap! 입문 1 - 문제로 개념 잡는 초등 영문법",
+      "verifiedAt": "2026-09-16T01:25:38.643Z"
+    },
+    "IH-ALADIN-9791188228119": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791188228119.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791188228119C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791188228119",
+      "bytes": 39221,
+      "materialTitle": "Longman Grammar Mentor Joy Plus 2",
+      "verifiedAt": "2026-09-16T01:25:41.352Z"
+    },
+    "IH-ALADIN-9788927708261": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927708261.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788927708261C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927708261",
+      "bytes": 59330,
+      "materialTitle": "Grammar ViSTA 2",
+      "verifiedAt": "2026-09-16T01:25:44.208Z"
+    },
+    "IH-ALADIN-9788954794206": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788954794206.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202508/9788954794206C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954794206",
+      "bytes": 43057,
+      "materialTitle": "EBS 올림포스 고급영어독해 영미 비문학 읽기 (2026년용) - 2022 개정 교육과정, 진짜 상위권 도약을 위한 영어 실력 형성",
+      "verifiedAt": "2026-09-16T01:25:47.151Z"
+    },
+    "IH-ALADIN-9788926115350": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788926115350.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788926115350C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788926115350",
+      "bytes": 19237,
+      "materialTitle": "중학생을 위한 문법으로 Writing 2",
+      "verifiedAt": "2026-09-16T01:25:49.889Z"
+    },
+    "IH-ALADIN-9791125340324": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125340324.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791125340324C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125340324",
+      "bytes": 50873,
+      "materialTitle": "Reading Inside 리딩 인사이드 Level 2 - with Workbook",
+      "verifiedAt": "2026-09-16T01:25:52.751Z"
+    },
+    "IH-ALADIN-9791125329336": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125329336.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791125329336C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125329336",
+      "bytes": 51335,
+      "materialTitle": "Advanced Reading Expert 2 - A High-Level Reading Course for Top-Ranking EFL Readers",
+      "verifiedAt": "2026-09-16T01:25:55.622Z"
     }
   }
 }
