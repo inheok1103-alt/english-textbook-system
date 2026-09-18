@@ -78037,6 +78037,56 @@
       "bytes": 51335,
       "materialTitle": "Advanced Reading Expert 2 - A High-Level Reading Course for Top-Ranking EFL Readers",
       "verifiedAt": "2026-09-16T01:25:55.622Z"
+    },
+    "IH-ALADIN-9791125342885": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125342885.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202309/9791125342885C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125342885",
+      "bytes": 41927,
+      "materialTitle": "1316 Reading Level 2 - 기초부터 내신까지 중학 독해 완성",
+      "verifiedAt": "2026-09-18T10:04:03.380Z"
+    },
+    "IH-ALADIN-9791166833069": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791166833069.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791166833069C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166833069",
+      "bytes": 41700,
+      "materialTitle": "바로 쓰는 영어 - 원어민의 일상 표현 쓰기 & 말하기 훈련",
+      "verifiedAt": "2026-09-18T10:04:06.062Z"
+    },
+    "IH-ALADIN-9788961981972": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788961981972.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788961981972C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788961981972",
+      "bytes": 61863,
+      "materialTitle": "Reading for Vocabulary Level C",
+      "verifiedAt": "2026-09-18T10:04:12.551Z"
+    },
+    "IH-ALADIN-9788974578374": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788974578374.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788974578374C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788974578374",
+      "bytes": 61355,
+      "materialTitle": "미국교과서 읽는 리딩 Core 3 (Student Book + Workbook + Audio QR code) - 미국 초등 5.6학년 과정",
+      "verifiedAt": "2026-09-18T10:04:15.440Z"
+    },
+    "IH-ALADIN-9791169101073": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791169101073.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791169101073C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791169101073",
+      "bytes": 81316,
+      "materialTitle": "소리튠 영어혁명 - 30년 영알못도 귀가 뚫리고 입이 트이는",
+      "verifiedAt": "2026-09-18T10:04:18.330Z"
     }
   }
 }
