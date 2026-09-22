@@ -78137,6 +78137,46 @@
       "bytes": 27665,
       "materialTitle": "3030 English 실전대화편 - 하루 30분씩 30일이면 미국 중학생처럼 말할 수 있다",
       "verifiedAt": "2026-09-20T04:01:45.470Z"
+    },
+    "IH-ALADIN-9791165264260": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165264260.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791165264260C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165264260",
+      "bytes": 76148,
+      "materialTitle": "과학도 독해가 먼저다 초등 6학년 - 2022 개정 교육과정 반영, 독해와 교과 공부를 한 번에 끝내는 교과 독해 프로그램",
+      "verifiedAt": "2026-09-22T14:23:19.656Z"
+    },
+    "IH-ALADIN-9788992334341": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788992334341.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788992334341C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788992334341",
+      "bytes": 92855,
+      "materialTitle": "I am Grammar 1",
+      "verifiedAt": "2026-09-22T14:23:25.513Z"
+    },
+    "IH-ALADIN-9791129711267": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791129711267.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791129711267C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791129711267",
+      "bytes": 23923,
+      "materialTitle": "메가스터디 N제 영어영역 고난도 3점 241제 (2026년 고3용) - 수능 완벽 대비 예상 문제집",
+      "verifiedAt": "2026-09-22T14:23:27.909Z"
+    },
+    "IH-ALADIN-9788956053202": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788956053202.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788956053202C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788956053202",
+      "bytes": 74827,
+      "materialTitle": "Charlie and the Chocolate Factory (원서 읽는 단어장 : Paperback)",
+      "verifiedAt": "2026-09-22T14:23:30.459Z"
     }
   }
 }
