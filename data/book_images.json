@@ -15562,26 +15562,6 @@
       "publisher": "다락원",
       "bytes": 70280
     },
-    "IH-ENG-1426": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1426.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125341659C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125341659",
-      "materialTitle": "능률 EBS 수능특강 변형 문제 영어독해연습(하)(2023)(2024 수능대비)",
-      "publisher": "NE능률",
-      "bytes": 61016
-    },
-    "IH-ENG-1427": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1427.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202304/9791125341642C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125341642",
-      "materialTitle": "능률 EBS 수능특강 변형 문제 688제 영어독해연습(상)(2023)(2024 수능대비)",
-      "publisher": "NE능률",
-      "bytes": 52483
-    },
     "IH-ENG-1430": {
       "status": "found",
       "localPath": "covers/IH-ENG-1430.jpg",
@@ -24802,86 +24782,6 @@
       "publisher": "쎄듀",
       "bytes": 35099
     },
-    "IH-ENG-3172": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3172.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202310/9791125343011C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125343011",
-      "materialTitle": "능률 PT 고등 영어 Lesson 8: It’s Up to You!",
-      "publisher": "NE능률",
-      "bytes": 36499
-    },
-    "IH-ENG-3173": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3173.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202310/9791125343004C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125343004",
-      "materialTitle": "능률 PT 고등 영어 Lesson 7: Finding Out the Wonders",
-      "publisher": "NE능률",
-      "bytes": 36815
-    },
-    "IH-ENG-3174": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3174.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202308/9791125342748C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125342748",
-      "materialTitle": "능률 PT 고등 영어 Lesson 6: Beyond the Limits",
-      "publisher": "NE능률",
-      "bytes": 55947
-    },
-    "IH-ENG-3175": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3175.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202308/9791125342731C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125342731",
-      "materialTitle": "능률 PT 고등 영어 Lesson 5: What Matters Most",
-      "publisher": "NE능률",
-      "bytes": 55996
-    },
-    "IH-ENG-3176": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3176.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9791125342359C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125342359",
-      "materialTitle": "능률 PT 고등 영어 Lesson 4: Toward a Better World(2023)",
-      "publisher": "NE능률",
-      "bytes": 52366
-    },
-    "IH-ENG-3177": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3177.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9791125342342C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125342342",
-      "materialTitle": "능률 PT 고등 영어 Lesson 3: Sound Life(2023)",
-      "publisher": "NE능률",
-      "bytes": 55634
-    },
-    "IH-ENG-3178": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3178.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202304/9791125342168C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125342168",
-      "materialTitle": "능률 PT 고등 영어 Lesson 2: The Power of Creativity(2023)",
-      "publisher": "NE능률",
-      "bytes": 44901
-    },
-    "IH-ENG-3179": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3179.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202304/9791125342151C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125342151",
-      "materialTitle": "능률 PT 고등 영어 Lesson 1: The Part You Play(2023)",
-      "publisher": "NE능률",
-      "bytes": 44753
-    },
     "IH-ENG-3180": {
       "status": "found",
       "localPath": "covers/IH-ENG-3180.jpg",
@@ -26021,26 +25921,6 @@
       "materialTitle": "2026 다빈출코드 수능기출문제집 영어영역 듣기",
       "publisher": "NE능률",
       "bytes": 38380
-    },
-    "IH-ENG-3558": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3558.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350781C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125350781",
-      "materialTitle": "다빈출코드 학평기출문제집 영어영역 고2 독해(2026 학평대비)",
-      "publisher": "NE능률",
-      "bytes": 39289
-    },
-    "IH-ENG-3559": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3559.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791125350798C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125350798",
-      "materialTitle": "다빈출코드 학평기출문제집 영어영역 어법∙어휘(2026 학평대비)",
-      "publisher": "NE능률",
-      "bytes": 39863
     },
     "IH-ENG-3560": {
       "status": "found",
@@ -58651,16 +58531,6 @@
       "materialTitle": "영어 1등급 독해기술",
       "publisher": "쏠티북스",
       "bytes": 53244
-    },
-    "IH-ENG-9002": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9002.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791198277718C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791198277718",
-      "materialTitle": "김수환 영어 Start Up 독해",
-      "publisher": "스완출판",
-      "bytes": 24326
     },
     "IH-ENG-9004": {
       "status": "found",
