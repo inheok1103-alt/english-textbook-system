@@ -54272,16 +54272,6 @@
       "publisher": "팬덤북스",
       "bytes": 50003
     },
-    "IH-ENG-8132": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8132.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791196936457C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791196936457",
-      "materialTitle": "엄마가 가르치는 초등영어",
-      "publisher": "메이킹북스",
-      "bytes": 40042
-    },
     "IH-ENG-8133": {
       "status": "found",
       "localPath": "covers/IH-ENG-8133.jpg",
@@ -58551,16 +58541,6 @@
       "materialTitle": "핀셋 구문독해",
       "publisher": "미래인재",
       "bytes": 34024
-    },
-    "IH-ENG-9015": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-9015.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791136016997C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791136016997",
-      "materialTitle": "에듀윌 편입영어 기본이론 완성 독해",
-      "publisher": "에듀윌",
-      "bytes": 27823
     },
     "IH-ENG-9017": {
       "status": "found",
