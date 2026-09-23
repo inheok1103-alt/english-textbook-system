@@ -14362,36 +14362,6 @@
       "publisher": "동아출판",
       "bytes": 31732
     },
-    "IH-ENG-1260": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1260.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061448C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968061448",
-      "materialTitle": "실전에 바로 적용하는 잘 풀리는 영문법 3",
-      "publisher": "쎄듀",
-      "bytes": 51675
-    },
-    "IH-ENG-1261": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1261.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061431C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968061431",
-      "materialTitle": "실전에 바로 적용하는 잘 풀리는 영문법 2",
-      "publisher": "쎄듀",
-      "bytes": 48726
-    },
-    "IH-ENG-1262": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1262.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061424C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968061424",
-      "materialTitle": "실전에 바로 적용하는 잘 풀리는 영문법 1",
-      "publisher": "쎄듀",
-      "bytes": 55280
-    },
     "IH-ENG-1263": {
       "status": "found",
       "localPath": "covers/IH-ENG-1263.jpg",
@@ -19631,16 +19601,6 @@
       "materialTitle": "슈퍼키즈 영단어(SuperKids Voca) 24",
       "publisher": "시원스쿨닷컴",
       "bytes": 73897
-    },
-    "IH-ENG-2318": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2318.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791161505657C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791161505657",
-      "materialTitle": "슈퍼키즈 영단어(SuperKids Voca) 23",
-      "publisher": "시원스쿨닷컴",
-      "bytes": 64464
     },
     "IH-ENG-2319": {
       "status": "found",
