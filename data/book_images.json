@@ -11467,21 +11467,6 @@
       "searchQuery": "Animal Farm",
       "isbn": "9780451526342"
     },
-    "IH-ENG-0783": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-0783.jpg",
-      "imageUrl": "https://image.yes24.com/goods/33262314/L",
-      "sourcePage": "https://www.yes24.com/Product/Goods/33262314",
-      "source": "YES24",
-      "sourceTitle": "Word Master 워드마스터 수능 2000 (2018년용)",
-      "sourceAuthor": "저",
-      "score": 97,
-      "bytes": 31388,
-      "contentType": "image/jpeg",
-      "materialTitle": "워드마스터 수능 2000",
-      "publisher": "이투스북",
-      "searchQuery": "이투스북 워드마스터 수능 2000"
-    },
     "IH-ENG-0787": {
       "status": "no_cover_real",
       "imageUrl": "https://image.yes24.com/goods/102167146/L",
@@ -14931,16 +14916,6 @@
       "materialTitle": "키 신 토익 그래머 스타터(Grammar Starter)",
       "publisher": "키출판사",
       "bytes": 46083
-    },
-    "IH-ENG-1347": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1347.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791125314370C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125314370",
-      "materialTitle": "원리를 더한 영문법 Starter",
-      "publisher": "NE능률",
-      "bytes": 57116
     },
     "IH-ENG-1348": {
       "status": "found",
@@ -29811,36 +29786,6 @@
       "materialTitle": "워드마스터 Word Master 초등 BASIC",
       "publisher": "이투스북",
       "bytes": 36913
-    },
-    "IH-ENG-4280": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4280.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791138910859C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791138910859",
-      "materialTitle": "워드마스터 중등 실력",
-      "publisher": "이투스북",
-      "bytes": 35473
-    },
-    "IH-ENG-4281": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4281.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791138910842C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791138910842",
-      "materialTitle": "워드마스터 중등 Basic",
-      "publisher": "이투스북",
-      "bytes": 34700
-    },
-    "IH-ENG-4282": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4282.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9791138910835C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791138910835",
-      "materialTitle": "워드마스터 중등 고난도",
-      "publisher": "이투스북",
-      "bytes": 34725
     },
     "IH-ENG-4283": {
       "status": "found",
