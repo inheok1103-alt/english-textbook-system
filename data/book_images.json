@@ -77902,6 +77902,36 @@
       "bytes": 74827,
       "materialTitle": "Charlie and the Chocolate Factory (원서 읽는 단어장 : Paperback)",
       "verifiedAt": "2026-09-22T14:23:30.459Z"
+    },
+    "IH-ALADIN-9791138390637": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791138390637.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202504/9791138390637C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138390637",
+      "bytes": 176898,
+      "materialTitle": "만화로 배우는 영어 구동사 - 즐겁게 읽기만 해도 구동사의 원리가 보인다",
+      "verifiedAt": "2026-09-24T20:53:53.259Z"
+    },
+    "IH-ALADIN-9791138914116": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791138914116.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9791138914116C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138914116",
+      "bytes": 32859,
+      "materialTitle": "리딩 마스터 Reading master 중등 Level 2 (2026년용) - 수능+내신",
+      "verifiedAt": "2026-09-24T20:53:58.344Z"
+    },
+    "IH-ALADIN-9791162404713": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791162404713.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202308/9791162404713C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791162404713",
+      "bytes": 44854,
+      "materialTitle": "Xistory 자이스토리 중등 포인트 리딩 Level 2",
+      "verifiedAt": "2026-09-24T20:54:00.766Z"
     }
   }
 }
