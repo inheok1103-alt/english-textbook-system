@@ -30217,36 +30217,6 @@
       "publisher": "키출판사",
       "bytes": 58289
     },
-    "IH-ENG-4378": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4378.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125308157C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125308157",
-      "materialTitle": "주니어 리스닝튜터: 입문",
-      "publisher": "NE능률",
-      "bytes": 23986
-    },
-    "IH-ENG-4379": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4379.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125308171C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125308171",
-      "materialTitle": "주니어 리스닝튜터: 완성",
-      "publisher": "NE능률",
-      "bytes": 26560
-    },
-    "IH-ENG-4380": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4380.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125308164C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125308164",
-      "materialTitle": "주니어 리스닝튜터: 기본",
-      "publisher": "NE능률",
-      "bytes": 26392
-    },
     "IH-ENG-4381": {
       "status": "found",
       "localPath": "covers/IH-ENG-4381.jpg",
@@ -56706,16 +56676,6 @@
       "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 초등 6(2026)",
       "publisher": "하늘교육",
       "bytes": 39701
-    },
-    "IH-ENG-8734": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-8734.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202605/9791124082447C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791124082447",
-      "materialTitle": "전국 영어/수학 학력 경시대회 수학 기출문제집 중등 1(2026)",
-      "publisher": "하늘교육",
-      "bytes": 39616
     },
     "IH-ENG-8735": {
       "status": "found",
