@@ -1,6 +1,6 @@
 {
-  "at": "2026-09-25T14:52:27.578Z",
-  "cycle": 631,
+  "at": "2026-09-25T19:43:17.355Z",
+  "cycle": 632,
   "tiers": [
     "routine"
   ],
@@ -8,7 +8,7 @@
     "total": 10038,
     "coverPct": 98,
     "pricePct": 90,
-    "salesPoint": 8316,
+    "salesPoint": 8318,
     "foreign": 505,
     "needCover": 205
   }
