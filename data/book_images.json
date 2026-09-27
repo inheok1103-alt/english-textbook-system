@@ -77832,6 +77832,36 @@
       "bytes": 44854,
       "materialTitle": "Xistory 자이스토리 중등 포인트 리딩 Level 2",
       "verifiedAt": "2026-09-24T20:54:00.766Z"
+    },
+    "IH-ALADIN-9788926964705": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788926964705.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788926964705C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788926964705",
+      "bytes": 65832,
+      "materialTitle": "Grammar, Zap! 기본 3 - 문제로 개념 잡는 초등 영문법",
+      "verifiedAt": "2026-09-27T01:28:03.020Z"
+    },
+    "IH-ALADIN-9791169400015": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791169400015.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791169400015C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791169400015",
+      "bytes": 48135,
+      "materialTitle": "그래머 타파 Grammar TAPA Level 2 - 핵심 문법으로 격파하는, 중학 영문법 특강",
+      "verifiedAt": "2026-09-27T01:28:05.787Z"
+    },
+    "IH-ALADIN-9788900475890": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788900475890.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9788900475890C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788900475890",
+      "bytes": 29446,
+      "materialTitle": "특급기출 중학 영어 3-2 중간고사 동아 윤정미 (2026년용) - 2015 개정 교육과정, 최신 기출 완벽 분석 진짜 기출예상문제집",
+      "verifiedAt": "2026-09-27T01:28:08.381Z"
     }
   }
 }
