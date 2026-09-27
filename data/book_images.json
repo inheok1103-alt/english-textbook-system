@@ -25327,16 +25327,6 @@
       "publisher": "이투스북",
       "bytes": 18663
     },
-    "IH-ENG-3398": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3398.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9791125310945C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125310945",
-      "materialTitle": "특급 고등 영어 대의파악 + 내용일치(2017)",
-      "publisher": "NE능률",
-      "bytes": 23515
-    },
     "IH-ENG-3416": {
       "status": "found",
       "localPath": "covers/IH-ENG-3416.jpg",
@@ -30136,16 +30126,6 @@
       "materialTitle": "특급 어법(2024)",
       "publisher": "NE능률",
       "bytes": 42052
-    },
-    "IH-ENG-4368": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4368.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125335177C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125335177",
-      "materialTitle": "특급 빈칸추론(2024)",
-      "publisher": "NE능률",
-      "bytes": 47794
     },
     "IH-ENG-4370": {
       "status": "found",
@@ -48286,16 +48266,6 @@
       "materialTitle": "펀 알파벳 + 펀 파닉스1: Fun Alphabet + Fun Phonics 1",
       "publisher": "더위더스",
       "bytes": 30814
-    },
-    "IH-ENG-7160": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-7160.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202305/9791192769165C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791192769165",
-      "materialTitle": "키즈를 위한 알파벳 파닉스 세트",
-      "publisher": "타임교육C&P",
-      "bytes": 28836
     },
     "IH-ENG-7161": {
       "status": "found",
