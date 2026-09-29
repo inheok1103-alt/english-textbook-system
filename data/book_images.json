@@ -77812,6 +77812,86 @@
       "bytes": 29446,
       "materialTitle": "특급기출 중학 영어 3-2 중간고사 동아 윤정미 (2026년용) - 2015 개정 교육과정, 최신 기출 완벽 분석 진짜 기출예상문제집",
       "verifiedAt": "2026-09-27T01:28:08.381Z"
+    },
+    "IH-ENG-17710": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-17710.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791176831147C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176831147",
+      "materialTitle": "그래머 타파 Grammar TAPA Level 1",
+      "publisher": "비상교육",
+      "bytes": 48926
+    },
+    "IH-ENG-17711": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-17711.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791176831154C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176831154",
+      "materialTitle": "그래머 타파 Grammar TAPA Level 2",
+      "publisher": "비상교육",
+      "bytes": 51281
+    },
+    "IH-ENG-17712": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-17712.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791176831161C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176831161",
+      "materialTitle": "그래머 타파 Grammar TAPA Level 3",
+      "publisher": "비상교육",
+      "bytes": 52062
+    },
+    "IH-ENG-17901": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-17901.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791124028995C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124028995",
+      "materialTitle": "영어패턴 500 플러스",
+      "publisher": "넥서스",
+      "bytes": 25202
+    },
+    "IH-ENG-18313": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-18313.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791124612828C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124612828",
+      "materialTitle": "영어가 바로 터지는 기적의 말하기 기초영어법 워크북",
+      "publisher": "",
+      "bytes": 93091
+    },
+    "IH-ALADIN-9788968061738": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968061738.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061738C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061738",
+      "bytes": 41179,
+      "materialTitle": "Grammar Q Starter 1 - 문법 응용력을 높여주는 GRAMMAR Q",
+      "verifiedAt": "2026-09-29T23:04:31.573Z"
+    },
+    "IH-ALADIN-9791125329404": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125329404.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125329404C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125329404",
+      "bytes": 41646,
+      "materialTitle": "Grammar Ten 기본 2",
+      "verifiedAt": "2026-09-29T23:04:34.121Z"
+    },
+    "IH-ALADIN-9788954794671": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788954794671.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202509/9788954794671C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954794671",
+      "bytes": 48694,
+      "materialTitle": "EBS 2028학년도 수능 스타트 영어 (2026년용) - 2022 개정 교육과정, 2028학년도 개편 수능 필수 과목 대비서",
+      "verifiedAt": "2026-09-29T23:04:36.853Z"
     }
   }
 }
