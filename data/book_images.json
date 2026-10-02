@@ -19120,12 +19120,13 @@
     "IH-ENG-2268": {
       "status": "found",
       "localPath": "covers/IH-ENG-2268.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791166839382C001.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791166838934C001.jpg",
       "source": "KOBIC",
       "isbn": "9791166838934",
       "materialTitle": "어원으로 읽는 영단어 이야기",
       "publisher": "넥서스",
-      "bytes": 50188
+      "bytes": 621999,
+      "verifiedAt": "2026-10-02T22:41:27.407Z"
     },
     "IH-ENG-2269": {
       "status": "found",
@@ -77822,6 +77823,86 @@
       "bytes": 48694,
       "materialTitle": "EBS 2028학년도 수능 스타트 영어 (2026년용) - 2022 개정 교육과정, 2028학년도 개편 수능 필수 과목 대비서",
       "verifiedAt": "2026-09-29T23:04:36.853Z"
+    },
+    "IH-ENG-18880": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-18880.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791143602879C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143602879",
+      "materialTitle": "E보카 고교 수능 2000",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 29163
+    },
+    "IH-ENG-18881": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-18881.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791143602855C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143602855",
+      "materialTitle": "E보카 고교 어원",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 33481
+    },
+    "IH-ENG-18882": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-18882.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791143602862C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143602862",
+      "materialTitle": "E보카 고교 기본",
+      "publisher": "한국교육방송공사(EBSi)",
+      "bytes": 28049
+    },
+    "IH-ENG-19157": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-19157.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202609/9791124888018C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124888018",
+      "materialTitle": "요즘 영어 사용설명서",
+      "publisher": "",
+      "bytes": 42008
+    },
+    "IH-ALADIN-9788926964675": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788926964675.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788926964675C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788926964675",
+      "bytes": 66733,
+      "materialTitle": "Grammar, Zap! 입문 2 - 문제로 개념 잡는 초등 영문법",
+      "verifiedAt": "2026-10-02T23:09:37.456Z"
+    },
+    "IH-ALADIN-9788966945399": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788966945399.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788966945399C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966945399",
+      "bytes": 16061,
+      "materialTitle": "Writing Builder 2",
+      "verifiedAt": "2026-10-02T23:09:40.077Z"
+    },
+    "IH-ALADIN-9788964357057": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788964357057.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788964357057C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788964357057",
+      "bytes": 82815,
+      "materialTitle": "Bricks 중학 영문법 중2",
+      "verifiedAt": "2026-10-02T23:09:42.879Z"
+    },
+    "IH-ALADIN-9791124028117": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791124028117.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791124028117C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791124028117",
+      "bytes": 51216,
+      "materialTitle": "똑똑한 영어 패턴 쓰기 훈련 - AI 시대에 꼭 필요한 영어 말하기 습관",
+      "verifiedAt": "2026-10-02T23:09:45.676Z"
     }
   }
 }
