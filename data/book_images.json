@@ -29888,46 +29888,6 @@
       "publisher": "NE능률",
       "bytes": 41928
     },
-    "IH-ENG-4322": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4322.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788959975570C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788959975570",
-      "materialTitle": "TEPS BY STEP LISTENING VOCABULARY BASIC(2010)",
-      "publisher": "NE능률",
-      "bytes": 17226
-    },
-    "IH-ENG-4324": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4324.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788959975259C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788959975259",
-      "materialTitle": "TEPS BY STEP 3(LISTENING VOCABULARY)",
-      "publisher": "NE능률",
-      "bytes": 17347
-    },
-    "IH-ENG-4325": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4325.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788959975020C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788959975020",
-      "materialTitle": "TEPS BY Step LISTENING+VOCABULARY 2",
-      "publisher": "NE능률",
-      "bytes": 35446
-    },
-    "IH-ENG-4326": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4326.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9788959974863C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788959974863",
-      "materialTitle": "TEPS BY Step 1(LISTENING VOCABULARY)",
-      "publisher": "NE능률",
-      "bytes": 52111
-    },
     "IH-ENG-4331": {
       "status": "found",
       "localPath": "covers/IH-ENG-4331.jpg",
@@ -77903,6 +77863,56 @@
       "bytes": 51216,
       "materialTitle": "똑똑한 영어 패턴 쓰기 훈련 - AI 시대에 꼭 필요한 영어 말하기 습관",
       "verifiedAt": "2026-10-02T23:09:45.676Z"
+    },
+    "IH-ALADIN-9791165758165": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165758165.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202505/9791165758165C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165758165",
+      "bytes": 48428,
+      "materialTitle": "100발 100중 기출문제집 1학기 기말고사 중1 영어 천재 소영순 (2026년용) - 2022 개정 교육과정",
+      "verifiedAt": "2026-10-05T09:19:20.952Z"
+    },
+    "IH-ALADIN-9788968061745": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968061745.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061745C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061745",
+      "bytes": 41584,
+      "materialTitle": "Grammar Q Starter 2 - 문법 응용력을 높여주는 GRAMMAR Q",
+      "verifiedAt": "2026-10-05T09:19:23.157Z"
+    },
+    "IH-ALADIN-9788954783514": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788954783514.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202403/9788954783514C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954783514",
+      "bytes": 44114,
+      "materialTitle": "EBS 수능연계완성 3주 특강 영어영역 영어 (2026년용) - 변별력 높은 문항으로 수능 1등급 도전",
+      "verifiedAt": "2026-10-05T09:19:25.526Z"
+    },
+    "IH-ALADIN-9788965424406": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788965424406.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9788965424406C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965424406",
+      "bytes": 31237,
+      "materialTitle": "Hackers Reading Smart (해커스 리딩 스마트) Level 4 - 최신경향의 흥미롭고 유익한 지문 l 최신 중학교육과정이 철저히 반영된 문제 제공",
+      "verifiedAt": "2026-10-05T09:19:27.747Z"
+    },
+    "IH-ALADIN-9791138925556": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791138925556.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202405/9791138925556C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138925556",
+      "bytes": 34651,
+      "materialTitle": "리딩 마스터 Reading Master 수능 실전 (2026년용) - 풍부한 문제로 구성된 수능 실전서",
+      "verifiedAt": "2026-10-05T09:19:30.000Z"
     }
   }
 }
