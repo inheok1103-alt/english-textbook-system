@@ -78073,6 +78073,56 @@
       "bytes": 60925,
       "materialTitle": "Bricks Grammar 4 (교재 + 워크북)",
       "verifiedAt": "2026-10-09T01:36:54.994Z"
+    },
+    "IH-ALADIN-9788968061790": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968061790.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061790C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061790",
+      "bytes": 38991,
+      "materialTitle": "Grammar Q Advanced 1 - 문법 응용력을 높여주는 GRAMMAR Q",
+      "verifiedAt": "2026-10-12T02:21:09.310Z"
+    },
+    "IH-ALADIN-9791173168109": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791173168109.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791173168109C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791173168109",
+      "bytes": 73166,
+      "materialTitle": "리더스뱅크 Reader's Bank Level 8 - 2022 개정 교육과정, 예비 고등",
+      "verifiedAt": "2026-10-12T02:21:12.062Z"
+    },
+    "IH-ALADIN-9791125342892": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125342892.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202309/9791125342892C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125342892",
+      "bytes": 41936,
+      "materialTitle": "1316 Reading Level 3 - 기초부터 내신까지 중학 독해 완성",
+      "verifiedAt": "2026-10-12T02:21:14.652Z"
+    },
+    "IH-ALADIN-9791188228157": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791188228157.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791188228157C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791188228157",
+      "bytes": 39357,
+      "materialTitle": "Longman Grammar Mentor Joy Plus 4",
+      "verifiedAt": "2026-10-12T02:21:17.232Z"
+    },
+    "IH-ALADIN-9791156178002": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791156178002.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9791156178002C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791156178002",
+      "bytes": 39390,
+      "materialTitle": "영단기 신토익 스타트 LC",
+      "verifiedAt": "2026-10-12T02:21:19.805Z"
     }
   }
 }
