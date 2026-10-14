@@ -21298,16 +21298,6 @@
       "publisher": "NE능률",
       "bytes": 92232
     },
-    "IH-ENG-2668": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-2668.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788962229639C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788962229639",
-      "materialTitle": "문맥 잡는 영어리딩 무작정 따라하기",
-      "publisher": "길벗스쿨",
-      "bytes": 143471
-    },
     "IH-ENG-2671": {
       "status": "found",
       "localPath": "covers/IH-ENG-2671.jpg",
@@ -28958,16 +28948,6 @@
       "publisher": "해커스임용",
       "bytes": 49117
     },
-    "IH-ENG-4123": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4123.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788917238679C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788917238679",
-      "materialTitle": "부스터 보카(BOOSTER VOCA)(수능)",
-      "publisher": "YBM SISA",
-      "bytes": 28345
-    },
     "IH-ENG-4124": {
       "status": "found",
       "localPath": "covers/IH-ENG-4124.jpg",
@@ -33067,56 +33047,6 @@
       "materialTitle": "12시간 만에 끝내는 기초 영문법",
       "publisher": "지니의영어방송국",
       "bytes": 35274
-    },
-    "IH-ENG-4749": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4749.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125970101C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125970101",
-      "materialTitle": "바로 문장 쓰는 문법 Level 1",
-      "publisher": "CHUNJAE EDUCATION, INC.",
-      "bytes": 21391
-    },
-    "IH-ENG-4750": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4750.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125970118C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125970118",
-      "materialTitle": "바로 문장 쓰는 문법 Level 2",
-      "publisher": "CHUNJAE EDUCATION, INC.",
-      "bytes": 22058
-    },
-    "IH-ENG-4751": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4751.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125970125C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125970125",
-      "materialTitle": "바로 문장 쓰는 문법 Level 3",
-      "publisher": "CHUNJAE EDUCATION, INC.",
-      "bytes": 22221
-    },
-    "IH-ENG-4752": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4752.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125970132C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125970132",
-      "materialTitle": "바로 문제 푸는 문법 1450제 Level 1",
-      "publisher": "CHUNJAE EDUCATION, INC.",
-      "bytes": 23610
-    },
-    "IH-ENG-4753": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4753.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125970149C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125970149",
-      "materialTitle": "바로 문제 푸는 문법 1460제 Level 2",
-      "publisher": "CHUNJAE EDUCATION, INC.",
-      "bytes": 24480
     },
     "IH-ENG-4754": {
       "status": "found",
@@ -49707,16 +49637,6 @@
       "materialTitle": "[POD] 구문도해 영어구문론",
       "publisher": "생명의 샘",
       "bytes": 314875
-    },
-    "IH-ENG-7362": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-7362.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791191907377C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791191907377",
-      "materialTitle": "박수연 영어 구문독해(Jump Up)",
-      "publisher": "위스토리",
-      "bytes": 39656
     },
     "IH-ENG-7363": {
       "status": "found",
