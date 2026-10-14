@@ -16487,36 +16487,6 @@
       "publisher": "마더텅",
       "bytes": 66407
     },
-    "IH-ENG-1672": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1672.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791168599833C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791168599833",
-      "materialTitle": "마더텅 100% 실전대비 MP3 중학영어듣기 24회 모의고사 3학년(2026)",
-      "publisher": "마더텅",
-      "bytes": 74921
-    },
-    "IH-ENG-1673": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1673.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791168599826C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791168599826",
-      "materialTitle": "마더텅 100% 실전대비 MP3 중학영어듣기 24회 모의고사 2학년(2026)",
-      "publisher": "마더텅",
-      "bytes": 81452
-    },
-    "IH-ENG-1674": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1674.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202510/9791168599819C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791168599819",
-      "materialTitle": "마더텅 100% 실전대비 MP3 중학영어듣기 24회 모의고사 1학년(2026)",
-      "publisher": "마더텅",
-      "bytes": 74356
-    },
     "IH-ENG-1675": {
       "status": "found",
       "localPath": "covers/IH-ENG-1675.jpg",
@@ -35297,36 +35267,6 @@
       "materialTitle": "수적천석 (고등 영어 독해문법 멘토링 전용 교재)",
       "publisher": "부크크(Bookk)",
       "bytes": 69987
-    },
-    "IH-ENG-5099": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-5099.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202404/9788968983528C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968983528",
-      "materialTitle": "리얼 오리지널 20일 완성 영어 독해 빈칸·순서·삽입 기본(2024)",
-      "publisher": "입시플라이",
-      "bytes": 61577
-    },
-    "IH-ENG-5100": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-5100.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202404/9788968983535C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968983535",
-      "materialTitle": "리얼 오리지널 20일 완성 영어 독해 빈칸·순서·삽입 완성(2024)",
-      "publisher": "입시플라이",
-      "bytes": 63315
-    },
-    "IH-ENG-5101": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-5101.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202404/9788968983542C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968983542",
-      "materialTitle": "리얼 오리지널 20일 완성 영어 독해 빈칸·순서·삽입 실전(2024)",
-      "publisher": "입시플라이",
-      "bytes": 62842
     },
     "IH-ENG-5102": {
       "status": "found",
