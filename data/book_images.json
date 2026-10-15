@@ -77983,6 +77983,66 @@
       "bytes": 39390,
       "materialTitle": "영단기 신토익 스타트 LC",
       "verifiedAt": "2026-10-12T02:21:19.805Z"
+    },
+    "IH-ENG-20234": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-20234.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202610/9791173841781C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791173841781",
+      "materialTitle": "2027 개념에서 완성까지 중등임용 전공영어 이동걸 영어학 기출문제분석",
+      "publisher": "",
+      "bytes": 49574
+    },
+    "IH-ALADIN-9791173601606": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791173601606.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202512/9791173601606C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791173601606",
+      "bytes": 62371,
+      "materialTitle": "2026 조태정 영어 빈칸·삽입·순서·삭제",
+      "verifiedAt": "2026-10-15T03:49:48.624Z"
+    },
+    "IH-ALADIN-9791160576580": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791160576580.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791160576580C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791160576580",
+      "bytes": 66852,
+      "materialTitle": "교실영어 표현사전 - 유초등부터 중고등까지 영어교사들의 바이블",
+      "verifiedAt": "2026-10-15T03:49:51.366Z"
+    },
+    "IH-ALADIN-9791125329411": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125329411.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125329411C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125329411",
+      "bytes": 43770,
+      "materialTitle": "Grammar Ten 기본 3",
+      "verifiedAt": "2026-10-15T03:49:54.121Z"
+    },
+    "IH-ALADIN-9788927708278": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788927708278.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788927708278C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788927708278",
+      "bytes": 59394,
+      "materialTitle": "Grammar ViSTA 3",
+      "verifiedAt": "2026-10-15T03:49:56.870Z"
+    },
+    "IH-ALADIN-9791125308003": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125308003.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125308003C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125308003",
+      "bytes": 30372,
+      "materialTitle": "Reading Forward Advanced 1",
+      "verifiedAt": "2026-10-15T03:49:59.462Z"
     }
   }
 }

@@ -12322,7 +12322,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.727253,
+  "q": 67.727253,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -12330,7 +12330,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/21576/12/cover500/k962636591_1.jpg",
+  "cover": "covers/IH-ALADIN-9791160576580.jpg",
   "price": 17820,
   "salesPoint": 2317,
   "pop": 2317,
@@ -337800,7 +337800,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.78343,
+  "q": 67.78343,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -337808,7 +337808,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/21297/10/cover500/k902636481_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125329411.jpg",
   "price": 12600,
   "salesPoint": 2179,
   "pop": 2179,
@@ -338299,7 +338299,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 61.726692,
+  "q": 67.726692,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -338307,7 +338307,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/13925/75/cover500/892770827x_1.jpg",
+  "cover": "covers/IH-ALADIN-9788927708278.jpg",
   "price": 13050,
   "salesPoint": 2632,
   "pop": 2632,
@@ -372366,7 +372366,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.657788,
+  "q": 60.657788,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -372374,7 +372374,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/6133/95/cover500/6000859893_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125308003.jpg",
   "price": 9900,
   "salesPoint": 2292,
   "pop": 2292,
@@ -444191,7 +444191,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 79.886224,
+  "q": 85.886224,
   "teacherRef": false,
   "examPrep": true,
   "examType": "공무원 9급",
@@ -444199,7 +444199,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/37609/93/cover500/k032032744_1.jpg",
+  "cover": "covers/IH-ALADIN-9791173601606.jpg",
   "price": 14400,
   "salesPoint": 2550,
   "pop": 2550,
@@ -447318,6 +447318,50 @@
   "isbn": "9791173560965",
   "kdc": "언어(740)",
   "pubDate": "2025년 12월 19일",
+  "source": "KOBIC"
+ },
+ {
+  "id": "IH-ENG-20234",
+  "pub": "",
+  "title": "2027 개념에서 완성까지 중등임용 전공영어 이동걸 영어학 기출문제분석",
+  "skill": "전공",
+  "level": 5,
+  "goals": [
+   "독해 늘리기"
+  ],
+  "timing": [
+   "시험 직전"
+  ],
+  "q": 80.979962,
+  "teacherRef": false,
+  "examPrep": true,
+  "examType": "임용(교원)",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-20234.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "",
+  "gradeBand": "중등",
+  "gradeMin": 2,
+  "gradeMax": 2,
+  "schoolType": "",
+  "adultGeneral": 0,
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "대학(20+)",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791173841781",
+  "kdc": "",
+  "pubDate": "2026년 10월 20일",
   "source": "KOBIC"
  },
  {
