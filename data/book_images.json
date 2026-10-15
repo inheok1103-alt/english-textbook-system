@@ -15677,16 +15677,6 @@
       "publisher": "수경출판사",
       "bytes": 41159
     },
-    "IH-ENG-1464": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1464.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125337409C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337409",
-      "materialTitle": "수능만만 영어독해 20회",
-      "publisher": "NE능률",
-      "bytes": 32569
-    },
     "IH-ENG-1465": {
       "status": "found",
       "localPath": "covers/IH-ENG-1465.jpg",
@@ -16996,46 +16986,6 @@
       "materialTitle": "능률 초등영어 듣기모의고사 10회 4-1",
       "publisher": "NE능률",
       "bytes": 46506
-    },
-    "IH-ENG-1735": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1735.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125337423C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337423",
-      "materialTitle": "수능만만 영어듣기 35회",
-      "publisher": "NE능률",
-      "bytes": 25695
-    },
-    "IH-ENG-1736": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1736.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125337416C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337416",
-      "materialTitle": "수능만만 영어듣기 20회",
-      "publisher": "NE능률",
-      "bytes": 26155
-    },
-    "IH-ENG-1740": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1740.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125337379C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337379",
-      "materialTitle": "수능만만 영어듣기 20회 기본",
-      "publisher": "NE능률",
-      "bytes": 32266
-    },
-    "IH-ENG-1741": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1741.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791125337386C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337386",
-      "materialTitle": "수능만만 기본 영어듣기 모의고사 35+5회",
-      "publisher": "NE능률",
-      "bytes": 32404
     },
     "IH-ENG-1745": {
       "status": "found",
