@@ -12537,16 +12537,6 @@
       "publisher": "웅진컴퍼스",
       "bytes": 29898
     },
-    "IH-ENG-1036": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1036.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202509/9791168599772C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791168599772",
-      "materialTitle": "중학영문법 3800제 3학년(2026)",
-      "publisher": "마더텅",
-      "bytes": 67099
-    },
     "IH-ENG-1037": {
       "status": "found",
       "localPath": "covers/IH-ENG-1037.jpg",
@@ -32057,16 +32047,6 @@
       "materialTitle": "영포의 공식집",
       "publisher": "고집북스 (GOZIPbooks)",
       "bytes": 29073
-    },
-    "IH-ENG-4637": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4637.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9791171584697C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791171584697",
-      "materialTitle": "천재(이재영) 중학영어 3학년 2학기 내신 대비 영문법(2024)",
-      "publisher": "에스엘에이영어북스토어",
-      "bytes": 49887
     },
     "IH-ENG-4638": {
       "status": "found",
