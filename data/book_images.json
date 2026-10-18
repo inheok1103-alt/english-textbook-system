@@ -23578,16 +23578,6 @@
       "publisher": "NE능률",
       "bytes": 47597
     },
-    "IH-ENG-3019": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3019.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202311/9791125340867C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125340867",
-      "materialTitle": "초등영어 사이트 워드가 된다 1",
-      "publisher": "NE능률",
-      "bytes": 48327
-    },
     "IH-ENG-3020": {
       "status": "found",
       "localPath": "covers/IH-ENG-3020.jpg",
@@ -23858,36 +23848,6 @@
       "publisher": "천재교육",
       "bytes": 34384
     },
-    "IH-ENG-3052": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3052.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791125335306C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125335306",
-      "materialTitle": "초등영어 단어가 된다 3",
-      "publisher": "NE능률",
-      "bytes": 49505
-    },
-    "IH-ENG-3053": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3053.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791125335313C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125335313",
-      "materialTitle": "초등영어 단어가 된다 4",
-      "publisher": "NE능률",
-      "bytes": 50275
-    },
-    "IH-ENG-3054": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3054.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791125335290C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125335290",
-      "materialTitle": "초등영어 단어가 된다 2",
-      "publisher": "NE능률",
-      "bytes": 50031
-    },
     "IH-ENG-3055": {
       "status": "found",
       "localPath": "covers/IH-ENG-3055.jpg",
@@ -23907,16 +23867,6 @@
       "materialTitle": "초등영어 문법이 된다 2",
       "publisher": "NE능률",
       "bytes": 48314
-    },
-    "IH-ENG-3059": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-3059.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202312/9791125335283C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125335283",
-      "materialTitle": "초등영어 단어가 된다 1",
-      "publisher": "NE능률",
-      "bytes": 49445
     },
     "IH-ENG-3060": {
       "status": "found",
