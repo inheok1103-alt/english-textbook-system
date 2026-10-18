@@ -13827,16 +13827,6 @@
       "publisher": "동아출판",
       "bytes": 33498
     },
-    "IH-ENG-1193": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1193.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9788917235050C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788917235050",
-      "materialTitle": "초등 기초영문법 Grammar Pop 1: Start",
-      "publisher": "YBM솔루션",
-      "bytes": 58596
-    },
     "IH-ENG-1196": {
       "status": "found",
       "localPath": "covers/IH-ENG-1196.jpg",
@@ -14666,16 +14656,6 @@
       "materialTitle": "중학 Hello Grammar(4.0) Level 1(2023)",
       "publisher": "천재교육",
       "bytes": 45117
-    },
-    "IH-ENG-1308": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1308.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791159651793C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791159651793",
-      "materialTitle": "초등 기초영문법 Grammar POP(Start 2)",
-      "publisher": "YBM솔루션",
-      "bytes": 60491
     },
     "IH-ENG-1309": {
       "status": "found",
@@ -66123,16 +66103,6 @@
       "bytes": 31211,
       "materialTitle": "내신공략 중학영문법 2: 개념이해책",
       "verifiedAt": "2026-07-03T07:56:33.077Z"
-    },
-    "IH-ENG-1330": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-1330.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202408/9788974577087C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788974577087",
-      "bytes": 54445,
-      "materialTitle": "초등 첫 영문법 문법이 쓰기다 Starter 2",
-      "verifiedAt": "2026-07-03T07:56:36.097Z"
     },
     "IH-ENG-1331": {
       "status": "found",
