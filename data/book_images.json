@@ -77863,6 +77863,36 @@
       "bytes": 79920,
       "materialTitle": "영어 감정 표현 사전 - happy와 sad 그 이상이 필요한 이들을 위한",
       "verifiedAt": "2026-10-17T14:55:40.373Z"
+    },
+    "IH-ALADIN-9791176090001": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176090001.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202602/9791176090001C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176090001",
+      "bytes": 50610,
+      "materialTitle": "100발 100중 기출문제집 최종점검 1학기 전과정 중2 영어 능률 김기택 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-10-19T11:00:58.776Z"
+    },
+    "IH-ALADIN-9788998454371": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788998454371.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202210/9788998454371C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788998454371",
+      "bytes": 211889,
+      "materialTitle": "The Voca+ 플러스 4 - 완전개정판, 중3~고1 대상",
+      "verifiedAt": "2026-10-19T11:01:04.493Z"
+    },
+    "IH-ALADIN-9791138914147": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791138914147.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202306/9791138914147C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138914147",
+      "bytes": 32926,
+      "materialTitle": "리딩 마스터 Reading master 중등 Level 3 (2026년용) - 수능+내신",
+      "verifiedAt": "2026-10-19T11:01:07.155Z"
     }
   }
 }
