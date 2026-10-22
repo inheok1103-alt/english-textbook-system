@@ -77883,6 +77883,56 @@
       "bytes": 32926,
       "materialTitle": "리딩 마스터 Reading master 중등 Level 3 (2026년용) - 수능+내신",
       "verifiedAt": "2026-10-19T11:01:07.155Z"
+    },
+    "IH-ENG-21149": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-21149.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788961055475C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788961055475",
+      "materialTitle": "영어사 강의",
+      "publisher": "경문사",
+      "bytes": 27020
+    },
+    "IH-ENG-21150": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-21150.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202209/9788996771791C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788996771791",
+      "materialTitle": "New 명품보카 Mini 암기장(2012)",
+      "publisher": "리딩영어사",
+      "bytes": 20991
+    },
+    "IH-ALADIN-9791176090193": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791176090193.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202604/9791176090193C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791176090193",
+      "bytes": 49518,
+      "materialTitle": "100발 100중 기출문제집 1학기 기말고사 중2 영어 YBM 박준언 (2026년) - 2022 개정 교육과정",
+      "verifiedAt": "2026-10-22T04:06:26.631Z"
+    },
+    "IH-ALADIN-9788966945405": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788966945405.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788966945405C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788966945405",
+      "bytes": 16966,
+      "materialTitle": "Writing Builder 3",
+      "verifiedAt": "2026-10-22T04:06:29.276Z"
+    },
+    "IH-ALADIN-9791191343816": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791191343816.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202307/9791191343816C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791191343816",
+      "bytes": 62603,
+      "materialTitle": "The Hundred Dresses 백 벌의 드레스 (영어원서 + 워크북 + 오디오북) - 개정판",
+      "verifiedAt": "2026-10-22T04:06:32.109Z"
     }
   }
 }
