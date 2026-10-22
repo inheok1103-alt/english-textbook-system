@@ -28268,16 +28268,6 @@
       "publisher": "해커스어학연구소",
       "bytes": 38243
     },
-    "IH-ENG-4001": {
-      "status": "found",
-      "localPath": "covers/IH-ENG-4001.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125337065C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337065",
-      "materialTitle": "Grammar Inside Starter(그래머 인사이드 스타터)",
-      "publisher": "NE능률",
-      "bytes": 33377
-    },
     "IH-ENG-4002": {
       "status": "found",
       "localPath": "covers/IH-ENG-4002.jpg",
@@ -66684,26 +66674,6 @@
       "materialTitle": "해커스 토익 RC Reading(리딩) 기본서 - 최신기출경향 완벽 반영｜실전모의고사 4회분 [시험장에도 들고 가는 토익 RC 필수 어휘 & 단어암기 MP3 제공]",
       "verifiedAt": "2026-07-04T14:40:02.287Z"
     },
-    "IH-ALADIN-9791125337072": {
-      "status": "found",
-      "localPath": "covers/IH-ALADIN-9791125337072.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125337072C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337072",
-      "bytes": 31964,
-      "materialTitle": "Grammar Inside Level 1 - with Workbook",
-      "verifiedAt": "2026-07-04T14:40:05.530Z"
-    },
-    "IH-ALADIN-9791125337089": {
-      "status": "found",
-      "localPath": "covers/IH-ALADIN-9791125337089.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125337089C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337089",
-      "bytes": 33032,
-      "materialTitle": "Grammar Inside Level 2 - with Workbook",
-      "verifiedAt": "2026-07-04T14:40:08.768Z"
-    },
     "IH-ALADIN-9788917238549": {
       "status": "found",
       "localPath": "covers/IH-ALADIN-9788917238549.jpg",
@@ -66783,16 +66753,6 @@
       "bytes": 72935,
       "materialTitle": "ETS 토익 단기 공략 650+ (LC + RC) - 본책 + 해설집 + 실전 모의고사 1회분(별책) + MP3 파일 + 무료 동영상 + 모바일 APP 학습 / 출제기관 ETS 기출문제 한국 독점출간, 최신개정판",
       "verifiedAt": "2026-07-04T14:40:54.895Z"
-    },
-    "IH-ALADIN-9791125337096": {
-      "status": "found",
-      "localPath": "covers/IH-ALADIN-9791125337096.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202401/9791125337096C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9791125337096",
-      "bytes": 31793,
-      "materialTitle": "Grammar Inside Level 3 - with Workbook",
-      "verifiedAt": "2026-07-04T14:40:58.128Z"
     },
     "IH-ALADIN-9791171715435": {
       "status": "found",
@@ -69573,16 +69533,6 @@
       "bytes": 54835,
       "materialTitle": "해커스 고등 서술형 쓰기의 기술 실력편 - 문법 포인트를 알면 서술형이 술술 풀린다! | 전국 고등학교 영어 내신 빈출 포인트 반영 | 서술형 실전 모의고사 6회분",
       "verifiedAt": "2026-07-08T20:39:32.473Z"
-    },
-    "IH-ALADIN-9788968061776": {
-      "status": "found",
-      "localPath": "covers/IH-ALADIN-9788968061776.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061776C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968061776",
-      "bytes": 40695,
-      "materialTitle": "Grammar Q Intermediate 2 - 문법 응용력을 높여주는 GRAMMAR Q",
-      "verifiedAt": "2026-07-08T20:39:35.757Z"
     },
     "IH-ALADIN-9788964351093": {
       "status": "found",
@@ -76994,16 +76944,6 @@
       "materialTitle": "100발 100중 기출문제집 2학기 기말고사 중1 영어 동아 윤정미 (2026년용) - 2022 개정 교육과정",
       "verifiedAt": "2026-09-11T21:50:46.150Z"
     },
-    "IH-ALADIN-9788968061769": {
-      "status": "found",
-      "localPath": "covers/IH-ALADIN-9788968061769.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061769C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968061769",
-      "bytes": 41937,
-      "materialTitle": "Grammar Q Intermediate 1 - 문법 응용력을 높여주는 GRAMMAR Q",
-      "verifiedAt": "2026-09-11T21:50:48.819Z"
-    },
     "IH-ALADIN-9791165264161": {
       "status": "found",
       "localPath": "covers/IH-ALADIN-9791165264161.jpg",
@@ -77374,16 +77314,6 @@
       "publisher": "",
       "bytes": 93091
     },
-    "IH-ALADIN-9788968061738": {
-      "status": "found",
-      "localPath": "covers/IH-ALADIN-9788968061738.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061738C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968061738",
-      "bytes": 41179,
-      "materialTitle": "Grammar Q Starter 1 - 문법 응용력을 높여주는 GRAMMAR Q",
-      "verifiedAt": "2026-09-29T23:04:31.573Z"
-    },
     "IH-ALADIN-9791125329404": {
       "status": "found",
       "localPath": "covers/IH-ALADIN-9791125329404.jpg",
@@ -77493,16 +77423,6 @@
       "bytes": 48428,
       "materialTitle": "100발 100중 기출문제집 1학기 기말고사 중1 영어 천재 소영순 (2026년용) - 2022 개정 교육과정",
       "verifiedAt": "2026-10-05T09:19:20.952Z"
-    },
-    "IH-ALADIN-9788968061745": {
-      "status": "found",
-      "localPath": "covers/IH-ALADIN-9788968061745.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061745C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968061745",
-      "bytes": 41584,
-      "materialTitle": "Grammar Q Starter 2 - 문법 응용력을 높여주는 GRAMMAR Q",
-      "verifiedAt": "2026-10-05T09:19:23.157Z"
     },
     "IH-ALADIN-9788954783514": {
       "status": "found",
@@ -77693,16 +77613,6 @@
       "bytes": 60925,
       "materialTitle": "Bricks Grammar 4 (교재 + 워크북)",
       "verifiedAt": "2026-10-09T01:36:54.994Z"
-    },
-    "IH-ALADIN-9788968061790": {
-      "status": "found",
-      "localPath": "covers/IH-ALADIN-9788968061790.jpg",
-      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061790C001.jpg",
-      "source": "KOBIC",
-      "isbn": "9788968061790",
-      "bytes": 38991,
-      "materialTitle": "Grammar Q Advanced 1 - 문법 응용력을 높여주는 GRAMMAR Q",
-      "verifiedAt": "2026-10-12T02:21:09.310Z"
     },
     "IH-ALADIN-9791173168109": {
       "status": "found",
