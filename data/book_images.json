@@ -77833,6 +77833,46 @@
       "bytes": 62603,
       "materialTitle": "The Hundred Dresses 백 벌의 드레스 (영어원서 + 워크북 + 오디오북) - 개정판",
       "verifiedAt": "2026-10-22T04:06:32.109Z"
+    },
+    "IH-ENG-21336": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-21336.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202610/9791140719525C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791140719525",
+      "materialTitle": "케이팝 데몬 헌터스 영어회화",
+      "publisher": "길벗이지톡",
+      "bytes": 40604
+    },
+    "IH-ALADIN-9791125329428": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125329428.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202407/9791125329428C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125329428",
+      "bytes": 42249,
+      "materialTitle": "Grammar Ten 기본 4",
+      "verifiedAt": "2026-10-24T15:13:36.707Z"
+    },
+    "IH-ALADIN-9791125342984": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125342984.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202310/9791125342984C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125342984",
+      "bytes": 35536,
+      "materialTitle": "The 상승 구문편 - 독해 기본기에서 수능 실전 대비까지",
+      "verifiedAt": "2026-10-24T15:13:39.223Z"
+    },
+    "IH-ALADIN-9791174040794": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791174040794.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202511/9791174040794C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791174040794",
+      "bytes": 58920,
+      "materialTitle": "2026 해커스공무원 영어 적중 문법 400제 (9급 공무원) - 국가직, 지방직 등 9급 전 직렬 시험 대비 | 신유형 반영 | 공무원 영어 무료 특강 | 공무원 보카 어플",
+      "verifiedAt": "2026-10-24T15:13:42.951Z"
     }
   }
 }
