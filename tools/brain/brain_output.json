@@ -1,14 +1,14 @@
 {
-  "at": "2026-10-24T02:34:49.405Z",
-  "cycle": 757,
+  "at": "2026-10-24T08:30:31.451Z",
+  "cycle": 758,
   "tiers": [
     "routine"
   ],
   "health": {
-    "total": 10210,
+    "total": 10206,
     "coverPct": 98,
     "pricePct": 91,
-    "salesPoint": 8412,
+    "salesPoint": 8413,
     "foreign": 508,
     "needCover": 205
   }
