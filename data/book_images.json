@@ -77943,6 +77943,36 @@
       "bytes": 1336183,
       "materialTitle": "영어 고전 명작 필사 - 오랫동안 사랑받은 인생 명문장",
       "verifiedAt": "2026-10-30T02:46:58.855Z"
+    },
+    "IH-ALADIN-9791165757687": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165757687.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9791165757687C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165757687",
+      "bytes": 48469,
+      "materialTitle": "100발 100중 기출문제집 최종점검 1학기 전과정 중1 영어 동아 이병민 (2026년용)",
+      "verifiedAt": "2026-11-01T22:56:40.240Z"
+    },
+    "IH-ALADIN-9791157782284": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791157782284.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202410/9791157782284C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791157782284",
+      "bytes": 58803,
+      "materialTitle": "유니크 쏙쏙 영문법 - 개정판",
+      "verifiedAt": "2026-11-01T22:56:42.898Z"
+    },
+    "IH-ALADIN-9788968061639": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968061639.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061639C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061639",
+      "bytes": 66706,
+      "materialTitle": "Reading Q : Intermediate 2",
+      "verifiedAt": "2026-11-01T22:56:45.570Z"
     }
   }
 }
