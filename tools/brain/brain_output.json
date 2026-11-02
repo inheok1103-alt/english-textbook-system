@@ -1,9 +1,8 @@
 {
-  "at": "2026-11-01T21:29:58.529Z",
-  "cycle": 795,
+  "at": "2026-11-02T01:07:57.620Z",
+  "cycle": 796,
   "tiers": [
-    "routine",
-    "deep"
+    "routine"
   ],
   "health": {
     "total": 10279,
