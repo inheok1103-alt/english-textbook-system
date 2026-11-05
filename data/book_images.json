@@ -77973,6 +77973,56 @@
       "bytes": 66706,
       "materialTitle": "Reading Q : Intermediate 2",
       "verifiedAt": "2026-11-01T22:56:45.570Z"
+    },
+    "IH-ENG-22086": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22086.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791138939744C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138939744",
+      "materialTitle": "Listening Master 수능 영어듣기 모의고사 베이직 30 (2026)(2027 수능대비)",
+      "publisher": "이투스북",
+      "bytes": 47801
+    },
+    "IH-ENG-22087": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22087.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791138939768C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791138939768",
+      "materialTitle": "Listening Master 수능 영어듣기 모의고사 실전 20 (2026)(2027 수능대비)",
+      "publisher": "이투스북",
+      "bytes": 46550
+    },
+    "IH-ENG-22234": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22234.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9788900493221C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788900493221",
+      "materialTitle": "뜯어먹는 중학 영단어 1200 완성",
+      "publisher": "동아출판",
+      "bytes": 38383
+    },
+    "IH-ALADIN-9788954761666": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788954761666.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202406/9788954761666C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788954761666",
+      "bytes": 66404,
+      "materialTitle": "EBS 마이 리딩 코치 My Reading Coach Level 3 (2025년용) - 중학 영독해 20일 단기 완성",
+      "verifiedAt": "2026-11-05T10:07:28.602Z"
+    },
+    "IH-ALADIN-9788968061837": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788968061837.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202409/9788968061837C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968061837",
+      "bytes": 45015,
+      "materialTitle": "EGU 문장 형식 - 기본동사 32개를 활용한 문장 형식별 학습",
+      "verifiedAt": "2026-11-05T10:07:33.276Z"
     }
   }
 }
