@@ -68678,6 +68678,50 @@
   "source": ""
  },
  {
+  "id": "IH-ENG-22279",
+  "pub": "마더텅",
+  "title": "마더텅 전국연합 학력평가 기출문제집 고1 영어 듣기 (2027년)",
+  "skill": "듣기",
+  "level": 4,
+  "goals": [
+   "듣기"
+  ],
+  "timing": [
+   "시험 직전"
+  ],
+  "q": 80.973662,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-22279.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "",
+  "gradeBand": "고등",
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "schoolType": "수능",
+  "adultGeneral": 0,
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "중등(13-16)",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791175634220",
+  "kdc": "",
+  "pubDate": "2026년 10월 30일",
+  "source": "KOBIC"
+ },
+ {
   "id": "IH-ALADIN-9791175634237",
   "pub": "마더텅",
   "title": "마더텅 전국연합 학력평가 기출문제집 고1 영어 어법·어휘 (2027년)",
@@ -121201,7 +121245,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.671642,
+  "q": 60.671642,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -121209,7 +121253,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/5675/55/cover500/8959903043_1.jpg",
+  "cover": "covers/IH-ALADIN-9788959903047.jpg",
   "price": 12600,
   "salesPoint": 1807,
   "pop": 1807,
@@ -412930,7 +412974,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 74.861428,
+  "q": 80.861428,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -412938,7 +412982,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/33843/81/cover500/k582930096_1.jpg",
+  "cover": "covers/IH-ALADIN-9791166836367.jpg",
   "price": 16200,
   "salesPoint": 1508,
   "pop": 1508,

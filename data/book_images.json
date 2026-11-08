@@ -78023,6 +78023,36 @@
       "bytes": 45015,
       "materialTitle": "EGU 문장 형식 - 기본동사 32개를 활용한 문장 형식별 학습",
       "verifiedAt": "2026-11-05T10:07:33.276Z"
+    },
+    "IH-ENG-22279": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22279.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202610/9791175634220C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175634220",
+      "materialTitle": "마더텅 전국연합 학력평가 기출문제집 고1 영어 듣기 (2027년)",
+      "publisher": "마더텅",
+      "bytes": 50526
+    },
+    "IH-ALADIN-9791166836367": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791166836367.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202404/9791166836367C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791166836367",
+      "bytes": 69971,
+      "materialTitle": "Word Smart 1 - 최신 개정판",
+      "verifiedAt": "2026-11-08T12:23:01.146Z"
+    },
+    "IH-ALADIN-9788959903047": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788959903047.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9788959903047C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788959903047",
+      "bytes": 18772,
+      "materialTitle": "숨마쿰라우데 영어 구문독해 Manual",
+      "verifiedAt": "2026-11-08T12:23:03.721Z"
     }
   }
 }
