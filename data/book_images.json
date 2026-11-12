@@ -78053,6 +78053,36 @@
       "bytes": 18772,
       "materialTitle": "숨마쿰라우데 영어 구문독해 Manual",
       "verifiedAt": "2026-11-08T12:23:03.721Z"
+    },
+    "IH-ENG-22898": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22898.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791165264208C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165264208",
+      "materialTitle": "막힘없는 초등 영어 독해 동사 편 1",
+      "publisher": "",
+      "bytes": 43143
+    },
+    "IH-ENG-22899": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22899.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791165264215C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165264215",
+      "materialTitle": "막힘없는 초등 영어 독해 동사 편 2",
+      "publisher": "",
+      "bytes": 42684
+    },
+    "IH-ALADIN-9791165758417": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165758417.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202506/9791165758417C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165758417",
+      "bytes": 45713,
+      "materialTitle": "100발 100중 기출문제집 2학기 중간·기말고사 중3 영어 미래엔 최연희 (2026년용)",
+      "verifiedAt": "2026-11-12T01:16:18.493Z"
     }
   }
 }
