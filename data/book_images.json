@@ -78083,6 +78083,46 @@
       "bytes": 45713,
       "materialTitle": "100발 100중 기출문제집 2학기 중간·기말고사 중3 영어 미래엔 최연희 (2026년용)",
       "verifiedAt": "2026-11-12T01:16:18.493Z"
+    },
+    "IH-ENG-22900": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22900.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9788968067129C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968067129",
+      "materialTitle": "누적 영문법 N제 LEVEL 1",
+      "publisher": "쎄듀",
+      "bytes": 33824
+    },
+    "IH-ENG-22901": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22901.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9788968067136C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968067136",
+      "materialTitle": "누적 영문법 N제 LEVEL 2",
+      "publisher": "쎄듀",
+      "bytes": 30861
+    },
+    "IH-ENG-22902": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-22902.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9788968067143C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788968067143",
+      "materialTitle": "누적 영문법 N제 LEVEL 3",
+      "publisher": "쎄듀",
+      "bytes": 32283
+    },
+    "IH-ALADIN-9788926162989": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9788926162989.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202305/9788926162989C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788926162989",
+      "bytes": 36242,
+      "materialTitle": "구조독해 1",
+      "verifiedAt": "2026-11-15T18:12:04.832Z"
     }
   }
 }
