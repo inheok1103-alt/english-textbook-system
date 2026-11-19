@@ -78123,6 +78123,26 @@
       "bytes": 36242,
       "materialTitle": "구조독해 1",
       "verifiedAt": "2026-11-15T18:12:04.832Z"
+    },
+    "IH-ENG-23085": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23085.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202610/9791194462613C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791194462613",
+      "materialTitle": "초급 영어회화 100일의 기적",
+      "publisher": "넥서스",
+      "bytes": 45446
+    },
+    "IH-ALADIN-9791125307969": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791125307969.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202207/9791125307969C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125307969",
+      "bytes": 31078,
+      "materialTitle": "Reading Forward Basic 1",
+      "verifiedAt": "2026-11-19T16:30:18.371Z"
     }
   }
 }

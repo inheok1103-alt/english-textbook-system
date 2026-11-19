@@ -237604,6 +237604,50 @@
   "source": "KOBIC"
  },
  {
+  "id": "IH-ENG-23085",
+  "pub": "넥서스",
+  "title": "초급 영어회화 100일의 기적",
+  "skill": "말하기",
+  "level": 3,
+  "goals": [
+   "말하기·회화"
+  ],
+  "timing": [
+   "학기중 꾸준히"
+  ],
+  "q": 80.948812,
+  "teacherRef": false,
+  "examPrep": false,
+  "examType": "",
+  "parentBook": false,
+  "tags": [],
+  "situations": [],
+  "weaknesses": [],
+  "cover": "covers/IH-ENG-23085.jpg",
+  "price": null,
+  "salesPoint": 0,
+  "pop": 0,
+  "age": "",
+  "comment": "",
+  "fullComment": "",
+  "part": "",
+  "track": "",
+  "gradeBand": "전체",
+  "gradeMin": 1,
+  "gradeMax": 4,
+  "schoolType": "",
+  "adultGeneral": 0,
+  "cefr": "",
+  "lexile": null,
+  "ageBand": "전체",
+  "status": "정상",
+  "foreign": false,
+  "isbn": "9791194462613",
+  "kdc": "",
+  "pubDate": "2026년 11월 10일",
+  "source": "KOBIC"
+ },
+ {
   "id": "IH-ALADIN-9788971728529",
   "pub": "반석출판사",
   "title": "초급 Junior Voca 3000 - TOEFL, TOEIC, TEPS 보카바이블 - 중.고등학생에게 꼭 필요한 핵심영단어 30일 완성",
@@ -376959,7 +377003,7 @@
   "timing": [
    "학기중 꾸준히"
   ],
-  "q": 54.596433,
+  "q": 60.596433,
   "teacherRef": false,
   "examPrep": false,
   "examType": "",
@@ -376967,7 +377011,7 @@
   "tags": [],
   "situations": [],
   "weaknesses": [],
-  "cover": "https://image.aladin.co.kr/product/6133/88/cover500/k682433616_1.jpg",
+  "cover": "covers/IH-ALADIN-9791125307969.jpg",
   "price": 9900,
   "salesPoint": 1585,
   "pop": 1585,
