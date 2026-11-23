@@ -78143,6 +78143,66 @@
       "bytes": 31078,
       "materialTitle": "Reading Forward Basic 1",
       "verifiedAt": "2026-11-19T16:30:18.371Z"
+    },
+    "IH-ENG-23086": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23086.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202610/9791140720378C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791140720378",
+      "materialTitle": "영문법을 읽는 시간",
+      "publisher": "길벗이지톡",
+      "bytes": 38487
+    },
+    "IH-ENG-23087": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23087.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9788965428589C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965428589",
+      "materialTitle": "해커스 중학영문법 단기특강 Level 1",
+      "publisher": "해커스어학연구소",
+      "bytes": 32249
+    },
+    "IH-ENG-23088": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23088.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9788965428596C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965428596",
+      "materialTitle": "해커스 중학영문법 단기특강 Level 2",
+      "publisher": "해커스어학연구소",
+      "bytes": 32904
+    },
+    "IH-ENG-23089": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23089.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9788965428602C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9788965428602",
+      "materialTitle": "해커스 중학영문법 단기특강 Level 3",
+      "publisher": "해커스어학연구소",
+      "bytes": 30930
+    },
+    "IH-ENG-23272": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23272.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791140720989C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791140720989",
+      "materialTitle": "영어회화 핵심패턴 233: 미국 드라마편",
+      "publisher": "길벗이지톡",
+      "bytes": 31869
+    },
+    "IH-ALADIN-9791165758639": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165758639.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202507/9791165758639C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165758639",
+      "bytes": 50002,
+      "materialTitle": "100발 100중 기출문제집 2학기 중간고사 중1 영어 동아 이병민 (2026년용)",
+      "verifiedAt": "2026-11-23T06:08:37.389Z"
     }
   }
 }
