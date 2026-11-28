@@ -78203,6 +78203,136 @@
       "bytes": 50002,
       "materialTitle": "100발 100중 기출문제집 2학기 중간고사 중1 영어 동아 이병민 (2026년용)",
       "verifiedAt": "2026-11-23T06:08:37.389Z"
+    },
+    "IH-ENG-23273": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23273.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791125991441C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125991441",
+      "materialTitle": "초등 영문법 Grammar, ZAP! Advanced 1",
+      "publisher": "천재교육",
+      "bytes": 35934
+    },
+    "IH-ENG-23274": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23274.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791125991458C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125991458",
+      "materialTitle": "초등 영문법 Grammar, ZAP! Advanced 2",
+      "publisher": "천재교육",
+      "bytes": 36605
+    },
+    "IH-ENG-23275": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23275.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791125991427C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125991427",
+      "materialTitle": "초등 영문법 Grammar, ZAP! Basic 3",
+      "publisher": "천재교육",
+      "bytes": 35589
+    },
+    "IH-ENG-23276": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23276.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791125991403C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125991403",
+      "materialTitle": "초등 영문법 Grammar, ZAP! Basic 1",
+      "publisher": "천재교육",
+      "bytes": 35102
+    },
+    "IH-ENG-23277": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23277.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791125991410C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125991410",
+      "materialTitle": "초등 영문법 Grammar, ZAP! Basic 2",
+      "publisher": "천재교육",
+      "bytes": 35570
+    },
+    "IH-ENG-23278": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23278.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791125991434C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125991434",
+      "materialTitle": "초등 영문법 Grammar, ZAP! Basic 4",
+      "publisher": "천재교육",
+      "bytes": 35578
+    },
+    "IH-ENG-23279": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23279.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791125991380C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125991380",
+      "materialTitle": "초등 영문법 Grammar, ZAP! Starter 1",
+      "publisher": "천재교육",
+      "bytes": 34859
+    },
+    "IH-ENG-23280": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23280.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791125991397C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791125991397",
+      "materialTitle": "초등 영문법 Grammar, ZAP! Starter 2",
+      "publisher": "천재교육",
+      "bytes": 34979
+    },
+    "IH-ENG-23732": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23732.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791175489387C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175489387",
+      "materialTitle": "수능ON 영어 구조 독해 (2027년)",
+      "publisher": "미래엔",
+      "bytes": 63653
+    },
+    "IH-ENG-23733": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23733.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791175489400C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175489400",
+      "materialTitle": "수능ON 영어 유형 독해 (2027년)",
+      "publisher": "미래엔",
+      "bytes": 63335
+    },
+    "IH-ENG-23734": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-23734.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791175489394C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791175489394",
+      "materialTitle": "수능ON 영어 소재 독해 (2027년)",
+      "publisher": "미래엔",
+      "bytes": 58388
+    },
+    "IH-ENG-24036": {
+      "status": "found",
+      "localPath": "covers/IH-ENG-24036.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202611/9791143424501C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791143424501",
+      "materialTitle": "시대에듀 A+ 독학사 영어영문학과 2단계 영어음성학",
+      "publisher": "",
+      "bytes": 472488
+    },
+    "IH-ALADIN-9791165757694": {
+      "status": "found",
+      "localPath": "covers/IH-ALADIN-9791165757694.jpg",
+      "imageUrl": "https://www.kobic.net/bookImage/book/coverImg/202502/9791165757694C001.jpg",
+      "source": "KOBIC",
+      "isbn": "9791165757694",
+      "bytes": 48597,
+      "materialTitle": "100발 100중 기출문제집 최종점검 1학기 전과정 중1 영어 천재 소영순 (2026년용)",
+      "verifiedAt": "2026-11-28T01:23:41.566Z"
     }
   }
 }
